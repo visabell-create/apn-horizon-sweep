@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-15T10:06:27.825Z",
-  "runCount": 43,
-  "propertyRowCount": 1684,
-  "uniqueAinCount": 1582,
-  "propertyWithCoordsCount": 1316,
-  "nextCursor": "8448-037-037",
-  "donePageCount": 60,
+  "builtAt": "2026-07-15T10:09:10.357Z",
+  "runCount": 44,
+  "propertyRowCount": 1783,
+  "uniqueAinCount": 1681,
+  "propertyWithCoordsCount": 1411,
+  "nextCursor": "8448-017-042",
+  "donePageCount": 66,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -48,6 +48,48 @@
       "to": "8448-037-020",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -59,23 +101,23 @@
       "areas": []
     },
     {
-      "city": "Unlabeled situs",
-      "slug": "unlabeled-situs",
-      "propertyRowCount": 390,
-      "uniqueAinCount": 351,
-      "areas": []
-    },
-    {
       "city": "Covina",
       "slug": "covina",
-      "propertyRowCount": 310,
-      "uniqueAinCount": 274,
+      "propertyRowCount": 407,
+      "uniqueAinCount": 371,
       "areas": [
         {
           "name": "Covina Hills",
-          "count": 34
+          "count": 45
         }
       ]
+    },
+    {
+      "city": "Unlabeled situs",
+      "slug": "unlabeled-situs",
+      "propertyRowCount": 392,
+      "uniqueAinCount": 353,
+      "areas": []
     }
   ],
   "runs": [
@@ -638,6 +680,78 @@
         }
       ],
       "primaryCity": "San Dimas"
+    },
+    {
+      "id": "RUN-012-2026-07-15-horizon",
+      "title": "RUN-012 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-15",
+      "validCount": 99,
+      "checks": 180,
+      "start": "2026-07-15T10:06:06.315Z",
+      "end": "8448-017-041",
+      "nextCursor": "8448-017-042",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8448-037-050",
+          "streak": 12,
+          "to": "8448-012-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        },
+        {
+          "at": "8448-012-049",
+          "streak": 12,
+          "to": "8448-013-026",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        },
+        {
+          "at": "8448-013-059",
+          "streak": 12,
+          "to": "8448-014-026",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        },
+        {
+          "at": "8448-014-059",
+          "streak": 12,
+          "to": "8448-015-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        },
+        {
+          "at": "8448-015-044",
+          "streak": 12,
+          "to": "8448-016-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        },
+        {
+          "at": "8448-016-040",
+          "streak": 12,
+          "to": "8448-017-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-15T10:08:11.429Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Covina",
+          "count": 97,
+          "slug": "covina"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Covina"
     },
     {
       "id": "RUN-A01-8448-043",
