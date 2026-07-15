@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-15T16:54:23.684Z",
-  "runCount": 50,
+  "builtAt": "2026-07-15T18:12:43.843Z",
+  "runCount": 51,
   "propertyRowCount": 2067,
   "uniqueAinCount": 1965,
   "propertyWithCoordsCount": 1507,
-  "nextCursor": "8449-001-019",
-  "donePageCount": 78,
+  "nextCursor": "8451-001-004",
+  "donePageCount": 80,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -172,6 +172,18 @@
       "at": "8448-034-067",
       "streak": 20,
       "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
       "reason": "MAPBOOK_ROLLOVER"
     }
   ],
@@ -1108,6 +1120,37 @@
         }
       ],
       "primaryCity": "San Dimas"
+    },
+    {
+      "id": "RUN-019-2026-07-15-horizon",
+      "title": "RUN-019 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-15",
+      "validCount": 0,
+      "checks": 45,
+      "start": "2026-07-15T18:06:38.368Z",
+      "end": "8451-001-003",
+      "nextCursor": "8451-001-004",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8449-001-039",
+          "streak": 20,
+          "to": "8450-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+          "at": "8450-001-021",
+          "streak": 20,
+          "to": "8451-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-15T18:12:43.213Z",
+      "isAggregate": false,
+      "cities": [],
+      "primaryCity": "Unlabeled situs"
     },
     {
       "id": "RUN-A01-8448-043",
