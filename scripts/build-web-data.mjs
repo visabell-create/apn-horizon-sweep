@@ -172,29 +172,93 @@ function extractDate(folderName, summary) {
   return null;
 }
 
-/** Load assessor parcel coords from full.json (Longitude/Latitude on Parcel). */
+function ainDigits(ain) {
+  return String(ain || "").replace(/\D/g, "");
+}
+
+function formatAin(ain) {
+  const d = ainDigits(ain);
+  if (d.length === 10) return `${d.slice(0, 4)}-${d.slice(4, 7)}-${d.slice(7, 10)}`;
+  return String(ain || "").trim();
+}
+
+function validCoordPair(lat, lon) {
+  const latN = lat != null && lat !== "" ? Number(lat) : NaN;
+  const lonN = lon != null && lon !== "" ? Number(lon) : NaN;
+  if (!Number.isFinite(latN) || !Number.isFinite(lonN)) return null;
+  if (latN === 0 && lonN === 0) return null;
+  return { latitude: latN, longitude: lonN };
+}
+
+/** Collect {ain, parcel} rows from array- or object-shaped full.json / parcels.json. */
+function collectParcelEntries(runDir) {
+  const out = [];
+  const pushList = (list) => {
+    if (!Array.isArray(list)) return;
+    for (const entry of list) out.push(entry);
+  };
+  for (const name of ["parcels.json", "full.json"]) {
+    const p = path.join(runDir, name);
+    if (!fs.existsSync(p)) continue;
+    let raw;
+    try {
+      raw = readJson(p);
+    } catch {
+      continue;
+    }
+    if (Array.isArray(raw)) pushList(raw);
+    else if (raw && typeof raw === "object") {
+      pushList(raw.parcelSnapshots);
+      pushList(raw.parcels);
+      pushList(raw.details);
+    }
+  }
+  return out;
+}
+
+/** Load assessor parcel coords from full.json / parcels.json (Longitude/Latitude on Parcel). */
 function loadCoordsFromFull(runDir) {
-  const fullPath = path.join(runDir, "full.json");
-  if (!fs.existsSync(fullPath)) return new Map();
+  const map = new Map();
+  for (const entry of collectParcelEntries(runDir)) {
+    const ain = formatAin(entry?.ain);
+    const parcel = entry?.parcel;
+    if (!ain || !parcel) continue;
+    const pair = validCoordPair(
+      parcel.Latitude ?? parcel.latitude,
+      parcel.Longitude ?? parcel.longitude
+    );
+    if (!pair) continue;
+    map.set(ain, pair);
+  }
+  return map;
+}
+
+/**
+ * Load state/coords-cache.json from scripts/backfill-coords.mjs.
+ * Supports { coords: { AIN: {latitude,longitude} } } or flat AIN map.
+ */
+function loadCoordsCache() {
+  const cachePath = path.join(STATE_DIR, "coords-cache.json");
+  if (!fs.existsSync(cachePath)) return new Map();
   let raw;
   try {
-    raw = readJson(fullPath);
+    raw = readJson(cachePath);
   } catch {
     return new Map();
   }
-  const list = Array.isArray(raw) ? raw : [];
   const map = new Map();
-  for (const entry of list) {
-    const ain = entry?.ain;
-    const parcel = entry?.parcel;
-    if (!ain || !parcel) continue;
-    const lat = parcel.Latitude ?? parcel.latitude ?? null;
-    const lon = parcel.Longitude ?? parcel.longitude ?? null;
-    const latN = lat != null && lat !== "" ? Number(lat) : NaN;
-    const lonN = lon != null && lon !== "" ? Number(lon) : NaN;
-    if (!Number.isFinite(latN) || !Number.isFinite(lonN)) continue;
-    if (latN === 0 && lonN === 0) continue;
-    map.set(ain, { latitude: latN, longitude: lonN });
+  const entries =
+    raw && typeof raw === "object" && raw.coords && typeof raw.coords === "object"
+      ? Object.entries(raw.coords)
+      : Object.entries(raw || {}).filter(
+          ([k]) => k !== "updatedAt" && k !== "source" && !k.startsWith("_")
+        );
+  for (const [key, val] of entries) {
+    if (!val || typeof val !== "object") continue;
+    const ain = formatAin(key);
+    const pair = validCoordPair(val.latitude, val.longitude);
+    if (!ain || !pair) continue;
+    map.set(ain, pair);
   }
   return map;
 }
@@ -238,8 +302,14 @@ function slimProperty(rec, runId, coords = null) {
     baseYearLand: rec.baseYearLand ?? null,
     baseYearImp: rec.baseYearImp ?? null,
     ownerKnown,
-    latitude: coords?.latitude ?? null,
-    longitude: coords?.longitude ?? null,
+    latitude:
+      coords?.latitude ??
+      validCoordPair(rec.latitude, rec.longitude)?.latitude ??
+      null,
+    longitude:
+      coords?.longitude ??
+      validCoordPair(rec.latitude, rec.longitude)?.longitude ??
+      null,
     ownership: slimOwnership(rec.ownership),
     lastBuy,
     market: rec.market ?? null,
@@ -289,12 +359,21 @@ function main() {
     .map((d) => d.name)
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 
-  /** Global AIN → coords from any run's full.json (latest folder wins on conflict). */
+  /** Global AIN → coords: full.json first, then coords-cache (backfill) overwrites. */
   const globalCoordIndex = new Map();
+  let fullJsonCoordCount = 0;
   for (const folder of runFolders) {
     const idx = loadCoordsFromFull(path.join(RUNS_DIR, folder));
-    for (const [ain, coords] of idx) globalCoordIndex.set(ain, coords);
+    for (const [ain, coords] of idx) {
+      globalCoordIndex.set(ain, coords);
+      fullJsonCoordCount += 1;
+    }
   }
+  const coordsCache = loadCoordsCache();
+  for (const [ain, coords] of coordsCache) globalCoordIndex.set(ain, coords);
+  console.log(
+    `Coord sources: full.json hits=${fullJsonCoordCount}, cache=${coordsCache.size}, merged unique=${globalCoordIndex.size}`
+  );
 
   const runs = [];
   const properties = [];
@@ -324,7 +403,9 @@ function main() {
     }
 
     const valids = loadValids(runDir);
-    const slim = valids.map((v) => slimProperty(v, folder, globalCoordIndex.get(v.ain) || null));
+    const slim = valids.map((v) =>
+      slimProperty(v, folder, globalCoordIndex.get(formatAin(v.ain)) || null)
+    );
     const range = parseRange(summary, valids);
     const jumps = Array.isArray(summary.jumps) ? summary.jumps : [];
     const cities = dominantCities(slim);

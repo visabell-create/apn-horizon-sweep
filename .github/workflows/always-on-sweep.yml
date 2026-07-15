@@ -1,0 +1,66 @@
+name: Always-on APN horizon sweep
+
+# Bounded CI cycle: fetch assessor parceldetail, archive under runs/, rebuild web/data, commit to main.
+# Cap keeps each run under Actions time limits. Assessor often blocks datacenter IPs — on failure
+# the job fails clearly; use local always-on (scripts/always-on-sweep.ps1) as fallback.
+
+on:
+  schedule:
+    # Forever: every 30 minutes UTC (GitHub schedule — survives local machine / Cursor exit)
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: always-on-sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Bounded always-on cycle
+        id: sweep
+        env:
+          CI: "true"
+        run: |
+          set -euo pipefail
+          echo "Starting bounded CI sweep (max-checks=45, max-seconds=420)…"
+          set +e
+          node scripts/always-on-sweep.mjs --once --ci --max-checks=45 --max-seconds=420 --no-git
+          code=$?
+          set -e
+          if [ "$code" -eq 2 ]; then
+            echo "::error title=Assessor API blocked::portal.assessor.lacounty.gov blocked this GitHub Actions runner (datacenter IP). Cannot invent parcels. Use local always-on instead: scripts/always-on-sweep.ps1 (writes runs/ + pushes to main so Pages stays fed)."
+            if [ -f state/status/ALWAYS-ON-BLOCKED.md ]; then
+              echo "---- ALWAYS-ON-BLOCKED.md ----"
+              cat state/status/ALWAYS-ON-BLOCKED.md
+            fi
+            exit 2
+          fi
+          if [ "$code" -ne 0 ]; then
+            echo "::error::always-on-sweep.mjs exited with $code"
+            exit "$code"
+          fi
+          echo "Cycle finished OK."
+
+      - name: Commit archive + web data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Always-on CI sweep: archive + rebuild web data"
+          file_pattern: "runs state web"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"

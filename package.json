@@ -6,6 +6,10 @@
   "scripts": {
     "build:data": "node scripts/build-web-data.mjs",
     "build": "node scripts/build-web-data.mjs",
-    "prepare:pages": "node scripts/build-web-data.mjs"
+    "prepare:pages": "node scripts/build-web-data.mjs",
+    "backfill:coords": "node scripts/backfill-coords.mjs",
+    "backfill:coords:loop": "node scripts/backfill-coords.mjs --loop",
+    "sweep:once": "node scripts/always-on-sweep.mjs --once",
+    "sweep:always-on": "node scripts/always-on-sweep.mjs --loop"
   }
 }
