@@ -185,7 +185,160 @@ function ownerDisplay(p) {
   if (p.ownerKnown && String(p.ownerKnown).trim()) {
     return { text: String(p.ownerKnown).trim(), known: true };
   }
-  return { text: "Owner not in archive", known: false };
+  return { text: "Owner not in public assessor archive", known: false };
+}
+
+function hasCoords(p) {
+  const lat = Number(p.latitude);
+  const lon = Number(p.longitude);
+  return Number.isFinite(lat) && Number.isFinite(lon) && !(lat === 0 && lon === 0);
+}
+
+function ainDigits(ain) {
+  return String(ain || "").replace(/\D/g, "");
+}
+
+function mapsAddressQuery(p) {
+  const addr = p.address && p.address !== "," ? p.address.trim() : "";
+  if (addr) return addr;
+  if (p.city && p.city !== "Unlabeled situs") return `${p.city}, CA`;
+  return "";
+}
+
+function googleMapsUrl(p) {
+  if (hasCoords(p)) {
+    return `https://www.google.com/maps/search/?api=1&query=${p.latitude},${p.longitude}`;
+  }
+  const q = mapsAddressQuery(p);
+  if (q) return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+  const ain = ainDigits(p.ain);
+  if (ain) return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ain)}`;
+  return null;
+}
+
+function streetViewEmbedUrl(p) {
+  if (!hasCoords(p)) return null;
+  return `https://www.google.com/maps?q=&layer=c&cbll=${p.latitude},${p.longitude}&cbp=11,0,0,0,0&output=svembed`;
+}
+
+function streetViewLinkUrl(p) {
+  if (!hasCoords(p)) return null;
+  return `https://www.google.com/maps?layer=c&cbll=${p.latitude},${p.longitude}`;
+}
+
+function latLonToTile(lat, lon, zoom) {
+  const z = zoom;
+  const n = 2 ** z;
+  const x = Math.floor(((lon + 180) / 360) * n);
+  const latRad = (lat * Math.PI) / 180;
+  const y = Math.floor(((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2) * n);
+  return { x, y, z };
+}
+
+function esriSatelliteTileUrl(lat, lon, zoom = 18) {
+  const { x, y, z } = latLonToTile(lat, lon, zoom);
+  return `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/${z}/${y}/${x}`;
+}
+
+function assessorParcelUrl(p) {
+  const digits = ainDigits(p.ain);
+  if (!digits) return "https://portal.assessor.lacounty.gov/";
+  return `https://portal.assessor.lacounty.gov/parceldetail/${digits}`;
+}
+
+function recorderSearchUrl(p) {
+  const doc = p.lastBuy?.doc && String(p.lastBuy.doc).trim();
+  if (doc) {
+    return `https://lavote.gov/home/records/property-document-recording/document-search?search=${encodeURIComponent(doc)}`;
+  }
+  return "https://lavote.gov/home/records/property-document-recording/document-search";
+}
+
+function zillowUrl(p) {
+  const q = mapsAddressQuery(p);
+  if (!q) return null;
+  return `https://www.zillow.com/homes/${encodeURIComponent(q.replace(/\s+/g, "-"))}_rb/`;
+}
+
+function redfinUrl(p) {
+  const q = mapsAddressQuery(p);
+  if (!q) return null;
+  return `https://www.redfin.com/stingray/do/location-search?location=${encodeURIComponent(q)}`;
+}
+
+function outreachChecklist(p) {
+  const owner = ownerDisplay(p);
+  const hasAddr = Boolean(p.address && p.address !== ",");
+  const hasDoc = Boolean(p.lastBuy?.doc && String(p.lastBuy.doc).trim());
+  return [
+    { label: "Owner name", have: owner.known, note: owner.known ? owner.text : "Not in archive — use Assessor portal" },
+    { label: "Situs address", have: hasAddr, note: hasAddr ? p.address : "Missing in archive" },
+    { label: "APN / AIN", have: Boolean(p.ain), note: p.ain || "Missing" },
+    { label: "Last deed document #", have: hasDoc, note: hasDoc ? p.lastBuy.doc : "Not in archive" },
+    { label: "Mailing address", have: false, note: "Not in this archive — Assessor or deed lookup required" },
+    { label: "Phone / email", have: false, note: "Never fabricated — obtain via licensed skip-trace or public records" },
+  ];
+}
+
+const DRAWER_TABS = [
+  { id: "overview", label: "Overview" },
+  { id: "map", label: "Map & Location" },
+  { id: "imagery", label: "Imagery" },
+  { id: "ownership", label: "Ownership & Records" },
+  { id: "tax", label: "Tax & Risk" },
+  { id: "outreach", label: "Outreach links" },
+];
+
+let drawerMap = null;
+let drawerMapMarker = null;
+let drawerActiveTab = "overview";
+let drawerCurrentProp = null;
+
+function destroyDrawerMap() {
+  if (drawerMap) {
+    drawerMap.remove();
+    drawerMap = null;
+    drawerMapMarker = null;
+  }
+}
+
+function initDrawerMap(p) {
+  destroyDrawerMap();
+  if (!hasCoords(p) || typeof L === "undefined") return;
+  const el = document.getElementById("drawer-map");
+  if (!el) return;
+
+  drawerMap = L.map(el, {
+    scrollWheelZoom: false,
+    attributionControl: true,
+  }).setView([p.latitude, p.longitude], 16);
+
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(drawerMap);
+
+  drawerMapMarker = L.marker([p.latitude, p.longitude]).addTo(drawerMap);
+  drawerMapMarker.bindPopup(`<strong>${escapeHtml(p.ain)}</strong><br>${escapeHtml(p.address && p.address !== "," ? p.address : "Parcel pin")}`);
+
+  requestAnimationFrame(() => drawerMap?.invalidateSize());
+}
+
+function externalLink(href, label, note = "") {
+  if (!href) return `<p class="empty-msg">${missing("Link unavailable — need address or coordinates")}</p>`;
+  const noteHtml = note ? `<span class="link-note">${escapeHtml(note)}</span>` : "";
+  return `<a class="ext-link" href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}${noteHtml}</a>`;
+}
+
+function checklistHtml(items) {
+  return `<ul class="checklist">${items
+    .map(
+      (item) => `<li class="${item.have ? "have" : "need"}">
+        <span class="check-icon" aria-hidden="true">${item.have ? "✓" : "○"}</span>
+        <div><strong>${escapeHtml(item.label)}</strong><span class="check-note">${escapeHtml(item.note)}</span></div>
+      </li>`
+    )
+    .join("")}</ul>`;
 }
 
 function lastBuyShort(p) {
@@ -547,12 +700,7 @@ function valOrMissing(v, emptyText = "Not in archive") {
   return escapeHtml(String(v));
 }
 
-function openDrawer(p) {
-  state.selectedPropKey = propKey(p);
-  renderProperties();
-
-  const drawer = $("#prop-drawer");
-  const backdrop = $("#drawer-backdrop");
+function renderDrawerTabContent(p, tabId) {
   const owner = ownerDisplay(p);
   const use = useLabel(p.useType);
   const tax = taxLabel(p.taxStatus, p.yearDefaulted);
@@ -561,10 +709,8 @@ function openDrawer(p) {
   const fc = foreclosureLabel(p);
   const gap = assessorGap(p);
   const run = state.runs.find((r) => r.id === p.runId);
-
-  $("#drawer-title").textContent = p.ain || "Parcel";
-  $("#drawer-addr").textContent =
-    p.address && p.address !== "," ? p.address : "Address not in archive";
+  const gmaps = googleMapsUrl(p);
+  const coords = hasCoords(p);
 
   const buyBits = p.lastBuy
     ? `
@@ -580,8 +726,7 @@ function openDrawer(p) {
     Array.isArray(p.ownership) && p.ownership.length
       ? `<ul class="ownership-list">${p.ownership
           .map((o) => {
-            const price =
-              money(o.price) != null ? moneyFmt(o.price) : "price not in archive";
+            const price = money(o.price) != null ? moneyFmt(o.price) : "price not in archive";
             return `<li>
               <div class="own-top">${escapeHtml(o.rec || "—")} · doc ${escapeHtml(o.doc || "—")} · ${escapeHtml(price)}</div>
               <div class="own-meta">${escapeHtml(o.docType || "Doc type not in archive")}${
@@ -590,96 +735,270 @@ function openDrawer(p) {
             </li>`;
           })
           .join("")}</ul>
-        <p class="note-box" style="margin-top:0.65rem">Ownership transfer snippets from the archive — names appear only when <code>ownerKnown</code> was captured (rare).</p>`
-      : `<p class="note-box">Ownership history not in archive for this parcel.</p>`;
+        <p class="note-box" style="margin-top:0.65rem">Transfer history from the assessor archive — grantee names appear only when <code>ownerKnown</code> was captured separately (rare).</p>`
+      : `<p class="note-box">Ownership transfer history not in archive for this parcel.</p>`;
 
-  $("#drawer-body").innerHTML = `
-    <div class="detail-section">
-      <h3>Identity</h3>
-      <div class="detail-grid">
-        ${field("APN (Assessor ID Number)", `<code class="mono">${escapeHtml(p.ain)}</code>`)}
-        ${field("City / area", `${escapeHtml(p.city || "Unlabeled situs")}${p.area ? ` · ${escapeHtml(p.area)}` : ""}`)}
-        ${field("Owner / people names", owner.known ? escapeHtml(owner.text) : missing("Owner not in archive"), true)}
-        ${field("Situs address", valOrMissing(p.address, "Address not in archive"), true)}
-        ${field("Archive status", valOrMissing(p.status, "VALID assumed"))}
-        ${field(
-          "Duplicate row?",
-          p.duplicate
-            ? `Yes — also seen earlier in ${escapeHtml(p.firstSeenIn || "another run")}`
-            : "No — first occurrence in build"
-        )}
+  if (tabId === "overview") {
+    return `
+      <div class="detail-section">
+        <h3>Identity</h3>
+        <div class="detail-grid">
+          ${field("APN (Assessor ID Number)", `<code class="mono">${escapeHtml(p.ain)}</code>`)}
+          ${field("City / area", `${escapeHtml(p.city || "Unlabeled situs")}${p.area ? ` · ${escapeHtml(p.area)}` : ""}`)}
+          ${field("Owner / people names", owner.known ? escapeHtml(owner.text) : missing(owner.text), true)}
+          ${field("Situs address", valOrMissing(p.address, "Address not in archive"), true)}
+          ${field("Coordinates", coords ? `${p.latitude.toFixed(6)}, ${p.longitude.toFixed(6)}` : missing("Not in assessor archive"), true)}
+          ${field("Archive status", valOrMissing(p.status, "VALID assumed"))}
+          ${field(
+            "Duplicate row?",
+            p.duplicate
+              ? `Yes — also seen earlier in ${escapeHtml(p.firstSeenIn || "another run")}`
+              : "No — first occurrence in build"
+          )}
+        </div>
       </div>
-    </div>
-
-    <div class="detail-section">
-      <h3>Use &amp; parcel</h3>
-      <div class="detail-grid">
-        ${field(
-          "Use",
-          `${escapeHtml(use.label)}${use.code ? `<span class="code-hint">${escapeHtml(use.code)}</span>` : ""}`
-        )}
-        ${field(
-          "Parcel status",
-          `${escapeHtml(parcel.label)}${parcel.code ? `<span class="code-hint">${escapeHtml(parcel.code)}</span>` : ""}`
-        )}
-        ${field("Year built", valOrMissing(p.yearBuilt))}
-        ${field("Beds / baths", p.beds != null || p.baths != null ? `${p.beds ?? "—"} / ${p.baths ?? "—"}` : missing())}
-        ${field("Building sq ft", p.bldg != null && p.bldg !== "" ? escapeHtml(numFmt(p.bldg)) : missing())}
-        ${field("Lot sq ft", p.lot != null && p.lot !== "" ? escapeHtml(numFmt(p.lot)) : missing())}
-        ${field("Units", p.units != null && p.units !== "" ? escapeHtml(String(p.units)) : missing())}
+      <div class="detail-section">
+        <h3>Use &amp; parcel</h3>
+        <div class="detail-grid">
+          ${field("Use", `${escapeHtml(use.label)}${use.code ? `<span class="code-hint">${escapeHtml(use.code)}</span>` : ""}`)}
+          ${field("Parcel status", `${escapeHtml(parcel.label)}${parcel.code ? `<span class="code-hint">${escapeHtml(parcel.code)}</span>` : ""}`)}
+          ${field("Year built", valOrMissing(p.yearBuilt))}
+          ${field("Beds / baths", p.beds != null || p.baths != null ? `${p.beds ?? "—"} / ${p.baths ?? "—"}` : missing())}
+          ${field("Building sq ft", p.bldg != null && p.bldg !== "" ? escapeHtml(numFmt(p.bldg)) : missing())}
+          ${field("Lot sq ft", p.lot != null && p.lot !== "" ? escapeHtml(numFmt(p.lot)) : missing())}
+        </div>
       </div>
-    </div>
-
-    <div class="detail-section">
-      <h3>Tax, market &amp; foreclosure</h3>
-      <div class="detail-grid">
-        ${field(
-          "Tax status",
-          `${tagHtml(tax.label, tax.tone)}${tax.code ? `<span class="code-hint">${escapeHtml(tax.code)}</span>` : ""}`
-        )}
-        ${field("Year defaulted", valOrMissing(p.yearDefaulted && String(p.yearDefaulted).trim() ? p.yearDefaulted : null, "Not in archive"))}
-        ${field("Market", `${tagHtml(market.label, market.tone)}${market.code ? `<span class="code-hint">${escapeHtml(market.code)}</span>` : ""}`, true)}
-        ${field("Foreclosure", `${tagHtml(fc.label, fc.tone)}${fc.detail ? `<span class="code-hint">${escapeHtml(fc.detail)}</span>` : ""}`, true)}
+      <div class="detail-section">
+        <h3>Values snapshot</h3>
+        <div class="detail-grid">
+          ${field("Assessed value", money(p.assessed) != null ? escapeHtml(moneyFmt(p.assessed)) : missing())}
+          ${field(
+            "Assessor gap (not true equity)",
+            `<strong>${escapeHtml(gap.text)}</strong><span class="code-hint">${escapeHtml(gap.tip)}</span>`,
+            true
+          )}
+        </div>
       </div>
-      <p class="note-box" style="margin-top:0.65rem">“About to be foreclosed” is only shown when the archive has an explicit imminent signal — current data does not invent that.</p>
-    </div>
-
-    <div class="detail-section">
-      <h3>Values</h3>
-      <div class="detail-grid">
-        ${field("Assessed value", money(p.assessed) != null ? escapeHtml(moneyFmt(p.assessed)) : missing())}
-        ${field("Land assessed", money(p.land) != null ? escapeHtml(moneyFmt(p.land)) : missing())}
-        ${field("Improvement assessed", money(p.imp) != null ? escapeHtml(moneyFmt(p.imp)) : missing())}
-        ${field("Base year (land)", valOrMissing(p.baseYearLand))}
-        ${field("Base year (imp)", valOrMissing(p.baseYearImp))}
-        ${field(
-          "Assessor gap (not true equity)",
-          `<strong>${escapeHtml(gap.text)}</strong><span class="code-hint">${escapeHtml(gap.tip)}</span>`,
-          true
-        )}
+      <div class="detail-section">
+        <h3>Run provenance</h3>
+        <div class="detail-grid">
+          ${field("Source run", escapeHtml(p.runId || "Not in archive"), true)}
+          ${field("Walk style", escapeHtml(streamLabel(run?.stream)), true)}
+          ${field("Run primary city", escapeHtml(run?.primaryCity || p.city || "Unlabeled situs"))}
+        </div>
       </div>
-    </div>
+    `;
+  }
 
-    <div class="detail-section">
-      <h3>Last buy</h3>
-      <div class="detail-grid">${buyBits}</div>
-    </div>
+  if (tabId === "map") {
+    const mapBlock = coords
+      ? `<div id="drawer-map" class="map-canvas" role="img" aria-label="Map pin for parcel ${escapeHtml(p.ain)}"></div>
+         <p class="map-attrib">OpenStreetMap tiles · no API key required · pin from LA County Assessor parcel coordinates</p>`
+      : `<div class="empty-state">
+           <p><strong>No coordinates in archive</strong></p>
+           <p class="muted">This parcel's <code>full.json</code> snapshot had no assessor Latitude/Longitude. Use the external map link below with the situs address.</p>
+         </div>`;
 
-    <div class="detail-section">
-      <h3>Ownership history snippets</h3>
-      ${ownershipHtml}
-    </div>
-
-    <div class="detail-section">
-      <h3>Run provenance</h3>
-      <div class="detail-grid">
-        ${field("Source run", escapeHtml(p.runId || "Not in archive"), true)}
-        ${field("Walk style", escapeHtml(streamLabel(run?.stream)), true)}
-        ${field("Run primary city", escapeHtml(run?.primaryCity || p.city || "Unlabeled situs"))}
-        ${field("First seen in build", escapeHtml(p.firstSeenIn || p.runId || "Not in archive"))}
+    return `
+      <div class="detail-section">
+        <h3>Interactive map</h3>
+        ${mapBlock}
+        <div class="link-row">
+          ${externalLink(gmaps, coords ? "Open in Google Maps (coordinates)" : "Open in Google Maps (address search)", "External · third-party")}
+        </div>
       </div>
-    </div>
-  `;
+      <div class="detail-section">
+        <h3>Location details</h3>
+        <div class="detail-grid">
+          ${field("Situs address", valOrMissing(p.address, "Address not in archive"), true)}
+          ${field("City / area", `${escapeHtml(p.city || "Unlabeled situs")}${p.area ? ` · ${escapeHtml(p.area)}` : ""}`)}
+          ${field("Latitude", coords ? escapeHtml(String(p.latitude)) : missing("Not in archive"))}
+          ${field("Longitude", coords ? escapeHtml(String(p.longitude)) : missing("Not in archive"))}
+        </div>
+      </div>
+    `;
+  }
+
+  if (tabId === "imagery") {
+    const svEmbed = streetViewEmbedUrl(p);
+    const svLink = streetViewLinkUrl(p);
+    const satUrl = coords ? esriSatelliteTileUrl(p.latitude, p.longitude) : null;
+
+    const streetBlock = coords
+      ? `<div class="imagery-frame">
+           <iframe title="Google Street View embed" src="${escapeHtml(svEmbed)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+         </div>
+         <div class="link-row">${externalLink(svLink, "View Street View on Google Maps", "External · third-party")}</div>`
+      : `<div class="empty-state">
+           <p><strong>Street View needs coordinates</strong></p>
+           <p class="muted">No assessor lat/lon in archive — use address-based map links below.</p>
+         </div>`;
+
+    const satBlock = coords
+      ? `<figure class="sat-thumb">
+           <img src="${escapeHtml(satUrl)}" alt="Esri World Imagery tile near parcel coordinates" loading="lazy" width="256" height="256" />
+           <figcaption>Esri World Imagery tile (zoom 18) · free tier · not verified by this archive</figcaption>
+         </figure>`
+      : "";
+
+    const addrLinks = `
+      <div class="link-stack">
+        ${externalLink(gmaps, "View on Google Maps", "Third-party · address or coords")}
+        ${externalLink(zillowUrl(p), "Search on Zillow", "Third-party listing site · not verified")}
+        ${externalLink(redfinUrl(p), "Search on Redfin", "Third-party listing site · not verified")}
+      </div>`;
+
+    return `
+      <p class="note-box imagery-disclaimer">Imagery from third-party maps — not verified by this archive. No Google Search scraping; embeds and external links only.</p>
+      <div class="detail-section">
+        <h3>Street-level view</h3>
+        ${streetBlock}
+      </div>
+      ${coords ? `<div class="detail-section"><h3>Satellite thumbnail</h3>${satBlock}</div>` : ""}
+      <div class="detail-section">
+        <h3>Address-based links</h3>
+        ${addrLinks}
+      </div>
+    `;
+  }
+
+  if (tabId === "ownership") {
+    return `
+      <div class="detail-section">
+        <h3>Owner (archive only)</h3>
+        <div class="detail-grid">
+          ${field(
+            "Owner name",
+            owner.known ? escapeHtml(owner.text) : missing("Owner not in public assessor archive"),
+            true
+          )}
+        </div>
+        <p class="note-box">We do not discover owners from Google or other web search. Names appear only when explicitly captured in the sweep archive (<code>ownerKnown</code> field).</p>
+      </div>
+      <div class="detail-section">
+        <h3>How to look up owner (LA County)</h3>
+        <div class="link-stack">
+          ${externalLink(assessorParcelUrl(p), "LA County Assessor — parcel detail", `Search AIN ${escapeHtml(p.ain)}`)}
+          ${externalLink(recorderSearchUrl(p), p.lastBuy?.doc ? `LA County Recorder — doc # ${escapeHtml(p.lastBuy.doc)}` : "LA County Recorder — deed search", "Official public records")}
+          ${externalLink("https://lavote.gov/home/records/property-document-recording", "Recorder property document info", "County portal")}
+        </div>
+      </div>
+      <div class="detail-section">
+        <h3>Last buy</h3>
+        <div class="detail-grid">${buyBits}</div>
+      </div>
+      <div class="detail-section">
+        <h3>Ownership history snippets</h3>
+        ${ownershipHtml}
+      </div>
+    `;
+  }
+
+  if (tabId === "tax") {
+    return `
+      <div class="detail-section">
+        <h3>Tax &amp; legal status (archive only)</h3>
+        <div class="detail-grid">
+          ${field("Tax status", `${tagHtml(tax.label, tax.tone)}${tax.code ? `<span class="code-hint">${escapeHtml(tax.code)}</span>` : ""}`)}
+          ${field("Year defaulted", valOrMissing(p.yearDefaulted && String(p.yearDefaulted).trim() ? p.yearDefaulted : null, "Not in archive"))}
+          ${field("Market", `${tagHtml(market.label, market.tone)}${market.code ? `<span class="code-hint">${escapeHtml(market.code)}</span>` : ""}`, true)}
+          ${field("Foreclosure", `${tagHtml(fc.label, fc.tone)}${fc.detail ? `<span class="code-hint">${escapeHtml(fc.detail)}</span>` : ""}`, true)}
+          ${field("Parcel status", `${escapeHtml(parcel.label)}${parcel.code ? `<span class="code-hint">${escapeHtml(parcel.code)}</span>` : ""}`)}
+        </div>
+        <p class="note-box" style="margin-top:0.65rem">Foreclosure “imminent” is only shown when the archive has an explicit signal — never invented from web search.</p>
+      </div>
+      <div class="detail-section">
+        <h3>Values</h3>
+        <div class="detail-grid">
+          ${field("Assessed value", money(p.assessed) != null ? escapeHtml(moneyFmt(p.assessed)) : missing())}
+          ${field("Land assessed", money(p.land) != null ? escapeHtml(moneyFmt(p.land)) : missing())}
+          ${field("Improvement assessed", money(p.imp) != null ? escapeHtml(moneyFmt(p.imp)) : missing())}
+          ${field("Base year (land)", valOrMissing(p.baseYearLand))}
+          ${field("Base year (imp)", valOrMissing(p.baseYearImp))}
+          ${field(
+            "Assessor gap (not true equity)",
+            `<strong>${escapeHtml(gap.text)}</strong><span class="code-hint">${escapeHtml(gap.tip)}</span>`,
+            true
+          )}
+        </div>
+      </div>
+    `;
+  }
+
+  if (tabId === "outreach") {
+    const checks = outreachChecklist(p);
+    return `
+      <div class="detail-section">
+        <h3>Outreach readiness</h3>
+        <p class="section-sub inline">What this archive has vs. what you still need for contact — phone and email are never fabricated.</p>
+        ${checklistHtml(checks)}
+      </div>
+      <div class="detail-section">
+        <h3>Official lookup links</h3>
+        <div class="link-stack">
+          ${externalLink(assessorParcelUrl(p), "Assessor parcel portal", "Owner of record, roll values, situs")}
+          ${externalLink(recorderSearchUrl(p), "Recorder deed search", p.lastBuy?.doc ? `Doc ${escapeHtml(p.lastBuy.doc)}` : "Search by APN or party name")}
+          ${externalLink(gmaps, "Google Maps", "Verify situs / drive-by planning")}
+        </div>
+      </div>
+      <div class="detail-section">
+        <h3>Future enrichment (not implemented)</h3>
+        <p class="note-box">Paid deed APIs, skip-trace services, or licensed data vendors could add mailing address and phone — none are wired in yet. This viewer stays archive-honest until a documented source is integrated.</p>
+      </div>
+    `;
+  }
+
+  return `<p class="empty-msg">Section not found.</p>`;
+}
+
+function renderDrawerTabs(p) {
+  const tabsEl = $("#drawer-tabs");
+  tabsEl.innerHTML = "";
+  for (const tab of DRAWER_TABS) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `drawer-tab${drawerActiveTab === tab.id ? " active" : ""}`;
+    btn.role = "tab";
+    btn.id = `tab-${tab.id}`;
+    btn.setAttribute("aria-selected", drawerActiveTab === tab.id ? "true" : "false");
+    btn.setAttribute("aria-controls", "drawer-panel");
+    btn.textContent = tab.label;
+    btn.addEventListener("click", () => {
+      drawerActiveTab = tab.id;
+      showDrawerTab(p);
+    });
+    tabsEl.appendChild(btn);
+  }
+}
+
+function showDrawerTab(p) {
+  destroyDrawerMap();
+  renderDrawerTabs(p);
+  const panel = $("#drawer-body");
+  panel.id = "drawer-panel";
+  panel.role = "tabpanel";
+  panel.setAttribute("aria-labelledby", `tab-${drawerActiveTab}`);
+  panel.innerHTML = renderDrawerTabContent(p, drawerActiveTab);
+  if (drawerActiveTab === "map" && hasCoords(p)) {
+    requestAnimationFrame(() => initDrawerMap(p));
+  }
+}
+
+function openDrawer(p) {
+  state.selectedPropKey = propKey(p);
+  renderProperties();
+
+  drawerCurrentProp = p;
+  drawerActiveTab = "overview";
+
+  const drawer = $("#prop-drawer");
+  const backdrop = $("#drawer-backdrop");
+
+  $("#drawer-title").textContent = p.ain || "Parcel";
+  $("#drawer-addr").textContent =
+    p.address && p.address !== "," ? p.address : "Address not in archive";
+
+  showDrawerTab(p);
 
   drawer.hidden = false;
   backdrop.hidden = false;
@@ -688,6 +1007,8 @@ function openDrawer(p) {
 }
 
 function closeDrawer() {
+  destroyDrawerMap();
+  drawerCurrentProp = null;
   $("#prop-drawer").hidden = true;
   $("#drawer-backdrop").hidden = true;
   document.body.classList.remove("drawer-open");

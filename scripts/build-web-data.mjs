@@ -172,7 +172,34 @@ function extractDate(folderName, summary) {
   return null;
 }
 
-function slimProperty(rec, runId) {
+/** Load assessor parcel coords from full.json (Longitude/Latitude on Parcel). */
+function loadCoordsFromFull(runDir) {
+  const fullPath = path.join(runDir, "full.json");
+  if (!fs.existsSync(fullPath)) return new Map();
+  let raw;
+  try {
+    raw = readJson(fullPath);
+  } catch {
+    return new Map();
+  }
+  const list = Array.isArray(raw) ? raw : [];
+  const map = new Map();
+  for (const entry of list) {
+    const ain = entry?.ain;
+    const parcel = entry?.parcel;
+    if (!ain || !parcel) continue;
+    const lat = parcel.Latitude ?? parcel.latitude ?? null;
+    const lon = parcel.Longitude ?? parcel.longitude ?? null;
+    const latN = lat != null && lat !== "" ? Number(lat) : NaN;
+    const lonN = lon != null && lon !== "" ? Number(lon) : NaN;
+    if (!Number.isFinite(latN) || !Number.isFinite(lonN)) continue;
+    if (latN === 0 && lonN === 0) continue;
+    map.set(ain, { latitude: latN, longitude: lonN });
+  }
+  return map;
+}
+
+function slimProperty(rec, runId, coords = null) {
   const lastBuy = rec.lastBuy
     ? {
         rec: rec.lastBuy.rec ?? "",
@@ -211,6 +238,8 @@ function slimProperty(rec, runId) {
     baseYearLand: rec.baseYearLand ?? null,
     baseYearImp: rec.baseYearImp ?? null,
     ownerKnown,
+    latitude: coords?.latitude ?? null,
+    longitude: coords?.longitude ?? null,
     ownership: slimOwnership(rec.ownership),
     lastBuy,
     market: rec.market ?? null,
@@ -260,6 +289,13 @@ function main() {
     .map((d) => d.name)
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 
+  /** Global AIN → coords from any run's full.json (latest folder wins on conflict). */
+  const globalCoordIndex = new Map();
+  for (const folder of runFolders) {
+    const idx = loadCoordsFromFull(path.join(RUNS_DIR, folder));
+    for (const [ain, coords] of idx) globalCoordIndex.set(ain, coords);
+  }
+
   const runs = [];
   const properties = [];
   const seenAin = new Map();
@@ -288,7 +324,7 @@ function main() {
     }
 
     const valids = loadValids(runDir);
-    const slim = valids.map((v) => slimProperty(v, folder));
+    const slim = valids.map((v) => slimProperty(v, folder, globalCoordIndex.get(v.ain) || null));
     const range = parseRange(summary, valids);
     const jumps = Array.isArray(summary.jumps) ? summary.jumps : [];
     const cities = dominantCities(slim);
@@ -368,6 +404,7 @@ function main() {
   if (fs.existsSync(indexPath)) indexMd = scrubString(readText(indexPath));
 
   const uniqueValids = [...seenAin.keys()].length;
+  const withCoords = properties.filter((p) => p.latitude != null && p.longitude != null).length;
   const builtAt = new Date().toISOString();
 
   const citiesIndex = [...cityBucket.entries()]
@@ -422,6 +459,7 @@ function main() {
     runCount: runs.length,
     propertyRowCount: properties.length,
     uniqueAinCount: uniqueValids,
+    propertyWithCoordsCount: withCoords,
     nextCursor: cursor?.nextCursor ?? null,
     donePageCount: Array.isArray(cursor?.donePages) ? cursor.donePages.length : 0,
     jumps: cursor?.jumps ?? [],
@@ -443,6 +481,7 @@ function main() {
     builtAt,
     count: properties.length,
     uniqueAinCount: uniqueValids,
+    propertyWithCoordsCount: withCoords,
     cities: citiesIndex,
     properties,
   };
@@ -458,7 +497,7 @@ function main() {
   }
 
   console.log(`Built web/data/ from ${runs.length} runs`);
-  console.log(`  property rows: ${properties.length} (${uniqueValids} unique AINs)`);
+  console.log(`  property rows: ${properties.length} (${uniqueValids} unique AINs, ${withCoords} with coords)`);
   console.log(`  cities: ${citiesIndex.map((c) => `${c.city}=${c.propertyRowCount}`).join(", ")}`);
   console.log(`  nextCursor: ${runsIndex.nextCursor}`);
   console.log(`  donePages: ${runsIndex.donePageCount}`);
