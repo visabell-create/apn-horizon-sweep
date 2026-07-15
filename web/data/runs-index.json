@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-15T10:16:04.219Z",
-  "runCount": 46,
-  "propertyRowCount": 2010,
-  "uniqueAinCount": 1908,
-  "propertyWithCoordsCount": 1455,
-  "nextCursor": "8448-032-209",
-  "donePageCount": 71,
+  "builtAt": "2026-07-15T11:58:22.721Z",
+  "runCount": 47,
+  "propertyRowCount": 2042,
+  "uniqueAinCount": 1940,
+  "propertyWithCoordsCount": 1483,
+  "nextCursor": "8448-035-079",
+  "donePageCount": 72,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -125,21 +125,28 @@
       "to": "8448-032-050",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "San Dimas",
       "slug": "san-dimas",
-      "propertyRowCount": 1020,
-      "uniqueAinCount": 993,
+      "propertyRowCount": 1045,
+      "uniqueAinCount": 1018,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 550,
-      "uniqueAinCount": 511,
+      "propertyRowCount": 557,
+      "uniqueAinCount": 518,
       "areas": []
     },
     {
@@ -887,6 +894,43 @@
         }
       ],
       "primaryCity": "Unlabeled situs"
+    },
+    {
+      "id": "RUN-015-2026-07-15-horizon",
+      "title": "RUN-015 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-15",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-07-15T11:57:59.438Z",
+      "end": "8448-035-078",
+      "nextCursor": "8448-035-079",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8448-032-224",
+          "streak": 12,
+          "to": "8448-035-050",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-15T11:58:20.463Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "San Dimas",
+          "count": 25,
+          "slug": "san-dimas"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 7,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "San Dimas"
     },
     {
       "id": "RUN-A01-8448-043",

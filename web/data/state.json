@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-07-15T10:16:04.219Z",
+  "builtAt": "2026-07-15T11:58:22.721Z",
   "cursor": {
     "donePages": [
       "8448-003",
@@ -30,6 +30,7 @@
       "8448-029",
       "8448-030",
       "8448-031",
+      "8448-032",
       "8448-033",
       "8448-037",
       "8448-038",
@@ -77,13 +78,6 @@
     "horizonQueue": [
       {
         "book": 8448,
-        "page": 35,
-        "hits": 1,
-        "firstValidParcel": 50,
-        "key": "8448-035"
-      },
-      {
-        "book": 8448,
         "page": 36,
         "hits": 1,
         "firstValidParcel": 50,
@@ -118,7 +112,7 @@
         "key": "8448-034"
       }
     ],
-    "nextCursor": "8448-032-209",
+    "nextCursor": "8448-035-079",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -240,6 +234,13 @@
         "to": "8448-032-050",
         "reason": "SOFT_JUMP",
         "hits": 1
+      },
+      {
+        "at": "8448-032-224",
+        "streak": 12,
+        "to": "8448-035-050",
+        "reason": "SOFT_JUMP",
+        "hits": 1
       }
     ],
     "completedRuns": [
@@ -256,28 +257,30 @@
       "RUN-011",
       "RUN-012",
       "RUN-013",
-      "RUN-014"
+      "RUN-014",
+      "RUN-015"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "~/apn-horizon-sweep\\runs\\RUN-014-2026-07-15-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-015-2026-07-15-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-07-15T10:14:26.356Z",
+    "lastAlwaysOnAt": "2026-07-15T11:58:20.463Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
-    "validCountRUN014": 167
+    "validCountRUN014": 167,
+    "validCountRUN015": 32
   },
-  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-07-15T10:14:26.379Z (always-on cycle RUN-014)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8448-032-209`\n\n- Last cycle: **RUN-014** — valids **167**, checks **180**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
+  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-07-15T11:58:20.466Z (always-on cycle RUN-015)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8448-035-079`\n\n- Last cycle: **RUN-015** — valids **32**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
   "statusNotes": [
     {
       "id": "CURSOR-RECONCILE.md",
-      "excerpt": "# CURSOR RECONCILE — STATUS-1130 follow-up\r\n\r\n**When:** 2026-07-14 ~23:30 local  \r\n**Trigger:** `state/status/STATUS-1130.md` drift warning  \r\n**Scope:** Coordination only — no new sweep started\r\n\r\n## Problem\r\n\r\nParallel exclusive agents (A01–A10) were instructed **not** to advance the shared serial cursor. Authoritative LEFT_OFF / manifest / STATUS-1130 all held the serial resume at:\r\n\r\n| Field | Authoritative value |\r\n|-------|---------------------|\r\n| `nextCursor` | `8448-054-012` |\r\n| digits | `8448054012` |\r\n| source | Interrupted RUN-006 resume |\r\n\r\nLive `state/cursor.json` had drifted away from that point:\r\n\r\n| Observation | Value |\r\n|-------------|--------|\r\n| At STATUS-1130 rollup (~23:28) | `nextCursor: 8448-026-019` |\r\n| At reconcile read (~23:30) | `nextCursor: 8448-020-036` (further drift) |\r\n\r\nSuspected cause: indefinite / perpetual horizon walker (`indefinite: true`, RUN-007 soft-jumps) continuing to mutate the shared cursor while parallel agents owned exclusive ranges. That risks serial re-entry into already-swept pages.\r\n\r\n## What changed\r\n\r\n### 1. Restored serial `nextCursor`\r\n\r\nSet:\r\n\r\n```json\r\n\"nextCursor\": \"8448-054-012\",\r\n\"nextDigits\": \"8448054012\"\r\n```\r\n\r\nThis matches `state/LEFT_OFF.md`, `state/claims/manifest.json` (`globalNextCursor`), and STATUS-1130 recommendation #1.\r\n\r\n### 2. Merged completed parallel pages into `donePages`\r\n\r\nPreserved all pre-existing `donePages`, then ensured pages from **completed** claims A01–A07, A09, A10 are present:\r\n\r\n| Agent | Pages merged | Status |\r\n|-------|--------------|--------|\r\n| A01 | 043 | completed |\r\n| A02 | 055 | completed |\r\n| A03 | 056 | completed |\r\n| A04 | 058 | completed |\r\n| A05 | 059 | completed |\r\n| A06 | 061 | completed |\r\n| A07 | 062, 063, 064, 065 | completed |\r\n| A09 | 071, 072, 073, 074, 075 | completed |\r\n| A10 | 076, 077, 078, 079, 080 | completed (were missing at reconcile) |\r\n\r\nPre-session / prior walker pages retained (including 003, 004, 005, 007, 008, 010, 018, 020, 026, 038–042, 045–054, 057, 060, etc.).\r\n\r\n**Final `donePages` count: 45**\r\n\r\n### 3. Agent-08 exclusive pages left available\r\n\r\nA08 claim remains `in_progress` for **066–070**. Those pages were **not** added to `donePages`, so they stay available for A08 and are not treated as serial-done.\r\n\r\n## What was not changed\r\n\r\n- No new full sweep started\r\n- `horizonQueue`, `jumps`, `completedRuns`, RUN-007 metadata left as-is (audit trail)\r\n- A08 claim file untouched\r\n- `indefinite` left `true` — operators should "
+      "excerpt": "# CURSOR RECONCILE — STATUS-1130 follow-up\n\n**When:** 2026-07-14 ~23:30 local  \n**Trigger:** `state/status/STATUS-1130.md` drift warning  \n**Scope:** Coordination only — no new sweep started\n\n## Problem\n\nParallel exclusive agents (A01–A10) were instructed **not** to advance the shared serial cursor. Authoritative LEFT_OFF / manifest / STATUS-1130 all held the serial resume at:\n\n| Field | Authoritative value |\n|-------|---------------------|\n| `nextCursor` | `8448-054-012` |\n| digits | `8448054012` |\n| source | Interrupted RUN-006 resume |\n\nLive `state/cursor.json` had drifted away from that point:\n\n| Observation | Value |\n|-------------|--------|\n| At STATUS-1130 rollup (~23:28) | `nextCursor: 8448-026-019` |\n| At reconcile read (~23:30) | `nextCursor: 8448-020-036` (further drift) |\n\nSuspected cause: indefinite / perpetual horizon walker (`indefinite: true`, RUN-007 soft-jumps) continuing to mutate the shared cursor while parallel agents owned exclusive ranges. That risks serial re-entry into already-swept pages.\n\n## What changed\n\n### 1. Restored serial `nextCursor`\n\nSet:\n\n```json\n\"nextCursor\": \"8448-054-012\",\n\"nextDigits\": \"8448054012\"\n```\n\nThis matches `state/LEFT_OFF.md`, `state/claims/manifest.json` (`globalNextCursor`), and STATUS-1130 recommendation #1.\n\n### 2. Merged completed parallel pages into `donePages`\n\nPreserved all pre-existing `donePages`, then ensured pages from **completed** claims A01–A07, A09, A10 are present:\n\n| Agent | Pages merged | Status |\n|-------|--------------|--------|\n| A01 | 043 | completed |\n| A02 | 055 | completed |\n| A03 | 056 | completed |\n| A04 | 058 | completed |\n| A05 | 059 | completed |\n| A06 | 061 | completed |\n| A07 | 062, 063, 064, 065 | completed |\n| A09 | 071, 072, 073, 074, 075 | completed |\n| A10 | 076, 077, 078, 079, 080 | completed (were missing at reconcile) |\n\nPre-session / prior walker pages retained (including 003, 004, 005, 007, 008, 010, 018, 020, 026, 038–042, 045–054, 057, 060, etc.).\n\n**Final `donePages` count: 45**\n\n### 3. Agent-08 exclusive pages left available\n\nA08 claim remains `in_progress` for **066–070**. Those pages were **not** added to `donePages`, so they stay available for A08 and are not treated as serial-done.\n\n## What was not changed\n\n- No new full sweep started\n- `horizonQueue`, `jumps`, `completedRuns`, RUN-007 metadata left as-is (audit trail)\n- A08 claim file untouched\n- `indefinite` left `true` — operators should freeze the serial walker until A08 finishes if drift recurs\n\n## Pos"
     },
     {
       "id": "MIDNIGHT-MERGE.md",
-      "excerpt": "# MIDNIGHT MERGE — serial RUN-010 + parallel midnight-B\r\n\r\n**When:** 2026-07-15 ~00:00+ local (post midnight stop)  \r\n**Scope:** Coordination only — no new sweeps\r\n\r\n## Inputs read\r\n\r\n- `state/status/MIDNIGHT-STOP.md` (serial hard stop at `8448-033-063`; RUN-010 valids **64**)\r\n- `state/status/agent-midnight-B.md` + `state/claims/agent-midnight-B.json` (pages 011/022/027; valids **86**)\r\n- `state/cursor.json` (pre-merge already carried RUN-009/010 jumps; incorrectly had `8448-033` in `donePages`)\r\n- `state/LEFT_OFF.md` (prior authoritative resume `8448-006-026` from STATE-MERGE-2330)\r\n- `runs/RUN-010-2026-07-15-horizon/summary.md` + `runs/RUN-B-MIDNIGHT-*`\r\n\r\n## Valid totals — keep separate (do not double-count)\r\n\r\n| Stream | Valids | Notes |\r\n|--------|-------:|-------|\r\n| Serial RUN-010 (this midnight session) | **64** | Checks 96; soft jumps `006-071→027-020`, `027-048→033-026`; stop `MIDNIGHT_STOP` |\r\n| Parallel agent-midnight-B | **86** | Vacant land counted valid: 24; exclusive 011/022/027 |\r\n| Prior serial RUN-001..009 (approx) | ~1271 | 1112 (001–008) + 159 (009); separate historical stream |\r\n| Prior parallel A01–A10 | 160 | Unchanged this merge |\r\n\r\n**Do not** sum 64 + 86 as unique AINs without dedup. Serial walked parcels on **027** that midnight-B also covered (overlap possible on that page only).\r\n\r\n## Merged `donePages` (59)\r\n\r\nPrior 53 (STATE-MERGE-2330) **+** RUN-009 soft-jump completes **023, 031** **+** RUN-010 complete **006** **+** midnight-B **011, 022, 027**.\r\n\r\n```\r\n003–008, 010–011, 018–023, 025–027, 031, 038–039, 041–043, 045–080\r\n```\r\n\r\n**Not done:** `8448-033` — midnight stop mid-page; parcel-level resume required.\r\n\r\n## nextCursor decision\r\n\r\n| Candidate | Decision |\r\n|-----------|----------|\r\n| Soft-jump / queue head (e.g. `8448-037-020`) | **Rejected** — would abandon in-progress page 033 |\r\n| Mark 033 done and advance | **Rejected** — page only partial (`last AIN` 033-062) |\r\n| **`8448-033-063`** | **Selected** — serial MIDNIGHT-STOP resume; keep parcel-level cursor |\r\n\r\n## Files updated this merge\r\n\r\n1. `state/cursor.json` — `donePages` 59; removed premature `8448-033`; added 011/022; `nextCursor: 8448-033-063`; pruned 011/022 from `horizonQueue`\r\n2. `state/LEFT_OFF.md` — authoritative resume + tallies\r\n3. `state/status/MIDNIGHT-MERGE.md` — this document\r\n4. `runs/INDEX.md` — light refresh\r\n\r\n## Return value\r\n\r\n- **final nextCursor:** `8448-033-063`\r\n- **serial RUN-010 valids:** **64**\r\n- **parallel midnight-B valids:** **86"
+      "excerpt": "# MIDNIGHT MERGE — serial RUN-010 + parallel midnight-B\n\n**When:** 2026-07-15 ~00:00+ local (post midnight stop)  \n**Scope:** Coordination only — no new sweeps\n\n## Inputs read\n\n- `state/status/MIDNIGHT-STOP.md` (serial hard stop at `8448-033-063`; RUN-010 valids **64**)\n- `state/status/agent-midnight-B.md` + `state/claims/agent-midnight-B.json` (pages 011/022/027; valids **86**)\n- `state/cursor.json` (pre-merge already carried RUN-009/010 jumps; incorrectly had `8448-033` in `donePages`)\n- `state/LEFT_OFF.md` (prior authoritative resume `8448-006-026` from STATE-MERGE-2330)\n- `runs/RUN-010-2026-07-15-horizon/summary.md` + `runs/RUN-B-MIDNIGHT-*`\n\n## Valid totals — keep separate (do not double-count)\n\n| Stream | Valids | Notes |\n|--------|-------:|-------|\n| Serial RUN-010 (this midnight session) | **64** | Checks 96; soft jumps `006-071→027-020`, `027-048→033-026`; stop `MIDNIGHT_STOP` |\n| Parallel agent-midnight-B | **86** | Vacant land counted valid: 24; exclusive 011/022/027 |\n| Prior serial RUN-001..009 (approx) | ~1271 | 1112 (001–008) + 159 (009); separate historical stream |\n| Prior parallel A01–A10 | 160 | Unchanged this merge |\n\n**Do not** sum 64 + 86 as unique AINs without dedup. Serial walked parcels on **027** that midnight-B also covered (overlap possible on that page only).\n\n## Merged `donePages` (59)\n\nPrior 53 (STATE-MERGE-2330) **+** RUN-009 soft-jump completes **023, 031** **+** RUN-010 complete **006** **+** midnight-B **011, 022, 027**.\n\n```\n003–008, 010–011, 018–023, 025–027, 031, 038–039, 041–043, 045–080\n```\n\n**Not done:** `8448-033` — midnight stop mid-page; parcel-level resume required.\n\n## nextCursor decision\n\n| Candidate | Decision |\n|-----------|----------|\n| Soft-jump / queue head (e.g. `8448-037-020`) | **Rejected** — would abandon in-progress page 033 |\n| Mark 033 done and advance | **Rejected** — page only partial (`last AIN` 033-062) |\n| **`8448-033-063`** | **Selected** — serial MIDNIGHT-STOP resume; keep parcel-level cursor |\n\n## Files updated this merge\n\n1. `state/cursor.json` — `donePages` 59; removed premature `8448-033`; added 011/022; `nextCursor: 8448-033-063`; pruned 011/022 from `horizonQueue`\n2. `state/LEFT_OFF.md` — authoritative resume + tallies\n3. `state/status/MIDNIGHT-MERGE.md` — this document\n4. `runs/INDEX.md` — light refresh\n\n## Return value\n\n- **final nextCursor:** `8448-033-063`\n- **serial RUN-010 valids:** **64**\n- **parallel midnight-B valids:** **86**\n"
     },
     {
       "id": "MIDNIGHT-STOP.md",
@@ -285,7 +288,7 @@
     },
     {
       "id": "STATE-MERGE-2330.md",
-      "excerpt": "# STATE MERGE 23:30 — serial + parallel fleet coordination\r\n\r\n**When:** 2026-07-14 ~23:30 local  \r\n**Scope:** Coordination only — no new long sweep\r\n\r\n## Inputs read\r\n\r\n- `state/cursor.json` (serial walker left `nextCursor: 8448-021-061`, `mainChainTotalApprox: 1112`, RUN-001..008)\r\n- `state/LEFT_OFF.md` (had frozen `8448-054-012` after STATUS-1130)\r\n- `state/status/CURSOR-RECONCILE.md` (restored 054-012; A08 then still open)\r\n- `state/status/STATUS-1130.md` (parallel rollup: 160 valids; A08 unknown)\r\n- `state/claims/agent-01.json` … `agent-10.json` (+ manifest)\r\n- `runs/INDEX.md` + all `runs/RUN-*` folders (36 total at merge)\r\n\r\n## Archived run folders\r\n\r\n| Category | Count | Folders |\r\n|----------|------:|---------|\r\n| Serial horizon / page | **8** | RUN-001 … RUN-008 |\r\n| Parallel exclusive | **26** | RUN-A01…A07, A08 (6), A09 (6 incl aggregate), A10 (6 incl aggregate) |\r\n| **Total archived run dirs** | **36** | |\r\n\r\n## Valid totals — keep separate (do not double-count)\r\n\r\n| Stream | Approx valids | Notes |\r\n|--------|--------------:|-------|\r\n| Serial main chain (sum of RUN-001..008 `valids.json`) | **~1112** | 2+26+241+207+202+159+141+134; `cursor.mainChainTotalApprox` |\r\n| Parallel A01–A07, A09–A10 | **160** | From claims / STATUS-1130 |\r\n| Parallel A08 | **0** | Empty pages 066–070 |\r\n| **Naive sum 1112+160** | **1272** | **NOT unique AIN count** — report only as separate stream totals |\r\n\r\n**Caution:** Serial and parallel may overlap in *accounting* if anyone merges CSV dumps without AIN dedup. Exclusive parallel ranges (043, 055–056, 058–059, 061–080) were partitioned away from the main serial dense path that finished RUN-003..005 in 039–060, so geographical overlap risk is low — but do not treat 1272 as unique inventory.\r\n\r\n## Merged `donePages` (53)\r\n\r\nAll pages actually archived by serial RUN-001..008 **plus** all completed A* pages (including A08):\r\n\r\n```\r\n003–005, 007–008, 010, 018–021, 025–026, 038–039, 041–043,\r\n045–080\r\n```\r\n\r\n(Missing interior examples still unfinished: 001–002, 006, 009, 011–017, 022–024, 027–037, 040, 044, …)\r\n\r\n## nextCursor decision\r\n\r\n| Candidate | Decision |\r\n|-----------|----------|\r\n| `8448-021-061` (serial RUN-008 resume) | **Rejected** — `8448-021` already in `donePages`; resume would re-walk finished page |\r\n| `8448-054-012` (LEFT_OFF / CURSOR-RECONCILE freeze) | **Superseded** — page 054 done; freeze was anti-drift only |\r\n| **`8448-006-026`** | **Selected** — lowest unfinished dense `horizonQueue` entry not i"
+      "excerpt": "# STATE MERGE 23:30 — serial + parallel fleet coordination\n\n**When:** 2026-07-14 ~23:30 local  \n**Scope:** Coordination only — no new long sweep\n\n## Inputs read\n\n- `state/cursor.json` (serial walker left `nextCursor: 8448-021-061`, `mainChainTotalApprox: 1112`, RUN-001..008)\n- `state/LEFT_OFF.md` (had frozen `8448-054-012` after STATUS-1130)\n- `state/status/CURSOR-RECONCILE.md` (restored 054-012; A08 then still open)\n- `state/status/STATUS-1130.md` (parallel rollup: 160 valids; A08 unknown)\n- `state/claims/agent-01.json` … `agent-10.json` (+ manifest)\n- `runs/INDEX.md` + all `runs/RUN-*` folders (36 total at merge)\n\n## Archived run folders\n\n| Category | Count | Folders |\n|----------|------:|---------|\n| Serial horizon / page | **8** | RUN-001 … RUN-008 |\n| Parallel exclusive | **26** | RUN-A01…A07, A08 (6), A09 (6 incl aggregate), A10 (6 incl aggregate) |\n| **Total archived run dirs** | **36** | |\n\n## Valid totals — keep separate (do not double-count)\n\n| Stream | Approx valids | Notes |\n|--------|--------------:|-------|\n| Serial main chain (sum of RUN-001..008 `valids.json`) | **~1112** | 2+26+241+207+202+159+141+134; `cursor.mainChainTotalApprox` |\n| Parallel A01–A07, A09–A10 | **160** | From claims / STATUS-1130 |\n| Parallel A08 | **0** | Empty pages 066–070 |\n| **Naive sum 1112+160** | **1272** | **NOT unique AIN count** — report only as separate stream totals |\n\n**Caution:** Serial and parallel may overlap in *accounting* if anyone merges CSV dumps without AIN dedup. Exclusive parallel ranges (043, 055–056, 058–059, 061–080) were partitioned away from the main serial dense path that finished RUN-003..005 in 039–060, so geographical overlap risk is low — but do not treat 1272 as unique inventory.\n\n## Merged `donePages` (53)\n\nAll pages actually archived by serial RUN-001..008 **plus** all completed A* pages (including A08):\n\n```\n003–005, 007–008, 010, 018–021, 025–026, 038–039, 041–043,\n045–080\n```\n\n(Missing interior examples still unfinished: 001–002, 006, 009, 011–017, 022–024, 027–037, 040, 044, …)\n\n## nextCursor decision\n\n| Candidate | Decision |\n|-----------|----------|\n| `8448-021-061` (serial RUN-008 resume) | **Rejected** — `8448-021` already in `donePages`; resume would re-walk finished page |\n| `8448-054-012` (LEFT_OFF / CURSOR-RECONCILE freeze) | **Superseded** — page 054 done; freeze was anti-drift only |\n| **`8448-006-026`** | **Selected** — lowest unfinished dense `horizonQueue` entry not in `donePages` (`hits=2`, `firstValidParcel=26`) |\n"
     },
     {
       "id": "agent-midnight-B.md",
