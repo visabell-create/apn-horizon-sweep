@@ -1,16 +1,22 @@
 ﻿# INDEFINITE always-on — confirmed running
 
-**Updated:** 2026-07-15T03:11:32.5589086-07:00
+**Updated:** 2026-07-15T10:13:00Z
 
 ## Status: RUNNING INDEFINITELY
 
 | Layer | Status | Details |
 |-------|--------|---------|
-| **Local loop** | **RUNNING** | PID **`28260`** in `state/always-on.pid` |
-| **GitHub Actions cron** | **LIVE on main** | `*/30 * * * *` every 30 min UTC forever (`.github/workflows/always-on-sweep.yml`) |
-| **nextCursor** | `8448-017-042` | advances each cycle — soft/hard jump forever |
-| **Last local cycle** | RUN-012 | 99 valids, 180 checks, SESSION_CAP_KEEP_GOING then sleep 90s |
-| **End conditions** | **None** | no midnight, no run cap, no wall-clock end |
+| **Local loop** | **RUNNING** | PID **`28216`** in `state/always-on.pid` |
+| **GitHub Actions cron** | **LIVE on `main`** | `*/30 * * * *` every 30 min UTC forever |
+| **Workflow** | `.github/workflows/always-on-sweep.yml` | pushed; survives Cursor chat exit |
+| **nextCursor** | advances each cycle | see `state/cursor.json` (was `8448-017-042` after RUN-012; mid-cycle now past that) |
+| **End conditions** | **None** | no midnight, no run cap, no wall-clock end — only stop flag or PID kill |
+
+## Local process
+
+- Log: `state/always-on.log` / `state/always-on.err.log`
+- Each cycle: archive `runs/`, `build:data`, commit+push when valids > 0
+- Soft/hard jump forever (perpetual-horizon-v1)
 
 ## How to STOP
 
