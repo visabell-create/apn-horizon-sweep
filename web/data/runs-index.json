@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-15T13:57:19.897Z",
-  "runCount": 48,
-  "propertyRowCount": 2055,
-  "uniqueAinCount": 1953,
-  "propertyWithCoordsCount": 1495,
-  "nextCursor": "8448-040-029",
-  "donePageCount": 74,
+  "builtAt": "2026-07-15T15:27:54.582Z",
+  "runCount": 49,
+  "propertyRowCount": 2061,
+  "uniqueAinCount": 1959,
+  "propertyWithCoordsCount": 1501,
+  "nextCursor": "8448-034-041",
+  "donePageCount": 77,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -146,28 +146,49 @@
       "to": "8448-040-020",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "San Dimas",
       "slug": "san-dimas",
-      "propertyRowCount": 1053,
-      "uniqueAinCount": 1026,
+      "propertyRowCount": 1056,
+      "uniqueAinCount": 1029,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 562,
-      "uniqueAinCount": 523,
+      "propertyRowCount": 564,
+      "uniqueAinCount": 525,
       "areas": []
     },
     {
       "city": "Covina",
       "slug": "covina",
-      "propertyRowCount": 440,
-      "uniqueAinCount": 404,
+      "propertyRowCount": 441,
+      "uniqueAinCount": 405,
       "areas": [
         {
           "name": "Covina Hills",
@@ -986,6 +1007,62 @@
           "city": "Unlabeled situs",
           "count": 5,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "San Dimas"
+    },
+    {
+      "id": "RUN-017-2026-07-15-horizon",
+      "title": "RUN-017 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-15",
+      "validCount": 6,
+      "checks": 45,
+      "start": "2026-07-15T15:27:47.332Z",
+      "end": "8448-034-040",
+      "nextCursor": "8448-034-041",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8448-040-041",
+          "streak": 12,
+          "to": "8448-044-026",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8448-044-042",
+          "streak": 12,
+          "to": "8448-009-005",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8448-009-018",
+          "streak": 12,
+          "to": "8448-034-040",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-15T15:27:53.734Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "San Dimas",
+          "count": 3,
+          "slug": "san-dimas"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
+        },
+        {
+          "city": "Covina",
+          "count": 1,
+          "slug": "covina"
         }
       ],
       "primaryCity": "San Dimas"
