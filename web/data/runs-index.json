@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-15T11:58:22.721Z",
-  "runCount": 47,
-  "propertyRowCount": 2042,
-  "uniqueAinCount": 1940,
-  "propertyWithCoordsCount": 1483,
-  "nextCursor": "8448-035-079",
-  "donePageCount": 72,
+  "builtAt": "2026-07-15T13:57:19.897Z",
+  "runCount": 48,
+  "propertyRowCount": 2055,
+  "uniqueAinCount": 1953,
+  "propertyWithCoordsCount": 1495,
+  "nextCursor": "8448-040-029",
+  "donePageCount": 74,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -132,21 +132,35 @@
       "to": "8448-035-050",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "San Dimas",
       "slug": "san-dimas",
-      "propertyRowCount": 1045,
-      "uniqueAinCount": 1018,
+      "propertyRowCount": 1053,
+      "uniqueAinCount": 1026,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 557,
-      "uniqueAinCount": 518,
+      "propertyRowCount": 562,
+      "uniqueAinCount": 523,
       "areas": []
     },
     {
@@ -927,6 +941,50 @@
         {
           "city": "Unlabeled situs",
           "count": 7,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "San Dimas"
+    },
+    {
+      "id": "RUN-016-2026-07-15-horizon",
+      "title": "RUN-016 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-15",
+      "validCount": 13,
+      "checks": 45,
+      "start": "2026-07-15T13:56:59.836Z",
+      "end": "8448-040-028",
+      "nextCursor": "8448-040-029",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8448-035-093",
+          "streak": 12,
+          "to": "8448-036-050",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8448-036-070",
+          "streak": 12,
+          "to": "8448-040-020",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-15T13:57:18.518Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "San Dimas",
+          "count": 8,
+          "slug": "san-dimas"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 5,
           "slug": "unlabeled-situs"
         }
       ],
