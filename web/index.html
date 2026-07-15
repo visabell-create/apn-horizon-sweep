@@ -7,11 +7,15 @@
   <title>Horizon Sweep · APN Archive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="atmosphere" aria-hidden="true"></div>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="sky-band"></div>
+    <div class="ridge ridge-a"></div>
+    <div class="ridge ridge-b"></div>
+  </div>
   <div class="grain" aria-hidden="true"></div>
 
   <header class="hero">
@@ -19,55 +23,72 @@
       <p class="eyebrow">Los Angeles County Assessor · Book 8448</p>
       <h1 class="brand">Horizon Sweep</h1>
       <p class="lede">
-        Archived AIN walks across San Dimas and neighboring parcels —
-        every run, every soft-jump, every valid property on record.
+        Parcel archives from San Dimas hillsides and Covina edges —
+        situs cities first, then every assessor field the run actually captured.
       </p>
-      <div class="hero-stats" id="hero-stats" aria-live="polite">
-        <div class="stat"><span class="stat-value" data-k="runs">—</span><span class="stat-label">Runs</span></div>
-        <div class="stat"><span class="stat-value" data-k="props">—</span><span class="stat-label">Property rows</span></div>
-        <div class="stat"><span class="stat-value" data-k="unique">—</span><span class="stat-label">Unique AINs</span></div>
-        <div class="stat"><span class="stat-value" data-k="done">—</span><span class="stat-label">Done pages</span></div>
+      <div class="hero-cta">
+        <a class="cta primary" href="#properties">Browse properties</a>
+        <a class="cta ghost" href="#cities">Filter by city</a>
       </div>
     </div>
   </header>
 
+  <div class="pulse-strip" id="hero-stats" aria-live="polite">
+    <div class="stat"><span class="stat-value" data-k="cities">—</span><span class="stat-label">Cities / areas</span></div>
+    <div class="stat"><span class="stat-value" data-k="props">—</span><span class="stat-label">Property rows</span></div>
+    <div class="stat"><span class="stat-value" data-k="unique">—</span><span class="stat-label">Unique AINs</span></div>
+    <div class="stat"><span class="stat-value" data-k="runs">—</span><span class="stat-label">Archive runs</span></div>
+    <div class="stat"><span class="stat-value" data-k="done">—</span><span class="stat-label">Done map pages</span></div>
+  </div>
+
   <main>
     <section class="panel cursor-panel" id="cursor" aria-labelledby="cursor-heading">
       <div class="section-head">
-        <h2 id="cursor-heading">Current cursor</h2>
-        <p class="section-sub">Where the serial walk left off — and what’s already closed.</p>
+        <h2 id="cursor-heading">Walk cursor</h2>
+        <p class="section-sub">Where the serial assessor walk paused — done pages and soft jumps, labeled in plain language.</p>
       </div>
       <div class="cursor-grid" id="cursor-grid">
         <div class="cursor-card primary">
-          <span class="label">nextCursor</span>
+          <span class="label">Next Assessor ID Number (cursor)</span>
           <code class="mono big" id="next-cursor">—</code>
         </div>
         <div class="cursor-card">
-          <span class="label">donePages</span>
+          <span class="label">Completed map pages</span>
           <strong id="done-count">—</strong>
           <div class="chip-row" id="done-chips"></div>
         </div>
         <div class="cursor-card">
-          <span class="label">Soft jumps (cursor)</span>
+          <span class="label">Soft jumps (skipped denser gaps)</span>
           <div id="jump-list" class="jump-list"></div>
         </div>
       </div>
       <details class="left-off">
-        <summary>LEFT_OFF log</summary>
+        <summary>LEFT_OFF log (operator notes)</summary>
         <pre id="left-off-md" class="md-block"></pre>
       </details>
     </section>
 
+    <section class="panel" id="cities" aria-labelledby="cities-heading">
+      <div class="section-head">
+        <h2 id="cities-heading">Cities &amp; areas</h2>
+        <p class="section-sub">Primary organization from situs address — not parallel-run jargon. Click a city to filter runs and properties.</p>
+      </div>
+      <div class="city-board" id="city-board" role="list"></div>
+    </section>
+
     <section class="panel" id="runs" aria-labelledby="runs-heading">
       <div class="section-head">
-        <h2 id="runs-heading">All runs</h2>
-        <p class="section-sub">Every archived RUN folder — serial chain, parallel A*, and midnight-B.</p>
+        <h2 id="runs-heading">Archive runs</h2>
+        <p class="section-sub">Each run folder tagged by the cities it crawled. Walk style (serial vs parallel fleet) stays as secondary provenance.</p>
       </div>
-      <div class="filters" role="group" aria-label="Filter runs by stream">
-        <button type="button" class="filter active" data-stream="all">All</button>
-        <button type="button" class="filter" data-stream="serial">Serial</button>
-        <button type="button" class="filter" data-stream="parallel-A">Parallel A</button>
-        <button type="button" class="filter" data-stream="parallel-midnight-B">Midnight B</button>
+      <div class="filters" role="group" aria-label="Filter runs by city">
+        <button type="button" class="filter active" data-city="all">All cities</button>
+      </div>
+      <div class="filters secondary" role="group" aria-label="Filter runs by walk style">
+        <button type="button" class="filter subtle active" data-stream="all">Any walk style</button>
+        <button type="button" class="filter subtle" data-stream="serial">Serial walk</button>
+        <button type="button" class="filter subtle" data-stream="parallel-A">Parallel fleet run</button>
+        <button type="button" class="filter subtle" data-stream="parallel-midnight-B">Midnight fleet (parallel B)</button>
       </div>
       <div class="runs-timeline" id="runs-timeline"></div>
     </section>
@@ -75,12 +96,18 @@
     <section class="panel" id="properties" aria-labelledby="props-heading">
       <div class="section-head">
         <h2 id="props-heading">Properties</h2>
-        <p class="section-sub">Valid parcels from archive files — search and filter by run.</p>
+        <p class="section-sub">Click any row for the full archived parcel record. Search APN, address, owner name (when archived), use, and tax status.</p>
       </div>
       <div class="props-toolbar">
         <label class="search-wrap">
           <span class="sr-only">Search properties</span>
-          <input type="search" id="prop-search" placeholder="APN, address, use type…" autocomplete="off" />
+          <input type="search" id="prop-search" placeholder="APN, address, owner, use, tax…" autocomplete="off" />
+        </label>
+        <label class="select-wrap">
+          <span class="sr-only">Filter by city</span>
+          <select id="prop-city">
+            <option value="all">All cities</option>
+          </select>
         </label>
         <label class="select-wrap">
           <span class="sr-only">Filter by run</span>
@@ -99,12 +126,16 @@
           <thead>
             <tr>
               <th>APN</th>
-              <th>Address</th>
+              <th>Address / city</th>
+              <th>Owner</th>
               <th>Use</th>
               <th>Tax</th>
-              <th>Assessed</th>
               <th>Last buy</th>
-              <th>FC hist</th>
+              <th>Assessed</th>
+              <th>Assessor gap</th>
+              <th>Market</th>
+              <th>Foreclosure</th>
+              <th>Built / beds</th>
               <th>Run</th>
             </tr>
           </thead>
@@ -116,9 +147,22 @@
   </main>
 
   <footer class="site-footer">
-    <p>Data rebuilt from local <code>runs/</code> + <code>state/</code>. Built <time id="built-at"></time>.</p>
-    <p class="muted">Public assessor-derived archive viewer · not an official County site.</p>
+    <p>Data rebuilt from local <code>runs/</code> + <code>state/</code>. City indexes in <code>web/data/by-city/</code>. Built <time id="built-at"></time>.</p>
+    <p class="muted">Public assessor-derived archive viewer · not an official County site. Missing fields show as “Not in archive” — never invented.</p>
   </footer>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="drawer" id="prop-drawer" hidden aria-labelledby="drawer-title" role="dialog" aria-modal="true">
+    <div class="drawer-head">
+      <div>
+        <p class="drawer-kicker">Parcel detail</p>
+        <h2 id="drawer-title">—</h2>
+        <p class="drawer-addr" id="drawer-addr"></p>
+      </div>
+      <button type="button" class="drawer-close" id="drawer-close" aria-label="Close detail">Close</button>
+    </div>
+    <div class="drawer-body" id="drawer-body"></div>
+  </aside>
 
   <script type="module" src="./app.js"></script>
 </body>

@@ -1,27 +1,65 @@
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 40;
 
 const state = {
   runs: [],
   properties: [],
+  cities: [],
+  cityFilter: "all",
   streamFilter: "all",
   runFilter: "all",
   search: "",
   uniqueOnly: false,
   page: 1,
   selectedRun: null,
+  selectedPropKey: null,
 };
 
 const $ = (sel) => document.querySelector(sel);
 
 function money(n) {
-  if (n == null || n === "") return "—";
-  const num = typeof n === "string" ? Number(n.replace(/[^\d.]/g, "")) : Number(n);
-  if (Number.isNaN(num)) return String(n);
+  if (n == null || n === "") return null;
+  const num = typeof n === "string" ? Number(String(n).replace(/[^\d.-]/g, "")) : Number(n);
+  if (Number.isNaN(num)) return null;
+  return num;
+}
+
+function moneyFmt(n) {
+  const num = money(n);
+  if (num == null) return "Not in archive";
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
     maximumFractionDigits: 0,
   }).format(num);
+}
+
+function numFmt(n) {
+  if (n == null || n === "") return "Not in archive";
+  const num = Number(n);
+  if (Number.isNaN(num)) return String(n);
+  return num.toLocaleString();
+}
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function missing(text = "Not in archive") {
+  return `<span class="muted">${escapeHtml(text)}</span>`;
+}
+
+/* —— Human-readable labels (always visible, not tooltip-only) —— */
+
+function streamLabel(stream) {
+  if (stream === "serial") return "Serial walk";
+  if (stream === "parallel-A") return "Parallel fleet run";
+  if (stream === "parallel-midnight-B") return "Midnight fleet (parallel B)";
+  if (!stream || stream === "unknown" || stream === "other") return "Walk style not classified";
+  return String(stream);
 }
 
 function streamClass(stream) {
@@ -31,11 +69,135 @@ function streamClass(stream) {
   return "stream-other";
 }
 
-function streamLabel(stream) {
-  if (stream === "serial") return "Serial";
-  if (stream === "parallel-A") return "Parallel A";
-  if (stream === "parallel-midnight-B") return "Midnight B";
-  return stream;
+function jumpReasonLabel(reason) {
+  const r = String(reason || "").toUpperCase();
+  if (r === "SOFT_JUMP") return "Soft jump — skipped ahead after empty-AIN streak";
+  if (r === "JUMP" || r === "HARD_JUMP") return "Hard jump — cursor relocated";
+  if (!r || r === "UNKNOWN") return "Jump reason not recorded";
+  return reason;
+}
+
+function useLabel(useType) {
+  if (!useType) return { label: "Use type not in archive", code: null };
+  const u = String(useType).trim();
+  const map = {
+    "Single Family Residence": "SFR — single-family home",
+    "Vacant Land": "Vacant land",
+    Commercial: "Commercial property",
+    Industrial: "Industrial property",
+    Institutional: "Institutional property",
+    "Multi-Family Residence": "Multi-family residence",
+    "Other Property Type": "Other property type",
+  };
+  return { label: map[u] || u, code: u };
+}
+
+function taxLabel(taxStatus, yearDefaulted) {
+  const t = String(taxStatus || "").toUpperCase().trim();
+  if (!t) return { label: "Tax status not in archive", tone: "mute", code: null };
+  if (t === "CURRENT") {
+    return { label: "Tax current", tone: "ok", code: "CURRENT" };
+  }
+  if (t === "DELINQUENT") {
+    const yd = yearDefaulted && String(yearDefaulted).trim() ? ` · year noted ${yearDefaulted}` : "";
+    return { label: `Tax delinquent${yd}`, tone: "warn", code: "DELINQUENT" };
+  }
+  if (t === "DEFAULTED") {
+    const yd = yearDefaulted && String(yearDefaulted).trim() ? ` · default year ${yearDefaulted}` : "";
+    return { label: `Tax defaulted${yd}`, tone: "bad", code: "DEFAULTED" };
+  }
+  if (t === "EXEMPT") return { label: "Tax exempt", tone: "mute", code: "EXEMPT" };
+  if (t === "UNKNOWN") return { label: "Tax status unknown (archive)", tone: "mute", code: "UNKNOWN" };
+  return { label: `Tax: ${taxStatus}`, tone: "mute", code: taxStatus };
+}
+
+function parcelLabel(parcelStatus) {
+  const p = String(parcelStatus || "").toUpperCase().trim();
+  if (!p) return { label: "Parcel status not in archive", code: null };
+  if (p === "ACTIVE") return { label: "Parcel active", code: "ACTIVE" };
+  if (p === "DELETED") return { label: "Parcel deleted / inactive", code: "DELETED" };
+  if (p === "UNKNOWN") return { label: "Parcel status unknown (archive)", code: "UNKNOWN" };
+  return { label: `Parcel: ${parcelStatus}`, code: parcelStatus };
+}
+
+function marketLabel(market) {
+  if (market == null || market === "") {
+    return { label: "Market status not in archive", tone: "mute", code: null };
+  }
+  const m = String(market).trim();
+  const upper = m.toUpperCase();
+  if (upper === "OFF_MARKET") return { label: "Off market", tone: "mute", code: "OFF_MARKET" };
+  if (upper === "FOR_SALE" || upper === "LISTED") return { label: "For sale / listed", tone: "warn", code: m };
+  if (upper.startsWith("LISTED") || upper.includes("MLS")) {
+    return { label: "Listed or recently off-market (MLS note)", tone: "warn", code: m };
+  }
+  if (upper === "UNKNOWN") return { label: "Market status unknown (archive)", tone: "mute", code: "UNKNOWN" };
+  return { label: m, tone: "mute", code: m };
+}
+
+function foreclosureLabel(p) {
+  if (p.hasForeclosureHist) {
+    const note = p.fcNote ? String(p.fcNote) : null;
+    return {
+      label: "Past foreclosure history",
+      detail: note,
+      imminent: false,
+      tone: "warn",
+    };
+  }
+  // Only claim imminent if archive has an explicit field/signal (none present in current data)
+  if (p.foreclosureImminent === true || p.imminentForeclosure === true) {
+    return {
+      label: "Imminent foreclosure signal in archive",
+      detail: p.fcNote || null,
+      imminent: true,
+      tone: "bad",
+    };
+  }
+  return {
+    label: "No foreclosure history in archive",
+    detail: null,
+    imminent: false,
+    tone: "mute",
+  };
+}
+
+function assessorGap(p) {
+  const assessed = money(p.assessed);
+  const buy = money(p.lastBuy?.price);
+  if (assessed == null || buy == null || buy === 0) {
+    return { text: "Can't estimate", tip: "Need both assessed value and last-buy price" };
+  }
+  const gap = assessed - buy;
+  const fmt = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+    signDisplay: "exceptZero",
+  }).format(gap);
+  return {
+    text: fmt,
+    tip: "Assessor gap (not true equity) — assessed − last buy price",
+  };
+}
+
+function ownerDisplay(p) {
+  if (p.ownerKnown && String(p.ownerKnown).trim()) {
+    return { text: String(p.ownerKnown).trim(), known: true };
+  }
+  return { text: "Owner not in archive", known: false };
+}
+
+function lastBuyShort(p) {
+  if (!p.lastBuy) return "Not in archive";
+  const rec = p.lastBuy.rec || "Date not in archive";
+  const price = money(p.lastBuy.price);
+  const priceTxt = price == null ? "price not in archive" : moneyFmt(price);
+  return `${rec} · ${priceTxt}`;
+}
+
+function propKey(p) {
+  return `${p.runId}::${p.ain}`;
 }
 
 async function loadJson(url) {
@@ -46,6 +208,7 @@ async function loadJson(url) {
 
 function setHeroStats(index) {
   const map = {
+    cities: (index.cities || state.cities || []).length,
     runs: index.runCount,
     props: index.propertyRowCount,
     unique: index.uniqueAinCount,
@@ -68,6 +231,7 @@ function renderCursor(stateBundle, index) {
   for (const page of done) {
     const span = document.createElement("span");
     span.className = "chip";
+    span.title = `Map page ${page}`;
     span.textContent = page.replace(/^8448-/, "");
     chips.appendChild(span);
   }
@@ -82,7 +246,7 @@ function renderCursor(stateBundle, index) {
       const div = document.createElement("div");
       div.className = "jump-item";
       div.innerHTML = `<div class="from-to">${escapeHtml(j.at || "?")} → ${escapeHtml(j.to || "?")}</div>
-        <div class="meta">${escapeHtml(j.reason || "JUMP")} · streak ${j.streak ?? "—"} · hits ${j.hits ?? "—"}</div>`;
+        <div class="meta">${escapeHtml(jumpReasonLabel(j.reason))} · empty streak ${j.streak ?? "—"} · hits ${j.hits ?? "—"}</div>`;
       jumpList.appendChild(div);
     }
   }
@@ -90,23 +254,85 @@ function renderCursor(stateBundle, index) {
   $("#left-off-md").textContent = stateBundle.leftOffMarkdown || "(no LEFT_OFF.md)";
 }
 
-function escapeHtml(s) {
-  return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
+function renderCityBoard() {
+  const board = $("#city-board");
+  board.innerHTML = "";
+  for (const [i, c] of state.cities.entries()) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `city-card${state.cityFilter === c.city ? " active" : ""}`;
+    btn.style.animationDelay = `${Math.min(i, 12) * 0.04}s`;
+    btn.setAttribute("role", "listitem");
+    const areas = (c.areas || [])
+      .map((a) => `<span class="area-tag">${escapeHtml(a.name)} cluster · ${a.count}</span>`)
+      .join(" ");
+    btn.innerHTML = `
+      <h3>${escapeHtml(c.city)}</h3>
+      <div class="city-meta">${Number(c.propertyRowCount).toLocaleString()} rows · ${Number(c.uniqueAinCount).toLocaleString()} unique AINs</div>
+      ${areas}
+    `;
+    btn.addEventListener("click", () => {
+      state.cityFilter = c.city;
+      state.page = 1;
+      syncCityControls();
+      renderCityBoard();
+      renderRuns();
+      renderProperties();
+      $("#properties").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    board.appendChild(btn);
+  }
+}
+
+function syncCityControls() {
+  const citySel = $("#prop-city");
+  if (citySel) citySel.value = state.cityFilter;
+
+  document.querySelectorAll(".filters [data-city]").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.city === state.cityFilter);
+  });
+}
+
+function fillCityFilters() {
+  const runCityFilters = document.querySelector(".filters[aria-label='Filter runs by city']");
+  if (runCityFilters) {
+    runCityFilters.innerHTML = `<button type="button" class="filter active" data-city="all">All cities</button>`;
+    for (const c of state.cities) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "filter";
+      btn.dataset.city = c.city;
+      btn.textContent = `${c.city} (${c.propertyRowCount})`;
+      runCityFilters.appendChild(btn);
+    }
+  }
+
+  const sel = $("#prop-city");
+  const current = state.cityFilter || "all";
+  sel.innerHTML = `<option value="all">All cities</option>`;
+  for (const c of state.cities) {
+    const opt = document.createElement("option");
+    opt.value = c.city;
+    opt.textContent = `${c.city} (${c.propertyRowCount})`;
+    sel.appendChild(opt);
+  }
+  sel.value = current;
 }
 
 function renderRuns() {
   const el = $("#runs-timeline");
   el.innerHTML = "";
-  const list = state.runs.filter(
-    (r) => state.streamFilter === "all" || r.stream === state.streamFilter
-  );
+  const list = state.runs.filter((r) => {
+    if (state.streamFilter !== "all" && r.stream !== state.streamFilter) return false;
+    if (state.cityFilter !== "all") {
+      const cities = (r.cities || []).map((c) => c.city);
+      if (!cities.includes(state.cityFilter) && r.primaryCity !== state.cityFilter) return false;
+    }
+    return true;
+  });
 
   if (!list.length) {
-    el.innerHTML = `<p class="empty-msg">No runs in this stream.</p>`;
+    el.innerHTML = `<p class="empty-msg">No runs match this city / walk filter.</p>`;
     return;
   }
 
@@ -122,34 +348,46 @@ function renderRuns() {
     const jumpBits =
       jumpCount > 0
         ? run.jumps
-            .map((j) => `${j.at || "?"}→${j.to || "?"}`)
-            .slice(0, 3)
+            .map((j) => `${j.at || "?"}→${j.to || "?"} (${jumpReasonLabel(j.reason)})`)
+            .slice(0, 2)
             .join("; ")
         : "";
 
+    const cityLine = (run.cities || [])
+      .slice(0, 3)
+      .map((c) => `${c.city} (${c.count})`)
+      .join(" · ");
+
     card.innerHTML = `
-      <span class="stream-tag ${streamClass(run.stream)}">${streamLabel(run.stream)}</span>
+      <p class="city-primary">${escapeHtml(run.primaryCity || "Unlabeled situs")}</p>
+      <span class="stream-tag ${streamClass(run.stream)}">${escapeHtml(streamLabel(run.stream))}</span>
       <h3>${escapeHtml(run.id)}</h3>
-      <div class="date">${escapeHtml(run.date || "date unknown")}${
+      <div class="date">${escapeHtml(run.date || "Date not in archive")}${
         run.stop ? ` · ${escapeHtml(run.stop)}` : ""
-      }${run.isAggregate ? " · aggregate" : ""}</div>
+      }${run.isAggregate ? " · Aggregate rollup" : ""}</div>
+      ${cityLine ? `<div class="date">Cities in run: ${escapeHtml(cityLine)}</div>` : ""}
       <dl class="run-metrics">
-        <div><dt>Valids</dt><dd>${Number(run.validCount || 0).toLocaleString()}</dd></div>
-        <div><dt>Jumps</dt><dd>${jumpCount}</dd></div>
+        <div><dt>Valid parcels</dt><dd>${Number(run.validCount || 0).toLocaleString()}</dd></div>
+        <div><dt>Soft jumps</dt><dd>${jumpCount}</dd></div>
         ${run.checks != null ? `<div><dt>Checks</dt><dd>${run.checks}</dd></div>` : ""}
       </dl>
       <div class="run-range">
-        ${run.start ? `Start ${escapeHtml(run.start)}` : "Start —"}
+        ${run.start ? `Start ${escapeHtml(run.start)}` : "Start not in archive"}
         ${run.end ? `<br/>End ${escapeHtml(run.end)}` : ""}
         ${run.nextCursor ? `<br/>Next ${escapeHtml(run.nextCursor)}` : ""}
       </div>
-      ${jumpBits ? `<div class="run-jumps">${escapeHtml(jumpBits)}${jumpCount > 3 ? "…" : ""}</div>` : ""}
+      ${jumpBits ? `<div class="run-jumps">${escapeHtml(jumpBits)}${jumpCount > 2 ? "…" : ""}</div>` : ""}
     `;
 
     card.addEventListener("click", () => {
       state.selectedRun = run.id;
       state.runFilter = run.id;
       $("#prop-run").value = run.id;
+      if (run.primaryCity) {
+        state.cityFilter = run.primaryCity;
+        syncCityControls();
+        renderCityBoard();
+      }
       state.page = 1;
       renderRuns();
       renderProperties();
@@ -163,21 +401,52 @@ function renderRuns() {
 function filteredProperties() {
   const q = state.search.trim().toLowerCase();
   return state.properties.filter((p) => {
+    if (state.cityFilter !== "all" && p.city !== state.cityFilter) return false;
     if (state.runFilter !== "all" && p.runId !== state.runFilter) return false;
     if (state.uniqueOnly && p.duplicate) return false;
     if (!q) return true;
+    const owner = ownerDisplay(p);
+    const use = useLabel(p.useType);
+    const tax = taxLabel(p.taxStatus, p.yearDefaulted);
+    const market = marketLabel(p.market);
+    const fc = foreclosureLabel(p);
     const hay = [
       p.ain,
       p.address,
+      p.city,
+      p.area,
+      owner.text,
+      p.ownerKnown,
       p.useType,
+      use.label,
       p.taxStatus,
-      p.runId,
+      tax.label,
       p.parcelStatus,
+      p.market,
+      market.label,
+      fc.label,
+      p.runId,
+      p.yearBuilt,
+      p.lastBuy?.rec,
+      p.lastBuy?.doc,
+      p.lastBuy?.price,
     ]
+      .filter(Boolean)
       .join(" ")
       .toLowerCase();
     return hay.includes(q);
   });
+}
+
+function tagHtml(text, tone) {
+  return `<span class="tag tag-${tone || "mute"}">${escapeHtml(text)}</span>`;
+}
+
+function labeledCell(plain, code) {
+  if (code) {
+    return `<div class="cell-stack"><span>${escapeHtml(plain)}</span><span class="cell-code">${escapeHtml(code)}</span></div>`;
+  }
+  return escapeHtml(plain);
 }
 
 function renderProperties() {
@@ -187,32 +456,61 @@ function renderProperties() {
   const start = (state.page - 1) * PAGE_SIZE;
   const pageRows = rows.slice(start, start + PAGE_SIZE);
 
-  $("#table-meta").textContent = `${rows.length.toLocaleString()} matching · page ${state.page} of ${totalPages}`;
+  const cityNote = state.cityFilter === "all" ? "all cities" : state.cityFilter;
+  $("#table-meta").textContent = `${rows.length.toLocaleString()} matching (${cityNote}) · page ${state.page} of ${totalPages} · click a row for full archive detail`;
 
   const tbody = $("#props-body");
   tbody.innerHTML = "";
 
   if (!pageRows.length) {
-    tbody.innerHTML = `<tr><td colspan="8" class="empty-msg">No properties match.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="12" class="empty-msg">No properties match.</td></tr>`;
   } else {
     for (const p of pageRows) {
       const tr = document.createElement("tr");
-      if (p.duplicate) tr.className = "dup";
-      const lastBuy = p.lastBuy
-        ? `${p.lastBuy.rec || "—"} · ${money(p.lastBuy.price)}`
-        : "—";
+      tr.tabIndex = 0;
+      tr.dataset.key = propKey(p);
+      if (p.duplicate) tr.classList.add("dup");
+      if (state.selectedPropKey === propKey(p)) tr.classList.add("active-row");
+
+      const owner = ownerDisplay(p);
+      const use = useLabel(p.useType);
+      const tax = taxLabel(p.taxStatus, p.yearDefaulted);
+      const market = marketLabel(p.market);
+      const fc = foreclosureLabel(p);
+      const gap = assessorGap(p);
+      const beds =
+        p.yearBuilt || p.beds != null || p.baths != null
+          ? `${p.yearBuilt || "—"} · ${p.beds ?? "—"}bd / ${p.baths ?? "—"}ba`
+          : "Not in archive";
+
+      const areaBit = p.area ? ` · ${p.area}` : "";
+
       tr.innerHTML = `
         <td class="ain">${escapeHtml(p.ain)}</td>
-        <td>${escapeHtml(p.address || "—")}</td>
-        <td>${escapeHtml(p.useType || "—")}</td>
-        <td>${escapeHtml(p.taxStatus || "—")}</td>
-        <td>${money(p.assessed)}</td>
-        <td>${escapeHtml(lastBuy)}</td>
-        <td class="${p.hasForeclosureHist ? "fc-yes" : "fc-no"}">${
-          p.hasForeclosureHist ? "Yes" : "No"
-        }</td>
+        <td>
+          <span class="addr-main">${escapeHtml(p.address && p.address !== "," ? p.address : "Address not in archive")}</span>
+          <span class="addr-city">${escapeHtml(p.city || "Unlabeled situs")}${escapeHtml(areaBit)}</span>
+        </td>
+        <td>${owner.known ? escapeHtml(owner.text) : missing(owner.text)}</td>
+        <td>${labeledCell(use.label, use.code)}</td>
+        <td>${tagHtml(tax.label, tax.tone)}${tax.code ? `<div class="cell-code">${escapeHtml(tax.code)}</div>` : ""}</td>
+        <td>${p.lastBuy ? escapeHtml(lastBuyShort(p)) : missing()}</td>
+        <td>${money(p.assessed) != null ? escapeHtml(moneyFmt(p.assessed)) : missing()}</td>
+        <td title="${escapeHtml(gap.tip)}"><div class="cell-stack"><span>${escapeHtml(gap.text)}</span><span class="cell-code">Assessor gap (not true equity)</span></div></td>
+        <td>${tagHtml(market.label, market.tone)}</td>
+        <td>${tagHtml(fc.label, fc.tone)}</td>
+        <td>${escapeHtml(beds)}</td>
         <td><code>${escapeHtml((p.runId || "").replace(/^RUN-/, ""))}</code></td>
       `;
+
+      const open = () => openDrawer(p);
+      tr.addEventListener("click", open);
+      tr.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
+      });
       tbody.appendChild(tr);
     }
   }
@@ -240,6 +538,162 @@ function renderProperties() {
   pager.append(prev, mid, next);
 }
 
+function field(label, valueHtml, wide = false) {
+  return `<div class="detail-field${wide ? " wide" : ""}"><dt>${escapeHtml(label)}</dt><dd>${valueHtml}</dd></div>`;
+}
+
+function valOrMissing(v, emptyText = "Not in archive") {
+  if (v == null || v === "" || v === ",") return missing(emptyText);
+  return escapeHtml(String(v));
+}
+
+function openDrawer(p) {
+  state.selectedPropKey = propKey(p);
+  renderProperties();
+
+  const drawer = $("#prop-drawer");
+  const backdrop = $("#drawer-backdrop");
+  const owner = ownerDisplay(p);
+  const use = useLabel(p.useType);
+  const tax = taxLabel(p.taxStatus, p.yearDefaulted);
+  const parcel = parcelLabel(p.parcelStatus);
+  const market = marketLabel(p.market);
+  const fc = foreclosureLabel(p);
+  const gap = assessorGap(p);
+  const run = state.runs.find((r) => r.id === p.runId);
+
+  $("#drawer-title").textContent = p.ain || "Parcel";
+  $("#drawer-addr").textContent =
+    p.address && p.address !== "," ? p.address : "Address not in archive";
+
+  const buyBits = p.lastBuy
+    ? `
+      ${field("When bought (recording date)", valOrMissing(p.lastBuy.rec, "Date not in archive"))}
+      ${field("Last buy price", money(p.lastBuy.price) != null ? escapeHtml(moneyFmt(p.lastBuy.price)) : missing("Price not in archive"))}
+      ${field("Document number", valOrMissing(p.lastBuy.doc, "Doc not in archive"))}
+      ${field("Document type", valOrMissing(p.lastBuy.docType))}
+      ${field("Transfer reason", valOrMissing(p.lastBuy.reason), true)}
+    `
+    : field("Last buy", missing("Last buy not in archive"), true);
+
+  const ownershipHtml =
+    Array.isArray(p.ownership) && p.ownership.length
+      ? `<ul class="ownership-list">${p.ownership
+          .map((o) => {
+            const price =
+              money(o.price) != null ? moneyFmt(o.price) : "price not in archive";
+            return `<li>
+              <div class="own-top">${escapeHtml(o.rec || "—")} · doc ${escapeHtml(o.doc || "—")} · ${escapeHtml(price)}</div>
+              <div class="own-meta">${escapeHtml(o.docType || "Doc type not in archive")}${
+                o.reason ? ` · ${escapeHtml(o.reason)}` : ""
+              }</div>
+            </li>`;
+          })
+          .join("")}</ul>
+        <p class="note-box" style="margin-top:0.65rem">Ownership transfer snippets from the archive — names appear only when <code>ownerKnown</code> was captured (rare).</p>`
+      : `<p class="note-box">Ownership history not in archive for this parcel.</p>`;
+
+  $("#drawer-body").innerHTML = `
+    <div class="detail-section">
+      <h3>Identity</h3>
+      <div class="detail-grid">
+        ${field("APN (Assessor ID Number)", `<code class="mono">${escapeHtml(p.ain)}</code>`)}
+        ${field("City / area", `${escapeHtml(p.city || "Unlabeled situs")}${p.area ? ` · ${escapeHtml(p.area)}` : ""}`)}
+        ${field("Owner / people names", owner.known ? escapeHtml(owner.text) : missing("Owner not in archive"), true)}
+        ${field("Situs address", valOrMissing(p.address, "Address not in archive"), true)}
+        ${field("Archive status", valOrMissing(p.status, "VALID assumed"))}
+        ${field(
+          "Duplicate row?",
+          p.duplicate
+            ? `Yes — also seen earlier in ${escapeHtml(p.firstSeenIn || "another run")}`
+            : "No — first occurrence in build"
+        )}
+      </div>
+    </div>
+
+    <div class="detail-section">
+      <h3>Use &amp; parcel</h3>
+      <div class="detail-grid">
+        ${field(
+          "Use",
+          `${escapeHtml(use.label)}${use.code ? `<span class="code-hint">${escapeHtml(use.code)}</span>` : ""}`
+        )}
+        ${field(
+          "Parcel status",
+          `${escapeHtml(parcel.label)}${parcel.code ? `<span class="code-hint">${escapeHtml(parcel.code)}</span>` : ""}`
+        )}
+        ${field("Year built", valOrMissing(p.yearBuilt))}
+        ${field("Beds / baths", p.beds != null || p.baths != null ? `${p.beds ?? "—"} / ${p.baths ?? "—"}` : missing())}
+        ${field("Building sq ft", p.bldg != null && p.bldg !== "" ? escapeHtml(numFmt(p.bldg)) : missing())}
+        ${field("Lot sq ft", p.lot != null && p.lot !== "" ? escapeHtml(numFmt(p.lot)) : missing())}
+        ${field("Units", p.units != null && p.units !== "" ? escapeHtml(String(p.units)) : missing())}
+      </div>
+    </div>
+
+    <div class="detail-section">
+      <h3>Tax, market &amp; foreclosure</h3>
+      <div class="detail-grid">
+        ${field(
+          "Tax status",
+          `${tagHtml(tax.label, tax.tone)}${tax.code ? `<span class="code-hint">${escapeHtml(tax.code)}</span>` : ""}`
+        )}
+        ${field("Year defaulted", valOrMissing(p.yearDefaulted && String(p.yearDefaulted).trim() ? p.yearDefaulted : null, "Not in archive"))}
+        ${field("Market", `${tagHtml(market.label, market.tone)}${market.code ? `<span class="code-hint">${escapeHtml(market.code)}</span>` : ""}`, true)}
+        ${field("Foreclosure", `${tagHtml(fc.label, fc.tone)}${fc.detail ? `<span class="code-hint">${escapeHtml(fc.detail)}</span>` : ""}`, true)}
+      </div>
+      <p class="note-box" style="margin-top:0.65rem">“About to be foreclosed” is only shown when the archive has an explicit imminent signal — current data does not invent that.</p>
+    </div>
+
+    <div class="detail-section">
+      <h3>Values</h3>
+      <div class="detail-grid">
+        ${field("Assessed value", money(p.assessed) != null ? escapeHtml(moneyFmt(p.assessed)) : missing())}
+        ${field("Land assessed", money(p.land) != null ? escapeHtml(moneyFmt(p.land)) : missing())}
+        ${field("Improvement assessed", money(p.imp) != null ? escapeHtml(moneyFmt(p.imp)) : missing())}
+        ${field("Base year (land)", valOrMissing(p.baseYearLand))}
+        ${field("Base year (imp)", valOrMissing(p.baseYearImp))}
+        ${field(
+          "Assessor gap (not true equity)",
+          `<strong>${escapeHtml(gap.text)}</strong><span class="code-hint">${escapeHtml(gap.tip)}</span>`,
+          true
+        )}
+      </div>
+    </div>
+
+    <div class="detail-section">
+      <h3>Last buy</h3>
+      <div class="detail-grid">${buyBits}</div>
+    </div>
+
+    <div class="detail-section">
+      <h3>Ownership history snippets</h3>
+      ${ownershipHtml}
+    </div>
+
+    <div class="detail-section">
+      <h3>Run provenance</h3>
+      <div class="detail-grid">
+        ${field("Source run", escapeHtml(p.runId || "Not in archive"), true)}
+        ${field("Walk style", escapeHtml(streamLabel(run?.stream)), true)}
+        ${field("Run primary city", escapeHtml(run?.primaryCity || p.city || "Unlabeled situs"))}
+        ${field("First seen in build", escapeHtml(p.firstSeenIn || p.runId || "Not in archive"))}
+      </div>
+    </div>
+  `;
+
+  drawer.hidden = false;
+  backdrop.hidden = false;
+  document.body.classList.add("drawer-open");
+  $("#drawer-close").focus();
+}
+
+function closeDrawer() {
+  $("#prop-drawer").hidden = true;
+  $("#drawer-backdrop").hidden = true;
+  document.body.classList.remove("drawer-open");
+  state.selectedPropKey = null;
+}
+
 function fillRunSelect() {
   const sel = $("#prop-run");
   const current = sel.value || "all";
@@ -247,25 +701,45 @@ function fillRunSelect() {
   for (const r of state.runs) {
     const opt = document.createElement("option");
     opt.value = r.id;
-    opt.textContent = `${r.id} (${r.validCount})`;
+    opt.textContent = `${r.primaryCity || "?"} · ${r.id} (${r.validCount})`;
     sel.appendChild(opt);
   }
   sel.value = current;
 }
 
 function wireControls() {
-  document.querySelectorAll(".filter").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".filter").forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      state.streamFilter = btn.dataset.stream;
-      renderRuns();
-    });
+  document.querySelector(".filters[aria-label='Filter runs by city']")?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-city]");
+    if (!btn) return;
+    state.cityFilter = btn.dataset.city;
+    state.page = 1;
+    syncCityControls();
+    renderCityBoard();
+    renderRuns();
+    renderProperties();
+  });
+
+  document.querySelector(".filters.secondary")?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-stream]");
+    if (!btn) return;
+    document.querySelectorAll(".filters.secondary .filter").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    state.streamFilter = btn.dataset.stream;
+    renderRuns();
   });
 
   $("#prop-search").addEventListener("input", (e) => {
     state.search = e.target.value;
     state.page = 1;
+    renderProperties();
+  });
+
+  $("#prop-city").addEventListener("change", (e) => {
+    state.cityFilter = e.target.value;
+    state.page = 1;
+    syncCityControls();
+    renderCityBoard();
+    renderRuns();
     renderProperties();
   });
 
@@ -282,6 +756,12 @@ function wireControls() {
     state.page = 1;
     renderProperties();
   });
+
+  $("#drawer-close").addEventListener("click", closeDrawer);
+  $("#drawer-backdrop").addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !$("#prop-drawer").hidden) closeDrawer();
+  });
 }
 
 async function main() {
@@ -293,17 +773,17 @@ async function main() {
       loadJson("./data/properties.json"),
     ]);
 
-    state.runs = index.runs || [];
-    // Prefer non-aggregate first in sort for display? Keep build order but put aggregates after?
-    state.runs = [...state.runs].sort((a, b) => {
-      // serial numbered first by date/name, then others
-      return a.id.localeCompare(b.id, undefined, { numeric: true });
-    });
+    state.runs = [...(index.runs || [])].sort((a, b) =>
+      a.id.localeCompare(b.id, undefined, { numeric: true })
+    );
     state.properties = propsBundle.properties || [];
+    state.cities = index.cities || propsBundle.cities || [];
 
     setHeroStats(index);
     renderCursor(stateBundle, index);
+    fillCityFilters();
     fillRunSelect();
+    renderCityBoard();
     renderRuns();
     renderProperties();
 
