@@ -1,0 +1,1585 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8451-001-004",
+  "lastAinChecked": "8451-004-032",
+  "nextCursor": "8451-004-033",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 12,
+  "invalidCount": 32,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8451,
+      "page": 16,
+      "hits": 5,
+      "firstValidParcel": 26,
+      "key": "8451-016"
+    },
+    {
+      "book": 8451,
+      "page": 2,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-002"
+    },
+    {
+      "book": 8451,
+      "page": 3,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-003"
+    },
+    {
+      "book": 8451,
+      "page": 7,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-007"
+    },
+    {
+      "book": 8451,
+      "page": 9,
+      "hits": 4,
+      "firstValidParcel": 1,
+      "key": "8451-009"
+    },
+    {
+      "book": 8451,
+      "page": 10,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-010"
+    },
+    {
+      "book": 8451,
+      "page": 11,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8451-011"
+    },
+    {
+      "book": 8451,
+      "page": 12,
+      "hits": 3,
+      "firstValidParcel": 20,
+      "key": "8451-012"
+    },
+    {
+      "book": 8451,
+      "page": 13,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8451-013"
+    },
+    {
+      "book": 8451,
+      "page": 14,
+      "hits": 2,
+      "firstValidParcel": 80,
+      "key": "8451-014"
+    },
+    {
+      "book": 8451,
+      "page": 18,
+      "hits": 2,
+      "firstValidParcel": 20,
+      "key": "8451-018"
+    },
+    {
+      "book": 8451,
+      "page": 5,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-005"
+    },
+    {
+      "book": 8451,
+      "page": 6,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-006"
+    },
+    {
+      "book": 8451,
+      "page": 8,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-008"
+    },
+    {
+      "book": 8451,
+      "page": 15,
+      "hits": 1,
+      "firstValidParcel": 19,
+      "key": "8451-015"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001"
+  ],
+  "valids": [
+    {
+      "ain": "8451-004-001",
+      "status": "VALID",
+      "address": "3345 N DE LAY AVE, COVINA CA 91723-3667",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1806,
+      "lot": 10299,
+      "units": null,
+      "land": 556454,
+      "imp": 139112,
+      "assessed": 695566,
+      "latitude": 34.0785968796,
+      "longitude": -117.874770916,
+      "lastBuy": {
+        "rec": "12/16/2020",
+        "doc": "1668575",
+        "price": "630006",
+        "assessed": "630000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/21/2024",
+          "doc": "0717495",
+          "price": "0",
+          "assessed": "681929",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/16/2020",
+          "doc": "1668575",
+          "price": "630006",
+          "assessed": "630000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/14/2020",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/28/1995",
+          "doc": "0703182",
+          "price": "155001",
+          "assessed": "155000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/18/1991",
+          "doc": "0082022",
+          "price": "",
+          "assessed": "120860",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-002",
+      "status": "VALID",
+      "address": "3335 N DE LAY AVE, COVINA CA 91723-3667",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1525,
+      "lot": 7331,
+      "units": null,
+      "land": 354714,
+      "imp": 170242,
+      "assessed": 524956,
+      "latitude": 34.0783494792,
+      "longitude": -117.874771173,
+      "lastBuy": {
+        "rec": "03/04/2004",
+        "doc": "0514048",
+        "price": "362000",
+        "assessed": "362000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/15/2011",
+          "doc": "1540243",
+          "price": "9",
+          "assessed": "297000",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/30/2007",
+          "doc": "2029649",
+          "price": "",
+          "assessed": "391836",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/04/2004",
+          "doc": "0514048",
+          "price": "362000",
+          "assessed": "362000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/27/2001",
+          "doc": "1833744",
+          "price": "215000",
+          "assessed": "215000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/30/1988",
+          "doc": "1584248",
+          "price": "167000",
+          "assessed": "167000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-003",
+      "status": "VALID",
+      "address": "3325 N DE LAY AVE, COVINA CA 91723-3667",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1155,
+      "lot": 7829,
+      "units": null,
+      "land": 226317,
+      "imp": 150368,
+      "assessed": 376685,
+      "latitude": 34.0781377752,
+      "longitude": -117.874773063,
+      "lastBuy": {
+        "rec": "05/02/2002",
+        "doc": "1011363",
+        "price": "250002",
+        "assessed": "250000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/02/2002",
+          "doc": "1011363",
+          "price": "250002",
+          "assessed": "250000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/08/1990",
+          "doc": "0218793",
+          "price": "",
+          "assessed": "98641",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/26/1988",
+          "doc": "0111328",
+          "price": "",
+          "assessed": "94813",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "12/12/1986",
+          "doc": "1729627",
+          "price": "",
+          "assessed": "92955",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/12/1986",
+          "doc": "1729627",
+          "price": "15000",
+          "assessed": "92192",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-004",
+      "status": "VALID",
+      "address": "3319 N DE LAY AVE, COVINA CA 91723-3667",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 4,
+      "baths": 3,
+      "bldg": 2081,
+      "lot": 7719,
+      "units": null,
+      "land": 84503,
+      "imp": 225977,
+      "assessed": 310480,
+      "latitude": 34.077921414,
+      "longitude": -117.874775296,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/21/2023",
+          "doc": "0635165",
+          "price": "9",
+          "assessed": "298447",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/04/2015",
+          "doc": "0948529",
+          "price": "",
+          "assessed": "257161",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "10/31/1990",
+          "doc": "1843668",
+          "price": "",
+          "assessed": "121754",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "03/05/1987",
+          "doc": "0331267",
+          "price": "",
+          "assessed": "114735",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/10/1983",
+          "doc": "0918988",
+          "price": "",
+          "assessed": "106000",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-005",
+      "status": "VALID",
+      "address": "19258 E ROWLAND ST, COVINA CA 91723-3211",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1672,
+      "lot": 18514,
+      "units": null,
+      "land": 77643,
+      "imp": 116477,
+      "assessed": 194120,
+      "latitude": 34.0781361448,
+      "longitude": -117.875067735,
+      "lastBuy": {
+        "rec": "10/07/1987",
+        "doc": "1610783",
+        "price": "153000",
+        "assessed": "99450",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/20/2013",
+          "doc": "1652568",
+          "price": "9",
+          "assessed": "155259",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/07/1987",
+          "doc": "1610783",
+          "price": "153000",
+          "assessed": "99450",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/26/1987",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/28/1987",
+          "doc": "0129971",
+          "price": "",
+          "assessed": "36155",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/25/1974",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-014",
+      "status": "VALID",
+      "address": "19258 E ROWLAND ST, COVINA CA 91723-3211",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 2176,
+      "lot": 8480,
+      "units": null,
+      "land": 93026,
+      "imp": 61316,
+      "assessed": 154342,
+      "latitude": 34.0786015515,
+      "longitude": -117.875061741,
+      "lastBuy": {
+        "rec": "10/07/1987",
+        "doc": "1610783",
+        "price": "153000",
+        "assessed": "53550",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/20/2013",
+          "doc": "1652568",
+          "price": "9",
+          "assessed": "123448",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/07/1987",
+          "doc": "1610783",
+          "price": "153000",
+          "assessed": "53550",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/26/1987",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/28/1987",
+          "doc": "0129971",
+          "price": "",
+          "assessed": "19328",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/25/1974",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-019",
+      "status": "VALID",
+      "address": "19248 ROWLAND AVE, COVINA CALIF 91722-0000",
+      "useType": "Single Family Residence",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": {
+        "rec": "01/27/1989",
+        "doc": "0149754",
+        "price": "162000",
+        "assessed": "130000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/1989",
+          "doc": "0149754",
+          "price": "162000",
+          "assessed": "130000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/25/1987",
+          "doc": "1884940",
+          "price": "163000",
+          "assessed": "132840",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/27/1987",
+          "doc": "0650050",
+          "price": "113500",
+          "assessed": "90800",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/24/1986",
+          "doc": "",
+          "price": "",
+          "assessed": "104950",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/29/1977",
+          "doc": "0443526",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-020",
+      "status": "VALID",
+      "address": "19248 ROWLAND AVE, COVINA CA 91723-0000",
+      "useType": "Single Family Residence",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": {
+        "rec": "01/27/1989",
+        "doc": "0149754",
+        "price": "162000",
+        "assessed": "32000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/1989",
+          "doc": "0149754",
+          "price": "162000",
+          "assessed": "32000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/25/1987",
+          "doc": "1884940",
+          "price": "163000",
+          "assessed": "29160",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/27/1987",
+          "doc": "0650050",
+          "price": "113500",
+          "assessed": "22700",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/24/1986",
+          "doc": "",
+          "price": "",
+          "assessed": "23050",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/29/1977",
+          "doc": "0443526",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-025",
+      "status": "VALID",
+      "address": "19238 E ROWLAND ST, COVINA CA 91723-3211",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 500,
+      "lot": 6483,
+      "units": null,
+      "land": 6216,
+      "imp": 6715,
+      "assessed": 12931,
+      "latitude": 34.0783503252,
+      "longitude": -117.875598331,
+      "lastBuy": {
+        "rec": "08/30/1972",
+        "doc": "",
+        "price": "17000",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/08/2005",
+          "doc": "0820433",
+          "price": "0",
+          "assessed": "9293",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/30/1972",
+          "doc": "",
+          "price": "17000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-026",
+      "status": "VALID",
+      "address": "19238 E ROWLAND ST, COVINA CA 91723-3211",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1930",
+      "beds": 3,
+      "baths": 3,
+      "bldg": 2549,
+      "lot": 9071,
+      "units": null,
+      "land": 34980,
+      "imp": 55226,
+      "assessed": 90206,
+      "latitude": 34.0786069285,
+      "longitude": -117.875610659,
+      "lastBuy": {
+        "rec": "08/30/1972",
+        "doc": "",
+        "price": "17000",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/08/2005",
+          "doc": "0820433",
+          "price": "0",
+          "assessed": "64732",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/30/1972",
+          "doc": "",
+          "price": "17000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-030",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/12/1961",
+          "doc": "0000000",
+          "price": "0",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-004-031",
+      "status": "VALID",
+      "address": "19242 ROWLAND AVE, COVINA CALIF 91722-0000",
+      "useType": "Single Family Residence",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/12/1961",
+          "doc": "0000000",
+          "price": "0",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8451-004-001",
+      "parcel": {
+        "AIN": "8451004001",
+        "Latitude": 34.0785968796,
+        "Longitude": -117.874770916,
+        "SitusStreet": "3345 N DE LAY AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3667",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 10299,
+        "SqftMain": 1806,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 556454,
+        "CurrentRoll_ImpValue": 139112
+      }
+    },
+    {
+      "ain": "8451-004-002",
+      "parcel": {
+        "AIN": "8451004002",
+        "Latitude": 34.0783494792,
+        "Longitude": -117.874771173,
+        "SitusStreet": "3335 N DE LAY AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3667",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7331,
+        "SqftMain": 1525,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 354714,
+        "CurrentRoll_ImpValue": 170242
+      }
+    },
+    {
+      "ain": "8451-004-003",
+      "parcel": {
+        "AIN": "8451004003",
+        "Latitude": 34.0781377752,
+        "Longitude": -117.874773063,
+        "SitusStreet": "3325 N DE LAY AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3667",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7829,
+        "SqftMain": 1155,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 226317,
+        "CurrentRoll_ImpValue": 150368
+      }
+    },
+    {
+      "ain": "8451-004-004",
+      "parcel": {
+        "AIN": "8451004004",
+        "Latitude": 34.077921414,
+        "Longitude": -117.874775296,
+        "SitusStreet": "3319 N DE LAY AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3667",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7719,
+        "SqftMain": 2081,
+        "NumOfBeds": 4,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 84503,
+        "CurrentRoll_ImpValue": 225977
+      }
+    },
+    {
+      "ain": "8451-004-005",
+      "parcel": {
+        "AIN": "8451004005",
+        "Latitude": 34.0781361448,
+        "Longitude": -117.875067735,
+        "SitusStreet": "19258 E ROWLAND ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3211",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 18514,
+        "SqftMain": 1672,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 77643,
+        "CurrentRoll_ImpValue": 116477
+      }
+    },
+    {
+      "ain": "8451-004-014",
+      "parcel": {
+        "AIN": "8451004014",
+        "Latitude": 34.0786015515,
+        "Longitude": -117.875061741,
+        "SitusStreet": "19258 E ROWLAND ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3211",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 8480,
+        "SqftMain": 2176,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 93026,
+        "CurrentRoll_ImpValue": 61316
+      }
+    },
+    {
+      "ain": "8451-004-019",
+      "parcel": {
+        "AIN": "8451004019",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "19248 ROWLAND AVE",
+        "SitusCity": "COVINA CALIF",
+        "SitusZipCode": "91722-0000",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-004-020",
+      "parcel": {
+        "AIN": "8451004020",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "19248 ROWLAND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-0000",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-004-025",
+      "parcel": {
+        "AIN": "8451004025",
+        "Latitude": 34.0783503252,
+        "Longitude": -117.875598331,
+        "SitusStreet": "19238 E ROWLAND ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3211",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6483,
+        "SqftMain": 500,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 6216,
+        "CurrentRoll_ImpValue": 6715
+      }
+    },
+    {
+      "ain": "8451-004-026",
+      "parcel": {
+        "AIN": "8451004026",
+        "Latitude": 34.0786069285,
+        "Longitude": -117.875610659,
+        "SitusStreet": "19238 E ROWLAND ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3211",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1930",
+        "SqftLot": 9071,
+        "SqftMain": 2549,
+        "NumOfBeds": 3,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 34980,
+        "CurrentRoll_ImpValue": 55226
+      }
+    },
+    {
+      "ain": "8451-004-030",
+      "parcel": {
+        "AIN": "8451004030",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-004-031",
+      "parcel": {
+        "AIN": "8451004031",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "19242 ROWLAND AVE",
+        "SitusCity": "COVINA CALIF",
+        "SitusZipCode": "91722-0000",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8451-001-004",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-001-005",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-001-006",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-001-007",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-001-008",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8451-001-009",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8451-001-010",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8451-001-011",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8451-001-012",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8451-001-013",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8451-001-014",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8451-001-015",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8451-004-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-006",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-004-007",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-004-008",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-004-009",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-004-010",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8451-004-011",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8451-004-012",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8451-004-013",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8451-004-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-015",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-004-016",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-004-017",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-004-018",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-004-019",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-020",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-021",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-004-022",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-004-023",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-004-024",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-004-025",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-026",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-027",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-004-028",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-004-029",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-004-030",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-031",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-004-032",
+      "status": "INVALID",
+      "streak": 1
+    }
+  ],
+  "startedAt": "2026-07-15T19:45:26.252Z",
+  "endedAt": "2026-07-15T19:46:47.845Z"
+}
