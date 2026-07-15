@@ -266,6 +266,20 @@ function redfinUrl(p) {
   return `https://www.redfin.com/stingray/do/location-search?location=${encodeURIComponent(q)}`;
 }
 
+function realtorUrl(p) {
+  const q = mapsAddressQuery(p);
+  if (!q) return null;
+  return `https://www.realtor.com/realestateandhomes-search?search=${encodeURIComponent(q)}`;
+}
+
+/** Google Maps pin + Street View when coords exist; else address search. */
+function publicSearchUrl(p) {
+  if (hasCoords(p)) {
+    return `https://www.google.com/maps?layer=c&cbll=${p.latitude},${p.longitude}&cbp=11,0,0,0,0`;
+  }
+  return googleMapsUrl(p);
+}
+
 function outreachChecklist(p) {
   const owner = ownerDisplay(p);
   const hasAddr = Boolean(p.address && p.address !== ",");
@@ -616,7 +630,7 @@ function renderProperties() {
   tbody.innerHTML = "";
 
   if (!pageRows.length) {
-    tbody.innerHTML = `<tr><td colspan="12" class="empty-msg">No properties match.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="13" class="empty-msg">No properties match.</td></tr>`;
   } else {
     for (const p of pageRows) {
       const tr = document.createElement("tr");
@@ -637,6 +651,10 @@ function renderProperties() {
           : "Not in archive";
 
       const areaBit = p.area ? ` · ${p.area}` : "";
+      const pubUrl = publicSearchUrl(p);
+      const pubTitle = hasCoords(p)
+        ? "Open Google Maps Street View (public)"
+        : "Open Google Maps search (public)";
 
       tr.innerHTML = `
         <td class="ain">${escapeHtml(p.ain)}</td>
@@ -653,8 +671,20 @@ function renderProperties() {
         <td>${tagHtml(market.label, market.tone)}</td>
         <td>${tagHtml(fc.label, fc.tone)}</td>
         <td>${escapeHtml(beds)}</td>
+        <td class="pub-search">
+          ${
+            pubUrl
+              ? `<a class="pub-search-link" href="${escapeHtml(pubUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(pubTitle)}" aria-label="${escapeHtml(pubTitle)}">Map</a>`
+              : `<span class="muted" title="Need address or coordinates">—</span>`
+          }
+        </td>
         <td><code>${escapeHtml((p.runId || "").replace(/^RUN-/, ""))}</code></td>
       `;
+
+      const pubLink = tr.querySelector(".pub-search-link");
+      if (pubLink) {
+        pubLink.addEventListener("click", (e) => e.stopPropagation());
+      }
 
       const open = () => openDrawer(p);
       tr.addEventListener("click", open);
@@ -831,7 +861,7 @@ function renderDrawerTabContent(p, tabId) {
          <div class="link-row">${externalLink(svLink, "View Street View on Google Maps", "External · third-party")}</div>`
       : `<div class="empty-state">
            <p><strong>Street View needs coordinates</strong></p>
-           <p class="muted">No assessor lat/lon in archive — use address-based map links below.</p>
+           <p class="muted">No assessor lat/lon yet — run <code>npm run backfill:coords</code> then rebuild, or use public listing search links below.</p>
          </div>`;
 
     const satBlock = coords
@@ -839,25 +869,31 @@ function renderDrawerTabContent(p, tabId) {
            <img src="${escapeHtml(satUrl)}" alt="Esri World Imagery tile near parcel coordinates" loading="lazy" width="256" height="256" />
            <figcaption>Esri World Imagery tile (zoom 18) · free tier · not verified by this archive</figcaption>
          </figure>`
-      : "";
+      : `<div class="empty-state"><p class="muted">Satellite thumbnail needs coordinates from the assessor portal.</p></div>`;
 
-    const addrLinks = `
+    const publicSearchLinks = `
       <div class="link-stack">
-        ${externalLink(gmaps, "View on Google Maps", "Third-party · address or coords")}
-        ${externalLink(zillowUrl(p), "Search on Zillow", "Third-party listing site · not verified")}
-        ${externalLink(redfinUrl(p), "Search on Redfin", "Third-party listing site · not verified")}
+        ${externalLink(gmaps, "Google Maps", coords ? "Coordinates · third-party" : "Address search · third-party")}
+        ${externalLink(zillowUrl(p), "Zillow address search", "Opens Zillow — we don't host MLS photos")}
+        ${externalLink(redfinUrl(p), "Redfin address search", "Opens Redfin — we don't host MLS photos")}
+        ${externalLink(realtorUrl(p), "Realtor.com address search", "Opens Realtor.com — we don't host MLS photos")}
+        ${externalLink(assessorParcelUrl(p), "LA Assessor portal", `AIN ${escapeHtml(p.ain)} · official`)}
       </div>`;
 
     return `
-      <p class="note-box imagery-disclaimer">Imagery from third-party maps — not verified by this archive. No Google Search scraping; embeds and external links only.</p>
+      <p class="note-box imagery-disclaimer"><strong>Photos on MLS sites open on their pages — we don't host MLS photos.</strong> Street View / Esri use free public map tiles; listing buttons are outbound search links only.</p>
       <div class="detail-section">
         <h3>Street-level view</h3>
         ${streetBlock}
       </div>
-      ${coords ? `<div class="detail-section"><h3>Satellite thumbnail</h3>${satBlock}</div>` : ""}
       <div class="detail-section">
-        <h3>Address-based links</h3>
-        ${addrLinks}
+        <h3>Satellite thumbnail</h3>
+        ${satBlock}
+      </div>
+      <div class="detail-section">
+        <h3>Search free public listings</h3>
+        <p class="section-hint muted">Official search / listing pages when an address exists. Never invented listing status or owners.</p>
+        ${publicSearchLinks}
       </div>
     `;
   }
