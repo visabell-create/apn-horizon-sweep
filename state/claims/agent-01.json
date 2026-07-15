@@ -1,0 +1,20 @@
+{
+  "agent": "agent-01",
+  "pages": ["8448-043"],
+  "status": "completed",
+  "startedAt": "2026-07-14T23:11:00-07:00",
+  "completedAt": "2026-07-14T23:21:30-07:00",
+  "mode": "full-page-walk-no-soft-jump",
+  "startParcel": "001",
+  "stopRule": "20 consecutive invalids after last valid on this page only, or parcel 999",
+  "vacantLandCountsValid": true,
+  "runDir": "runs/RUN-A01-8448-043",
+  "result": {
+    "validCount": 43,
+    "lastValid": "8448-043-079",
+    "lastChecked": "8448-043-099",
+    "stoppedReason": "20_INVALID_STREAK_AFTER_LAST_VALID",
+    "vacantWithoutSitus": ["8448-043-053", "8448-043-068", "8448-043-069", "8448-043-079"]
+  },
+  "notes": "Exclusive claim completed. Soft-jump not used. Browser spot-check confirmed SFR 040 + vacant 053/079."
+}

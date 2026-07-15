@@ -1,0 +1,43 @@
+{
+  "agent": "agent-midnight-B",
+  "note": "Second worker until midnight; exclusive +1 walks; vacant=valid; skip serial 006",
+  "pages": [
+    "8448-011",
+    "8448-022",
+    "8448-027"
+  ],
+  "exclusive": true,
+  "claimedAt": "2026-07-14T23:57:40-07:00",
+  "startedAt": "2026-07-15T06:58:17.680Z",
+  "finishedAt": "2026-07-15T06:58:35.126Z",
+  "deadline": "2026-07-15T00:00:00-07:00",
+  "status": "completed",
+  "reason": "Dense horizon hits=2 unfinished; near 006-020 / next gaps; not donePages; not serial 006",
+  "runArchivePrefix": "runs/RUN-B-MIDNIGHT-",
+  "serialAvoid": "8448-006",
+  "validCount": 86,
+  "vacantCount": 24,
+  "byPage": [
+    {
+      "page": "8448-011",
+      "validCount": 36,
+      "vacantCount": 0,
+      "lastAinChecked": "8448-011-059",
+      "stoppedReason": "20_INVALID_STREAK"
+    },
+    {
+      "page": "8448-022",
+      "validCount": 16,
+      "vacantCount": 9,
+      "lastAinChecked": "8448-022-046",
+      "stoppedReason": "20_INVALID_STREAK"
+    },
+    {
+      "page": "8448-027",
+      "validCount": 34,
+      "vacantCount": 15,
+      "lastAinChecked": "8448-027-055",
+      "stoppedReason": "20_INVALID_STREAK"
+    }
+  ]
+}

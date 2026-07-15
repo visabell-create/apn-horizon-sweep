@@ -1,0 +1,11 @@
+{
+  "name": "apn-horizon-sweep",
+  "private": true,
+  "version": "1.0.0",
+  "description": "San Dimas / LA County APN horizon sweep archive viewer",
+  "scripts": {
+    "build:data": "node scripts/build-web-data.mjs",
+    "build": "node scripts/build-web-data.mjs",
+    "prepare:pages": "node scripts/build-web-data.mjs"
+  }
+}

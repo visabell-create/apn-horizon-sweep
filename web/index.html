@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="APN Horizon Sweep — archived San Dimas / LA County assessor parcel walk" />
+  <title>Horizon Sweep · APN Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Libre+Franklin:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Los Angeles County Assessor · Book 8448</p>
+      <h1 class="brand">Horizon Sweep</h1>
+      <p class="lede">
+        Archived AIN walks across San Dimas and neighboring parcels —
+        every run, every soft-jump, every valid property on record.
+      </p>
+      <div class="hero-stats" id="hero-stats" aria-live="polite">
+        <div class="stat"><span class="stat-value" data-k="runs">—</span><span class="stat-label">Runs</span></div>
+        <div class="stat"><span class="stat-value" data-k="props">—</span><span class="stat-label">Property rows</span></div>
+        <div class="stat"><span class="stat-value" data-k="unique">—</span><span class="stat-label">Unique AINs</span></div>
+        <div class="stat"><span class="stat-value" data-k="done">—</span><span class="stat-label">Done pages</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel cursor-panel" id="cursor" aria-labelledby="cursor-heading">
+      <div class="section-head">
+        <h2 id="cursor-heading">Current cursor</h2>
+        <p class="section-sub">Where the serial walk left off — and what’s already closed.</p>
+      </div>
+      <div class="cursor-grid" id="cursor-grid">
+        <div class="cursor-card primary">
+          <span class="label">nextCursor</span>
+          <code class="mono big" id="next-cursor">—</code>
+        </div>
+        <div class="cursor-card">
+          <span class="label">donePages</span>
+          <strong id="done-count">—</strong>
+          <div class="chip-row" id="done-chips"></div>
+        </div>
+        <div class="cursor-card">
+          <span class="label">Soft jumps (cursor)</span>
+          <div id="jump-list" class="jump-list"></div>
+        </div>
+      </div>
+      <details class="left-off">
+        <summary>LEFT_OFF log</summary>
+        <pre id="left-off-md" class="md-block"></pre>
+      </details>
+    </section>
+
+    <section class="panel" id="runs" aria-labelledby="runs-heading">
+      <div class="section-head">
+        <h2 id="runs-heading">All runs</h2>
+        <p class="section-sub">Every archived RUN folder — serial chain, parallel A*, and midnight-B.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter runs by stream">
+        <button type="button" class="filter active" data-stream="all">All</button>
+        <button type="button" class="filter" data-stream="serial">Serial</button>
+        <button type="button" class="filter" data-stream="parallel-A">Parallel A</button>
+        <button type="button" class="filter" data-stream="parallel-midnight-B">Midnight B</button>
+      </div>
+      <div class="runs-timeline" id="runs-timeline"></div>
+    </section>
+
+    <section class="panel" id="properties" aria-labelledby="props-heading">
+      <div class="section-head">
+        <h2 id="props-heading">Properties</h2>
+        <p class="section-sub">Valid parcels from archive files — search and filter by run.</p>
+      </div>
+      <div class="props-toolbar">
+        <label class="search-wrap">
+          <span class="sr-only">Search properties</span>
+          <input type="search" id="prop-search" placeholder="APN, address, use type…" autocomplete="off" />
+        </label>
+        <label class="select-wrap">
+          <span class="sr-only">Filter by run</span>
+          <select id="prop-run">
+            <option value="all">All runs</option>
+          </select>
+        </label>
+        <label class="check-wrap">
+          <input type="checkbox" id="unique-only" />
+          <span>Unique AINs only</span>
+        </label>
+      </div>
+      <div class="table-meta" id="table-meta"></div>
+      <div class="table-scroll">
+        <table class="props-table" id="props-table">
+          <thead>
+            <tr>
+              <th>APN</th>
+              <th>Address</th>
+              <th>Use</th>
+              <th>Tax</th>
+              <th>Assessed</th>
+              <th>Last buy</th>
+              <th>FC hist</th>
+              <th>Run</th>
+            </tr>
+          </thead>
+          <tbody id="props-body"></tbody>
+        </table>
+      </div>
+      <div class="pager" id="pager"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Data rebuilt from local <code>runs/</code> + <code>state/</code>. Built <time id="built-at"></time>.</p>
+    <p class="muted">Public assessor-derived archive viewer · not an official County site.</p>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

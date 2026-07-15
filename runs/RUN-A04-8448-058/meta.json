@@ -1,0 +1,17 @@
+{
+  "agent": "agent-04",
+  "runId": "RUN-A04-8448-058",
+  "page": "8448-058",
+  "startedAt": "2026-07-14T23:09:00-07:00",
+  "completedAt": "2026-07-14T23:20:00-07:00",
+  "startAin": "8448-058-001",
+  "firstValid": "8448-058-001",
+  "lastValid": "8448-058-016",
+  "lastAinChecked": "8448-058-036",
+  "validCount": 16,
+  "vacantCount": 4,
+  "invalidCount": 20,
+  "stoppedReason": "20_INVALID_STREAK",
+  "validityRule": "situs OR useType OR sqftLot>0 OR land/imp>0",
+  "apis": ["/api/parceldetail", "/api/parcel_ownershiphistory"]
+}
