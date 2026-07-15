@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-15T15:27:54.582Z",
-  "runCount": 49,
-  "propertyRowCount": 2061,
-  "uniqueAinCount": 1959,
-  "propertyWithCoordsCount": 1501,
-  "nextCursor": "8448-034-041",
-  "donePageCount": 77,
+  "builtAt": "2026-07-15T16:54:23.684Z",
+  "runCount": 50,
+  "propertyRowCount": 2067,
+  "uniqueAinCount": 1965,
+  "propertyWithCoordsCount": 1507,
+  "nextCursor": "8449-001-019",
+  "donePageCount": 78,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -167,21 +167,27 @@
       "to": "8448-034-040",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
     }
   ],
   "cities": [
     {
       "city": "San Dimas",
       "slug": "san-dimas",
-      "propertyRowCount": 1056,
-      "uniqueAinCount": 1029,
+      "propertyRowCount": 1060,
+      "uniqueAinCount": 1033,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 564,
-      "uniqueAinCount": 525,
+      "propertyRowCount": 566,
+      "uniqueAinCount": 527,
       "areas": []
     },
     {
@@ -1063,6 +1069,42 @@
           "city": "Covina",
           "count": 1,
           "slug": "covina"
+        }
+      ],
+      "primaryCity": "San Dimas"
+    },
+    {
+      "id": "RUN-018-2026-07-15-horizon",
+      "title": "RUN-018 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-15",
+      "validCount": 6,
+      "checks": 45,
+      "start": "2026-07-15T16:52:04.526Z",
+      "end": "8449-001-018",
+      "nextCursor": "8449-001-019",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8448-034-067",
+          "streak": 20,
+          "to": "8449-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-15T16:54:23.151Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "San Dimas",
+          "count": 4,
+          "slug": "san-dimas"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "San Dimas"
