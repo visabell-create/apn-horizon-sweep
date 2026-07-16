@@ -1,0 +1,3414 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8451-003-030",
+  "lastAinChecked": "8451-007-025",
+  "nextCursor": "8451-007-026",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8451,
+      "page": 9,
+      "hits": 4,
+      "firstValidParcel": 1,
+      "key": "8451-009"
+    },
+    {
+      "book": 8451,
+      "page": 10,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-010"
+    },
+    {
+      "book": 8451,
+      "page": 11,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8451-011"
+    },
+    {
+      "book": 8451,
+      "page": 12,
+      "hits": 3,
+      "firstValidParcel": 20,
+      "key": "8451-012"
+    },
+    {
+      "book": 8451,
+      "page": 13,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8451-013"
+    },
+    {
+      "book": 8451,
+      "page": 14,
+      "hits": 2,
+      "firstValidParcel": 80,
+      "key": "8451-014"
+    },
+    {
+      "book": 8451,
+      "page": 18,
+      "hits": 2,
+      "firstValidParcel": 20,
+      "key": "8451-018"
+    },
+    {
+      "book": 8451,
+      "page": 5,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-005"
+    },
+    {
+      "book": 8451,
+      "page": 6,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-006"
+    },
+    {
+      "book": 8451,
+      "page": 8,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-008"
+    },
+    {
+      "book": 8451,
+      "page": 15,
+      "hits": 1,
+      "firstValidParcel": 19,
+      "key": "8451-015"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-016"
+  ],
+  "valids": [
+    {
+      "ain": "8451-003-030",
+      "status": "VALID",
+      "address": "673 S EREMLAND DR, COVINA CA 91723-3522",
+      "useType": "Multi-Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1961",
+      "beds": 11,
+      "baths": 10,
+      "bldg": 4842,
+      "lot": 9307,
+      "units": null,
+      "land": 182049,
+      "imp": 435061,
+      "assessed": 617110,
+      "latitude": 34.077248952,
+      "longitude": -117.8865468,
+      "lastBuy": {
+        "rec": "05/09/1984",
+        "doc": "0555095",
+        "price": "21000",
+        "assessed": "214361",
+        "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/14/1991",
+          "doc": "0056644",
+          "price": "9",
+          "assessed": "324727",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/15/1986",
+          "doc": "1217435",
+          "price": "",
+          "assessed": "300000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/24/1985",
+          "doc": "0459032",
+          "price": "",
+          "assessed": "250000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "05/09/1984",
+          "doc": "0555095",
+          "price": "21000",
+          "assessed": "214361",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/15/1977",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-031",
+      "status": "VALID",
+      "address": "241 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1414,
+      "lot": 5907,
+      "units": null,
+      "land": 327092,
+      "imp": 197681,
+      "assessed": 524773,
+      "latitude": 34.077005287,
+      "longitude": -117.887269835,
+      "lastBuy": {
+        "rec": "04/21/2014",
+        "doc": "0402786",
+        "price": "417004",
+        "assessed": "417000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "04/21/2014",
+          "doc": "0402786",
+          "price": "417004",
+          "assessed": "417000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/28/2014",
+          "doc": "0092795",
+          "price": "316500",
+          "assessed": "417000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "08/28/2012",
+          "doc": "1287769",
+          "price": "",
+          "assessed": "260000",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "03/16/2011",
+          "doc": "0400301",
+          "price": "",
+          "assessed": "279000",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "11/22/2010",
+          "doc": "1689953",
+          "price": "",
+          "assessed": "359688",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-032",
+      "status": "VALID",
+      "address": "247 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1232,
+      "lot": 5989,
+      "units": null,
+      "land": 459088,
+      "imp": 187809,
+      "assessed": 646897,
+      "latitude": 34.0770029151,
+      "longitude": -117.887091334,
+      "lastBuy": {
+        "rec": "05/16/2005",
+        "doc": "1145609",
+        "price": "455004",
+        "assessed": "455000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/16/2005",
+          "doc": "1145609",
+          "price": "455004",
+          "assessed": "455000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/20/2003",
+          "doc": "2413457",
+          "price": "",
+          "assessed": "238417",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "04/07/2003",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "05/18/2001",
+          "doc": "0853422",
+          "price": "194000",
+          "assessed": "194000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/17/1998",
+          "doc": "1445333",
+          "price": "151000",
+          "assessed": "151000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-033",
+      "status": "VALID",
+      "address": "255 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 897,
+      "lot": 6085,
+      "units": null,
+      "land": 125544,
+      "imp": 101652,
+      "assessed": 227196,
+      "latitude": 34.0770035013,
+      "longitude": -117.886910221,
+      "lastBuy": {
+        "rec": "01/25/1996",
+        "doc": "0142236",
+        "price": "134501",
+        "assessed": "134100",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/31/2025",
+          "doc": "0517591",
+          "price": "0",
+          "assessed": "227196",
+          "docType": "File Correction",
+          "reason": "Life Estate Transfer - Grantor Retains (SEC. 62E)"
+        },
+        {
+          "rec": "01/25/1996",
+          "doc": "0142236",
+          "price": "134501",
+          "assessed": "134100",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/08/1978",
+          "doc": "0997603",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-034",
+      "status": "VALID",
+      "address": "263 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1314,
+      "lot": 5914,
+      "units": null,
+      "land": 138728,
+      "imp": 80567,
+      "assessed": 219295,
+      "latitude": 34.0770017354,
+      "longitude": -117.886730149,
+      "lastBuy": {
+        "rec": "07/28/1999",
+        "doc": "1401833",
+        "price": "144546",
+        "assessed": "139900",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/24/2021",
+          "doc": "1295816",
+          "price": "9",
+          "assessed": "202599",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/28/1999",
+          "doc": "1401833",
+          "price": "144546",
+          "assessed": "139900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/27/1991",
+          "doc": "2025382",
+          "price": "",
+          "assessed": "42132",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/26/1951",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-035",
+      "status": "VALID",
+      "address": "269 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1126,
+      "lot": 5879,
+      "units": null,
+      "land": 123165,
+      "imp": 78018,
+      "assessed": 201183,
+      "latitude": 34.0770015935,
+      "longitude": -117.886553288,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/03/2022",
+          "doc": "0479361",
+          "price": "9",
+          "assessed": "189582",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/01/2007",
+          "doc": "1818162",
+          "price": "",
+          "assessed": "150174",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "03/21/2002",
+          "doc": "0676856",
+          "price": "",
+          "assessed": "136200",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/12/2000",
+          "doc": "1064500",
+          "price": "",
+          "assessed": "130914",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/01/2000",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-036",
+      "status": "VALID",
+      "address": "277 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 986,
+      "lot": 5820,
+      "units": null,
+      "land": 247371,
+      "imp": 118518,
+      "assessed": 365889,
+      "latitude": 34.0770068705,
+      "longitude": -117.886377249,
+      "lastBuy": {
+        "rec": "06/30/2011",
+        "doc": "0883443",
+        "price": "280000",
+        "assessed": "280000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/21/2016",
+          "doc": "0068255",
+          "price": "9",
+          "assessed": "309089",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/30/2011",
+          "doc": "0883443",
+          "price": "280000",
+          "assessed": "280000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/21/2006",
+          "doc": "0603054",
+          "price": "",
+          "assessed": "52298",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/14/2005",
+          "doc": "2222618",
+          "price": "",
+          "assessed": "51273",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/21/2000",
+          "doc": "0955404",
+          "price": "",
+          "assessed": "46507",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-037",
+      "status": "VALID",
+      "address": "283 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1563,
+      "lot": 6901,
+      "units": null,
+      "land": 418156,
+      "imp": 208553,
+      "assessed": 626709,
+      "latitude": 34.0770446748,
+      "longitude": -117.886151603,
+      "lastBuy": {
+        "rec": "09/07/2017",
+        "doc": "1017203",
+        "price": "540005",
+        "assessed": "540000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/07/2017",
+          "doc": "1017203",
+          "price": "540005",
+          "assessed": "540000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/02/2015",
+          "doc": "0113640",
+          "price": "",
+          "assessed": "334739",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/28/2011",
+          "doc": "0308019",
+          "price": "240000",
+          "assessed": "240000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/26/2006",
+          "doc": "0190688",
+          "price": "429500",
+          "assessed": "429500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/21/2000",
+          "doc": "0955403",
+          "price": "",
+          "assessed": "54948",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-038",
+      "status": "VALID",
+      "address": "289 E LOMA VISTA ST, COVINA CA 91723-3525",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1546,
+      "lot": 10683,
+      "units": null,
+      "land": 400864,
+      "imp": 121783,
+      "assessed": 522647,
+      "latitude": 34.0769925448,
+      "longitude": -117.885897274,
+      "lastBuy": {
+        "rec": "03/14/2014",
+        "doc": "0261889",
+        "price": "418004",
+        "assessed": "418000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/14/2014",
+          "doc": "0261889",
+          "price": "418004",
+          "assessed": "418000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/20/2012",
+          "doc": "0429422",
+          "price": "",
+          "assessed": "77256",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/05/2008",
+          "doc": "0036269",
+          "price": "",
+          "assessed": "73879",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "02/04/2005",
+          "doc": "0274774",
+          "price": "",
+          "assessed": "69620",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "11/09/1992",
+          "doc": "2064463",
+          "price": "",
+          "assessed": "54887",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-039",
+      "status": "VALID",
+      "address": "290 E LOMA VISTA ST, COVINA CA 91723-3527",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1582,
+      "lot": 13492,
+      "units": null,
+      "land": 472026,
+      "imp": 164884,
+      "assessed": 636910,
+      "latitude": 34.0767094215,
+      "longitude": -117.885867671,
+      "lastBuy": {
+        "rec": "09/17/2004",
+        "doc": "2395467",
+        "price": "415004",
+        "assessed": "415000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/18/2025",
+          "doc": "0408058",
+          "price": "0",
+          "assessed": "636910",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/13/2023",
+          "doc": "0872416",
+          "price": "",
+          "assessed": "612188",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "09/17/2004",
+          "doc": "2395467",
+          "price": "415004",
+          "assessed": "415000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/01/1999",
+          "doc": "0331146",
+          "price": "",
+          "assessed": "172061",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/02/1997",
+          "doc": "0004423",
+          "price": "157000",
+          "assessed": "157000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-040",
+      "status": "VALID",
+      "address": "284 E LOMA VISTA ST, COVINA CA 91723-3527",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 828,
+      "lot": 8213,
+      "units": null,
+      "land": 156577,
+      "imp": 108947,
+      "assessed": 265524,
+      "latitude": 34.0765067173,
+      "longitude": -117.886074035,
+      "lastBuy": {
+        "rec": "08/04/1994",
+        "doc": "1443613",
+        "price": "155001",
+        "assessed": "155000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/21/2020",
+          "doc": "0210414",
+          "price": "9",
+          "assessed": "240497",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/01/2017",
+          "doc": "0134287",
+          "price": "",
+          "assessed": "228790",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/04/1994",
+          "doc": "1443613",
+          "price": "155001",
+          "assessed": "155000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/21/1989",
+          "doc": "1519981",
+          "price": "143000",
+          "assessed": "142900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/16/1970",
+          "doc": "0002406",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-041",
+      "status": "VALID",
+      "address": "704 ORANGE CIR, COVINA CA 91723-3529",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 828,
+      "lot": 6744,
+      "units": null,
+      "land": 569800,
+      "imp": 100200,
+      "assessed": 670000,
+      "latitude": 34.0765546362,
+      "longitude": -117.886347008,
+      "lastBuy": {
+        "rec": "08/29/2025",
+        "doc": "0589222",
+        "price": "670000",
+        "assessed": "670000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/29/2025",
+          "doc": "0589222",
+          "price": "670000",
+          "assessed": "670000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/14/2024",
+          "doc": "0315287",
+          "price": "",
+          "assessed": "436941",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "10/20/2000",
+          "doc": "1642841",
+          "price": "157001",
+          "assessed": "157000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/26/1988",
+          "doc": "1537847",
+          "price": "",
+          "assessed": "48159",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/19/1983",
+          "doc": "0564469",
+          "price": "",
+          "assessed": "43624",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-042",
+      "status": "VALID",
+      "address": "714 ORANGE CIR, COVINA CA 91723-3529",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1218,
+      "lot": 8983,
+      "units": null,
+      "land": 330094,
+      "imp": 82519,
+      "assessed": 412613,
+      "latitude": 34.0763157491,
+      "longitude": -117.886290749,
+      "lastBuy": {
+        "rec": "07/25/2013",
+        "doc": "1093495",
+        "price": "330003",
+        "assessed": "330000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "07/25/2013",
+          "doc": "1093495",
+          "price": "330003",
+          "assessed": "330000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/31/2013",
+          "doc": "0161279",
+          "price": "96000",
+          "assessed": "323000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "06/07/2002",
+          "doc": "1307952",
+          "price": "",
+          "assessed": "48412",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/15/1975",
+          "doc": "",
+          "price": "3500",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-043",
+      "status": "VALID",
+      "address": "735 ORANGE CIR, COVINA CA 91723-3530",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 4,
+      "baths": 3,
+      "bldg": 2397,
+      "lot": 19574,
+      "units": null,
+      "land": 425125,
+      "imp": 501038,
+      "assessed": 926163,
+      "latitude": 34.0759027664,
+      "longitude": -117.886752348,
+      "lastBuy": {
+        "rec": "05/16/2014",
+        "doc": "0510373",
+        "price": "495000",
+        "assessed": "495000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "03/22/2021",
+          "doc": "0450635",
+          "price": "9",
+          "assessed": "855635",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "02/20/2015",
+          "doc": "0190260",
+          "price": "",
+          "assessed": "512587",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/16/2014",
+          "doc": "0510373",
+          "price": "495000",
+          "assessed": "495000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/03/2014",
+          "doc": "0114599",
+          "price": "373000",
+          "assessed": "465200",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "01/26/2004",
+          "doc": "0169094",
+          "price": "",
+          "assessed": "58715",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-044",
+      "status": "VALID",
+      "address": "727 ORANGE CIR, COVINA CA 91723-3530",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1484,
+      "lot": 6865,
+      "units": null,
+      "land": 567122,
+      "imp": 216299,
+      "assessed": 783421,
+      "latitude": 34.0761385906,
+      "longitude": -117.886800732,
+      "lastBuy": {
+        "rec": "07/03/2023",
+        "doc": "0434077",
+        "price": "753007",
+        "assessed": "753000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "02/21/2024",
+          "doc": "0110067",
+          "price": "9",
+          "assessed": "768060",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/03/2023",
+          "doc": "0434077",
+          "price": "753007",
+          "assessed": "753000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/05/2014",
+          "doc": "0581408",
+          "price": "445004",
+          "assessed": "445000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/22/2009",
+          "doc": "0764138",
+          "price": "330000",
+          "assessed": "330000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/28/2009",
+          "doc": "0112267",
+          "price": "",
+          "assessed": "346000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-045",
+      "status": "VALID",
+      "address": "719 ORANGE CIR, COVINA CA 91723-3530",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1054,
+      "lot": 5797,
+      "units": null,
+      "land": 39975,
+      "imp": 29715,
+      "assessed": 69690,
+      "latitude": 34.0762942976,
+      "longitude": -117.886810839,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/10/2019",
+          "doc": "1079633",
+          "price": "9",
+          "assessed": "62488",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/11/2002",
+          "doc": "1597110",
+          "price": "",
+          "assessed": "47199",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/13/1990",
+          "doc": "1053764",
+          "price": "",
+          "assessed": "37908",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/24/1970",
+          "doc": "0002546",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-046",
+      "status": "VALID",
+      "address": "711 ORANGE CIR, COVINA CA 91723-3530",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1144,
+      "lot": 6009,
+      "units": null,
+      "land": 39975,
+      "imp": 43966,
+      "assessed": 83941,
+      "latitude": 34.0764440812,
+      "longitude": -117.886811767,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/13/1990",
+          "doc": "1576775",
+          "price": "9",
+          "assessed": "45667",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "10/27/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-047",
+      "status": "VALID",
+      "address": "703 ORANGE CIR, COVINA CA 91723-3530",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1486,
+      "lot": 5880,
+      "units": null,
+      "land": 375520,
+      "imp": 161797,
+      "assessed": 537317,
+      "latitude": 34.0765953237,
+      "longitude": -117.886813699,
+      "lastBuy": {
+        "rec": "02/01/2016",
+        "doc": "0112209",
+        "price": "445004",
+        "assessed": "445000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/01/2016",
+          "doc": "0112209",
+          "price": "445004",
+          "assessed": "445000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/27/2013",
+          "doc": "1407599",
+          "price": "362000",
+          "assessed": "362000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/08/2006",
+          "doc": "2481128",
+          "price": "",
+          "assessed": "164103",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "03/01/2005",
+          "doc": "0458133",
+          "price": "",
+          "assessed": "160886",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/30/1997",
+          "doc": "0803786",
+          "price": "135000",
+          "assessed": "135000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-048",
+      "status": "VALID",
+      "address": "702 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1450,
+      "lot": 5902,
+      "units": null,
+      "land": 177701,
+      "imp": 108737,
+      "assessed": 286438,
+      "latitude": 34.0765989396,
+      "longitude": -117.887168723,
+      "lastBuy": {
+        "rec": "07/23/1992",
+        "doc": "1339518",
+        "price": "162000",
+        "assessed": "162000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/04/2009",
+          "doc": "1839472",
+          "price": "9",
+          "assessed": "217563",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "03/30/2004",
+          "doc": "0746057",
+          "price": "",
+          "assessed": "201478",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/23/1992",
+          "doc": "1339518",
+          "price": "162000",
+          "assessed": "162000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/25/1989",
+          "doc": "1714839",
+          "price": "",
+          "assessed": "43298",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/02/1988",
+          "doc": "7777777",
+          "price": "",
+          "assessed": "42450",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-049",
+      "status": "VALID",
+      "address": "712 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1054,
+      "lot": 6067,
+      "units": null,
+      "land": 190769,
+      "imp": 121958,
+      "assessed": 312727,
+      "latitude": 34.0764476122,
+      "longitude": -117.887169792,
+      "lastBuy": {
+        "rec": "11/21/1990",
+        "doc": "1947247",
+        "price": "170000",
+        "assessed": "170000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/31/2017",
+          "doc": "0360907",
+          "price": "9",
+          "assessed": "269464",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/08/2002",
+          "doc": "1057556",
+          "price": "",
+          "assessed": "211705",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "11/21/1990",
+          "doc": "1947247",
+          "price": "170000",
+          "assessed": "170000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/26/1987",
+          "doc": "0292183",
+          "price": "",
+          "assessed": "104000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/16/1982",
+          "doc": "0396215",
+          "price": "",
+          "assessed": "77900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-050",
+      "status": "VALID",
+      "address": "720 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 986,
+      "lot": 5799,
+      "units": null,
+      "land": 618284,
+      "imp": 176651,
+      "assessed": 794935,
+      "latitude": 34.0762974492,
+      "longitude": -117.887168967,
+      "lastBuy": {
+        "rec": "04/01/2021",
+        "doc": "0512222",
+        "price": "720007",
+        "assessed": "720000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/01/2021",
+          "doc": "0512222",
+          "price": "720007",
+          "assessed": "720000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/10/2020",
+          "doc": "1082272",
+          "price": "308000",
+          "assessed": "416700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/18/2018",
+          "doc": "0139389",
+          "price": "",
+          "assessed": "448000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/24/2006",
+          "doc": "1139404",
+          "price": "",
+          "assessed": "49924",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "08/24/1999",
+          "doc": "1596447",
+          "price": "",
+          "assessed": "43525",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-051",
+      "status": "VALID",
+      "address": "728 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1054,
+      "lot": 6278,
+      "units": null,
+      "land": 263088,
+      "imp": 124382,
+      "assessed": 387470,
+      "latitude": 34.0761443843,
+      "longitude": -117.887168694,
+      "lastBuy": {
+        "rec": "11/21/2008",
+        "doc": "2058129",
+        "price": "295002",
+        "assessed": "295000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/21/2008",
+          "doc": "2058129",
+          "price": "295002",
+          "assessed": "295000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/05/2008",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/16/1994",
+          "doc": "2067854",
+          "price": "",
+          "assessed": "40995",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/21/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-052",
+      "status": "VALID",
+      "address": "736 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 986,
+      "lot": 5896,
+      "units": null,
+      "land": 142665,
+      "imp": 96545,
+      "assessed": 239210,
+      "latitude": 34.0759898915,
+      "longitude": -117.887167747,
+      "lastBuy": {
+        "rec": "06/10/1994",
+        "doc": "1121683",
+        "price": "138001",
+        "assessed": "138000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/14/2020",
+          "doc": "1099963",
+          "price": "9",
+          "assessed": "216665",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/20/2020",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/10/1994",
+          "doc": "1121683",
+          "price": "138001",
+          "assessed": "138000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/26/1988",
+          "doc": "1723332",
+          "price": "133500",
+          "assessed": "133500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/22/1986",
+          "doc": "0643024",
+          "price": "",
+          "assessed": "82781",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-053",
+      "status": "VALID",
+      "address": "744 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1054,
+      "lot": 5605,
+      "units": null,
+      "land": 39975,
+      "imp": 30213,
+      "assessed": 70188,
+      "latitude": 34.0758437065,
+      "longitude": -117.887167389,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/19/2016",
+          "doc": "0576783",
+          "price": "9",
+          "assessed": "59308",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/23/2013",
+          "doc": "1243842",
+          "price": "",
+          "assessed": "56152",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/04/2008",
+          "doc": "0580734",
+          "price": "",
+          "assessed": "53459",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/24/2003",
+          "doc": "3193949",
+          "price": "",
+          "assessed": "48425",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/13/2002",
+          "doc": "1093512",
+          "price": "",
+          "assessed": "47538",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-054",
+      "status": "VALID",
+      "address": "750 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 986,
+      "lot": 5918,
+      "units": null,
+      "land": 39975,
+      "imp": 28228,
+      "assessed": 68203,
+      "latitude": 34.0756969698,
+      "longitude": -117.887166621,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/03/2018",
+          "doc": "1216297",
+          "price": "9",
+          "assessed": "59948",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/26/2017",
+          "doc": "0837129",
+          "price": "",
+          "assessed": "58774",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/12/2013",
+          "doc": "0369767",
+          "price": "",
+          "assessed": "54557",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/05/2010",
+          "doc": "0006765",
+          "price": "",
+          "assessed": "52204",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/07/1993",
+          "doc": "1290407",
+          "price": "",
+          "assessed": "39362",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-003-055",
+      "status": "VALID",
+      "address": "758 S 2ND AVE, COVINA CA 91723-3519",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 822,
+      "lot": 6760,
+      "units": null,
+      "land": 37472,
+      "imp": 24219,
+      "assessed": 61691,
+      "latitude": 34.0755393937,
+      "longitude": -117.887163276,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/08/2017",
+          "doc": "1021014",
+          "price": "9",
+          "assessed": "53164",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/28/2014",
+          "doc": "0777774",
+          "price": "",
+          "assessed": "50334",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/05/2005",
+          "doc": "1066233",
+          "price": "",
+          "assessed": "44275",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/07/1995",
+          "doc": "1942234",
+          "price": "",
+          "assessed": "36430",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "06/29/1992",
+          "doc": "1178186",
+          "price": "",
+          "assessed": "34910",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-007-020",
+      "status": "VALID",
+      "address": "664 S EREMLAND DR, COVINA CA 91723-3523",
+      "useType": "Multi-Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 4,
+      "baths": 4,
+      "bldg": 2618,
+      "lot": 7772,
+      "units": null,
+      "land": 100773,
+      "imp": 214861,
+      "assessed": 315634,
+      "latitude": 34.0774361105,
+      "longitude": -117.885915547,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/25/2021",
+          "doc": "1597245",
+          "price": "9",
+          "assessed": "291600",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/03/2021",
+          "doc": "0701992",
+          "price": "",
+          "assessed": "285883",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/08/2021",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/28/1999",
+          "doc": "2380450",
+          "price": "",
+          "assessed": "201352",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/02/1981",
+          "doc": "0334898",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-007-021",
+      "status": "VALID",
+      "address": "656 S EREMLAND DR, COVINA CA 91723-3523",
+      "useType": "Multi-Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 4,
+      "bldg": 2630,
+      "lot": 7634,
+      "units": null,
+      "land": 350099,
+      "imp": 150038,
+      "assessed": 500137,
+      "latitude": 34.077596672,
+      "longitude": -117.885923159,
+      "lastBuy": {
+        "rec": "06/26/2014",
+        "doc": "0660946",
+        "price": "400004",
+        "assessed": "400000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/19/2018",
+          "doc": "1288033",
+          "price": "9",
+          "assessed": "439561",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/26/2014",
+          "doc": "0660946",
+          "price": "400004",
+          "assessed": "400000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/14/2013",
+          "doc": "0062652",
+          "price": "",
+          "assessed": "95952",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/16/2006",
+          "doc": "1071323",
+          "price": "",
+          "assessed": "87800",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/19/1999",
+          "doc": "1970527",
+          "price": "",
+          "assessed": "76541",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-007-022",
+      "status": "VALID",
+      "address": "648 S EREMLAND DR, COVINA CA 91723-3523",
+      "useType": "Multi-Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 4,
+      "bldg": 2630,
+      "lot": 7938,
+      "units": null,
+      "land": 1028309,
+      "imp": 270608,
+      "assessed": 1298917,
+      "latitude": 34.0777574591,
+      "longitude": -117.885924129,
+      "lastBuy": {
+        "rec": "11/02/2004",
+        "doc": "2833448",
+        "price": "477000",
+        "assessed": "477000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/06/2025",
+          "doc": "0383386",
+          "price": "0",
+          "assessed": "1298917",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/26/2022",
+          "doc": "0568539",
+          "price": "",
+          "assessed": "1224000",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/08/2014",
+          "doc": "1316909",
+          "price": "",
+          "assessed": "520000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/06/2007",
+          "doc": "2490598",
+          "price": "",
+          "assessed": "525313",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/02/2004",
+          "doc": "2833448",
+          "price": "477000",
+          "assessed": "477000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-007-023",
+      "status": "VALID",
+      "address": "642 S EREMLAND DR, COVINA CA 91723-3523",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2043,
+      "lot": 7983,
+      "units": null,
+      "land": 362238,
+      "imp": 301865,
+      "assessed": 664103,
+      "latitude": 34.0779215867,
+      "longitude": -117.885925164,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/01/2016",
+          "doc": "0224997",
+          "price": "9",
+          "assessed": "550000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/28/2010",
+          "doc": "0578009",
+          "price": "",
+          "assessed": "490000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/17/2004",
+          "doc": "2405854",
+          "price": "",
+          "assessed": "206190",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "08/06/2004",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "11/19/2003",
+          "doc": "3495427",
+          "price": "",
+          "assessed": "202148",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-007-024",
+      "status": "VALID",
+      "address": "632 S EREMLAND DR, COVINA CA 91723-3523",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1956",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2007,
+      "lot": 7999,
+      "units": null,
+      "land": 330336,
+      "imp": 257594,
+      "assessed": 587930,
+      "latitude": 34.0780860647,
+      "longitude": -117.885926374,
+      "lastBuy": {
+        "rec": "02/28/2013",
+        "doc": "0307769",
+        "price": "440004",
+        "assessed": "440000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/28/2013",
+          "doc": "0307769",
+          "price": "440004",
+          "assessed": "440000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/31/2011",
+          "doc": "1180522",
+          "price": "115000",
+          "assessed": "251719",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "12/10/2003",
+          "doc": "3739650",
+          "price": "",
+          "assessed": "246408",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/20/2001",
+          "doc": "0673722",
+          "price": "",
+          "assessed": "232500",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/30/1999",
+          "doc": "1199786",
+          "price": "",
+          "assessed": "280202",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-007-025",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 8014,
+      "units": null,
+      "land": 156761,
+      "imp": 0,
+      "assessed": 156761,
+      "latitude": 34.0782505152,
+      "longitude": -117.885927491,
+      "lastBuy": {
+        "rec": "05/10/2000",
+        "doc": "0714531",
+        "price": "350000",
+        "assessed": "100000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/19/2023",
+          "doc": "0890610",
+          "price": "9",
+          "assessed": "150675",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "11/30/2021",
+          "doc": "1766628",
+          "price": "",
+          "assessed": "420000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/21/2015",
+          "doc": "0443328",
+          "price": "",
+          "assessed": "129831",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/07/2014",
+          "doc": "0348493",
+          "price": "",
+          "assessed": "127881",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/10/2000",
+          "doc": "0714531",
+          "price": "350000",
+          "assessed": "100000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8451-003-030",
+      "parcel": {
+        "AIN": "8451003030",
+        "Latitude": 34.077248952,
+        "Longitude": -117.8865468,
+        "SitusStreet": "673 S EREMLAND DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3522",
+        "UseType": "Multi-Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1961",
+        "SqftLot": 9307,
+        "SqftMain": 4842,
+        "NumOfBeds": 11,
+        "NumOfBaths": 10,
+        "CurrentRoll_LandValue": 182049,
+        "CurrentRoll_ImpValue": 435061
+      }
+    },
+    {
+      "ain": "8451-003-031",
+      "parcel": {
+        "AIN": "8451003031",
+        "Latitude": 34.077005287,
+        "Longitude": -117.887269835,
+        "SitusStreet": "241 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5907,
+        "SqftMain": 1414,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 327092,
+        "CurrentRoll_ImpValue": 197681
+      }
+    },
+    {
+      "ain": "8451-003-032",
+      "parcel": {
+        "AIN": "8451003032",
+        "Latitude": 34.0770029151,
+        "Longitude": -117.887091334,
+        "SitusStreet": "247 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5989,
+        "SqftMain": 1232,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 459088,
+        "CurrentRoll_ImpValue": 187809
+      }
+    },
+    {
+      "ain": "8451-003-033",
+      "parcel": {
+        "AIN": "8451003033",
+        "Latitude": 34.0770035013,
+        "Longitude": -117.886910221,
+        "SitusStreet": "255 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6085,
+        "SqftMain": 897,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 125544,
+        "CurrentRoll_ImpValue": 101652
+      }
+    },
+    {
+      "ain": "8451-003-034",
+      "parcel": {
+        "AIN": "8451003034",
+        "Latitude": 34.0770017354,
+        "Longitude": -117.886730149,
+        "SitusStreet": "263 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5914,
+        "SqftMain": 1314,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 138728,
+        "CurrentRoll_ImpValue": 80567
+      }
+    },
+    {
+      "ain": "8451-003-035",
+      "parcel": {
+        "AIN": "8451003035",
+        "Latitude": 34.0770015935,
+        "Longitude": -117.886553288,
+        "SitusStreet": "269 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5879,
+        "SqftMain": 1126,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 123165,
+        "CurrentRoll_ImpValue": 78018
+      }
+    },
+    {
+      "ain": "8451-003-036",
+      "parcel": {
+        "AIN": "8451003036",
+        "Latitude": 34.0770068705,
+        "Longitude": -117.886377249,
+        "SitusStreet": "277 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5820,
+        "SqftMain": 986,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 247371,
+        "CurrentRoll_ImpValue": 118518
+      }
+    },
+    {
+      "ain": "8451-003-037",
+      "parcel": {
+        "AIN": "8451003037",
+        "Latitude": 34.0770446748,
+        "Longitude": -117.886151603,
+        "SitusStreet": "283 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6901,
+        "SqftMain": 1563,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 418156,
+        "CurrentRoll_ImpValue": 208553
+      }
+    },
+    {
+      "ain": "8451-003-038",
+      "parcel": {
+        "AIN": "8451003038",
+        "Latitude": 34.0769925448,
+        "Longitude": -117.885897274,
+        "SitusStreet": "289 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3525",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 10683,
+        "SqftMain": 1546,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 400864,
+        "CurrentRoll_ImpValue": 121783
+      }
+    },
+    {
+      "ain": "8451-003-039",
+      "parcel": {
+        "AIN": "8451003039",
+        "Latitude": 34.0767094215,
+        "Longitude": -117.885867671,
+        "SitusStreet": "290 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3527",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 13492,
+        "SqftMain": 1582,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 472026,
+        "CurrentRoll_ImpValue": 164884
+      }
+    },
+    {
+      "ain": "8451-003-040",
+      "parcel": {
+        "AIN": "8451003040",
+        "Latitude": 34.0765067173,
+        "Longitude": -117.886074035,
+        "SitusStreet": "284 E LOMA VISTA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3527",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 8213,
+        "SqftMain": 828,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 156577,
+        "CurrentRoll_ImpValue": 108947
+      }
+    },
+    {
+      "ain": "8451-003-041",
+      "parcel": {
+        "AIN": "8451003041",
+        "Latitude": 34.0765546362,
+        "Longitude": -117.886347008,
+        "SitusStreet": "704 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3529",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6744,
+        "SqftMain": 828,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 569800,
+        "CurrentRoll_ImpValue": 100200
+      }
+    },
+    {
+      "ain": "8451-003-042",
+      "parcel": {
+        "AIN": "8451003042",
+        "Latitude": 34.0763157491,
+        "Longitude": -117.886290749,
+        "SitusStreet": "714 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3529",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 8983,
+        "SqftMain": 1218,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 330094,
+        "CurrentRoll_ImpValue": 82519
+      }
+    },
+    {
+      "ain": "8451-003-043",
+      "parcel": {
+        "AIN": "8451003043",
+        "Latitude": 34.0759027664,
+        "Longitude": -117.886752348,
+        "SitusStreet": "735 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3530",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 19574,
+        "SqftMain": 2397,
+        "NumOfBeds": 4,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 425125,
+        "CurrentRoll_ImpValue": 501038
+      }
+    },
+    {
+      "ain": "8451-003-044",
+      "parcel": {
+        "AIN": "8451003044",
+        "Latitude": 34.0761385906,
+        "Longitude": -117.886800732,
+        "SitusStreet": "727 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3530",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6865,
+        "SqftMain": 1484,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 567122,
+        "CurrentRoll_ImpValue": 216299
+      }
+    },
+    {
+      "ain": "8451-003-045",
+      "parcel": {
+        "AIN": "8451003045",
+        "Latitude": 34.0762942976,
+        "Longitude": -117.886810839,
+        "SitusStreet": "719 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3530",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5797,
+        "SqftMain": 1054,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 39975,
+        "CurrentRoll_ImpValue": 29715
+      }
+    },
+    {
+      "ain": "8451-003-046",
+      "parcel": {
+        "AIN": "8451003046",
+        "Latitude": 34.0764440812,
+        "Longitude": -117.886811767,
+        "SitusStreet": "711 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3530",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6009,
+        "SqftMain": 1144,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 39975,
+        "CurrentRoll_ImpValue": 43966
+      }
+    },
+    {
+      "ain": "8451-003-047",
+      "parcel": {
+        "AIN": "8451003047",
+        "Latitude": 34.0765953237,
+        "Longitude": -117.886813699,
+        "SitusStreet": "703 ORANGE CIR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3530",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5880,
+        "SqftMain": 1486,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 375520,
+        "CurrentRoll_ImpValue": 161797
+      }
+    },
+    {
+      "ain": "8451-003-048",
+      "parcel": {
+        "AIN": "8451003048",
+        "Latitude": 34.0765989396,
+        "Longitude": -117.887168723,
+        "SitusStreet": "702 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5902,
+        "SqftMain": 1450,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 177701,
+        "CurrentRoll_ImpValue": 108737
+      }
+    },
+    {
+      "ain": "8451-003-049",
+      "parcel": {
+        "AIN": "8451003049",
+        "Latitude": 34.0764476122,
+        "Longitude": -117.887169792,
+        "SitusStreet": "712 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6067,
+        "SqftMain": 1054,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 190769,
+        "CurrentRoll_ImpValue": 121958
+      }
+    },
+    {
+      "ain": "8451-003-050",
+      "parcel": {
+        "AIN": "8451003050",
+        "Latitude": 34.0762974492,
+        "Longitude": -117.887168967,
+        "SitusStreet": "720 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5799,
+        "SqftMain": 986,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 618284,
+        "CurrentRoll_ImpValue": 176651
+      }
+    },
+    {
+      "ain": "8451-003-051",
+      "parcel": {
+        "AIN": "8451003051",
+        "Latitude": 34.0761443843,
+        "Longitude": -117.887168694,
+        "SitusStreet": "728 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6278,
+        "SqftMain": 1054,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 263088,
+        "CurrentRoll_ImpValue": 124382
+      }
+    },
+    {
+      "ain": "8451-003-052",
+      "parcel": {
+        "AIN": "8451003052",
+        "Latitude": 34.0759898915,
+        "Longitude": -117.887167747,
+        "SitusStreet": "736 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5896,
+        "SqftMain": 986,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 142665,
+        "CurrentRoll_ImpValue": 96545
+      }
+    },
+    {
+      "ain": "8451-003-053",
+      "parcel": {
+        "AIN": "8451003053",
+        "Latitude": 34.0758437065,
+        "Longitude": -117.887167389,
+        "SitusStreet": "744 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5605,
+        "SqftMain": 1054,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 39975,
+        "CurrentRoll_ImpValue": 30213
+      }
+    },
+    {
+      "ain": "8451-003-054",
+      "parcel": {
+        "AIN": "8451003054",
+        "Latitude": 34.0756969698,
+        "Longitude": -117.887166621,
+        "SitusStreet": "750 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 5918,
+        "SqftMain": 986,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 39975,
+        "CurrentRoll_ImpValue": 28228
+      }
+    },
+    {
+      "ain": "8451-003-055",
+      "parcel": {
+        "AIN": "8451003055",
+        "Latitude": 34.0755393937,
+        "Longitude": -117.887163276,
+        "SitusStreet": "758 S 2ND AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3519",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 6760,
+        "SqftMain": 822,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 37472,
+        "CurrentRoll_ImpValue": 24219
+      }
+    },
+    {
+      "ain": "8451-007-020",
+      "parcel": {
+        "AIN": "8451007020",
+        "Latitude": 34.0774361105,
+        "Longitude": -117.885915547,
+        "SitusStreet": "664 S EREMLAND DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3523",
+        "UseType": "Multi-Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7772,
+        "SqftMain": 2618,
+        "NumOfBeds": 4,
+        "NumOfBaths": 4,
+        "CurrentRoll_LandValue": 100773,
+        "CurrentRoll_ImpValue": 214861
+      }
+    },
+    {
+      "ain": "8451-007-021",
+      "parcel": {
+        "AIN": "8451007021",
+        "Latitude": 34.077596672,
+        "Longitude": -117.885923159,
+        "SitusStreet": "656 S EREMLAND DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3523",
+        "UseType": "Multi-Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7634,
+        "SqftMain": 2630,
+        "NumOfBeds": 4,
+        "NumOfBaths": 4,
+        "CurrentRoll_LandValue": 350099,
+        "CurrentRoll_ImpValue": 150038
+      }
+    },
+    {
+      "ain": "8451-007-022",
+      "parcel": {
+        "AIN": "8451007022",
+        "Latitude": 34.0777574591,
+        "Longitude": -117.885924129,
+        "SitusStreet": "648 S EREMLAND DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3523",
+        "UseType": "Multi-Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7938,
+        "SqftMain": 2630,
+        "NumOfBeds": 4,
+        "NumOfBaths": 4,
+        "CurrentRoll_LandValue": 1028309,
+        "CurrentRoll_ImpValue": 270608
+      }
+    },
+    {
+      "ain": "8451-007-023",
+      "parcel": {
+        "AIN": "8451007023",
+        "Latitude": 34.0779215867,
+        "Longitude": -117.885925164,
+        "SitusStreet": "642 S EREMLAND DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3523",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 7983,
+        "SqftMain": 2043,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 362238,
+        "CurrentRoll_ImpValue": 301865
+      }
+    },
+    {
+      "ain": "8451-007-024",
+      "parcel": {
+        "AIN": "8451007024",
+        "Latitude": 34.0780860647,
+        "Longitude": -117.885926374,
+        "SitusStreet": "632 S EREMLAND DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3523",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1956",
+        "SqftLot": 7999,
+        "SqftMain": 2007,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 330336,
+        "CurrentRoll_ImpValue": 257594
+      }
+    },
+    {
+      "ain": "8451-007-025",
+      "parcel": {
+        "AIN": "8451007025",
+        "Latitude": 34.0782505152,
+        "Longitude": -117.885927491,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 8014,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 156761,
+        "CurrentRoll_ImpValue": 0
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8451-003-030",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-031",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-032",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-033",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-034",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-035",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-036",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-037",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-038",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-039",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-040",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-041",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-042",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-043",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-044",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-045",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-046",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-047",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-048",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-049",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-050",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-051",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-052",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-053",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-054",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-055",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-003-056",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-003-057",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-003-058",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-003-059",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-003-060",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8451-003-061",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8451-003-062",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8451-003-063",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8451-003-064",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8451-003-065",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8451-003-066",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8451-003-067",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8451-007-020",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-007-021",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-007-022",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-007-023",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-007-024",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-007-025",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-07-16T09:12:23.527Z",
+  "endedAt": "2026-07-16T09:13:10.459Z"
+}
