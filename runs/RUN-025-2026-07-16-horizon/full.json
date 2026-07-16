@@ -1,0 +1,2956 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8451-016-092",
+  "lastAinChecked": "8451-002-029",
+  "nextCursor": "8451-002-030",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8451,
+      "page": 3,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-003"
+    },
+    {
+      "book": 8451,
+      "page": 7,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-007"
+    },
+    {
+      "book": 8451,
+      "page": 9,
+      "hits": 4,
+      "firstValidParcel": 1,
+      "key": "8451-009"
+    },
+    {
+      "book": 8451,
+      "page": 10,
+      "hits": 4,
+      "firstValidParcel": 20,
+      "key": "8451-010"
+    },
+    {
+      "book": 8451,
+      "page": 11,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8451-011"
+    },
+    {
+      "book": 8451,
+      "page": 12,
+      "hits": 3,
+      "firstValidParcel": 20,
+      "key": "8451-012"
+    },
+    {
+      "book": 8451,
+      "page": 13,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8451-013"
+    },
+    {
+      "book": 8451,
+      "page": 14,
+      "hits": 2,
+      "firstValidParcel": 80,
+      "key": "8451-014"
+    },
+    {
+      "book": 8451,
+      "page": 18,
+      "hits": 2,
+      "firstValidParcel": 20,
+      "key": "8451-018"
+    },
+    {
+      "book": 8451,
+      "page": 5,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-005"
+    },
+    {
+      "book": 8451,
+      "page": 6,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-006"
+    },
+    {
+      "book": 8451,
+      "page": 8,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-008"
+    },
+    {
+      "book": 8451,
+      "page": 15,
+      "hits": 1,
+      "firstValidParcel": 19,
+      "key": "8451-015"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-004",
+    "8451-016"
+  ],
+  "valids": [
+    {
+      "ain": "8451-016-092",
+      "status": "VALID",
+      "address": "684 E WORKMAN ST, # 42, COVINA CA 91723-3655",
+      "useType": "Condominium",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1981",
+      "beds": 2,
+      "baths": 3,
+      "bldg": 1436,
+      "lot": 128748,
+      "units": null,
+      "land": 33831,
+      "imp": 297299,
+      "assessed": 331130,
+      "latitude": 34.074344573,
+      "longitude": -117.877340121,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/08/2022",
+          "doc": "0390123",
+          "price": "9",
+          "assessed": "312033",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/23/2018",
+          "doc": "0854024",
+          "price": "",
+          "assessed": "291024",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/15/2004",
+          "doc": "2950695",
+          "price": "",
+          "assessed": "232910",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/31/2002",
+          "doc": "2593527",
+          "price": "",
+          "assessed": "191000",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/28/1998",
+          "doc": "0896618",
+          "price": "",
+          "assessed": "129000",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-093",
+      "status": "VALID",
+      "address": "686 E WORKMAN ST, COVINA CA 91723-3655",
+      "useType": "Condominium",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1981",
+      "beds": 2,
+      "baths": 3,
+      "bldg": 1436,
+      "lot": 128748,
+      "units": null,
+      "land": 400712,
+      "imp": 273153,
+      "assessed": 673865,
+      "latitude": 34.074344573,
+      "longitude": -117.877340121,
+      "lastBuy": {
+        "rec": "09/27/2022",
+        "doc": "0939100",
+        "price": "635006",
+        "assessed": "635000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/27/2022",
+          "doc": "0939100",
+          "price": "635006",
+          "assessed": "635000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/07/2012",
+          "doc": "1342560",
+          "price": "200002",
+          "assessed": "200000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/10/2008",
+          "doc": "2166635",
+          "price": "265000",
+          "assessed": "265000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/18/2002",
+          "doc": "2770552",
+          "price": "180000",
+          "assessed": "180000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/26/2000",
+          "doc": "0115979",
+          "price": "140000",
+          "assessed": "139900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-094",
+      "status": "VALID",
+      "address": "688 E WORKMAN ST, COVINA CA 91723-3655",
+      "useType": "Condominium",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1981",
+      "beds": 2,
+      "baths": 3,
+      "bldg": 1436,
+      "lot": 128748,
+      "units": null,
+      "land": 75978,
+      "imp": 216727,
+      "assessed": 292705,
+      "latitude": 34.074344573,
+      "longitude": -117.877340121,
+      "lastBuy": {
+        "rec": "02/16/1990",
+        "doc": "0272139",
+        "price": "156000",
+        "assessed": "156000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/17/1997",
+          "doc": "1438704",
+          "price": "9",
+          "assessed": "135000",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/19/1995",
+          "doc": "2014609",
+          "price": "",
+          "assessed": "135000",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/16/1990",
+          "doc": "0272139",
+          "price": "156000",
+          "assessed": "156000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/23/1983",
+          "doc": "0978150",
+          "price": "",
+          "assessed": "116500",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Historical: Transfers Solely Between Spouses"
+        },
+        {
+          "rec": "02/25/1981",
+          "doc": "0202130",
+          "price": "9",
+          "assessed": "",
+          "docType": "Restore Prior Owner",
+          "reason": "Parcel Change - Multiple Base Year"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-095",
+      "status": "VALID",
+      "address": "690 E WORKMAN ST, NO 45, COVINA CA 91723-3655",
+      "useType": "Condominium",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1981",
+      "beds": 2,
+      "baths": 3,
+      "bldg": 1428,
+      "lot": 128748,
+      "units": null,
+      "land": 188239,
+      "imp": 252477,
+      "assessed": 440716,
+      "latitude": 34.074344573,
+      "longitude": -117.877340121,
+      "lastBuy": {
+        "rec": "01/29/2016",
+        "doc": "0109579",
+        "price": "365003",
+        "assessed": "365000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/29/2016",
+          "doc": "0109579",
+          "price": "365003",
+          "assessed": "365000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/20/2014",
+          "doc": "0280485",
+          "price": "",
+          "assessed": "251974",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/11/2006",
+          "doc": "2258400",
+          "price": "",
+          "assessed": "226038",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/01/2002",
+          "doc": "1011005",
+          "price": "205000",
+          "assessed": "205000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/29/2001",
+          "doc": "1616000",
+          "price": "175000",
+          "assessed": "175000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-096",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Other Property Type",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/22/1976",
+          "doc": "0000000",
+          "price": "0",
+          "assessed": "",
+          "docType": "Portion Added",
+          "reason": "Parcel Change - Old Owner"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-097",
+      "status": "VALID",
+      "address": "3041 E GARVEY AVE N, WEST COVINA CA 91791-1707",
+      "useType": "Commercial",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/22/1995",
+          "doc": "0416990",
+          "price": "0",
+          "assessed": "1401690",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "09/14/1993",
+          "doc": "7777795",
+          "price": "",
+          "assessed": "1370000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/22/1976",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Portion Added",
+          "reason": "Parcel Change - Old Owner"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-098",
+      "status": "VALID",
+      "address": "100 N BARRANCA ST, WEST COVINA CA 91791-1637",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1987",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 228819,
+      "lot": 60871,
+      "units": null,
+      "land": 7221163,
+      "imp": 36780594,
+      "assessed": 44001757,
+      "latitude": 34.0731093722,
+      "longitude": -117.880727884,
+      "lastBuy": {
+        "rec": "03/08/2017",
+        "doc": "0270931",
+        "price": "37170371",
+        "assessed": "37170000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "03/08/2017",
+          "doc": "0270931",
+          "price": "37170371",
+          "assessed": "37170000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/19/2016",
+          "doc": "0440175",
+          "price": "",
+          "assessed": "37170000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "09/02/1987",
+          "doc": "1417439",
+          "price": "474091",
+          "assessed": "5616700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Parcel Change - New Transferee"
+        },
+        {
+          "rec": "12/11/1986",
+          "doc": "1720430",
+          "price": "",
+          "assessed": "5590700",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-099",
+      "status": "VALID",
+      "address": "3101 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Commercial",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "0",
+          "assessed": "",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-100",
+      "status": "VALID",
+      "address": "3041 E GARVEY AVE N, WEST COVINA CA 91791-1707",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "2023",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 4985,
+      "lot": 71992,
+      "units": null,
+      "land": 1681684,
+      "imp": 1551860,
+      "assessed": 3233544,
+      "latitude": 34.0731264188,
+      "longitude": -117.879912679,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "9",
+          "assessed": "",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-101",
+      "status": "VALID",
+      "address": "3057 E GARVEY AVE, N, WEST COVINA CA 91791-1707",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 54021,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": 34.0730057407,
+      "longitude": -117.879187092,
+      "lastBuy": {
+        "rec": "11/14/2012",
+        "doc": "1726831",
+        "price": "2000000",
+        "assessed": "792000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "2000000",
+          "assessed": "792000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "",
+          "assessed": "1103697",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-102",
+      "status": "VALID",
+      "address": "3101 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 32406,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": 34.0729216629,
+      "longitude": -117.878769657,
+      "lastBuy": {
+        "rec": "11/14/2012",
+        "doc": "1726831",
+        "price": "2000000",
+        "assessed": "563000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "2000000",
+          "assessed": "563000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "",
+          "assessed": "553150",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-103",
+      "status": "VALID",
+      "address": "3109 E GARVEY AVE, N, WEST COVINA CA 91791-1701",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 37671,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": 34.0728935581,
+      "longitude": -117.878487781,
+      "lastBuy": {
+        "rec": "11/14/2012",
+        "doc": "1726831",
+        "price": "2000000",
+        "assessed": "645000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "2000000",
+          "assessed": "645000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "",
+          "assessed": "709984",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-104",
+      "status": "VALID",
+      "address": "3117 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 9219,
+      "lot": 71891,
+      "units": null,
+      "land": 931968,
+      "imp": 915022,
+      "assessed": 1846990,
+      "latitude": 34.0728757837,
+      "longitude": -117.878062383,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "9",
+          "assessed": "",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-105",
+      "status": "VALID",
+      "address": "3133 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1977",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 8961,
+      "lot": 77605,
+      "units": null,
+      "land": 982804,
+      "imp": 838767,
+      "assessed": 1821571,
+      "latitude": 34.0728554815,
+      "longitude": -117.877498222,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "9",
+          "assessed": "",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-106",
+      "status": "VALID",
+      "address": "3145 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1988",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 54630,
+      "lot": 81219,
+      "units": null,
+      "land": 6834000,
+      "imp": 10318320,
+      "assessed": 17152320,
+      "latitude": 34.0728493736,
+      "longitude": -117.876909563,
+      "lastBuy": {
+        "rec": "02/12/2025",
+        "doc": "0089738",
+        "price": "16281000",
+        "assessed": "16816000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/12/2025",
+          "doc": "0089738",
+          "price": "16281000",
+          "assessed": "16816000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/11/2013",
+          "doc": "1749122",
+          "price": "430004",
+          "assessed": "11633000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/24/2004",
+          "doc": "2178669",
+          "price": "9500000",
+          "assessed": "8845000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/24/2004",
+          "doc": "2178668",
+          "price": "",
+          "assessed": "4860352",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "02/09/2000",
+          "doc": "0199796",
+          "price": "1500000",
+          "assessed": "4550000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-107",
+      "status": "VALID",
+      "address": "3211 E GARVEY AVE N, WEST COVINA CA 91791-1708",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "2010",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 60238,
+      "lot": 72129,
+      "units": null,
+      "land": 1242258,
+      "imp": 13590738,
+      "assessed": 14832996,
+      "latitude": 34.0730979034,
+      "longitude": -117.876248154,
+      "lastBuy": {
+        "rec": "07/25/2005",
+        "doc": "1751109",
+        "price": "825008",
+        "assessed": "1603950",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Partial Interest Transfer - Complete Own-216"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/25/2005",
+          "doc": "1751109",
+          "price": "825008",
+          "assessed": "1603950",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "06/19/2002",
+          "doc": "1390505",
+          "price": "1100000",
+          "assessed": "1100000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/1995",
+          "doc": "1370758",
+          "price": "9",
+          "assessed": "1988406",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-108",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/19/1980",
+          "doc": "1168300",
+          "price": "0",
+          "assessed": "",
+          "docType": "Correction to Reappraise",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-109",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 12888,
+      "units": null,
+      "land": 23,
+      "imp": 0,
+      "assessed": 23,
+      "latitude": 34.0740400289,
+      "longitude": -117.873687396,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/19/1980",
+          "doc": "1168300",
+          "price": "9",
+          "assessed": "",
+          "docType": "Correction to Reappraise",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-110",
+      "status": "VALID",
+      "address": "3057 E GARVEY AVE, N, WEST COVINA CA 91791-1707",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "0",
+          "assessed": "792000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-111",
+      "status": "VALID",
+      "address": "3101 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "0",
+          "assessed": "559459",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-112",
+      "status": "VALID",
+      "address": "3109 E GARVEY AVE, N, WEST COVINA CA 91791-1701",
+      "useType": "Vacant Land",
+      "parcelStatus": "DELETED",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": null,
+      "units": null,
+      "land": 0,
+      "imp": 0,
+      "assessed": 0,
+      "latitude": null,
+      "longitude": null,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "0",
+          "assessed": "644278",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-016-113",
+      "status": "VALID",
+      "address": "3101 E GARVEY AVE N, WEST COVINA CA 91791-1701",
+      "useType": "Recreational",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "2013",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 44908,
+      "lot": 128318,
+      "units": null,
+      "land": 9795480,
+      "imp": 10128079,
+      "assessed": 19923559,
+      "latitude": 34.0729418305,
+      "longitude": -117.878885331,
+      "lastBuy": {
+        "rec": "02/14/2014",
+        "doc": "0163983",
+        "price": "15934159",
+        "assessed": "15934000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/14/2014",
+          "doc": "0163983",
+          "price": "15934159",
+          "assessed": "15934000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/14/2012",
+          "doc": "1726831",
+          "price": "2000020",
+          "assessed": "1995737",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-020",
+      "status": "VALID",
+      "address": "156 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2120,
+      "lot": 4066,
+      "units": null,
+      "land": 582624,
+      "imp": 122767,
+      "assessed": 705391,
+      "latitude": 34.07729895,
+      "longitude": -117.88848818,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/26/2025",
+          "doc": "0940198",
+          "price": "0",
+          "assessed": "705391",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/03/2024",
+          "doc": "0676808",
+          "price": "",
+          "assessed": "691560",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/16/2024",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "11/20/2023",
+          "doc": "0192682",
+          "price": "",
+          "assessed": "678000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/07/1999",
+          "doc": "1232693",
+          "price": "",
+          "assessed": "219036",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-021",
+      "status": "VALID",
+      "address": "152 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 1995,
+      "lot": 3302,
+      "units": null,
+      "land": 517176,
+      "imp": 75965,
+      "assessed": 593141,
+      "latitude": 34.07731942,
+      "longitude": -117.88860372,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/09/2025",
+          "doc": "0308492",
+          "price": "0",
+          "assessed": "593141",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/29/2025",
+          "doc": "0217034",
+          "price": "",
+          "assessed": "581512",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "12/29/2016",
+          "doc": "1654087",
+          "price": "",
+          "assessed": "127786",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/11/2011",
+          "doc": "1374464",
+          "price": "",
+          "assessed": "116646",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "06/24/2005",
+          "doc": "1498504",
+          "price": "",
+          "assessed": "93578",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-022",
+      "status": "VALID",
+      "address": "148 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2160,
+      "lot": 3278,
+      "units": null,
+      "land": 79941,
+      "imp": 159896,
+      "assessed": 239837,
+      "latitude": 34.07732723,
+      "longitude": -117.88870096,
+      "lastBuy": {
+        "rec": "04/15/1999",
+        "doc": "0647546",
+        "price": "155001",
+        "assessed": "150000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/15/1999",
+          "doc": "0647546",
+          "price": "155001",
+          "assessed": "150000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/07/1990",
+          "doc": "0829736",
+          "price": "",
+          "assessed": "53131",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/24/1967",
+          "doc": "",
+          "price": "29000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-023",
+      "status": "VALID",
+      "address": "146 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2280,
+      "lot": 3569,
+      "units": null,
+      "land": 598000,
+      "imp": 250000,
+      "assessed": 848000,
+      "latitude": 34.07733146,
+      "longitude": -117.88879844,
+      "lastBuy": {
+        "rec": "12/01/2025",
+        "doc": "0856108",
+        "price": "848000",
+        "assessed": "848000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/01/2025",
+          "doc": "0856108",
+          "price": "848000",
+          "assessed": "848000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/01/2018",
+          "doc": "0773212",
+          "price": "568005",
+          "assessed": "568000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/24/1998",
+          "doc": "0688059",
+          "price": "195001",
+          "assessed": "195000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/25/1992",
+          "doc": "0501002",
+          "price": "",
+          "assessed": "149496",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/14/1985",
+          "doc": "0668557",
+          "price": "",
+          "assessed": "127600",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-024",
+      "status": "VALID",
+      "address": "140 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 4560,
+      "lot": 7055,
+      "units": null,
+      "land": 576722,
+      "imp": 441743,
+      "assessed": 1018465,
+      "latitude": 34.07733158,
+      "longitude": -117.8889488,
+      "lastBuy": {
+        "rec": "01/15/2020",
+        "doc": "0054561",
+        "price": "913000",
+        "assessed": "913000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/16/2021",
+          "doc": "1869744",
+          "price": "9",
+          "assessed": "940907",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/15/2020",
+          "doc": "0054561",
+          "price": "913000",
+          "assessed": "913000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/15/2010",
+          "doc": "1474666",
+          "price": "",
+          "assessed": "196074",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/10/2010",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/16/2009",
+          "doc": "0553785",
+          "price": "",
+          "assessed": "194609",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-025",
+      "status": "VALID",
+      "address": "132 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2280,
+      "lot": 1769,
+      "units": null,
+      "land": 683400,
+      "imp": 71400,
+      "assessed": 754800,
+      "latitude": 34.07733311,
+      "longitude": -117.88907383,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/09/2025",
+          "doc": "0308497",
+          "price": "0",
+          "assessed": "754800",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/29/2025",
+          "doc": "0214910",
+          "price": "",
+          "assessed": "740000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/29/2016",
+          "doc": "1654083",
+          "price": "",
+          "assessed": "39670",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/15/1996",
+          "doc": "0417486",
+          "price": "",
+          "assessed": "28281",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/16/1979",
+          "doc": "0777101",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-026",
+      "status": "VALID",
+      "address": "130 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2280,
+      "lot": 1686,
+      "units": null,
+      "land": 255364,
+      "imp": 72293,
+      "assessed": 327657,
+      "latitude": 34.07733217,
+      "longitude": -117.88912288,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/09/2025",
+          "doc": "0308519",
+          "price": "0",
+          "assessed": "327657",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/29/2025",
+          "doc": "0217040",
+          "price": "",
+          "assessed": "321233",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "12/29/2016",
+          "doc": "1654081",
+          "price": "",
+          "assessed": "141237",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/11/2011",
+          "doc": "1374465",
+          "price": "",
+          "assessed": "129957",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "06/24/2005",
+          "doc": "1498505",
+          "price": "",
+          "assessed": "51517",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-027",
+      "status": "VALID",
+      "address": "126 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 4560,
+      "lot": 6898,
+      "units": null,
+      "land": 307474,
+      "imp": 568935,
+      "assessed": 876409,
+      "latitude": 34.07733257,
+      "longitude": -117.88924485,
+      "lastBuy": {
+        "rec": "06/28/2012",
+        "doc": "0963231",
+        "price": "575005",
+        "assessed": "575000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/28/2012",
+          "doc": "0963231",
+          "price": "575005",
+          "assessed": "575000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/08/1997",
+          "doc": "1221165",
+          "price": "",
+          "assessed": "106534",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/19/1997",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/08/1996",
+          "doc": "0036761",
+          "price": "",
+          "assessed": "102399",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/23/1975",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Correction to Reappraise",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-028",
+      "status": "VALID",
+      "address": "118 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 4560,
+      "lot": 6960,
+      "units": null,
+      "land": 780121,
+      "imp": 163703,
+      "assessed": 943824,
+      "latitude": 34.07733271,
+      "longitude": -117.88944224,
+      "lastBuy": {
+        "rec": "09/20/2018",
+        "doc": "0964873",
+        "price": "110001",
+        "assessed": "401530",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Partial Interest Transfer - Complete Own-216"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/07/2025",
+          "doc": "0782375",
+          "price": "0",
+          "assessed": "943824",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/29/2025",
+          "doc": "0218736",
+          "price": "",
+          "assessed": "925319",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/20/2018",
+          "doc": "0964873",
+          "price": "110001",
+          "assessed": "401530",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/17/2017",
+          "doc": "0062124",
+          "price": "",
+          "assessed": "226634",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/11/2012",
+          "doc": "0048998",
+          "price": "",
+          "assessed": "209411",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-002-029",
+      "status": "VALID",
+      "address": "110 SHOPPERS LN, COVINA CA 91723-3535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 4560,
+      "lot": 6927,
+      "units": null,
+      "land": 251207,
+      "imp": 472521,
+      "assessed": 723728,
+      "latitude": 34.07733397,
+      "longitude": -117.88964071,
+      "lastBuy": {
+        "rec": "08/30/2012",
+        "doc": "1297448",
+        "price": "576505",
+        "assessed": "576200",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/30/2012",
+          "doc": "1297448",
+          "price": "576505",
+          "assessed": "576200",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/08/1997",
+          "doc": "1221165",
+          "price": "",
+          "assessed": "113291",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/19/1997",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/08/1996",
+          "doc": "0036761",
+          "price": "",
+          "assessed": "108893",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/23/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8451-016-092",
+      "parcel": {
+        "AIN": "8451016092",
+        "Latitude": 34.074344573,
+        "Longitude": -117.877340121,
+        "SitusStreet": "684 E WORKMAN ST, # 42",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3655",
+        "UseType": "Condominium",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1981",
+        "SqftLot": 128748,
+        "SqftMain": 1436,
+        "NumOfBeds": 2,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 33831,
+        "CurrentRoll_ImpValue": 297299
+      }
+    },
+    {
+      "ain": "8451-016-093",
+      "parcel": {
+        "AIN": "8451016093",
+        "Latitude": 34.074344573,
+        "Longitude": -117.877340121,
+        "SitusStreet": "686 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3655",
+        "UseType": "Condominium",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1981",
+        "SqftLot": 128748,
+        "SqftMain": 1436,
+        "NumOfBeds": 2,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 400712,
+        "CurrentRoll_ImpValue": 273153
+      }
+    },
+    {
+      "ain": "8451-016-094",
+      "parcel": {
+        "AIN": "8451016094",
+        "Latitude": 34.074344573,
+        "Longitude": -117.877340121,
+        "SitusStreet": "688 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3655",
+        "UseType": "Condominium",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1981",
+        "SqftLot": 128748,
+        "SqftMain": 1436,
+        "NumOfBeds": 2,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 75978,
+        "CurrentRoll_ImpValue": 216727
+      }
+    },
+    {
+      "ain": "8451-016-095",
+      "parcel": {
+        "AIN": "8451016095",
+        "Latitude": 34.074344573,
+        "Longitude": -117.877340121,
+        "SitusStreet": "690 E WORKMAN ST, NO 45",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3655",
+        "UseType": "Condominium",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1981",
+        "SqftLot": 128748,
+        "SqftMain": 1428,
+        "NumOfBeds": 2,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 188239,
+        "CurrentRoll_ImpValue": 252477
+      }
+    },
+    {
+      "ain": "8451-016-096",
+      "parcel": {
+        "AIN": "8451016096",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Other Property Type",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-097",
+      "parcel": {
+        "AIN": "8451016097",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "3041 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1707",
+        "UseType": "Commercial",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-098",
+      "parcel": {
+        "AIN": "8451016098",
+        "Latitude": 34.0731093722,
+        "Longitude": -117.880727884,
+        "SitusStreet": "100 N BARRANCA ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1637",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1987",
+        "SqftLot": 60871,
+        "SqftMain": 228819,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 7221163,
+        "CurrentRoll_ImpValue": 36780594
+      }
+    },
+    {
+      "ain": "8451-016-099",
+      "parcel": {
+        "AIN": "8451016099",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "3101 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Commercial",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-100",
+      "parcel": {
+        "AIN": "8451016100",
+        "Latitude": 34.0731264188,
+        "Longitude": -117.879912679,
+        "SitusStreet": "3041 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1707",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "2023",
+        "SqftLot": 71992,
+        "SqftMain": 4985,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 1681684,
+        "CurrentRoll_ImpValue": 1551860
+      }
+    },
+    {
+      "ain": "8451-016-101",
+      "parcel": {
+        "AIN": "8451016101",
+        "Latitude": 34.0730057407,
+        "Longitude": -117.879187092,
+        "SitusStreet": "3057 E GARVEY AVE, N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1707",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 54021,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-102",
+      "parcel": {
+        "AIN": "8451016102",
+        "Latitude": 34.0729216629,
+        "Longitude": -117.878769657,
+        "SitusStreet": "3101 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 32406,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-103",
+      "parcel": {
+        "AIN": "8451016103",
+        "Latitude": 34.0728935581,
+        "Longitude": -117.878487781,
+        "SitusStreet": "3109 E GARVEY AVE, N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 37671,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-104",
+      "parcel": {
+        "AIN": "8451016104",
+        "Latitude": 34.0728757837,
+        "Longitude": -117.878062383,
+        "SitusStreet": "3117 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 71891,
+        "SqftMain": 9219,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 931968,
+        "CurrentRoll_ImpValue": 915022
+      }
+    },
+    {
+      "ain": "8451-016-105",
+      "parcel": {
+        "AIN": "8451016105",
+        "Latitude": 34.0728554815,
+        "Longitude": -117.877498222,
+        "SitusStreet": "3133 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1977",
+        "SqftLot": 77605,
+        "SqftMain": 8961,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 982804,
+        "CurrentRoll_ImpValue": 838767
+      }
+    },
+    {
+      "ain": "8451-016-106",
+      "parcel": {
+        "AIN": "8451016106",
+        "Latitude": 34.0728493736,
+        "Longitude": -117.876909563,
+        "SitusStreet": "3145 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1988",
+        "SqftLot": 81219,
+        "SqftMain": 54630,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 6834000,
+        "CurrentRoll_ImpValue": 10318320
+      }
+    },
+    {
+      "ain": "8451-016-107",
+      "parcel": {
+        "AIN": "8451016107",
+        "Latitude": 34.0730979034,
+        "Longitude": -117.876248154,
+        "SitusStreet": "3211 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1708",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "2010",
+        "SqftLot": 72129,
+        "SqftMain": 60238,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 1242258,
+        "CurrentRoll_ImpValue": 13590738
+      }
+    },
+    {
+      "ain": "8451-016-108",
+      "parcel": {
+        "AIN": "8451016108",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-109",
+      "parcel": {
+        "AIN": "8451016109",
+        "Latitude": 34.0740400289,
+        "Longitude": -117.873687396,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 12888,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 23,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-110",
+      "parcel": {
+        "AIN": "8451016110",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "3057 E GARVEY AVE, N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1707",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-111",
+      "parcel": {
+        "AIN": "8451016111",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "3101 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-112",
+      "parcel": {
+        "AIN": "8451016112",
+        "Latitude": null,
+        "Longitude": null,
+        "SitusStreet": "3109 E GARVEY AVE, N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "DELETED",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": null,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 0,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-016-113",
+      "parcel": {
+        "AIN": "8451016113",
+        "Latitude": 34.0729418305,
+        "Longitude": -117.878885331,
+        "SitusStreet": "3101 E GARVEY AVE N",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1701",
+        "UseType": "Recreational",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "2013",
+        "SqftLot": 128318,
+        "SqftMain": 44908,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 9795480,
+        "CurrentRoll_ImpValue": 10128079
+      }
+    },
+    {
+      "ain": "8451-002-020",
+      "parcel": {
+        "AIN": "8451002020",
+        "Latitude": 34.07729895,
+        "Longitude": -117.88848818,
+        "SitusStreet": "156 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 4066,
+        "SqftMain": 2120,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 582624,
+        "CurrentRoll_ImpValue": 122767
+      }
+    },
+    {
+      "ain": "8451-002-021",
+      "parcel": {
+        "AIN": "8451002021",
+        "Latitude": 34.07731942,
+        "Longitude": -117.88860372,
+        "SitusStreet": "152 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 3302,
+        "SqftMain": 1995,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 517176,
+        "CurrentRoll_ImpValue": 75965
+      }
+    },
+    {
+      "ain": "8451-002-022",
+      "parcel": {
+        "AIN": "8451002022",
+        "Latitude": 34.07732723,
+        "Longitude": -117.88870096,
+        "SitusStreet": "148 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 3278,
+        "SqftMain": 2160,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 79941,
+        "CurrentRoll_ImpValue": 159896
+      }
+    },
+    {
+      "ain": "8451-002-023",
+      "parcel": {
+        "AIN": "8451002023",
+        "Latitude": 34.07733146,
+        "Longitude": -117.88879844,
+        "SitusStreet": "146 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 3569,
+        "SqftMain": 2280,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 598000,
+        "CurrentRoll_ImpValue": 250000
+      }
+    },
+    {
+      "ain": "8451-002-024",
+      "parcel": {
+        "AIN": "8451002024",
+        "Latitude": 34.07733158,
+        "Longitude": -117.8889488,
+        "SitusStreet": "140 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7055,
+        "SqftMain": 4560,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 576722,
+        "CurrentRoll_ImpValue": 441743
+      }
+    },
+    {
+      "ain": "8451-002-025",
+      "parcel": {
+        "AIN": "8451002025",
+        "Latitude": 34.07733311,
+        "Longitude": -117.88907383,
+        "SitusStreet": "132 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 1769,
+        "SqftMain": 2280,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 683400,
+        "CurrentRoll_ImpValue": 71400
+      }
+    },
+    {
+      "ain": "8451-002-026",
+      "parcel": {
+        "AIN": "8451002026",
+        "Latitude": 34.07733217,
+        "Longitude": -117.88912288,
+        "SitusStreet": "130 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 1686,
+        "SqftMain": 2280,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 255364,
+        "CurrentRoll_ImpValue": 72293
+      }
+    },
+    {
+      "ain": "8451-002-027",
+      "parcel": {
+        "AIN": "8451002027",
+        "Latitude": 34.07733257,
+        "Longitude": -117.88924485,
+        "SitusStreet": "126 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6898,
+        "SqftMain": 4560,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 307474,
+        "CurrentRoll_ImpValue": 568935
+      }
+    },
+    {
+      "ain": "8451-002-028",
+      "parcel": {
+        "AIN": "8451002028",
+        "Latitude": 34.07733271,
+        "Longitude": -117.88944224,
+        "SitusStreet": "118 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6960,
+        "SqftMain": 4560,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 780121,
+        "CurrentRoll_ImpValue": 163703
+      }
+    },
+    {
+      "ain": "8451-002-029",
+      "parcel": {
+        "AIN": "8451002029",
+        "Latitude": 34.07733397,
+        "Longitude": -117.88964071,
+        "SitusStreet": "110 SHOPPERS LN",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 6927,
+        "SqftMain": 4560,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 251207,
+        "CurrentRoll_ImpValue": 472521
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8451-016-092",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-093",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-094",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-095",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-096",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-097",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-098",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-099",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-100",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-101",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-102",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-103",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-104",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-105",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-106",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-107",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-108",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-109",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-110",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-111",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-112",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-113",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-016-114",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-016-115",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-016-116",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-016-117",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-016-118",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8451-016-119",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8451-016-120",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8451-016-121",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8451-016-122",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8451-016-123",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8451-016-124",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8451-016-125",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8451-002-020",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-021",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-022",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-023",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-024",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-025",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-026",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-027",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-028",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-002-029",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-07-16T04:13:42.325Z",
+  "endedAt": "2026-07-16T04:15:49.579Z"
+}
