@@ -1,0 +1,3242 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8451-009-033",
+  "lastAinChecked": "8451-010-040",
+  "nextCursor": "8451-010-041",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 31,
+  "invalidCount": 13,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8451,
+      "page": 11,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8451-011"
+    },
+    {
+      "book": 8451,
+      "page": 12,
+      "hits": 3,
+      "firstValidParcel": 20,
+      "key": "8451-012"
+    },
+    {
+      "book": 8451,
+      "page": 13,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8451-013"
+    },
+    {
+      "book": 8451,
+      "page": 14,
+      "hits": 2,
+      "firstValidParcel": 80,
+      "key": "8451-014"
+    },
+    {
+      "book": 8451,
+      "page": 18,
+      "hits": 2,
+      "firstValidParcel": 20,
+      "key": "8451-018"
+    },
+    {
+      "book": 8451,
+      "page": 5,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-005"
+    },
+    {
+      "book": 8451,
+      "page": 6,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-006"
+    },
+    {
+      "book": 8451,
+      "page": 8,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8451-008"
+    },
+    {
+      "book": 8451,
+      "page": 15,
+      "hits": 1,
+      "firstValidParcel": 19,
+      "key": "8451-015"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-007",
+    "8451-009",
+    "8451-016"
+  ],
+  "valids": [
+    {
+      "ain": "8451-009-033",
+      "status": "VALID",
+      "address": "672 E THELBORN ST, COVINA CA 91723-3658",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1963",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1756,
+      "lot": 7962,
+      "units": null,
+      "land": 37727,
+      "imp": 68990,
+      "assessed": 106717,
+      "latitude": 34.0772240564,
+      "longitude": -117.877291462,
+      "lastBuy": {
+        "rec": "12/21/1972",
+        "doc": "",
+        "price": "35500",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/15/1995",
+          "doc": "1506239",
+          "price": "9",
+          "assessed": "63000",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/04/1993",
+          "doc": "2158352",
+          "price": "",
+          "assessed": "61577",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/21/1972",
+          "doc": "",
+          "price": "35500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-034",
+      "status": "VALID",
+      "address": "682 E THELBORN ST, COVINA CA 91723-3658",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1963",
+      "beds": 5,
+      "baths": 2,
+      "bldg": 2202,
+      "lot": 8548,
+      "units": null,
+      "land": 371536,
+      "imp": 316715,
+      "assessed": 688251,
+      "latitude": 34.0772227954,
+      "longitude": -117.877020834,
+      "lastBuy": {
+        "rec": "07/29/2015",
+        "doc": "0923330",
+        "price": "570005",
+        "assessed": "570000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/29/2015",
+          "doc": "0923330",
+          "price": "570005",
+          "assessed": "570000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/25/1997",
+          "doc": "1319614",
+          "price": "",
+          "assessed": "64200",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/26/1997",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/28/1986",
+          "doc": "0519854",
+          "price": "",
+          "assessed": "56247",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/12/1984",
+          "doc": "0833330",
+          "price": "",
+          "assessed": "54065",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-035",
+      "status": "VALID",
+      "address": "576 E THELBORN ST, COVINA CA 91723-3623",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1758,
+      "lot": 11308,
+      "units": null,
+      "land": 113928,
+      "imp": 165725,
+      "assessed": 279653,
+      "latitude": 34.0772989802,
+      "longitude": -117.879209949,
+      "lastBuy": {
+        "rec": "05/29/1985",
+        "doc": "0601026",
+        "price": "135001",
+        "assessed": "135000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/22/2016",
+          "doc": "1154110",
+          "price": "9",
+          "assessed": "236241",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/29/1985",
+          "doc": "0601026",
+          "price": "135001",
+          "assessed": "135000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/29/1966",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-036",
+      "status": "VALID",
+      "address": "568 E THELBORN ST, COVINA CA 91723-3623",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1943,
+      "lot": 11526,
+      "units": null,
+      "land": 35469,
+      "imp": 81126,
+      "assessed": 116595,
+      "latitude": 34.0772581775,
+      "longitude": -117.879465798,
+      "lastBuy": {
+        "rec": "09/03/1971",
+        "doc": "",
+        "price": "30000",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/01/2016",
+          "doc": "0899386",
+          "price": "9",
+          "assessed": "98500",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/27/2011",
+          "doc": "0743247",
+          "price": "",
+          "assessed": "91018",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "09/03/1971",
+          "doc": "",
+          "price": "30000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-037",
+      "status": "VALID",
+      "address": "556 E THELBORN ST, COVINA CA 91723-3623",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1962",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1754,
+      "lot": 12011,
+      "units": null,
+      "land": 35469,
+      "imp": 64237,
+      "assessed": 99706,
+      "latitude": 34.0772736337,
+      "longitude": -117.879706421,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/23/2019",
+          "doc": "1135544",
+          "price": "9",
+          "assessed": "89388",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/07/1998",
+          "doc": "0565730",
+          "price": "",
+          "assessed": "62374",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/07/1981",
+          "doc": "0678265",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer with DTT",
+          "reason": "Historical: Transfers Solely Between Spouses"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-039",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 13538,
+      "units": null,
+      "land": 136647,
+      "imp": 0,
+      "assessed": 136647,
+      "latitude": 34.0772787361,
+      "longitude": -117.881015579,
+      "lastBuy": {
+        "rec": "08/31/1987",
+        "doc": "1400060",
+        "price": "575005",
+        "assessed": "70000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/31/1987",
+          "doc": "1400060",
+          "price": "575005",
+          "assessed": "70000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/12/1984",
+          "doc": "1226494",
+          "price": "",
+          "assessed": "32000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "08/04/1978",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-040",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 12127,
+      "units": null,
+      "land": 117122,
+      "imp": 0,
+      "assessed": 117122,
+      "latitude": 34.0772799817,
+      "longitude": -117.880760076,
+      "lastBuy": {
+        "rec": "08/31/1987",
+        "doc": "1400060",
+        "price": "575005",
+        "assessed": "60000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/31/1987",
+          "doc": "1400060",
+          "price": "575005",
+          "assessed": "60000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/12/1984",
+          "doc": "1226496",
+          "price": "",
+          "assessed": "28000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "08/04/1978",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-041",
+      "status": "VALID",
+      "address": "528 E THELBORN ST, COVINA CA 91723-3623",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1930",
+      "beds": 5,
+      "baths": 6,
+      "bldg": 4750,
+      "lot": 16806,
+      "units": null,
+      "land": 347508,
+      "imp": 521277,
+      "assessed": 868785,
+      "latitude": 34.0772789301,
+      "longitude": -117.880472736,
+      "lastBuy": {
+        "rec": "08/31/1987",
+        "doc": "1400060",
+        "price": "575005",
+        "assessed": "445000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/31/1987",
+          "doc": "1400060",
+          "price": "575005",
+          "assessed": "445000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/05/1983",
+          "doc": "1177014",
+          "price": "",
+          "assessed": "190053",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/19/1979",
+          "doc": "1298238",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-042",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 12136,
+      "units": null,
+      "land": 218069,
+      "imp": 0,
+      "assessed": 218069,
+      "latitude": 34.0772778181,
+      "longitude": -117.880185862,
+      "lastBuy": {
+        "rec": "05/02/1996",
+        "doc": "0686010",
+        "price": "128001",
+        "assessed": "128700",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/02/1996",
+          "doc": "0686010",
+          "price": "128001",
+          "assessed": "128700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/28/1994",
+          "doc": "1959692",
+          "price": "145000",
+          "assessed": "36250",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/11/1990",
+          "doc": "1034049",
+          "price": "",
+          "assessed": "14102",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/04/1978",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-009-043",
+      "status": "VALID",
+      "address": "548 E THELBORN ST, COVINA CA 91723-3623",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1996",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 2203,
+      "lot": 12156,
+      "units": null,
+      "land": 191250,
+      "imp": 333913,
+      "assessed": 525163,
+      "latitude": 34.0772771244,
+      "longitude": -117.879945623,
+      "lastBuy": {
+        "rec": "10/20/1999",
+        "doc": "1973713",
+        "price": "335003",
+        "assessed": "335000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/20/1999",
+          "doc": "1973713",
+          "price": "335003",
+          "assessed": "335000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/01/1999",
+          "doc": "0987440",
+          "price": "",
+          "assessed": "254083",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/07/1996",
+          "doc": "1808386",
+          "price": "248500",
+          "assessed": "248500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/28/1994",
+          "doc": "1959692",
+          "price": "145000",
+          "assessed": "36250",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/11/1990",
+          "doc": "1034049",
+          "price": "",
+          "assessed": "14102",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-020",
+      "status": "VALID",
+      "address": "737 S SAN ANTONIO DR, COVINA CA 91723-3506",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1342,
+      "lot": 6086,
+      "units": null,
+      "land": 66046,
+      "imp": 67893,
+      "assessed": 133939,
+      "latitude": 34.0763583473,
+      "longitude": -117.884185919,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/02/2013",
+          "doc": "0664145",
+          "price": "9",
+          "assessed": "107129",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/02/2008",
+          "doc": "0002839",
+          "price": "",
+          "assessed": "101985",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/31/2007",
+          "doc": "2861393",
+          "price": "",
+          "assessed": "99986",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/17/2004",
+          "doc": "2119362",
+          "price": "",
+          "assessed": "94222",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/04/1994",
+          "doc": "0653599",
+          "price": "",
+          "assessed": "78199",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-021",
+      "status": "VALID",
+      "address": "729 S SAN ANTONIO DR, COVINA CA 91723-3506",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1506,
+      "lot": 6060,
+      "units": null,
+      "land": 37727,
+      "imp": 58150,
+      "assessed": 95877,
+      "latitude": 34.0765300936,
+      "longitude": -117.884185506,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/19/2019",
+          "doc": "1260633",
+          "price": "9",
+          "assessed": "85953",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/20/1998",
+          "doc": "1232559",
+          "price": "",
+          "assessed": "47206",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/13/1991",
+          "doc": "0357561",
+          "price": "",
+          "assessed": "41856",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/13/1982",
+          "doc": "0382405",
+          "price": "",
+          "assessed": "35030",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Historical: Spousal Transfers"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-022",
+      "status": "VALID",
+      "address": "721 S SAN ANTONIO DR, COVINA CA 91723-3506",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1310,
+      "lot": 6230,
+      "units": null,
+      "land": 37727,
+      "imp": 37982,
+      "assessed": 75709,
+      "latitude": 34.0767034835,
+      "longitude": -117.884185119,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/17/2004",
+          "doc": "2119358",
+          "price": "0",
+          "assessed": "53264",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/23/2002",
+          "doc": "1191485",
+          "price": "",
+          "assessed": "51265",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/17/1968",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-023",
+      "status": "VALID",
+      "address": "713 S SAN ANTONIO DR, COVINA CA 91723-3506",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1310,
+      "lot": 6134,
+      "units": null,
+      "land": 354750,
+      "imp": 200677,
+      "assessed": 555427,
+      "latitude": 34.0768775658,
+      "longitude": -117.884184936,
+      "lastBuy": {
+        "rec": "02/19/2016",
+        "doc": "0183369",
+        "price": "460004",
+        "assessed": "460000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "02/19/2016",
+          "doc": "0183369",
+          "price": "460004",
+          "assessed": "460000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/30/2011",
+          "doc": "0889708",
+          "price": "300000",
+          "assessed": "300000",
+          "docType": "HUD as Grantor",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/29/2010",
+          "doc": "1724255",
+          "price": "",
+          "assessed": "376000",
+          "docType": "HUD as Grantee",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/02/2010",
+          "doc": "0746870",
+          "price": "",
+          "assessed": "364000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "10/15/2008",
+          "doc": "1834917",
+          "price": "400000",
+          "assessed": "400000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-024",
+      "status": "VALID",
+      "address": "705 S SAN ANTONIO DR, COVINA CA 91723-3506",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1758,
+      "lot": 6152,
+      "units": null,
+      "land": 223857,
+      "imp": 116042,
+      "assessed": 339899,
+      "latitude": 34.0770500132,
+      "longitude": -117.884183052,
+      "lastBuy": {
+        "rec": "08/10/2004",
+        "doc": "2049029",
+        "price": "312003",
+        "assessed": "238699",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Partial Interest Transfer - Complete Own-216"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/10/2004",
+          "doc": "2049029",
+          "price": "312003",
+          "assessed": "238699",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/02/2003",
+          "doc": "2549733",
+          "price": "",
+          "assessed": "60150",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/03/1995",
+          "doc": "1064839",
+          "price": "",
+          "assessed": "51485",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "05/09/1990",
+          "doc": "0849071",
+          "price": "",
+          "assessed": "47424",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/11/1982",
+          "doc": "0022101",
+          "price": "",
+          "assessed": "40482",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-025",
+      "status": "VALID",
+      "address": "363 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1574,
+      "lot": 6347,
+      "units": null,
+      "land": 298013,
+      "imp": 179092,
+      "assessed": 477105,
+      "latitude": 34.0755493565,
+      "longitude": -117.884126443,
+      "lastBuy": {
+        "rec": "09/03/2003",
+        "doc": "2558159",
+        "price": "329000",
+        "assessed": "329000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/29/2007",
+          "doc": "0734781",
+          "price": "0",
+          "assessed": "356118",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "02/23/2006",
+          "doc": "0406935",
+          "price": "",
+          "assessed": "349136",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "09/03/2003",
+          "doc": "2558159",
+          "price": "329000",
+          "assessed": "329000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/28/1992",
+          "doc": "1623622",
+          "price": "178000",
+          "assessed": "178000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/03/1981",
+          "doc": "0222625",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Historical: Transfers Solely Between Spouses"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-026",
+      "status": "VALID",
+      "address": "355 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1310,
+      "lot": 6222,
+      "units": null,
+      "land": 251030,
+      "imp": 127930,
+      "assessed": 378960,
+      "latitude": 34.0755497182,
+      "longitude": -117.884337169,
+      "lastBuy": {
+        "rec": "01/14/2011",
+        "doc": "0085981",
+        "price": "290002",
+        "assessed": "290000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/14/2011",
+          "doc": "0085981",
+          "price": "290002",
+          "assessed": "290000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/03/2004",
+          "doc": "3128153",
+          "price": "",
+          "assessed": "135347",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/03/1992",
+          "doc": "0014470",
+          "price": "",
+          "assessed": "106697",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "06/28/1988",
+          "doc": "1019200",
+          "price": "",
+          "assessed": "90339",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/24/1982",
+          "doc": "0528364",
+          "price": "",
+          "assessed": "75200",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-027",
+      "status": "VALID",
+      "address": "347 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1310,
+      "lot": 6208,
+      "units": null,
+      "land": 628026,
+      "imp": 248741,
+      "assessed": 876767,
+      "latitude": 34.075551461,
+      "longitude": -117.88454506,
+      "lastBuy": {
+        "rec": "06/24/2022",
+        "doc": "0664188",
+        "price": "810008",
+        "assessed": "810000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/24/2022",
+          "doc": "0664188",
+          "price": "810008",
+          "assessed": "810000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/19/2019",
+          "doc": "0349369",
+          "price": "",
+          "assessed": "71120",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/21/2011",
+          "doc": "1430650",
+          "price": "",
+          "assessed": "61931",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "12/07/1999",
+          "doc": "2260150",
+          "price": "",
+          "assessed": "50620",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/20/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-028",
+      "status": "VALID",
+      "address": "337 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1396,
+      "lot": 6280,
+      "units": null,
+      "land": 207543,
+      "imp": 112737,
+      "assessed": 320280,
+      "latitude": 34.0755529514,
+      "longitude": -117.884753315,
+      "lastBuy": {
+        "rec": "04/11/2012",
+        "doc": "0543030",
+        "price": "250002",
+        "assessed": "250000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/17/2016",
+          "doc": "1267890",
+          "price": "9",
+          "assessed": "270561",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/11/2012",
+          "doc": "0543030",
+          "price": "250002",
+          "assessed": "250000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/06/2011",
+          "doc": "0032773",
+          "price": "",
+          "assessed": "65090",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "02/23/2009",
+          "doc": "0245485",
+          "price": "",
+          "assessed": "63338",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/18/1994",
+          "doc": "0746944",
+          "price": "",
+          "assessed": "48684",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-029",
+      "status": "VALID",
+      "address": "329 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1310,
+      "lot": 6174,
+      "units": null,
+      "land": 148186,
+      "imp": 144080,
+      "assessed": 292266,
+      "latitude": 34.0755546173,
+      "longitude": -117.884960535,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/23/2016",
+          "doc": "1471851",
+          "price": "9",
+          "assessed": "246910",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "11/09/2011",
+          "doc": "0091445",
+          "price": "",
+          "assessed": "224672",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "10/22/2001",
+          "doc": "2008761",
+          "price": "",
+          "assessed": "181029",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "04/06/2000",
+          "doc": "0514848",
+          "price": "",
+          "assessed": "177480",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "10/22/1999",
+          "doc": "1993513",
+          "price": "",
+          "assessed": "174000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-030",
+      "status": "VALID",
+      "address": "321 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1314,
+      "lot": 6294,
+      "units": null,
+      "land": 81975,
+      "imp": 124932,
+      "assessed": 206907,
+      "latitude": 34.0755565316,
+      "longitude": -117.885167488,
+      "lastBuy": {
+        "rec": "12/07/1987",
+        "doc": "1934743",
+        "price": "106000",
+        "assessed": "106000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "06/29/2023",
+          "doc": "0425190",
+          "price": "9",
+          "assessed": "198875",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/27/2006",
+          "doc": "2606455",
+          "price": "",
+          "assessed": "151421",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/07/1987",
+          "doc": "1934743",
+          "price": "106000",
+          "assessed": "106000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/15/1987",
+          "doc": "0944404",
+          "price": "",
+          "assessed": "106000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "09/05/1984",
+          "doc": "1065853",
+          "price": "88000",
+          "assessed": "88000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-031",
+      "status": "VALID",
+      "address": "313 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1310,
+      "lot": 6277,
+      "units": null,
+      "land": 385914,
+      "imp": 142052,
+      "assessed": 527966,
+      "latitude": 34.0755577461,
+      "longitude": -117.885375684,
+      "lastBuy": {
+        "rec": "03/11/2008",
+        "doc": "0414029",
+        "price": "427504",
+        "assessed": "427300",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/04/2020",
+          "doc": "0484766",
+          "price": "9",
+          "assessed": "478200",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "01/11/2017",
+          "doc": "0043415",
+          "price": "",
+          "assessed": "446000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/11/2008",
+          "doc": "0414029",
+          "price": "427504",
+          "assessed": "427300",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/28/1998",
+          "doc": "0139872",
+          "price": "",
+          "assessed": "142329",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/30/1996",
+          "doc": "1764650",
+          "price": "137000",
+          "assessed": "137000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-032",
+      "status": "VALID",
+      "address": "305 E WORKMAN ST, COVINA CA 91723-3508",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1802,
+      "lot": 6250,
+      "units": null,
+      "land": 584187,
+      "imp": 270932,
+      "assessed": 855119,
+      "latitude": 34.0755593507,
+      "longitude": -117.885582774,
+      "lastBuy": {
+        "rec": "01/27/2022",
+        "doc": "0105668",
+        "price": "790007",
+        "assessed": "790000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/2022",
+          "doc": "0105668",
+          "price": "790007",
+          "assessed": "790000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/02/2021",
+          "doc": "0519984",
+          "price": "",
+          "assessed": "244462",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/18/1983",
+          "doc": "0809479",
+          "price": "92000",
+          "assessed": "92000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "02/07/1979",
+          "doc": "0162789",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-033",
+      "status": "VALID",
+      "address": "362 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1314,
+      "lot": 6149,
+      "units": null,
+      "land": 255726,
+      "imp": 177599,
+      "assessed": 433325,
+      "latitude": 34.0758185308,
+      "longitude": -117.884124942,
+      "lastBuy": {
+        "rec": "02/11/2013",
+        "doc": "0212767",
+        "price": "345000",
+        "assessed": "345000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/12/2015",
+          "doc": "0696886",
+          "price": "9",
+          "assessed": "358878",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/11/2013",
+          "doc": "0212767",
+          "price": "345000",
+          "assessed": "345000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/20/2012",
+          "doc": "1977601",
+          "price": "250000",
+          "assessed": "250000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/15/2003",
+          "doc": "2366018",
+          "price": "",
+          "assessed": "230098",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "07/17/1998",
+          "doc": "1218576",
+          "price": "148000",
+          "assessed": "148000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-034",
+      "status": "VALID",
+      "address": "354 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1490,
+      "lot": 5939,
+      "units": null,
+      "land": 508359,
+      "imp": 127084,
+      "assessed": 635443,
+      "latitude": 34.0758212521,
+      "longitude": -117.884326662,
+      "lastBuy": {
+        "rec": "06/29/2007",
+        "doc": "1564931",
+        "price": "465004",
+        "assessed": "465000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/19/2018",
+          "doc": "0723479",
+          "price": "9",
+          "assessed": "558476",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/01/2017",
+          "doc": "1001271",
+          "price": "",
+          "assessed": "547526",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "06/29/2007",
+          "doc": "1564931",
+          "price": "465004",
+          "assessed": "465000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/03/2005",
+          "doc": "1027750",
+          "price": "",
+          "assessed": "161874",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/19/1994",
+          "doc": "0126205",
+          "price": "",
+          "assessed": "118240",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-035",
+      "status": "VALID",
+      "address": "346 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1234,
+      "lot": 5912,
+      "units": null,
+      "land": 271070,
+      "imp": 138111,
+      "assessed": 409181,
+      "latitude": 34.0758228293,
+      "longitude": -117.884524698,
+      "lastBuy": {
+        "rec": "05/13/2003",
+        "doc": "1353017",
+        "price": "277000",
+        "assessed": "277000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/03/2014",
+          "doc": "0334845",
+          "price": "9",
+          "assessed": "333795",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/03/2012",
+          "doc": "0499074",
+          "price": "",
+          "assessed": "325779",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/13/2003",
+          "doc": "1353017",
+          "price": "277000",
+          "assessed": "277000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/09/1998",
+          "doc": "1157451",
+          "price": "158000",
+          "assessed": "158000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/10/1997",
+          "doc": "0866830",
+          "price": "",
+          "assessed": "48343",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-036",
+      "status": "VALID",
+      "address": "338 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1470,
+      "lot": 5870,
+      "units": null,
+      "land": 420244,
+      "imp": 189057,
+      "assessed": 609301,
+      "latitude": 34.0758239348,
+      "longitude": -117.884721918,
+      "lastBuy": {
+        "rec": "10/30/2017",
+        "doc": "1240526",
+        "price": "525005",
+        "assessed": "525000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/30/2017",
+          "doc": "1240526",
+          "price": "525005",
+          "assessed": "525000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/11/2017",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "08/25/2015",
+          "doc": "1046872",
+          "price": "435004",
+          "assessed": "435000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/08/2015",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "12/27/2002",
+          "doc": "3189364",
+          "price": "",
+          "assessed": "181464",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-037",
+      "status": "VALID",
+      "address": "330 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1350,
+      "lot": 6063,
+      "units": null,
+      "land": 224712,
+      "imp": 159625,
+      "assessed": 384337,
+      "latitude": 34.0758262379,
+      "longitude": -117.88492193,
+      "lastBuy": {
+        "rec": "08/01/2011",
+        "doc": "1025300",
+        "price": "300003",
+        "assessed": "300000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "08/01/2011",
+          "doc": "1025300",
+          "price": "300003",
+          "assessed": "300000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/26/2011",
+          "doc": "0142737",
+          "price": "",
+          "assessed": "320000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "03/09/2007",
+          "doc": "0520686",
+          "price": "",
+          "assessed": "432000",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/07/2006",
+          "doc": "1743025",
+          "price": "",
+          "assessed": "486540",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/17/2005",
+          "doc": "2782975",
+          "price": "477000",
+          "assessed": "477000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-038",
+      "status": "VALID",
+      "address": "322 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1470,
+      "lot": 5670,
+      "units": null,
+      "land": 198356,
+      "imp": 157475,
+      "assessed": 355831,
+      "latitude": 34.0758273598,
+      "longitude": -117.885118997,
+      "lastBuy": {
+        "rec": "05/24/2000",
+        "doc": "0798826",
+        "price": "206000",
+        "assessed": "206000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/06/2012",
+          "doc": "1161611",
+          "price": "9",
+          "assessed": "283302",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/08/2005",
+          "doc": "1606210",
+          "price": "",
+          "assessed": "255289",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/02/2003",
+          "doc": "1253251",
+          "price": "",
+          "assessed": "240882",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "02/14/2002",
+          "doc": "0360843",
+          "price": "",
+          "assessed": "236160",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/24/2000",
+          "doc": "0798826",
+          "price": "206000",
+          "assessed": "206000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-039",
+      "status": "VALID",
+      "address": "316 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1314,
+      "lot": 7286,
+      "units": null,
+      "land": 365186,
+      "imp": 176644,
+      "assessed": 541830,
+      "latitude": 34.0758220236,
+      "longitude": -117.885337572,
+      "lastBuy": {
+        "rec": "08/08/2014",
+        "doc": "0828511",
+        "price": "442004",
+        "assessed": "442000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/25/2024",
+          "doc": "0731868",
+          "price": "0",
+          "assessed": "531207",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/08/2014",
+          "doc": "0828511",
+          "price": "442004",
+          "assessed": "442000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/04/2010",
+          "doc": "0607785",
+          "price": "335000",
+          "assessed": "335000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/01/2001",
+          "doc": "0949373",
+          "price": "200000",
+          "assessed": "200000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/20/1998",
+          "doc": "2129566",
+          "price": "145000",
+          "assessed": "145000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8451-010-040",
+      "status": "VALID",
+      "address": "308 E RAMONA ST, COVINA CA 91723-3503",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1834,
+      "lot": 10840,
+      "units": null,
+      "land": 152292,
+      "imp": 162917,
+      "assessed": 315209,
+      "latitude": 34.0759104046,
+      "longitude": -117.885566901,
+      "lastBuy": {
+        "rec": "12/22/1994",
+        "doc": "2261819",
+        "price": "184001",
+        "assessed": "184000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/22/1994",
+          "doc": "2261819",
+          "price": "184001",
+          "assessed": "184000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/13/1967",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8451-009-033",
+      "parcel": {
+        "AIN": "8451009033",
+        "Latitude": 34.0772240564,
+        "Longitude": -117.877291462,
+        "SitusStreet": "672 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3658",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1963",
+        "SqftLot": 7962,
+        "SqftMain": 1756,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 37727,
+        "CurrentRoll_ImpValue": 68990
+      }
+    },
+    {
+      "ain": "8451-009-034",
+      "parcel": {
+        "AIN": "8451009034",
+        "Latitude": 34.0772227954,
+        "Longitude": -117.877020834,
+        "SitusStreet": "682 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3658",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1963",
+        "SqftLot": 8548,
+        "SqftMain": 2202,
+        "NumOfBeds": 5,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 371536,
+        "CurrentRoll_ImpValue": 316715
+      }
+    },
+    {
+      "ain": "8451-009-035",
+      "parcel": {
+        "AIN": "8451009035",
+        "Latitude": 34.0772989802,
+        "Longitude": -117.879209949,
+        "SitusStreet": "576 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3623",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 11308,
+        "SqftMain": 1758,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 113928,
+        "CurrentRoll_ImpValue": 165725
+      }
+    },
+    {
+      "ain": "8451-009-036",
+      "parcel": {
+        "AIN": "8451009036",
+        "Latitude": 34.0772581775,
+        "Longitude": -117.879465798,
+        "SitusStreet": "568 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3623",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 11526,
+        "SqftMain": 1943,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 35469,
+        "CurrentRoll_ImpValue": 81126
+      }
+    },
+    {
+      "ain": "8451-009-037",
+      "parcel": {
+        "AIN": "8451009037",
+        "Latitude": 34.0772736337,
+        "Longitude": -117.879706421,
+        "SitusStreet": "556 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3623",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1962",
+        "SqftLot": 12011,
+        "SqftMain": 1754,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 35469,
+        "CurrentRoll_ImpValue": 64237
+      }
+    },
+    {
+      "ain": "8451-009-039",
+      "parcel": {
+        "AIN": "8451009039",
+        "Latitude": 34.0772787361,
+        "Longitude": -117.881015579,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 13538,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 136647,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-009-040",
+      "parcel": {
+        "AIN": "8451009040",
+        "Latitude": 34.0772799817,
+        "Longitude": -117.880760076,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 12127,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 117122,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-009-041",
+      "parcel": {
+        "AIN": "8451009041",
+        "Latitude": 34.0772789301,
+        "Longitude": -117.880472736,
+        "SitusStreet": "528 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3623",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1930",
+        "SqftLot": 16806,
+        "SqftMain": 4750,
+        "NumOfBeds": 5,
+        "NumOfBaths": 6,
+        "CurrentRoll_LandValue": 347508,
+        "CurrentRoll_ImpValue": 521277
+      }
+    },
+    {
+      "ain": "8451-009-042",
+      "parcel": {
+        "AIN": "8451009042",
+        "Latitude": 34.0772778181,
+        "Longitude": -117.880185862,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 12136,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 218069,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8451-009-043",
+      "parcel": {
+        "AIN": "8451009043",
+        "Latitude": 34.0772771244,
+        "Longitude": -117.879945623,
+        "SitusStreet": "548 E THELBORN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3623",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1996",
+        "SqftLot": 12156,
+        "SqftMain": 2203,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 191250,
+        "CurrentRoll_ImpValue": 333913
+      }
+    },
+    {
+      "ain": "8451-010-020",
+      "parcel": {
+        "AIN": "8451010020",
+        "Latitude": 34.0763583473,
+        "Longitude": -117.884185919,
+        "SitusStreet": "737 S SAN ANTONIO DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3506",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6086,
+        "SqftMain": 1342,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 66046,
+        "CurrentRoll_ImpValue": 67893
+      }
+    },
+    {
+      "ain": "8451-010-021",
+      "parcel": {
+        "AIN": "8451010021",
+        "Latitude": 34.0765300936,
+        "Longitude": -117.884185506,
+        "SitusStreet": "729 S SAN ANTONIO DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3506",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6060,
+        "SqftMain": 1506,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 37727,
+        "CurrentRoll_ImpValue": 58150
+      }
+    },
+    {
+      "ain": "8451-010-022",
+      "parcel": {
+        "AIN": "8451010022",
+        "Latitude": 34.0767034835,
+        "Longitude": -117.884185119,
+        "SitusStreet": "721 S SAN ANTONIO DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3506",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6230,
+        "SqftMain": 1310,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 37727,
+        "CurrentRoll_ImpValue": 37982
+      }
+    },
+    {
+      "ain": "8451-010-023",
+      "parcel": {
+        "AIN": "8451010023",
+        "Latitude": 34.0768775658,
+        "Longitude": -117.884184936,
+        "SitusStreet": "713 S SAN ANTONIO DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3506",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6134,
+        "SqftMain": 1310,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 354750,
+        "CurrentRoll_ImpValue": 200677
+      }
+    },
+    {
+      "ain": "8451-010-024",
+      "parcel": {
+        "AIN": "8451010024",
+        "Latitude": 34.0770500132,
+        "Longitude": -117.884183052,
+        "SitusStreet": "705 S SAN ANTONIO DR",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3506",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6152,
+        "SqftMain": 1758,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 223857,
+        "CurrentRoll_ImpValue": 116042
+      }
+    },
+    {
+      "ain": "8451-010-025",
+      "parcel": {
+        "AIN": "8451010025",
+        "Latitude": 34.0755493565,
+        "Longitude": -117.884126443,
+        "SitusStreet": "363 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6347,
+        "SqftMain": 1574,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 298013,
+        "CurrentRoll_ImpValue": 179092
+      }
+    },
+    {
+      "ain": "8451-010-026",
+      "parcel": {
+        "AIN": "8451010026",
+        "Latitude": 34.0755497182,
+        "Longitude": -117.884337169,
+        "SitusStreet": "355 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6222,
+        "SqftMain": 1310,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 251030,
+        "CurrentRoll_ImpValue": 127930
+      }
+    },
+    {
+      "ain": "8451-010-027",
+      "parcel": {
+        "AIN": "8451010027",
+        "Latitude": 34.075551461,
+        "Longitude": -117.88454506,
+        "SitusStreet": "347 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6208,
+        "SqftMain": 1310,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 628026,
+        "CurrentRoll_ImpValue": 248741
+      }
+    },
+    {
+      "ain": "8451-010-028",
+      "parcel": {
+        "AIN": "8451010028",
+        "Latitude": 34.0755529514,
+        "Longitude": -117.884753315,
+        "SitusStreet": "337 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6280,
+        "SqftMain": 1396,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 207543,
+        "CurrentRoll_ImpValue": 112737
+      }
+    },
+    {
+      "ain": "8451-010-029",
+      "parcel": {
+        "AIN": "8451010029",
+        "Latitude": 34.0755546173,
+        "Longitude": -117.884960535,
+        "SitusStreet": "329 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6174,
+        "SqftMain": 1310,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 148186,
+        "CurrentRoll_ImpValue": 144080
+      }
+    },
+    {
+      "ain": "8451-010-030",
+      "parcel": {
+        "AIN": "8451010030",
+        "Latitude": 34.0755565316,
+        "Longitude": -117.885167488,
+        "SitusStreet": "321 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6294,
+        "SqftMain": 1314,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 81975,
+        "CurrentRoll_ImpValue": 124932
+      }
+    },
+    {
+      "ain": "8451-010-031",
+      "parcel": {
+        "AIN": "8451010031",
+        "Latitude": 34.0755577461,
+        "Longitude": -117.885375684,
+        "SitusStreet": "313 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6277,
+        "SqftMain": 1310,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 385914,
+        "CurrentRoll_ImpValue": 142052
+      }
+    },
+    {
+      "ain": "8451-010-032",
+      "parcel": {
+        "AIN": "8451010032",
+        "Latitude": 34.0755593507,
+        "Longitude": -117.885582774,
+        "SitusStreet": "305 E WORKMAN ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3508",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6250,
+        "SqftMain": 1802,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 584187,
+        "CurrentRoll_ImpValue": 270932
+      }
+    },
+    {
+      "ain": "8451-010-033",
+      "parcel": {
+        "AIN": "8451010033",
+        "Latitude": 34.0758185308,
+        "Longitude": -117.884124942,
+        "SitusStreet": "362 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6149,
+        "SqftMain": 1314,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 255726,
+        "CurrentRoll_ImpValue": 177599
+      }
+    },
+    {
+      "ain": "8451-010-034",
+      "parcel": {
+        "AIN": "8451010034",
+        "Latitude": 34.0758212521,
+        "Longitude": -117.884326662,
+        "SitusStreet": "354 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 5939,
+        "SqftMain": 1490,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 508359,
+        "CurrentRoll_ImpValue": 127084
+      }
+    },
+    {
+      "ain": "8451-010-035",
+      "parcel": {
+        "AIN": "8451010035",
+        "Latitude": 34.0758228293,
+        "Longitude": -117.884524698,
+        "SitusStreet": "346 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 5912,
+        "SqftMain": 1234,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 271070,
+        "CurrentRoll_ImpValue": 138111
+      }
+    },
+    {
+      "ain": "8451-010-036",
+      "parcel": {
+        "AIN": "8451010036",
+        "Latitude": 34.0758239348,
+        "Longitude": -117.884721918,
+        "SitusStreet": "338 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 5870,
+        "SqftMain": 1470,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 420244,
+        "CurrentRoll_ImpValue": 189057
+      }
+    },
+    {
+      "ain": "8451-010-037",
+      "parcel": {
+        "AIN": "8451010037",
+        "Latitude": 34.0758262379,
+        "Longitude": -117.88492193,
+        "SitusStreet": "330 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6063,
+        "SqftMain": 1350,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 224712,
+        "CurrentRoll_ImpValue": 159625
+      }
+    },
+    {
+      "ain": "8451-010-038",
+      "parcel": {
+        "AIN": "8451010038",
+        "Latitude": 34.0758273598,
+        "Longitude": -117.885118997,
+        "SitusStreet": "322 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 5670,
+        "SqftMain": 1470,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 198356,
+        "CurrentRoll_ImpValue": 157475
+      }
+    },
+    {
+      "ain": "8451-010-039",
+      "parcel": {
+        "AIN": "8451010039",
+        "Latitude": 34.0758220236,
+        "Longitude": -117.885337572,
+        "SitusStreet": "316 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7286,
+        "SqftMain": 1314,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 365186,
+        "CurrentRoll_ImpValue": 176644
+      }
+    },
+    {
+      "ain": "8451-010-040",
+      "parcel": {
+        "AIN": "8451010040",
+        "Latitude": 34.0759104046,
+        "Longitude": -117.885566901,
+        "SitusStreet": "308 E RAMONA ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3503",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 10840,
+        "SqftMain": 1834,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 152292,
+        "CurrentRoll_ImpValue": 162917
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8451-009-033",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-034",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-035",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-036",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-037",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-038",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-009-039",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-040",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-041",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-042",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-043",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-009-044",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8451-009-045",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8451-009-046",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8451-009-047",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8451-009-048",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8451-009-049",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8451-009-050",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8451-009-051",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8451-009-052",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8451-009-053",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8451-009-054",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8451-009-055",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8451-010-020",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-021",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-022",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-023",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-024",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-025",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-026",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-027",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-028",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-029",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-030",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-031",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-032",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-033",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-034",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-035",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-036",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-037",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-038",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-039",
+      "status": "VALID"
+    },
+    {
+      "ain": "8451-010-040",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-07-16T15:09:41.357Z",
+  "endedAt": "2026-07-16T15:10:53.617Z"
+}
