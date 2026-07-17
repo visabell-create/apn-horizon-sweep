@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-17T04:44:19.890Z",
-  "runCount": 70,
-  "propertyRowCount": 2586,
-  "uniqueAinCount": 2484,
-  "propertyWithCoordsCount": 1964,
-  "nextCursor": "8452-001-011",
-  "donePageCount": 97,
+  "builtAt": "2026-07-17T07:19:08.247Z",
+  "runCount": 71,
+  "propertyRowCount": 2598,
+  "uniqueAinCount": 2496,
+  "propertyWithCoordsCount": 1970,
+  "nextCursor": "8453-001-025",
+  "donePageCount": 98,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -303,6 +303,12 @@
       "streak": 20,
       "to": "8452-001-001",
       "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
     }
   ],
   "cities": [
@@ -316,8 +322,8 @@
     {
       "city": "Covina",
       "slug": "covina",
-      "propertyRowCount": 865,
-      "uniqueAinCount": 829,
+      "propertyRowCount": 870,
+      "uniqueAinCount": 834,
       "areas": [
         {
           "name": "Covina Hills",
@@ -328,15 +334,15 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 620,
-      "uniqueAinCount": 581,
+      "propertyRowCount": 621,
+      "uniqueAinCount": 582,
       "areas": []
     },
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 41,
-      "uniqueAinCount": 41,
+      "propertyRowCount": 47,
+      "uniqueAinCount": 47,
       "areas": []
     }
   ],
@@ -1947,6 +1953,47 @@
           "city": "West Covina",
           "count": 1,
           "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-039-2026-07-17-horizon",
+      "title": "RUN-039 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-17",
+      "validCount": 12,
+      "checks": 45,
+      "start": "2026-07-17T07:15:21.106Z",
+      "end": "8453-001-024",
+      "nextCursor": "8453-001-025",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8452-001-031",
+          "streak": 20,
+          "to": "8453-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-17T07:19:05.535Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 6,
+          "slug": "west-covina"
+        },
+        {
+          "city": "Covina",
+          "count": 5,
+          "slug": "covina"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "West Covina"
