@@ -1,0 +1,3399 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8453-001-025",
+  "lastAinChecked": "8453-002-021",
+  "nextCursor": "8453-002-022",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8453,
+      "page": 3,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8453-003"
+    },
+    {
+      "book": 8453,
+      "page": 6,
+      "hits": 3,
+      "firstValidParcel": 20,
+      "key": "8453-006"
+    },
+    {
+      "book": 8453,
+      "page": 11,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8453-011"
+    },
+    {
+      "book": 8453,
+      "page": 12,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8453-012"
+    },
+    {
+      "book": 8453,
+      "page": 13,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8453-013"
+    },
+    {
+      "book": 8453,
+      "page": 15,
+      "hits": 2,
+      "firstValidParcel": 20,
+      "key": "8453-015"
+    },
+    {
+      "book": 8453,
+      "page": 5,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-005"
+    },
+    {
+      "book": 8453,
+      "page": 7,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-007"
+    },
+    {
+      "book": 8453,
+      "page": 8,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-008"
+    },
+    {
+      "book": 8453,
+      "page": 9,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-009"
+    },
+    {
+      "book": 8453,
+      "page": 10,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-010"
+    },
+    {
+      "book": 8453,
+      "page": 14,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-014"
+    },
+    {
+      "book": 8453,
+      "page": 16,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8453-016"
+    },
+    {
+      "book": 8453,
+      "page": 17,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-017"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001"
+  ],
+  "valids": [
+    {
+      "ain": "8453-001-025",
+      "status": "VALID",
+      "address": "602 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 2630,
+      "lot": 8619,
+      "units": null,
+      "land": 516819,
+      "imp": 321176,
+      "assessed": 837995,
+      "latitude": 34.0787889672,
+      "longitude": -117.89144712,
+      "lastBuy": {
+        "rec": "10/15/2020",
+        "doc": "1282799",
+        "price": "759007",
+        "assessed": "759000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "10/15/2020",
+          "doc": "1282799",
+          "price": "759007",
+          "assessed": "759000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/18/2011",
+          "doc": "0955593",
+          "price": "400004",
+          "assessed": "400000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/03/2000",
+          "doc": "1015788",
+          "price": "215000",
+          "assessed": "215000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/30/1999",
+          "doc": "1874004",
+          "price": "111500",
+          "assessed": "186000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/12/1999",
+          "doc": "0626734",
+          "price": "",
+          "assessed": "170000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-026",
+      "status": "VALID",
+      "address": "610 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 8042,
+      "units": null,
+      "land": 72035,
+      "imp": 154333,
+      "assessed": 226368,
+      "latitude": 34.0786331278,
+      "longitude": -117.891449667,
+      "lastBuy": {
+        "rec": "07/20/1981",
+        "doc": "0718741",
+        "price": "104001",
+        "assessed": "",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/20/1981",
+          "doc": "0718741",
+          "price": "104001",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-027",
+      "status": "VALID",
+      "address": "618 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 7509,
+      "units": null,
+      "land": 131924,
+      "imp": 110859,
+      "assessed": 242783,
+      "latitude": 34.0784831706,
+      "longitude": -117.891435133,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/20/1999",
+          "doc": "2332742",
+          "price": "9",
+          "assessed": "154882",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/03/1994",
+          "doc": "1808559",
+          "price": "",
+          "assessed": "141725",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "09/15/1992",
+          "doc": "1714739",
+          "price": "",
+          "assessed": "135826",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/22/1987",
+          "doc": "0811471",
+          "price": "",
+          "assessed": "112982",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "03/18/1986",
+          "doc": "0338847",
+          "price": "",
+          "assessed": "111943",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-028",
+      "status": "VALID",
+      "address": "624 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1840,
+      "lot": 6717,
+      "units": null,
+      "land": 413022,
+      "imp": 273570,
+      "assessed": 686592,
+      "latitude": 34.0783346468,
+      "longitude": -117.89141803,
+      "lastBuy": {
+        "rec": "06/13/2017",
+        "doc": "0649876",
+        "price": "580000",
+        "assessed": "580000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/12/2020",
+          "doc": "0643994",
+          "price": "9",
+          "assessed": "621873",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "06/13/2017",
+          "doc": "0649876",
+          "price": "580000",
+          "assessed": "580000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/09/2016",
+          "doc": "1403704",
+          "price": "",
+          "assessed": "314380",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "06/01/2012",
+          "doc": "0821005",
+          "price": "",
+          "assessed": "290488",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "02/22/1991",
+          "doc": "0261147",
+          "price": "",
+          "assessed": "75313",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-029",
+      "status": "VALID",
+      "address": "632 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 6549,
+      "units": null,
+      "land": 27133,
+      "imp": 114094,
+      "assessed": 141227,
+      "latitude": 34.0781836272,
+      "longitude": -117.891404245,
+      "lastBuy": {
+        "rec": "02/18/1977",
+        "doc": "0175011",
+        "price": "58000",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/16/2025",
+          "doc": "0326014",
+          "price": "0",
+          "assessed": "141227",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/18/1977",
+          "doc": "0175011",
+          "price": "58000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-030",
+      "status": "VALID",
+      "address": "638 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 6367,
+      "units": null,
+      "land": 27535,
+      "imp": 100833,
+      "assessed": 128368,
+      "latitude": 34.0780301496,
+      "longitude": -117.89140154,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/16/2023",
+          "doc": "0101488",
+          "price": "9",
+          "assessed": "123385",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/13/1999",
+          "doc": "1934908",
+          "price": "",
+          "assessed": "81901",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/31/1984",
+          "doc": "0914504",
+          "price": "",
+          "assessed": "61982",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/23/1977",
+          "doc": "0533211",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-031",
+      "status": "VALID",
+      "address": "646 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 6597,
+      "units": null,
+      "land": 27129,
+      "imp": 111255,
+      "assessed": 138384,
+      "latitude": 34.0778776182,
+      "longitude": -117.891408254,
+      "lastBuy": {
+        "rec": "01/24/1977",
+        "doc": "0079081",
+        "price": "58000",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/24/1977",
+          "doc": "0079081",
+          "price": "58000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-032",
+      "status": "VALID",
+      "address": "654 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 6709,
+      "units": null,
+      "land": 107555,
+      "imp": 161831,
+      "assessed": 269386,
+      "latitude": 34.0777287518,
+      "longitude": -117.891420664,
+      "lastBuy": {
+        "rec": "09/11/1987",
+        "doc": "1460976",
+        "price": "138000",
+        "assessed": "138000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/23/1991",
+          "doc": "0578239",
+          "price": "9",
+          "assessed": "149373",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "09/11/1987",
+          "doc": "1460976",
+          "price": "138000",
+          "assessed": "138000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/14/1977",
+          "doc": "0050529",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-033",
+      "status": "VALID",
+      "address": "660 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1482,
+      "lot": 7277,
+      "units": null,
+      "land": 65880,
+      "imp": 186272,
+      "assessed": 252152,
+      "latitude": 34.0775809212,
+      "longitude": -117.891431541,
+      "lastBuy": {
+        "rec": "09/28/1979",
+        "doc": "1088945",
+        "price": "88500",
+        "assessed": "",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/18/2019",
+          "doc": "0703156",
+          "price": "9",
+          "assessed": "226047",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/12/2017",
+          "doc": "0403142",
+          "price": "",
+          "assessed": "217270",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/24/2005",
+          "doc": "0678204",
+          "price": "",
+          "assessed": "180911",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/18/2003",
+          "doc": "2055665",
+          "price": "",
+          "assessed": "173888",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/28/1979",
+          "doc": "1088945",
+          "price": "88500",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-034",
+      "status": "VALID",
+      "address": "668 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 7116,
+      "units": null,
+      "land": 187807,
+      "imp": 216794,
+      "assessed": 404601,
+      "latitude": 34.0774310615,
+      "longitude": -117.891424159,
+      "lastBuy": {
+        "rec": "05/30/2001",
+        "doc": "0933318",
+        "price": "251000",
+        "assessed": "250900",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "07/11/2017",
+          "doc": "0772324",
+          "price": "9",
+          "assessed": "332253",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/27/2013",
+          "doc": "1813876",
+          "price": "",
+          "assessed": "308396",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/30/2001",
+          "doc": "0933318",
+          "price": "251000",
+          "assessed": "250900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/05/2000",
+          "doc": "1889582",
+          "price": "46500",
+          "assessed": "215000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "02/16/1990",
+          "doc": "0272062",
+          "price": "",
+          "assessed": "77596",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-035",
+      "status": "VALID",
+      "address": "676 S EDENFIELD AVE, COVINA CA 91723-3407",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 9014,
+      "units": null,
+      "land": 612000,
+      "imp": 292740,
+      "assessed": 904740,
+      "latitude": 34.07727098,
+      "longitude": -117.891472539,
+      "lastBuy": {
+        "rec": "11/18/2019",
+        "doc": "1252216",
+        "price": "595005",
+        "assessed": "595000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/21/2024",
+          "doc": "0814148",
+          "price": "0",
+          "assessed": "887000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/21/2024",
+          "doc": "0814147",
+          "price": "",
+          "assessed": "703566",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/18/2019",
+          "doc": "1252216",
+          "price": "595005",
+          "assessed": "595000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/24/2019",
+          "doc": "0481382",
+          "price": "568500",
+          "assessed": "568100",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/23/1998",
+          "doc": "2140903",
+          "price": "",
+          "assessed": "168484",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-036",
+      "status": "VALID",
+      "address": "675 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 8559,
+      "units": null,
+      "land": 483346,
+      "imp": 162934,
+      "assessed": 646280,
+      "latitude": 34.0772796384,
+      "longitude": -117.89206198,
+      "lastBuy": {
+        "rec": "12/06/2018",
+        "doc": "1229932",
+        "price": "568005",
+        "assessed": "568000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/06/2018",
+          "doc": "1229932",
+          "price": "568005",
+          "assessed": "568000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/30/2004",
+          "doc": "1959007",
+          "price": "",
+          "assessed": "247372",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/07/1998",
+          "doc": "1139669",
+          "price": "",
+          "assessed": "159000",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "06/30/1992",
+          "doc": "1193635",
+          "price": "",
+          "assessed": "195000",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "05/15/1992",
+          "doc": "0887351",
+          "price": "195000",
+          "assessed": "195000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-037",
+      "status": "VALID",
+      "address": "669 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 6808,
+      "units": null,
+      "land": 91587,
+      "imp": 137717,
+      "assessed": 229304,
+      "latitude": 34.0774398621,
+      "longitude": -117.892101446,
+      "lastBuy": {
+        "rec": "11/15/1982",
+        "doc": "1144229",
+        "price": "73000",
+        "assessed": "106400",
+        "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/24/2017",
+          "doc": "1214905",
+          "price": "9",
+          "assessed": "197583",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/15/1982",
+          "doc": "1144229",
+          "price": "73000",
+          "assessed": "106400",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-038",
+      "status": "VALID",
+      "address": "661 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 7701,
+      "units": null,
+      "land": 249801,
+      "imp": 156434,
+      "assessed": 406235,
+      "latitude": 34.0775878785,
+      "longitude": -117.892073582,
+      "lastBuy": {
+        "rec": "09/25/2002",
+        "doc": "2248412",
+        "price": "275002",
+        "assessed": "275000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/18/2025",
+          "doc": "0408887",
+          "price": "0",
+          "assessed": "406235",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/25/2002",
+          "doc": "2248412",
+          "price": "275002",
+          "assessed": "275000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/21/1999",
+          "doc": "1133308",
+          "price": "188000",
+          "assessed": "188000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/25/1977",
+          "doc": "0803787",
+          "price": "64000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-039",
+      "status": "VALID",
+      "address": "653 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 7966,
+      "units": null,
+      "land": 173666,
+      "imp": 142926,
+      "assessed": 316592,
+      "latitude": 34.0777336556,
+      "longitude": -117.892059433,
+      "lastBuy": {
+        "rec": "12/20/2000",
+        "doc": "1978558",
+        "price": "206000",
+        "assessed": "206000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/29/2025",
+          "doc": "0751979",
+          "price": "0",
+          "assessed": "316592",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/29/2013",
+          "doc": "0477935",
+          "price": "",
+          "assessed": "253207",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "11/21/2012",
+          "doc": "1777434",
+          "price": "",
+          "assessed": "252064",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/20/2002",
+          "doc": "2212312",
+          "price": "",
+          "assessed": "214322",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/20/2000",
+          "doc": "1978558",
+          "price": "206000",
+          "assessed": "206000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-040",
+      "status": "VALID",
+      "address": "647 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 8774,
+      "units": null,
+      "land": 368517,
+      "imp": 126539,
+      "assessed": 495056,
+      "latitude": 34.0778823093,
+      "longitude": -117.892047225,
+      "lastBuy": {
+        "rec": "11/10/2015",
+        "doc": "1373660",
+        "price": "410004",
+        "assessed": "410000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/23/2024",
+          "doc": "0048966",
+          "price": "9",
+          "assessed": "485350",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/07/2017",
+          "doc": "1014990",
+          "price": "",
+          "assessed": "426563",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/10/2015",
+          "doc": "1373660",
+          "price": "410004",
+          "assessed": "410000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/12/2014",
+          "doc": "0839267",
+          "price": "",
+          "assessed": "105873",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/28/2012",
+          "doc": "0072863",
+          "price": "",
+          "assessed": "103332",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-041",
+      "status": "VALID",
+      "address": "639 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 8783,
+      "units": null,
+      "land": 129619,
+      "imp": 139180,
+      "assessed": 268799,
+      "latitude": 34.0780329301,
+      "longitude": -117.892043416,
+      "lastBuy": {
+        "rec": "06/10/1987",
+        "doc": "0921247",
+        "price": "135000",
+        "assessed": "135000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/30/2004",
+          "doc": "1673167",
+          "price": "0",
+          "assessed": "189071",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/10/1987",
+          "doc": "0921247",
+          "price": "135000",
+          "assessed": "135000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/29/1978",
+          "doc": "1085101",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-042",
+      "status": "VALID",
+      "address": "631 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 8885,
+      "units": null,
+      "land": 30973,
+      "imp": 104889,
+      "assessed": 135862,
+      "latitude": 34.0781843459,
+      "longitude": -117.892045093,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/16/2006",
+          "doc": "1079295",
+          "price": "0",
+          "assessed": "99431",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/10/1986",
+          "doc": "1368779",
+          "price": "",
+          "assessed": "68246",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/04/1977",
+          "doc": "0124766",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-043",
+      "status": "VALID",
+      "address": "625 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1500,
+      "lot": 8000,
+      "units": null,
+      "land": 263367,
+      "imp": 140569,
+      "assessed": 403936,
+      "latitude": 34.0783349624,
+      "longitude": -117.892063402,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/07/2022",
+          "doc": "0148850",
+          "price": "9",
+          "assessed": "380648",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/09/2015",
+          "doc": "1546528",
+          "price": "",
+          "assessed": "331265",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "03/22/1994",
+          "doc": "0561794",
+          "price": "",
+          "assessed": "185700",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "01/14/1994",
+          "doc": "0092057",
+          "price": "",
+          "assessed": "185700",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "08/19/1993",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-044",
+      "status": "VALID",
+      "address": "617 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 7390,
+      "units": null,
+      "land": 607243,
+      "imp": 172786,
+      "assessed": 780029,
+      "latitude": 34.0784836305,
+      "longitude": -117.892078776,
+      "lastBuy": {
+        "rec": "06/17/2021",
+        "doc": "0958498",
+        "price": "200002",
+        "assessed": "706500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/17/2021",
+          "doc": "0958498",
+          "price": "200002",
+          "assessed": "706500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/18/2019",
+          "doc": "0119674",
+          "price": "",
+          "assessed": "537100",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/01/2019",
+          "doc": "0099644",
+          "price": "",
+          "assessed": "209846",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/21/2008",
+          "doc": "1872674",
+          "price": "",
+          "assessed": "178222",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "03/17/1995",
+          "doc": "0399706",
+          "price": "",
+          "assessed": "138161",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-045",
+      "status": "VALID",
+      "address": "611 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1360,
+      "lot": 7174,
+      "units": null,
+      "land": 32487,
+      "imp": 111202,
+      "assessed": 143689,
+      "latitude": 34.0786351812,
+      "longitude": -117.892093047,
+      "lastBuy": {
+        "rec": "03/31/1977",
+        "doc": "0321644",
+        "price": "61000",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/15/2013",
+          "doc": "0729727",
+          "price": "9",
+          "assessed": "114926",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/13/2006",
+          "doc": "1302432",
+          "price": "",
+          "assessed": "105158",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/28/1993",
+          "doc": "1446852",
+          "price": "",
+          "assessed": "82901",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/31/1977",
+          "doc": "0321644",
+          "price": "61000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-046",
+      "status": "VALID",
+      "address": "603 S EDENFIELD AVE, COVINA CA 91723-3408",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1976",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1800,
+      "lot": 7428,
+      "units": null,
+      "land": 138943,
+      "imp": 286039,
+      "assessed": 424982,
+      "latitude": 34.0787914215,
+      "longitude": -117.892097081,
+      "lastBuy": {
+        "rec": "07/01/1988",
+        "doc": "1047922",
+        "price": "178000",
+        "assessed": "178000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/02/2018",
+          "doc": "0003818",
+          "price": "9",
+          "assessed": "373513",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/08/1992",
+          "doc": "1873529",
+          "price": "",
+          "assessed": "192671",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/01/1988",
+          "doc": "1047922",
+          "price": "178000",
+          "assessed": "178000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/11/1981",
+          "doc": "0582299",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-047",
+      "status": "VALID",
+      "address": "305 N CITRUS ST, WEST COVINA CA 91791-1618",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "2002",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 3360,
+      "lot": 16241,
+      "units": null,
+      "land": 2041834,
+      "imp": 704722,
+      "assessed": 2746556,
+      "latitude": 34.0756499662,
+      "longitude": -117.890473533,
+      "lastBuy": {
+        "rec": "08/22/2007",
+        "doc": "1967607",
+        "price": "2050020",
+        "assessed": "2050000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/22/2007",
+          "doc": "1967607",
+          "price": "2050020",
+          "assessed": "2050000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/10/2002",
+          "doc": "2119110",
+          "price": "1213000",
+          "assessed": "575000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/19/2001",
+          "doc": "2001217",
+          "price": "500005",
+          "assessed": "500000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/09/1990",
+          "doc": "0856923",
+          "price": "",
+          "assessed": "122328",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/27/1987",
+          "doc": "1382717",
+          "price": "",
+          "assessed": "115274",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-048",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1989",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 14900,
+      "lot": 14856,
+      "units": null,
+      "land": 573455,
+      "imp": 0,
+      "assessed": 573455,
+      "latitude": 34.0762088721,
+      "longitude": -117.890648333,
+      "lastBuy": {
+        "rec": "08/12/1988",
+        "doc": "1275618",
+        "price": "163000",
+        "assessed": "299600",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Parcel Change - New Transferee"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/02/2013",
+          "doc": "0005497",
+          "price": "9",
+          "assessed": "458631",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/12/2012",
+          "doc": "1919073",
+          "price": "",
+          "assessed": "456559",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/26/1996",
+          "doc": "0659181",
+          "price": "",
+          "assessed": "345199",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/12/1988",
+          "doc": "1275618",
+          "price": "163000",
+          "assessed": "299600",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Parcel Change - New Transferee"
+        },
+        {
+          "rec": "04/01/1968",
+          "doc": "",
+          "price": "80000",
+          "assessed": "0",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-049",
+      "status": "VALID",
+      "address": "315 N CITRUS ST, WEST COVINA CA 91791-1618",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1989",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 17500,
+      "lot": 17204,
+      "units": null,
+      "land": 669936,
+      "imp": 0,
+      "assessed": 669936,
+      "latitude": 34.0759652699,
+      "longitude": -117.890534021,
+      "lastBuy": {
+        "rec": "08/12/1988",
+        "doc": "1275618",
+        "price": "163000",
+        "assessed": "350000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Parcel Change - New Transferee"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/02/2013",
+          "doc": "0005497",
+          "price": "9",
+          "assessed": "535791",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/12/2012",
+          "doc": "1919073",
+          "price": "",
+          "assessed": "533370",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/26/1996",
+          "doc": "0659181",
+          "price": "",
+          "assessed": "403272",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/12/1988",
+          "doc": "1275618",
+          "price": "163000",
+          "assessed": "350000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Parcel Change - New Transferee"
+        },
+        {
+          "rec": "01/18/1972",
+          "doc": "1650917",
+          "price": "132501",
+          "assessed": "0",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-050",
+      "status": "VALID",
+      "address": "675 S CITRUS AVE, COVINA CA 91723-3416",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 6257,
+      "lot": 33194,
+      "units": null,
+      "land": 639621,
+      "imp": 561265,
+      "assessed": 1200886,
+      "latitude": 34.07734325,
+      "longitude": -117.89074007,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/31/1999",
+          "doc": "0553498",
+          "price": "9",
+          "assessed": "751000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Parcel Change - New Transferee"
+        },
+        {
+          "rec": "06/30/1989",
+          "doc": "1047062",
+          "price": "",
+          "assessed": "0",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Other Exclusion"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-051",
+      "status": "VALID",
+      "address": "2533 E WORKMAN AVE, WEST COVINA CA 91791-1535",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1959",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 2420,
+      "lot": 5569,
+      "units": null,
+      "land": 342016,
+      "imp": 278271,
+      "assessed": 620287,
+      "latitude": 34.0756423683,
+      "longitude": -117.890746539,
+      "lastBuy": {
+        "rec": "07/01/2014",
+        "doc": "0676121",
+        "price": "760007",
+        "assessed": "506000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/01/2014",
+          "doc": "0676121",
+          "price": "760007",
+          "assessed": "506000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/30/2011",
+          "doc": "1789724",
+          "price": "",
+          "assessed": "274129",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/25/2006",
+          "doc": "2124901",
+          "price": "400000",
+          "assessed": "257000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/28/1988",
+          "doc": "0412358",
+          "price": "",
+          "assessed": "0",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Other Exclusion"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-052",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 7517,
+      "units": null,
+      "land": 311370,
+      "imp": 0,
+      "assessed": 311370,
+      "latitude": 34.0761105717,
+      "longitude": -117.890909796,
+      "lastBuy": {
+        "rec": "07/01/2014",
+        "doc": "0676121",
+        "price": "760007",
+        "assessed": "254000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/01/2014",
+          "doc": "0676121",
+          "price": "760007",
+          "assessed": "254000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/30/2011",
+          "doc": "1789724",
+          "price": "",
+          "assessed": "152530",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/25/2006",
+          "doc": "2124901",
+          "price": "400000",
+          "assessed": "143000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/01/1968",
+          "doc": "",
+          "price": "80000",
+          "assessed": "0",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-053",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": 0,
+      "baths": 0,
+      "bldg": 13000,
+      "lot": 13032,
+      "units": null,
+      "land": 1236569,
+      "imp": 11040,
+      "assessed": 1247609,
+      "latitude": 34.07862646,
+      "longitude": -117.8910864,
+      "lastBuy": {
+        "rec": "04/29/2021",
+        "doc": "0678652",
+        "price": "9400094",
+        "assessed": "1130000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/29/2022",
+          "doc": "0772906",
+          "price": "9",
+          "assessed": "1175652",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "04/29/2021",
+          "doc": "0678652",
+          "price": "9400094",
+          "assessed": "1130000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/09/2018",
+          "doc": "0337523",
+          "price": "10900109",
+          "assessed": "700000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/23/2016",
+          "doc": "0316442",
+          "price": "12867500",
+          "assessed": "640000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/02/2015",
+          "doc": "0224703",
+          "price": "3300033",
+          "assessed": "210000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-001-054",
+      "status": "VALID",
+      "address": "635 S CITRUS AVE, COVINA CA 91723-3416",
+      "useType": "Commercial",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 0,
+      "baths": 0,
+      "bldg": 26058,
+      "lot": 91114,
+      "units": null,
+      "land": 8413094,
+      "imp": 2793324,
+      "assessed": 11206418,
+      "latitude": 34.07795523,
+      "longitude": -117.89075723,
+      "lastBuy": {
+        "rec": "04/29/2021",
+        "doc": "0678652",
+        "price": "9400094",
+        "assessed": "10150000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/29/2022",
+          "doc": "0772906",
+          "price": "9",
+          "assessed": "10560060",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "04/29/2021",
+          "doc": "0678652",
+          "price": "9400094",
+          "assessed": "10150000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/09/2018",
+          "doc": "0337523",
+          "price": "10900109",
+          "assessed": "10200000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/23/2016",
+          "doc": "0316442",
+          "price": "12867500",
+          "assessed": "12227500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/02/2015",
+          "doc": "0224703",
+          "price": "3300033",
+          "assessed": "3090000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-002-020",
+      "status": "VALID",
+      "address": "663 S CALVADOS AVE, COVINA CA 91723-3441",
+      "useType": "Condominium",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1982",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1284,
+      "lot": 106393,
+      "units": null,
+      "land": 57033,
+      "imp": 171151,
+      "assessed": 228184,
+      "latitude": 34.0776529578,
+      "longitude": -117.892860269,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/03/2023",
+          "doc": "0136485",
+          "price": "9",
+          "assessed": "219325",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "11/08/2019",
+          "doc": "1215789",
+          "price": "",
+          "assessed": "204560",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "03/10/1999",
+          "doc": "0398169",
+          "price": "",
+          "assessed": "145573",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "11/22/1995",
+          "doc": "1869038",
+          "price": "",
+          "assessed": "134685",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/31/1986",
+          "doc": "0391504",
+          "price": "",
+          "assessed": "114608",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8453-002-021",
+      "status": "VALID",
+      "address": "661 S CALVADOS AVE, COVINA CA 91723-3441",
+      "useType": "Condominium",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1982",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1184,
+      "lot": 106393,
+      "units": null,
+      "land": 44919,
+      "imp": 179756,
+      "assessed": 224675,
+      "latitude": 34.0776529578,
+      "longitude": -117.892860269,
+      "lastBuy": {
+        "rec": "05/28/1982",
+        "doc": "0550233",
+        "price": "100001",
+        "assessed": "100000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Development Rights - Acquiring Parcels"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/03/2020",
+          "doc": "1570721",
+          "price": "9",
+          "assessed": "203500",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "02/09/2011",
+          "doc": "0217009",
+          "price": "",
+          "assessed": "175378",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/03/1988",
+          "doc": "1585940",
+          "price": "",
+          "assessed": "116850",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/27/1985",
+          "doc": "1130456",
+          "price": "",
+          "assessed": "106119",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/28/1982",
+          "doc": "0550233",
+          "price": "100001",
+          "assessed": "100000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Development Rights - Acquiring Parcels"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8453-001-025",
+      "parcel": {
+        "AIN": "8453001025",
+        "Latitude": 34.0787889672,
+        "Longitude": -117.89144712,
+        "SitusStreet": "602 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8619,
+        "SqftMain": 2630,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 516819,
+        "CurrentRoll_ImpValue": 321176
+      }
+    },
+    {
+      "ain": "8453-001-026",
+      "parcel": {
+        "AIN": "8453001026",
+        "Latitude": 34.0786331278,
+        "Longitude": -117.891449667,
+        "SitusStreet": "610 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8042,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 72035,
+        "CurrentRoll_ImpValue": 154333
+      }
+    },
+    {
+      "ain": "8453-001-027",
+      "parcel": {
+        "AIN": "8453001027",
+        "Latitude": 34.0784831706,
+        "Longitude": -117.891435133,
+        "SitusStreet": "618 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7509,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 131924,
+        "CurrentRoll_ImpValue": 110859
+      }
+    },
+    {
+      "ain": "8453-001-028",
+      "parcel": {
+        "AIN": "8453001028",
+        "Latitude": 34.0783346468,
+        "Longitude": -117.89141803,
+        "SitusStreet": "624 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6717,
+        "SqftMain": 1840,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 413022,
+        "CurrentRoll_ImpValue": 273570
+      }
+    },
+    {
+      "ain": "8453-001-029",
+      "parcel": {
+        "AIN": "8453001029",
+        "Latitude": 34.0781836272,
+        "Longitude": -117.891404245,
+        "SitusStreet": "632 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6549,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 27133,
+        "CurrentRoll_ImpValue": 114094
+      }
+    },
+    {
+      "ain": "8453-001-030",
+      "parcel": {
+        "AIN": "8453001030",
+        "Latitude": 34.0780301496,
+        "Longitude": -117.89140154,
+        "SitusStreet": "638 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6367,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 27535,
+        "CurrentRoll_ImpValue": 100833
+      }
+    },
+    {
+      "ain": "8453-001-031",
+      "parcel": {
+        "AIN": "8453001031",
+        "Latitude": 34.0778776182,
+        "Longitude": -117.891408254,
+        "SitusStreet": "646 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6597,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 27129,
+        "CurrentRoll_ImpValue": 111255
+      }
+    },
+    {
+      "ain": "8453-001-032",
+      "parcel": {
+        "AIN": "8453001032",
+        "Latitude": 34.0777287518,
+        "Longitude": -117.891420664,
+        "SitusStreet": "654 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6709,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 107555,
+        "CurrentRoll_ImpValue": 161831
+      }
+    },
+    {
+      "ain": "8453-001-033",
+      "parcel": {
+        "AIN": "8453001033",
+        "Latitude": 34.0775809212,
+        "Longitude": -117.891431541,
+        "SitusStreet": "660 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7277,
+        "SqftMain": 1482,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 65880,
+        "CurrentRoll_ImpValue": 186272
+      }
+    },
+    {
+      "ain": "8453-001-034",
+      "parcel": {
+        "AIN": "8453001034",
+        "Latitude": 34.0774310615,
+        "Longitude": -117.891424159,
+        "SitusStreet": "668 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7116,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 187807,
+        "CurrentRoll_ImpValue": 216794
+      }
+    },
+    {
+      "ain": "8453-001-035",
+      "parcel": {
+        "AIN": "8453001035",
+        "Latitude": 34.07727098,
+        "Longitude": -117.891472539,
+        "SitusStreet": "676 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3407",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 9014,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 612000,
+        "CurrentRoll_ImpValue": 292740
+      }
+    },
+    {
+      "ain": "8453-001-036",
+      "parcel": {
+        "AIN": "8453001036",
+        "Latitude": 34.0772796384,
+        "Longitude": -117.89206198,
+        "SitusStreet": "675 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8559,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 483346,
+        "CurrentRoll_ImpValue": 162934
+      }
+    },
+    {
+      "ain": "8453-001-037",
+      "parcel": {
+        "AIN": "8453001037",
+        "Latitude": 34.0774398621,
+        "Longitude": -117.892101446,
+        "SitusStreet": "669 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 6808,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 91587,
+        "CurrentRoll_ImpValue": 137717
+      }
+    },
+    {
+      "ain": "8453-001-038",
+      "parcel": {
+        "AIN": "8453001038",
+        "Latitude": 34.0775878785,
+        "Longitude": -117.892073582,
+        "SitusStreet": "661 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7701,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 249801,
+        "CurrentRoll_ImpValue": 156434
+      }
+    },
+    {
+      "ain": "8453-001-039",
+      "parcel": {
+        "AIN": "8453001039",
+        "Latitude": 34.0777336556,
+        "Longitude": -117.892059433,
+        "SitusStreet": "653 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7966,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 173666,
+        "CurrentRoll_ImpValue": 142926
+      }
+    },
+    {
+      "ain": "8453-001-040",
+      "parcel": {
+        "AIN": "8453001040",
+        "Latitude": 34.0778823093,
+        "Longitude": -117.892047225,
+        "SitusStreet": "647 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8774,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 368517,
+        "CurrentRoll_ImpValue": 126539
+      }
+    },
+    {
+      "ain": "8453-001-041",
+      "parcel": {
+        "AIN": "8453001041",
+        "Latitude": 34.0780329301,
+        "Longitude": -117.892043416,
+        "SitusStreet": "639 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8783,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 129619,
+        "CurrentRoll_ImpValue": 139180
+      }
+    },
+    {
+      "ain": "8453-001-042",
+      "parcel": {
+        "AIN": "8453001042",
+        "Latitude": 34.0781843459,
+        "Longitude": -117.892045093,
+        "SitusStreet": "631 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8885,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 30973,
+        "CurrentRoll_ImpValue": 104889
+      }
+    },
+    {
+      "ain": "8453-001-043",
+      "parcel": {
+        "AIN": "8453001043",
+        "Latitude": 34.0783349624,
+        "Longitude": -117.892063402,
+        "SitusStreet": "625 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 8000,
+        "SqftMain": 1500,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 263367,
+        "CurrentRoll_ImpValue": 140569
+      }
+    },
+    {
+      "ain": "8453-001-044",
+      "parcel": {
+        "AIN": "8453001044",
+        "Latitude": 34.0784836305,
+        "Longitude": -117.892078776,
+        "SitusStreet": "617 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7390,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 607243,
+        "CurrentRoll_ImpValue": 172786
+      }
+    },
+    {
+      "ain": "8453-001-045",
+      "parcel": {
+        "AIN": "8453001045",
+        "Latitude": 34.0786351812,
+        "Longitude": -117.892093047,
+        "SitusStreet": "611 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7174,
+        "SqftMain": 1360,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 32487,
+        "CurrentRoll_ImpValue": 111202
+      }
+    },
+    {
+      "ain": "8453-001-046",
+      "parcel": {
+        "AIN": "8453001046",
+        "Latitude": 34.0787914215,
+        "Longitude": -117.892097081,
+        "SitusStreet": "603 S EDENFIELD AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3408",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1976",
+        "SqftLot": 7428,
+        "SqftMain": 1800,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 138943,
+        "CurrentRoll_ImpValue": 286039
+      }
+    },
+    {
+      "ain": "8453-001-047",
+      "parcel": {
+        "AIN": "8453001047",
+        "Latitude": 34.0756499662,
+        "Longitude": -117.890473533,
+        "SitusStreet": "305 N CITRUS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1618",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "2002",
+        "SqftLot": 16241,
+        "SqftMain": 3360,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 2041834,
+        "CurrentRoll_ImpValue": 704722
+      }
+    },
+    {
+      "ain": "8453-001-048",
+      "parcel": {
+        "AIN": "8453001048",
+        "Latitude": 34.0762088721,
+        "Longitude": -117.890648333,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1989",
+        "SqftLot": 14856,
+        "SqftMain": 14900,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 573455,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8453-001-049",
+      "parcel": {
+        "AIN": "8453001049",
+        "Latitude": 34.0759652699,
+        "Longitude": -117.890534021,
+        "SitusStreet": "315 N CITRUS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1618",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1989",
+        "SqftLot": 17204,
+        "SqftMain": 17500,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 669936,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8453-001-050",
+      "parcel": {
+        "AIN": "8453001050",
+        "Latitude": 34.07734325,
+        "Longitude": -117.89074007,
+        "SitusStreet": "675 S CITRUS AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3416",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 33194,
+        "SqftMain": 6257,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 639621,
+        "CurrentRoll_ImpValue": 561265
+      }
+    },
+    {
+      "ain": "8453-001-051",
+      "parcel": {
+        "AIN": "8453001051",
+        "Latitude": 34.0756423683,
+        "Longitude": -117.890746539,
+        "SitusStreet": "2533 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91791-1535",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1959",
+        "SqftLot": 5569,
+        "SqftMain": 2420,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 342016,
+        "CurrentRoll_ImpValue": 278271
+      }
+    },
+    {
+      "ain": "8453-001-052",
+      "parcel": {
+        "AIN": "8453001052",
+        "Latitude": 34.0761105717,
+        "Longitude": -117.890909796,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 7517,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 311370,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8453-001-053",
+      "parcel": {
+        "AIN": "8453001053",
+        "Latitude": 34.07862646,
+        "Longitude": -117.8910864,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 13032,
+        "SqftMain": 13000,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 1236569,
+        "CurrentRoll_ImpValue": 11040
+      }
+    },
+    {
+      "ain": "8453-001-054",
+      "parcel": {
+        "AIN": "8453001054",
+        "Latitude": 34.07795523,
+        "Longitude": -117.89075723,
+        "SitusStreet": "635 S CITRUS AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3416",
+        "UseType": "Commercial",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 91114,
+        "SqftMain": 26058,
+        "NumOfBeds": 0,
+        "NumOfBaths": 0,
+        "CurrentRoll_LandValue": 8413094,
+        "CurrentRoll_ImpValue": 2793324
+      }
+    },
+    {
+      "ain": "8453-002-020",
+      "parcel": {
+        "AIN": "8453002020",
+        "Latitude": 34.0776529578,
+        "Longitude": -117.892860269,
+        "SitusStreet": "663 S CALVADOS AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3441",
+        "UseType": "Condominium",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1982",
+        "SqftLot": 106393,
+        "SqftMain": 1284,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 57033,
+        "CurrentRoll_ImpValue": 171151
+      }
+    },
+    {
+      "ain": "8453-002-021",
+      "parcel": {
+        "AIN": "8453002021",
+        "Latitude": 34.0776529578,
+        "Longitude": -117.892860269,
+        "SitusStreet": "661 S CALVADOS AVE",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3441",
+        "UseType": "Condominium",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1982",
+        "SqftLot": 106393,
+        "SqftMain": 1184,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 44919,
+        "CurrentRoll_ImpValue": 179756
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8453-001-025",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-026",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-027",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-028",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-029",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-030",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-031",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-032",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-033",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-034",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-035",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-036",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-037",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-038",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-039",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-040",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-041",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-042",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-043",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-044",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-045",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-046",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-047",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-048",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-049",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-050",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-051",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-052",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-053",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-054",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-001-055",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8453-001-056",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8453-001-057",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8453-001-058",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8453-001-059",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8453-001-060",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8453-001-061",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8453-001-062",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8453-001-063",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8453-001-064",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8453-001-065",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8453-001-066",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8453-002-020",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-002-021",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-07-17T09:26:55.358Z",
+  "endedAt": "2026-07-17T09:27:37.590Z"
+}
