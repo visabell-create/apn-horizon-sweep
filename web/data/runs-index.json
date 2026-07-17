@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-17T12:43:29.568Z",
-  "runCount": 74,
-  "propertyRowCount": 2693,
-  "uniqueAinCount": 2591,
-  "propertyWithCoordsCount": 2049,
-  "nextCursor": "8453-006-028",
-  "donePageCount": 101,
+  "builtAt": "2026-07-17T14:43:50.234Z",
+  "runCount": 75,
+  "propertyRowCount": 2721,
+  "uniqueAinCount": 2619,
+  "propertyWithCoordsCount": 2075,
+  "nextCursor": "8453-011-020",
+  "donePageCount": 102,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -330,6 +330,13 @@
       "to": "8453-006-020",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -343,8 +350,8 @@
     {
       "city": "Covina",
       "slug": "covina",
-      "propertyRowCount": 946,
-      "uniqueAinCount": 910,
+      "propertyRowCount": 972,
+      "uniqueAinCount": 936,
       "areas": [
         {
           "name": "Covina Hills",
@@ -355,8 +362,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 637,
-      "uniqueAinCount": 598,
+      "propertyRowCount": 639,
+      "uniqueAinCount": 600,
       "areas": []
     },
     {
@@ -2125,6 +2132,43 @@
         {
           "city": "Unlabeled situs",
           "count": 13,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Covina"
+    },
+    {
+      "id": "RUN-043-2026-07-17-horizon",
+      "title": "RUN-043 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-17",
+      "validCount": 28,
+      "checks": 45,
+      "start": "2026-07-17T14:43:11.662Z",
+      "end": "8453-011-019",
+      "nextCursor": "8453-011-020",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8453-006-053",
+          "streak": 12,
+          "to": "8453-011-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-17T14:43:48.656Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Covina",
+          "count": 26,
+          "slug": "covina"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
           "slug": "unlabeled-situs"
         }
       ],
