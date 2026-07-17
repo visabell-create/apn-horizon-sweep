@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-17T01:03:23.949Z",
-  "runCount": 69,
-  "propertyRowCount": 2585,
-  "uniqueAinCount": 2483,
-  "propertyWithCoordsCount": 1963,
-  "nextCursor": "8451-008-036",
-  "donePageCount": 95,
+  "builtAt": "2026-07-17T04:44:19.890Z",
+  "runCount": 70,
+  "propertyRowCount": 2586,
+  "uniqueAinCount": 2484,
+  "propertyWithCoordsCount": 1964,
+  "nextCursor": "8452-001-011",
+  "donePageCount": 97,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -290,6 +290,19 @@
       "to": "8451-008-020",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
     }
   ],
   "cities": [
@@ -322,8 +335,8 @@
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 40,
-      "uniqueAinCount": 40,
+      "propertyRowCount": 41,
+      "uniqueAinCount": 41,
       "areas": []
     }
   ],
@@ -1899,6 +1912,44 @@
         }
       ],
       "primaryCity": "Covina"
+    },
+    {
+      "id": "RUN-038-2026-07-17-horizon",
+      "title": "RUN-038 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-17",
+      "validCount": 1,
+      "checks": 45,
+      "start": "2026-07-17T04:40:00.880Z",
+      "end": "8452-001-010",
+      "nextCursor": "8452-001-011",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8451-008-048",
+          "streak": 12,
+          "to": "8451-015-019",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8451-015-040",
+          "streak": 20,
+          "to": "8452-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-17T04:44:18.954Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 1,
+          "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
     },
     {
       "id": "RUN-A01-8448-043",
