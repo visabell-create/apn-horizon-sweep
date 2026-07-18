@@ -1,0 +1,2890 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8453-021-002",
+  "lastAinChecked": "8453-022-016",
+  "nextCursor": "8453-022-017",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 24,
+  "invalidCount": 20,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-002-054",
+      "streak": 12,
+      "to": "8453-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-003-049",
+      "streak": 12,
+      "to": "8453-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-011-036",
+      "streak": 12,
+      "to": "8453-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-012-041",
+      "streak": 12,
+      "to": "8453-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-013-045",
+      "streak": 12,
+      "to": "8453-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-015-048",
+      "streak": 12,
+      "to": "8453-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-024-033",
+      "streak": 12,
+      "to": "8453-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-026-044",
+      "streak": 12,
+      "to": "8453-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-005-029",
+      "streak": 12,
+      "to": "8453-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-007-026",
+      "streak": 12,
+      "to": "8453-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-008-022",
+      "streak": 12,
+      "to": "8453-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-009-029",
+      "streak": 12,
+      "to": "8453-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-010-031",
+      "streak": 12,
+      "to": "8453-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-017-026",
+      "streak": 12,
+      "to": "8453-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-018-024",
+      "streak": 12,
+      "to": "8453-019-014",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-019-034",
+      "streak": 12,
+      "to": "8453-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-020-031",
+      "streak": 12,
+      "to": "8453-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8453,
+      "page": 23,
+      "hits": 1,
+      "firstValidParcel": 20,
+      "key": "8453-023"
+    },
+    {
+      "book": 8453,
+      "page": 25,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8453-025"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001",
+    "8453-002",
+    "8453-003",
+    "8453-005",
+    "8453-006",
+    "8453-007",
+    "8453-008",
+    "8453-009",
+    "8453-010",
+    "8453-011",
+    "8453-012",
+    "8453-013",
+    "8453-014",
+    "8453-015",
+    "8453-016",
+    "8453-017",
+    "8453-018",
+    "8453-019",
+    "8453-020",
+    "8453-021",
+    "8453-024",
+    "8453-026"
+  ],
+  "valids": [
+    {
+      "ain": "8453-021-002",
+      "status": "VALID",
+      "address": "414 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1076,
+      "lot": 7595,
+      "units": null,
+      "land": 343222,
+      "imp": 131909,
+      "assessed": 475131,
+      "latitude": 34.0744289875,
+      "longitude": -117.897020853,
+      "lastBuy": {
+        "rec": "09/05/2013",
+        "doc": "1293760",
+        "price": "380003",
+        "assessed": "380000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "09/05/2013",
+          "doc": "1293760",
+          "price": "380003",
+          "assessed": "380000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/28/2013",
+          "doc": "0134192",
+          "price": "",
+          "assessed": "307000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "01/03/2008",
+          "doc": "0012266",
+          "price": "385000",
+          "assessed": "385000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/09/1988",
+          "doc": "1802466",
+          "price": "154500",
+          "assessed": "154500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/16/1974",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-003",
+      "status": "VALID",
+      "address": "424 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1270,
+      "lot": 7303,
+      "units": null,
+      "land": 281067,
+      "imp": 130409,
+      "assessed": 411476,
+      "latitude": 34.0744570627,
+      "longitude": -117.897291906,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/22/2016",
+          "doc": "1466028",
+          "price": "9",
+          "assessed": "347596",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/21/2016",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/10/2015",
+          "doc": "0076592",
+          "price": "",
+          "assessed": "338649",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "04/16/2003",
+          "doc": "1083784",
+          "price": "",
+          "assessed": "236464",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/23/2003",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-004",
+      "status": "VALID",
+      "address": "434 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1184,
+      "lot": 7451,
+      "units": null,
+      "land": 350748,
+      "imp": 171750,
+      "assessed": 522498,
+      "latitude": 34.0744619902,
+      "longitude": -117.897536877,
+      "lastBuy": {
+        "rec": "05/23/2008",
+        "doc": "0917570",
+        "price": "390000",
+        "assessed": "390000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/30/2012",
+          "doc": "1645838",
+          "price": "9",
+          "assessed": "320000",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/23/2008",
+          "doc": "0917570",
+          "price": "390000",
+          "assessed": "390000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/03/1997",
+          "doc": "0821224",
+          "price": "",
+          "assessed": "112019",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/23/1991",
+          "doc": "0762409",
+          "price": "",
+          "assessed": "99170",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "04/25/1979",
+          "doc": "0447491",
+          "price": "",
+          "assessed": "",
+          "docType": "Correction to Reappraise",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-005",
+      "status": "VALID",
+      "address": "444 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1317,
+      "lot": 7264,
+      "units": null,
+      "land": 467075,
+      "imp": 130278,
+      "assessed": 597353,
+      "latitude": 34.0744630024,
+      "longitude": -117.897780883,
+      "lastBuy": {
+        "rec": "10/26/2018",
+        "doc": "1091470",
+        "price": "525005",
+        "assessed": "525000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/26/2018",
+          "doc": "1091470",
+          "price": "525005",
+          "assessed": "525000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/28/2016",
+          "doc": "1652009",
+          "price": "",
+          "assessed": "373526",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/20/2016",
+          "doc": "1138359",
+          "price": "",
+          "assessed": "372026",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/12/2014",
+          "doc": "1198741",
+          "price": "",
+          "assessed": "217391",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/27/2000",
+          "doc": "0639570",
+          "price": "170000",
+          "assessed": "170000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-006",
+      "status": "VALID",
+      "address": "452 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1201,
+      "lot": 7264,
+      "units": null,
+      "land": 559615,
+      "imp": 139957,
+      "assessed": 699572,
+      "latitude": 34.0744650682,
+      "longitude": -117.898022397,
+      "lastBuy": {
+        "rec": "09/10/2021",
+        "doc": "1389756",
+        "price": "646506",
+        "assessed": "646300",
+        "docType": "Probate Transfer",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/10/2021",
+          "doc": "1389756",
+          "price": "646506",
+          "assessed": "646300",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/01/2019",
+          "doc": "0173044",
+          "price": "",
+          "assessed": "218245",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/13/2002",
+          "doc": "1099805",
+          "price": "",
+          "assessed": "114633",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/05/2001",
+          "doc": "0568174",
+          "price": "",
+          "assessed": "112386",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/01/1982",
+          "doc": "0110358",
+          "price": "",
+          "assessed": "78578",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-007",
+      "status": "VALID",
+      "address": "462 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1108,
+      "lot": 7353,
+      "units": null,
+      "land": 149499,
+      "imp": 130310,
+      "assessed": 279809,
+      "latitude": 34.0744664121,
+      "longitude": -117.898265804,
+      "lastBuy": {
+        "rec": "06/25/1999",
+        "doc": "1170349",
+        "price": "175001",
+        "assessed": "175000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/25/1999",
+          "doc": "1170349",
+          "price": "175001",
+          "assessed": "175000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/06/1983",
+          "doc": "0381127",
+          "price": "",
+          "assessed": "92000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "07/16/1958",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-008",
+      "status": "VALID",
+      "address": "472 W IDAHOME ST, COVINA CA 91723-3327",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1760,
+      "lot": 7086,
+      "units": null,
+      "land": 32972,
+      "imp": 83692,
+      "assessed": 116664,
+      "latitude": 34.0744671371,
+      "longitude": -117.898506933,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/10/2008",
+          "doc": "1025343",
+          "price": "0",
+          "assessed": "88831",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/29/2003",
+          "doc": "0275163",
+          "price": "",
+          "assessed": "80463",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/25/1996",
+          "doc": "0650191",
+          "price": "",
+          "assessed": "70248",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/04/1992",
+          "doc": "2032854",
+          "price": "",
+          "assessed": "65997",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/30/1989",
+          "doc": "1395007",
+          "price": "",
+          "assessed": "60393",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-010",
+      "status": "VALID",
+      "address": "473 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1184,
+      "lot": 7394,
+      "units": null,
+      "land": 471193,
+      "imp": 257179,
+      "assessed": 728372,
+      "latitude": 34.0741964605,
+      "longitude": -117.898505066,
+      "lastBuy": {
+        "rec": "05/20/2020",
+        "doc": "0552541",
+        "price": "528005",
+        "assessed": "528000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/20/2020",
+          "doc": "0552541",
+          "price": "528005",
+          "assessed": "528000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/08/2019",
+          "doc": "0138846",
+          "price": "",
+          "assessed": "482000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/18/2002",
+          "doc": "1666625",
+          "price": "",
+          "assessed": "79737",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/08/1999",
+          "doc": "2265364",
+          "price": "",
+          "assessed": "75140",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/29/1995",
+          "doc": "1409000",
+          "price": "",
+          "assessed": "69520",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-011",
+      "status": "VALID",
+      "address": "463 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1270,
+      "lot": 7354,
+      "units": null,
+      "land": 62016,
+      "imp": 93149,
+      "assessed": 155165,
+      "latitude": 34.0741940713,
+      "longitude": -117.898259766,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/22/2005",
+          "doc": "0653015",
+          "price": "0",
+          "assessed": "111334",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/28/1981",
+          "doc": "0865066",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-012",
+      "status": "VALID",
+      "address": "453 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1165,
+      "lot": 7231,
+      "units": null,
+      "land": 306566,
+      "imp": 163284,
+      "assessed": 469850,
+      "latitude": 34.0741923244,
+      "longitude": -117.898017033,
+      "lastBuy": {
+        "rec": "09/09/2003",
+        "doc": "2628048",
+        "price": "324003",
+        "assessed": "324000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/19/2021",
+          "doc": "1274317",
+          "price": "9",
+          "assessed": "434072",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/20/2017",
+          "doc": "0677591",
+          "price": "",
+          "assessed": "404845",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "09/09/2003",
+          "doc": "2628048",
+          "price": "324003",
+          "assessed": "324000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/10/2002",
+          "doc": "0842751",
+          "price": "",
+          "assessed": "176548",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/28/1998",
+          "doc": "0896327",
+          "price": "",
+          "assessed": "163106",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-013",
+      "status": "VALID",
+      "address": "443 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1184,
+      "lot": 7366,
+      "units": null,
+      "land": 141502,
+      "imp": 124026,
+      "assessed": 265528,
+      "latitude": 34.0741901337,
+      "longitude": -117.897774024,
+      "lastBuy": {
+        "rec": "09/08/1994",
+        "doc": "1647778",
+        "price": "155001",
+        "assessed": "155000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/21/2021",
+          "doc": "0108976",
+          "price": "9",
+          "assessed": "245311",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/08/1994",
+          "doc": "1647778",
+          "price": "155001",
+          "assessed": "155000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/03/1963",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-014",
+      "status": "VALID",
+      "address": "433 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1201,
+      "lot": 7312,
+      "units": null,
+      "land": 35469,
+      "imp": 40720,
+      "assessed": 76189,
+      "latitude": 34.074188355,
+      "longitude": -117.897529479,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/15/2000",
+          "doc": "1959257",
+          "price": "0",
+          "assessed": "49592",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/05/1978",
+          "doc": "0602361",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-015",
+      "status": "VALID",
+      "address": "423 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1184,
+      "lot": 7266,
+      "units": null,
+      "land": 292717,
+      "imp": 300756,
+      "assessed": 593473,
+      "latitude": 34.0741899203,
+      "longitude": -117.897285623,
+      "lastBuy": {
+        "rec": "01/20/1995",
+        "doc": "0096829",
+        "price": "148000",
+        "assessed": "148000",
+        "docType": "Probate Transfer",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/22/2013",
+          "doc": "0273630",
+          "price": "9",
+          "assessed": "334438",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/27/2011",
+          "doc": "0743498",
+          "price": "",
+          "assessed": "320000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/30/2010",
+          "doc": "1944066",
+          "price": "",
+          "assessed": "202856",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/03/2001",
+          "doc": "0548638",
+          "price": "",
+          "assessed": "172484",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/20/1995",
+          "doc": "0096829",
+          "price": "148000",
+          "assessed": "148000",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-016",
+      "status": "VALID",
+      "address": "415 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 4,
+      "baths": 3,
+      "bldg": 1714,
+      "lot": 7299,
+      "units": null,
+      "land": 360083,
+      "imp": 190984,
+      "assessed": 551067,
+      "latitude": 34.0742151389,
+      "longitude": -117.897015461,
+      "lastBuy": {
+        "rec": "04/23/2004",
+        "doc": "0999461",
+        "price": "380000",
+        "assessed": "380000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/18/2009",
+          "doc": "0731417",
+          "price": "9",
+          "assessed": "332000",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/23/2004",
+          "doc": "0999461",
+          "price": "380000",
+          "assessed": "380000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/18/2003",
+          "doc": "2753412",
+          "price": "",
+          "assessed": "269007",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/08/2001",
+          "doc": "1447138",
+          "price": "259000",
+          "assessed": "258900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/18/1993",
+          "doc": "1610051",
+          "price": "145000",
+          "assessed": "145000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-021-017",
+      "status": "VALID",
+      "address": "405 W SHAMWOOD ST, COVINA CA 91723-3336",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1348,
+      "lot": 7758,
+      "units": null,
+      "land": 146940,
+      "imp": 124075,
+      "assessed": 271015,
+      "latitude": 34.074120182,
+      "longitude": -117.896813016,
+      "lastBuy": {
+        "rec": "04/23/1999",
+        "doc": "0714293",
+        "price": "169500",
+        "assessed": "169500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/31/2017",
+          "doc": "0127895",
+          "price": "9",
+          "assessed": "233523",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/27/2006",
+          "doc": "1663912",
+          "price": "",
+          "assessed": "198331",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "04/23/1999",
+          "doc": "0714293",
+          "price": "169500",
+          "assessed": "169500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/27/1996",
+          "doc": "2090418",
+          "price": "",
+          "assessed": "51763",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/16/1955",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-001",
+      "status": "VALID",
+      "address": "404 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1270,
+      "lot": 8416,
+      "units": null,
+      "land": 86099,
+      "imp": 129160,
+      "assessed": 215259,
+      "latitude": 34.0738177823,
+      "longitude": -117.896814307,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/04/2021",
+          "doc": "0200732",
+          "price": "9",
+          "assessed": "198870",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/01/2002",
+          "doc": "2300940",
+          "price": "",
+          "assessed": "145730",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/08/1994",
+          "doc": "0266909",
+          "price": "",
+          "assessed": "124188",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/23/1986",
+          "doc": "0501745",
+          "price": "",
+          "assessed": "106000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/11/1983",
+          "doc": "0779106",
+          "price": "",
+          "assessed": "75300",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-002",
+      "status": "VALID",
+      "address": "414 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 4,
+      "baths": 3,
+      "bldg": 1582,
+      "lot": 7914,
+      "units": null,
+      "land": 129946,
+      "imp": 157123,
+      "assessed": 287069,
+      "latitude": 34.0737254148,
+      "longitude": -117.897019868,
+      "lastBuy": {
+        "rec": "08/28/2024",
+        "doc": "0576965",
+        "price": "665000",
+        "assessed": "281442",
+        "docType": "File Correction",
+        "reason": "Perfection of Title (SEC. 62B)"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/28/2024",
+          "doc": "0576965",
+          "price": "665000",
+          "assessed": "281442",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/08/2023",
+          "doc": "0213712",
+          "price": "",
+          "assessed": "270514",
+          "docType": "Special Processing",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "03/30/2006",
+          "doc": "0680654",
+          "price": "",
+          "assessed": "210082",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/30/1988",
+          "doc": "1376262",
+          "price": "150000",
+          "assessed": "150000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/10/1986",
+          "doc": "0443195",
+          "price": "",
+          "assessed": "95063",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-003",
+      "status": "VALID",
+      "address": "424 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 3,
+      "bldg": 1719,
+      "lot": 7324,
+      "units": null,
+      "land": 156575,
+      "imp": 198262,
+      "assessed": 354837,
+      "latitude": 34.0737555684,
+      "longitude": -117.897279201,
+      "lastBuy": {
+        "rec": "08/26/1994",
+        "doc": "1580062",
+        "price": "160000",
+        "assessed": "160000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/30/2001",
+          "doc": "0156108",
+          "price": "0",
+          "assessed": "181916",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/11/1999",
+          "doc": "7777777",
+          "price": "0",
+          "assessed": "171997",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "08/26/1994",
+          "doc": "1580062",
+          "price": "160000",
+          "assessed": "160000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/25/1992",
+          "doc": "1163521",
+          "price": "",
+          "assessed": "43114",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/14/1974",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-004",
+      "status": "VALID",
+      "address": "432 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1165,
+      "lot": 7513,
+      "units": null,
+      "land": 167271,
+      "imp": 80086,
+      "assessed": 247357,
+      "latitude": 34.073759696,
+      "longitude": -117.89751043,
+      "lastBuy": {
+        "rec": "04/01/1993",
+        "doc": "0623100",
+        "price": "140000",
+        "assessed": "139900",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "12/24/2001",
+          "doc": "2457920",
+          "price": "0",
+          "assessed": "164172",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/04/2000",
+          "doc": "0682153",
+          "price": "",
+          "assessed": "160954",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/01/1993",
+          "doc": "0623100",
+          "price": "140000",
+          "assessed": "139900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/21/1992",
+          "doc": "0923809",
+          "price": "",
+          "assessed": "165000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "09/06/1988",
+          "doc": "1413513",
+          "price": "155000",
+          "assessed": "155000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-005",
+      "status": "VALID",
+      "address": "442 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1270,
+      "lot": 7287,
+      "units": null,
+      "land": 535555,
+      "imp": 133913,
+      "assessed": 669468,
+      "latitude": 34.0737612789,
+      "longitude": -117.897740755,
+      "lastBuy": {
+        "rec": "11/03/2006",
+        "doc": "2445695",
+        "price": "490000",
+        "assessed": "489900",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/27/2024",
+          "doc": "0836586",
+          "price": "0",
+          "assessed": "656342",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "01/25/2007",
+          "doc": "0157989",
+          "price": "",
+          "assessed": "425400",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "11/03/2006",
+          "doc": "2445695",
+          "price": "490000",
+          "assessed": "489900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/31/2001",
+          "doc": "1364826",
+          "price": "235000",
+          "assessed": "234900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/22/1998",
+          "doc": "2312619",
+          "price": "170000",
+          "assessed": "170000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-006",
+      "status": "VALID",
+      "address": "450 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 3,
+      "bldg": 1625,
+      "lot": 7188,
+      "units": null,
+      "land": 32972,
+      "imp": 55483,
+      "assessed": 88455,
+      "latitude": 34.0737631254,
+      "longitude": -117.897966454,
+      "lastBuy": {
+        "rec": "12/28/1971",
+        "doc": "",
+        "price": "3500",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/19/2024",
+          "doc": "0806439",
+          "price": "0",
+          "assessed": "86724",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/28/1971",
+          "doc": "",
+          "price": "3500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-007",
+      "status": "VALID",
+      "address": "460 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1184,
+      "lot": 7507,
+      "units": null,
+      "land": 408524,
+      "imp": 102129,
+      "assessed": 510653,
+      "latitude": 34.0737639116,
+      "longitude": -117.898196032,
+      "lastBuy": {
+        "rec": "11/08/2017",
+        "doc": "1287300",
+        "price": "440004",
+        "assessed": "440000",
+        "docType": "Probate Transfer",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/08/2017",
+          "doc": "1287300",
+          "price": "440004",
+          "assessed": "440000",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/27/2008",
+          "doc": "1546090",
+          "price": "",
+          "assessed": "189700",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/11/2008",
+          "doc": "1238378",
+          "price": "",
+          "assessed": "185981",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/01/1997",
+          "doc": "1885860",
+          "price": "153000",
+          "assessed": "153000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/23/1990",
+          "doc": "0570873",
+          "price": "",
+          "assessed": "144615",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-008",
+      "status": "VALID",
+      "address": "468 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1201,
+      "lot": 7351,
+      "units": null,
+      "land": 219686,
+      "imp": 144193,
+      "assessed": 363879,
+      "latitude": 34.0737660618,
+      "longitude": -117.898428586,
+      "lastBuy": {
+        "rec": "04/30/2002",
+        "doc": "0987476",
+        "price": "241502",
+        "assessed": "241500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/30/2002",
+          "doc": "0987476",
+          "price": "241502",
+          "assessed": "241500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/10/2000",
+          "doc": "0208721",
+          "price": "182500",
+          "assessed": "182500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/26/1999",
+          "doc": "1617419",
+          "price": "",
+          "assessed": "48625",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "08/18/1999",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/01/1999",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8453-022-009",
+      "status": "VALID",
+      "address": "478 W SHAMWOOD ST, COVINA CA 91723-3335",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1270,
+      "lot": 7106,
+      "units": null,
+      "land": 436376,
+      "imp": 109093,
+      "assessed": 545469,
+      "latitude": 34.0737684625,
+      "longitude": -117.898655269,
+      "lastBuy": {
+        "rec": "05/23/2018",
+        "doc": "0510993",
+        "price": "470004",
+        "assessed": "470000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/23/2018",
+          "doc": "0510993",
+          "price": "470004",
+          "assessed": "470000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/19/1999",
+          "doc": "0455333",
+          "price": "",
+          "assessed": "116517",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/28/1995",
+          "doc": "1573892",
+          "price": "",
+          "assessed": "107803",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/28/1995",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/24/1992",
+          "doc": "2424194",
+          "price": "",
+          "assessed": "103303",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8453-021-002",
+      "parcel": {
+        "AIN": "8453021002",
+        "Latitude": 34.0744289875,
+        "Longitude": -117.897020853,
+        "SitusStreet": "414 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7595,
+        "SqftMain": 1076,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 343222,
+        "CurrentRoll_ImpValue": 131909
+      }
+    },
+    {
+      "ain": "8453-021-003",
+      "parcel": {
+        "AIN": "8453021003",
+        "Latitude": 34.0744570627,
+        "Longitude": -117.897291906,
+        "SitusStreet": "424 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7303,
+        "SqftMain": 1270,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 281067,
+        "CurrentRoll_ImpValue": 130409
+      }
+    },
+    {
+      "ain": "8453-021-004",
+      "parcel": {
+        "AIN": "8453021004",
+        "Latitude": 34.0744619902,
+        "Longitude": -117.897536877,
+        "SitusStreet": "434 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7451,
+        "SqftMain": 1184,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 350748,
+        "CurrentRoll_ImpValue": 171750
+      }
+    },
+    {
+      "ain": "8453-021-005",
+      "parcel": {
+        "AIN": "8453021005",
+        "Latitude": 34.0744630024,
+        "Longitude": -117.897780883,
+        "SitusStreet": "444 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7264,
+        "SqftMain": 1317,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 467075,
+        "CurrentRoll_ImpValue": 130278
+      }
+    },
+    {
+      "ain": "8453-021-006",
+      "parcel": {
+        "AIN": "8453021006",
+        "Latitude": 34.0744650682,
+        "Longitude": -117.898022397,
+        "SitusStreet": "452 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7264,
+        "SqftMain": 1201,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 559615,
+        "CurrentRoll_ImpValue": 139957
+      }
+    },
+    {
+      "ain": "8453-021-007",
+      "parcel": {
+        "AIN": "8453021007",
+        "Latitude": 34.0744664121,
+        "Longitude": -117.898265804,
+        "SitusStreet": "462 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7353,
+        "SqftMain": 1108,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 149499,
+        "CurrentRoll_ImpValue": 130310
+      }
+    },
+    {
+      "ain": "8453-021-008",
+      "parcel": {
+        "AIN": "8453021008",
+        "Latitude": 34.0744671371,
+        "Longitude": -117.898506933,
+        "SitusStreet": "472 W IDAHOME ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3327",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7086,
+        "SqftMain": 1760,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 32972,
+        "CurrentRoll_ImpValue": 83692
+      }
+    },
+    {
+      "ain": "8453-021-010",
+      "parcel": {
+        "AIN": "8453021010",
+        "Latitude": 34.0741964605,
+        "Longitude": -117.898505066,
+        "SitusStreet": "473 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7394,
+        "SqftMain": 1184,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 471193,
+        "CurrentRoll_ImpValue": 257179
+      }
+    },
+    {
+      "ain": "8453-021-011",
+      "parcel": {
+        "AIN": "8453021011",
+        "Latitude": 34.0741940713,
+        "Longitude": -117.898259766,
+        "SitusStreet": "463 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7354,
+        "SqftMain": 1270,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 62016,
+        "CurrentRoll_ImpValue": 93149
+      }
+    },
+    {
+      "ain": "8453-021-012",
+      "parcel": {
+        "AIN": "8453021012",
+        "Latitude": 34.0741923244,
+        "Longitude": -117.898017033,
+        "SitusStreet": "453 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7231,
+        "SqftMain": 1165,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 306566,
+        "CurrentRoll_ImpValue": 163284
+      }
+    },
+    {
+      "ain": "8453-021-013",
+      "parcel": {
+        "AIN": "8453021013",
+        "Latitude": 34.0741901337,
+        "Longitude": -117.897774024,
+        "SitusStreet": "443 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7366,
+        "SqftMain": 1184,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 141502,
+        "CurrentRoll_ImpValue": 124026
+      }
+    },
+    {
+      "ain": "8453-021-014",
+      "parcel": {
+        "AIN": "8453021014",
+        "Latitude": 34.074188355,
+        "Longitude": -117.897529479,
+        "SitusStreet": "433 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7312,
+        "SqftMain": 1201,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 35469,
+        "CurrentRoll_ImpValue": 40720
+      }
+    },
+    {
+      "ain": "8453-021-015",
+      "parcel": {
+        "AIN": "8453021015",
+        "Latitude": 34.0741899203,
+        "Longitude": -117.897285623,
+        "SitusStreet": "423 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7266,
+        "SqftMain": 1184,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 292717,
+        "CurrentRoll_ImpValue": 300756
+      }
+    },
+    {
+      "ain": "8453-021-016",
+      "parcel": {
+        "AIN": "8453021016",
+        "Latitude": 34.0742151389,
+        "Longitude": -117.897015461,
+        "SitusStreet": "415 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7299,
+        "SqftMain": 1714,
+        "NumOfBeds": 4,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 360083,
+        "CurrentRoll_ImpValue": 190984
+      }
+    },
+    {
+      "ain": "8453-021-017",
+      "parcel": {
+        "AIN": "8453021017",
+        "Latitude": 34.074120182,
+        "Longitude": -117.896813016,
+        "SitusStreet": "405 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3336",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7758,
+        "SqftMain": 1348,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 146940,
+        "CurrentRoll_ImpValue": 124075
+      }
+    },
+    {
+      "ain": "8453-022-001",
+      "parcel": {
+        "AIN": "8453022001",
+        "Latitude": 34.0738177823,
+        "Longitude": -117.896814307,
+        "SitusStreet": "404 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 8416,
+        "SqftMain": 1270,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 86099,
+        "CurrentRoll_ImpValue": 129160
+      }
+    },
+    {
+      "ain": "8453-022-002",
+      "parcel": {
+        "AIN": "8453022002",
+        "Latitude": 34.0737254148,
+        "Longitude": -117.897019868,
+        "SitusStreet": "414 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7914,
+        "SqftMain": 1582,
+        "NumOfBeds": 4,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 129946,
+        "CurrentRoll_ImpValue": 157123
+      }
+    },
+    {
+      "ain": "8453-022-003",
+      "parcel": {
+        "AIN": "8453022003",
+        "Latitude": 34.0737555684,
+        "Longitude": -117.897279201,
+        "SitusStreet": "424 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7324,
+        "SqftMain": 1719,
+        "NumOfBeds": 3,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 156575,
+        "CurrentRoll_ImpValue": 198262
+      }
+    },
+    {
+      "ain": "8453-022-004",
+      "parcel": {
+        "AIN": "8453022004",
+        "Latitude": 34.073759696,
+        "Longitude": -117.89751043,
+        "SitusStreet": "432 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7513,
+        "SqftMain": 1165,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 167271,
+        "CurrentRoll_ImpValue": 80086
+      }
+    },
+    {
+      "ain": "8453-022-005",
+      "parcel": {
+        "AIN": "8453022005",
+        "Latitude": 34.0737612789,
+        "Longitude": -117.897740755,
+        "SitusStreet": "442 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7287,
+        "SqftMain": 1270,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 535555,
+        "CurrentRoll_ImpValue": 133913
+      }
+    },
+    {
+      "ain": "8453-022-006",
+      "parcel": {
+        "AIN": "8453022006",
+        "Latitude": 34.0737631254,
+        "Longitude": -117.897966454,
+        "SitusStreet": "450 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7188,
+        "SqftMain": 1625,
+        "NumOfBeds": 3,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 32972,
+        "CurrentRoll_ImpValue": 55483
+      }
+    },
+    {
+      "ain": "8453-022-007",
+      "parcel": {
+        "AIN": "8453022007",
+        "Latitude": 34.0737639116,
+        "Longitude": -117.898196032,
+        "SitusStreet": "460 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7507,
+        "SqftMain": 1184,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 408524,
+        "CurrentRoll_ImpValue": 102129
+      }
+    },
+    {
+      "ain": "8453-022-008",
+      "parcel": {
+        "AIN": "8453022008",
+        "Latitude": 34.0737660618,
+        "Longitude": -117.898428586,
+        "SitusStreet": "468 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7351,
+        "SqftMain": 1201,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 219686,
+        "CurrentRoll_ImpValue": 144193
+      }
+    },
+    {
+      "ain": "8453-022-009",
+      "parcel": {
+        "AIN": "8453022009",
+        "Latitude": 34.0737684625,
+        "Longitude": -117.898655269,
+        "SitusStreet": "478 W SHAMWOOD ST",
+        "SitusCity": "COVINA CA",
+        "SitusZipCode": "91723-3335",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7106,
+        "SqftMain": 1270,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 436376,
+        "CurrentRoll_ImpValue": 109093
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8453-021-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-009",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8453-021-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-017",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-021-018",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8453-021-019",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8453-021-020",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8453-021-021",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8453-021-022",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8453-021-023",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8453-021-024",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8453-021-025",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8453-021-026",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8453-021-027",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8453-021-028",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8453-021-029",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8453-022-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8453-022-010",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8453-022-011",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8453-022-012",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8453-022-013",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8453-022-014",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8453-022-015",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8453-022-016",
+      "status": "INVALID",
+      "streak": 7
+    }
+  ],
+  "startedAt": "2026-07-18T09:55:54.533Z",
+  "endedAt": "2026-07-18T09:58:53.410Z"
+}

@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-18T08:21:44.071Z",
-  "runCount": 86,
-  "propertyRowCount": 2940,
-  "uniqueAinCount": 2838,
-  "propertyWithCoordsCount": 2286,
-  "nextCursor": "8453-021-002",
-  "donePageCount": 119,
+  "builtAt": "2026-07-18T09:58:54.405Z",
+  "runCount": 87,
+  "propertyRowCount": 2964,
+  "uniqueAinCount": 2862,
+  "propertyWithCoordsCount": 2310,
+  "nextCursor": "8453-022-017",
+  "donePageCount": 120,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -456,14 +456,21 @@
       "to": "8453-021-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "Covina",
       "slug": "covina",
-      "propertyRowCount": 1141,
-      "uniqueAinCount": 1105,
+      "propertyRowCount": 1165,
+      "uniqueAinCount": 1129,
       "areas": [
         {
           "name": "Covina Hills",
@@ -2687,6 +2694,38 @@
         {
           "city": "Covina",
           "count": 19,
+          "slug": "covina"
+        }
+      ],
+      "primaryCity": "Covina"
+    },
+    {
+      "id": "RUN-055-2026-07-18-horizon",
+      "title": "RUN-055 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-18",
+      "validCount": 24,
+      "checks": 45,
+      "start": "2026-07-18T09:55:54.533Z",
+      "end": "8453-022-016",
+      "nextCursor": "8453-022-017",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8453-021-030",
+          "streak": 12,
+          "to": "8453-022-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-18T09:58:53.410Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Covina",
+          "count": 24,
           "slug": "covina"
         }
       ],
