@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-18T00:55:18.429Z",
-  "runCount": 83,
-  "propertyRowCount": 2890,
-  "uniqueAinCount": 2788,
-  "propertyWithCoordsCount": 2236,
-  "nextCursor": "8453-014-015",
-  "donePageCount": 113,
+  "builtAt": "2026-07-18T03:55:06.048Z",
+  "runCount": 84,
+  "propertyRowCount": 2907,
+  "uniqueAinCount": 2805,
+  "propertyWithCoordsCount": 2253,
+  "nextCursor": "8453-017-014",
+  "donePageCount": 115,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -414,14 +414,28 @@
       "to": "8453-014-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "Covina",
       "slug": "covina",
-      "propertyRowCount": 1091,
-      "uniqueAinCount": 1055,
+      "propertyRowCount": 1108,
+      "uniqueAinCount": 1072,
       "areas": [
         {
           "name": "Covina Hills",
@@ -2528,6 +2542,45 @@
         {
           "city": "Covina",
           "count": 28,
+          "slug": "covina"
+        }
+      ],
+      "primaryCity": "Covina"
+    },
+    {
+      "id": "RUN-052-2026-07-18-horizon",
+      "title": "RUN-052 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-18",
+      "validCount": 17,
+      "checks": 45,
+      "start": "2026-07-18T03:53:50.802Z",
+      "end": "8453-017-013",
+      "nextCursor": "8453-017-014",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8453-014-027",
+          "streak": 12,
+          "to": "8453-016-020",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8453-016-038",
+          "streak": 12,
+          "to": "8453-017-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-18T03:55:05.048Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Covina",
+          "count": 17,
           "slug": "covina"
         }
       ],
