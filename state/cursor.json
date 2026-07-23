@@ -194,7 +194,9 @@
         "8456-014",
         "8456-015",
         "8456-016",
+        "8456-017",
         "8456-018",
+        "8456-019",
         "8456-020",
         "8456-021",
         "8456-023",
@@ -205,20 +207,6 @@
         "8456-032"
     ],
     "horizonQueue": [
-        {
-            "book": 8456,
-            "page": 19,
-            "hits": 1,
-            "firstValidParcel": 26,
-            "key": "8456-019"
-        },
-        {
-            "book": 8456,
-            "page": 22,
-            "hits": 1,
-            "firstValidParcel": 3,
-            "key": "8456-022"
-        },
         {
             "book": 8456,
             "page": 26,
@@ -248,7 +236,7 @@
             "key": "8456-030"
         }
     ],
-    "nextCursor": "8456-017-016",
+    "nextCursor": "8456-022-017",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -1286,6 +1274,20 @@
             "to": "8456-017-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8456-017-031",
+            "streak": 12,
+            "to": "8456-019-026",
+            "reason": "SOFT_JUMP",
+            "hits": 1
+        },
+        {
+            "at": "8456-019-040",
+            "streak": 12,
+            "to": "8456-022-003",
+            "reason": "SOFT_JUMP",
+            "hits": 1
         }
     ],
     "completedRuns": [
@@ -1411,14 +1413,15 @@
         "RUN-120",
         "RUN-121",
         "RUN-122",
-        "RUN-123"
+        "RUN-123",
+        "RUN-124"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-123-2026-07-23-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-124-2026-07-23-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-07-23T14:40:55.968Z",
+    "lastAlwaysOnAt": "2026-07-23T16:26:24.086Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -1531,5 +1534,6 @@
     "validCountRUN120": 19,
     "validCountRUN121": 32,
     "validCountRUN122": 19,
-    "validCountRUN123": 32
+    "validCountRUN123": 32,
+    "validCountRUN124": 17
 }
