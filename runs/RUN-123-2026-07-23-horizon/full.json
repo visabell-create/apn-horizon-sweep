@@ -1,0 +1,4292 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8456-016-002",
+  "lastAinChecked": "8456-017-015",
+  "nextCursor": "8456-017-016",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8456-016-031",
+      "streak": 12,
+      "to": "8456-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-002-054",
+      "streak": 12,
+      "to": "8453-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-003-049",
+      "streak": 12,
+      "to": "8453-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-011-036",
+      "streak": 12,
+      "to": "8453-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-012-041",
+      "streak": 12,
+      "to": "8453-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-013-045",
+      "streak": 12,
+      "to": "8453-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-015-048",
+      "streak": 12,
+      "to": "8453-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-024-033",
+      "streak": 12,
+      "to": "8453-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-026-044",
+      "streak": 12,
+      "to": "8453-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-005-029",
+      "streak": 12,
+      "to": "8453-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-007-026",
+      "streak": 12,
+      "to": "8453-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-008-022",
+      "streak": 12,
+      "to": "8453-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-009-029",
+      "streak": 12,
+      "to": "8453-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-010-031",
+      "streak": 12,
+      "to": "8453-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-017-026",
+      "streak": 12,
+      "to": "8453-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-018-024",
+      "streak": 12,
+      "to": "8453-019-014",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-019-034",
+      "streak": 12,
+      "to": "8453-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-020-031",
+      "streak": 12,
+      "to": "8453-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-022-029",
+      "streak": 12,
+      "to": "8453-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-023-033",
+      "streak": 12,
+      "to": "8453-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-025-040",
+      "streak": 20,
+      "to": "8454-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8454-001-041",
+      "streak": 12,
+      "to": "8454-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-005-040",
+      "streak": 12,
+      "to": "8454-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-006-045",
+      "streak": 12,
+      "to": "8454-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-007-045",
+      "streak": 12,
+      "to": "8454-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-008-045",
+      "streak": 12,
+      "to": "8454-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-012-045",
+      "streak": 12,
+      "to": "8454-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-028-052",
+      "streak": 12,
+      "to": "8454-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-030-039",
+      "streak": 12,
+      "to": "8454-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-016-044",
+      "streak": 12,
+      "to": "8454-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-018-045",
+      "streak": 12,
+      "to": "8454-019-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-019-039",
+      "streak": 12,
+      "to": "8454-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-025-044",
+      "streak": 12,
+      "to": "8454-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-026-045",
+      "streak": 12,
+      "to": "8454-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-002-024",
+      "streak": 12,
+      "to": "8454-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-003-025",
+      "streak": 12,
+      "to": "8454-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-004-025",
+      "streak": 12,
+      "to": "8454-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-009-024",
+      "streak": 12,
+      "to": "8454-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-010-037",
+      "streak": 12,
+      "to": "8454-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-011-029",
+      "streak": 12,
+      "to": "8454-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-013-031",
+      "streak": 12,
+      "to": "8454-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-014-030",
+      "streak": 12,
+      "to": "8454-015-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-015-019",
+      "streak": 12,
+      "to": "8454-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-020-027",
+      "streak": 12,
+      "to": "8454-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-021-023",
+      "streak": 12,
+      "to": "8454-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-022-027",
+      "streak": 12,
+      "to": "8454-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-023-027",
+      "streak": 12,
+      "to": "8454-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-024-029",
+      "streak": 12,
+      "to": "8454-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-027-039",
+      "streak": 20,
+      "to": "8455-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8455-001-037",
+      "streak": 12,
+      "to": "8455-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-015-049",
+      "streak": 12,
+      "to": "8455-026-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-026-058",
+      "streak": 12,
+      "to": "8455-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-003-045",
+      "streak": 12,
+      "to": "8455-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-016-045",
+      "streak": 12,
+      "to": "8455-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-017-045",
+      "streak": 12,
+      "to": "8455-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-019-045",
+      "streak": 12,
+      "to": "8455-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-020-045",
+      "streak": 12,
+      "to": "8455-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-021-045",
+      "streak": 12,
+      "to": "8455-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-023-045",
+      "streak": 12,
+      "to": "8455-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-024-045",
+      "streak": 12,
+      "to": "8455-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-025-045",
+      "streak": 12,
+      "to": "8455-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-002-031",
+      "streak": 12,
+      "to": "8455-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-004-029",
+      "streak": 12,
+      "to": "8455-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-005-031",
+      "streak": 12,
+      "to": "8455-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-006-031",
+      "streak": 12,
+      "to": "8455-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-007-029",
+      "streak": 12,
+      "to": "8455-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-008-031",
+      "streak": 12,
+      "to": "8455-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-009-043",
+      "streak": 12,
+      "to": "8455-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-010-029",
+      "streak": 12,
+      "to": "8455-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-011-032",
+      "streak": 12,
+      "to": "8455-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-012-032",
+      "streak": 12,
+      "to": "8455-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-013-042",
+      "streak": 12,
+      "to": "8455-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-014-033",
+      "streak": 12,
+      "to": "8455-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-018-031",
+      "streak": 12,
+      "to": "8455-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-022-045",
+      "streak": 12,
+      "to": "8455-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-027-053",
+      "streak": 20,
+      "to": "8456-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8456-001-037",
+      "streak": 12,
+      "to": "8456-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-005-045",
+      "streak": 12,
+      "to": "8456-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-018-052",
+      "streak": 12,
+      "to": "8456-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-020-041",
+      "streak": 12,
+      "to": "8456-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-021-043",
+      "streak": 12,
+      "to": "8456-032-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-032-044",
+      "streak": 12,
+      "to": "8456-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-007-045",
+      "streak": 12,
+      "to": "8456-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-009-045",
+      "streak": 12,
+      "to": "8456-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-011-045",
+      "streak": 12,
+      "to": "8456-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-013-045",
+      "streak": 12,
+      "to": "8456-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-014-045",
+      "streak": 12,
+      "to": "8456-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-023-050",
+      "streak": 12,
+      "to": "8456-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-024-040",
+      "streak": 12,
+      "to": "8456-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-025-045",
+      "streak": 12,
+      "to": "8456-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-027-045",
+      "streak": 12,
+      "to": "8456-031-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-031-045",
+      "streak": 12,
+      "to": "8456-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-002-030",
+      "streak": 12,
+      "to": "8456-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-003-032",
+      "streak": 12,
+      "to": "8456-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-004-032",
+      "streak": 12,
+      "to": "8456-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-006-041",
+      "streak": 12,
+      "to": "8456-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-008-030",
+      "streak": 12,
+      "to": "8456-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-010-030",
+      "streak": 12,
+      "to": "8456-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-012-030",
+      "streak": 12,
+      "to": "8456-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-015-031",
+      "streak": 12,
+      "to": "8456-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-016-031",
+      "streak": 12,
+      "to": "8456-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8456,
+      "page": 19,
+      "hits": 1,
+      "firstValidParcel": 26,
+      "key": "8456-019"
+    },
+    {
+      "book": 8456,
+      "page": 22,
+      "hits": 1,
+      "firstValidParcel": 3,
+      "key": "8456-022"
+    },
+    {
+      "book": 8456,
+      "page": 26,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-026"
+    },
+    {
+      "book": 8456,
+      "page": 28,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-028"
+    },
+    {
+      "book": 8456,
+      "page": 29,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-029"
+    },
+    {
+      "book": 8456,
+      "page": 30,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-030"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001",
+    "8453-002",
+    "8453-003",
+    "8453-005",
+    "8453-006",
+    "8453-007",
+    "8453-008",
+    "8453-009",
+    "8453-010",
+    "8453-011",
+    "8453-012",
+    "8453-013",
+    "8453-014",
+    "8453-015",
+    "8453-016",
+    "8453-017",
+    "8453-018",
+    "8453-019",
+    "8453-020",
+    "8453-021",
+    "8453-022",
+    "8453-023",
+    "8453-024",
+    "8453-025",
+    "8453-026",
+    "8454-001",
+    "8454-002",
+    "8454-003",
+    "8454-004",
+    "8454-005",
+    "8454-006",
+    "8454-007",
+    "8454-008",
+    "8454-009",
+    "8454-010",
+    "8454-011",
+    "8454-012",
+    "8454-013",
+    "8454-014",
+    "8454-015",
+    "8454-016",
+    "8454-018",
+    "8454-019",
+    "8454-020",
+    "8454-021",
+    "8454-022",
+    "8454-023",
+    "8454-024",
+    "8454-025",
+    "8454-026",
+    "8454-027",
+    "8454-028",
+    "8454-030",
+    "8455-001",
+    "8455-002",
+    "8455-003",
+    "8455-004",
+    "8455-005",
+    "8455-006",
+    "8455-007",
+    "8455-008",
+    "8455-009",
+    "8455-010",
+    "8455-011",
+    "8455-012",
+    "8455-013",
+    "8455-014",
+    "8455-015",
+    "8455-016",
+    "8455-017",
+    "8455-018",
+    "8455-019",
+    "8455-020",
+    "8455-021",
+    "8455-022",
+    "8455-023",
+    "8455-024",
+    "8455-025",
+    "8455-026",
+    "8455-027",
+    "8456-001",
+    "8456-002",
+    "8456-003",
+    "8456-004",
+    "8456-005",
+    "8456-006",
+    "8456-007",
+    "8456-008",
+    "8456-009",
+    "8456-010",
+    "8456-011",
+    "8456-012",
+    "8456-013",
+    "8456-014",
+    "8456-015",
+    "8456-016",
+    "8456-018",
+    "8456-020",
+    "8456-021",
+    "8456-023",
+    "8456-024",
+    "8456-025",
+    "8456-027",
+    "8456-031",
+    "8456-032"
+  ],
+  "valids": [
+    {
+      "ain": "8456-016-002",
+      "status": "VALID",
+      "address": "1020 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1578,
+      "lot": 6985,
+      "units": null,
+      "land": 155970,
+      "imp": 153143,
+      "assessed": 309113,
+      "latitude": 34.0781574705,
+      "longitude": -117.925536246,
+      "lastBuy": {
+        "rec": "06/23/1993",
+        "doc": "1199480",
+        "price": "179001",
+        "assessed": "179000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/11/2021",
+          "doc": "0747703",
+          "price": "9",
+          "assessed": "285577",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/20/1995",
+          "doc": "0407206",
+          "price": "",
+          "assessed": "174844",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "06/23/1993",
+          "doc": "1199480",
+          "price": "179001",
+          "assessed": "179000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/29/1982",
+          "doc": "0439369",
+          "price": "",
+          "assessed": "83700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-003",
+      "status": "VALID",
+      "address": "1024 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1751,
+      "lot": 6966,
+      "units": null,
+      "land": 296170,
+      "imp": 237639,
+      "assessed": 533809,
+      "latitude": 34.078156779,
+      "longitude": -117.925311972,
+      "lastBuy": {
+        "rec": "05/02/2013",
+        "doc": "0663392",
+        "price": "425004",
+        "assessed": "425000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "05/02/2013",
+          "doc": "0663392",
+          "price": "425004",
+          "assessed": "425000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/25/1994",
+          "doc": "0787641",
+          "price": "180000",
+          "assessed": "180000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/04/1993",
+          "doc": "2161677",
+          "price": "",
+          "assessed": "162000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "05/10/1990",
+          "doc": "0865828",
+          "price": "",
+          "assessed": "91996",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/10/1977",
+          "doc": "1247183",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-004",
+      "status": "VALID",
+      "address": "1030 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1751,
+      "lot": 6964,
+      "units": null,
+      "land": 78356,
+      "imp": 120965,
+      "assessed": 199321,
+      "latitude": 34.0781561215,
+      "longitude": -117.925087746,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/08/2018",
+          "doc": "0571048",
+          "price": "9",
+          "assessed": "175183",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "02/02/2016",
+          "doc": "0119221",
+          "price": "",
+          "assessed": "168383",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/20/1987",
+          "doc": "0793213",
+          "price": "",
+          "assessed": "95536",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/16/1980",
+          "doc": "1029393",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-005",
+      "status": "VALID",
+      "address": "1036 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1476,
+      "lot": 6967,
+      "units": null,
+      "land": 202205,
+      "imp": 172976,
+      "assessed": 375181,
+      "latitude": 34.0781553551,
+      "longitude": -117.924863146,
+      "lastBuy": {
+        "rec": "09/20/2001",
+        "doc": "1779735",
+        "price": "249002",
+        "assessed": "249000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/17/2025",
+          "doc": "0810228",
+          "price": "0",
+          "assessed": "375181",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/20/2001",
+          "doc": "1779735",
+          "price": "249002",
+          "assessed": "249000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/17/1972",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-006",
+      "status": "VALID",
+      "address": "1040 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1960",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1925,
+      "lot": 6934,
+      "units": null,
+      "land": 61094,
+      "imp": 174710,
+      "assessed": 235804,
+      "latitude": 34.0781547671,
+      "longitude": -117.924638724,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/04/2007",
+          "doc": "1342390",
+          "price": "0",
+          "assessed": "176025",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/21/1984",
+          "doc": "1381194",
+          "price": "",
+          "assessed": "94500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/10/1980",
+          "doc": "0877305",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-007",
+      "status": "VALID",
+      "address": "1046 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1960",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1484,
+      "lot": 6926,
+      "units": null,
+      "land": 194975,
+      "imp": 163628,
+      "assessed": 358603,
+      "latitude": 34.0781541342,
+      "longitude": -117.924414601,
+      "lastBuy": {
+        "rec": "07/18/2001",
+        "doc": "1254385",
+        "price": "238002",
+        "assessed": "238000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/18/2001",
+          "doc": "1254385",
+          "price": "238002",
+          "assessed": "238000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/26/2000",
+          "doc": "7777777",
+          "price": "",
+          "assessed": "61149",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "07/10/1997",
+          "doc": "1040053",
+          "price": "",
+          "assessed": "57707",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "10/09/1991",
+          "doc": "1596745",
+          "price": "",
+          "assessed": "52113",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/17/1972",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-008",
+      "status": "VALID",
+      "address": "1052 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1727,
+      "lot": 8190,
+      "units": null,
+      "land": 234704,
+      "imp": 188069,
+      "assessed": 422773,
+      "latitude": 34.0781404846,
+      "longitude": -117.924166013,
+      "lastBuy": {
+        "rec": "09/26/2011",
+        "doc": "1300874",
+        "price": "330000",
+        "assessed": "330000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "10/17/2011",
+          "doc": "1401281",
+          "price": "9",
+          "assessed": "330000",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "09/26/2011",
+          "doc": "1300874",
+          "price": "330000",
+          "assessed": "330000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/16/2011",
+          "doc": "0686625",
+          "price": "",
+          "assessed": "358000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "07/29/2005",
+          "doc": "1802566",
+          "price": "",
+          "assessed": "252500",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/01/2001",
+          "doc": "0172564",
+          "price": "229000",
+          "assessed": "229000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-009",
+      "status": "VALID",
+      "address": "1058 E MARBURY ST, WEST COVINA CA 91790-2303",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 2607,
+      "lot": 9916,
+      "units": null,
+      "land": 106973,
+      "imp": 279290,
+      "assessed": 386263,
+      "latitude": 34.0781865276,
+      "longitude": -117.923875089,
+      "lastBuy": {
+        "rec": "10/30/1987",
+        "doc": "1739960",
+        "price": "141000",
+        "assessed": "141000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/11/2023",
+          "doc": "0453316",
+          "price": "9",
+          "assessed": "371278",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/10/2012",
+          "doc": "1891836",
+          "price": "",
+          "assessed": "275964",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/04/1998",
+          "doc": "0743254",
+          "price": "",
+          "assessed": "172150",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/14/1997",
+          "doc": "1053486",
+          "price": "",
+          "assessed": "169019",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/30/1987",
+          "doc": "1739960",
+          "price": "141000",
+          "assessed": "141000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-010",
+      "status": "VALID",
+      "address": "1057 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1736,
+      "lot": 10301,
+      "units": null,
+      "land": 36473,
+      "imp": 73721,
+      "assessed": 110194,
+      "latitude": 34.0778328362,
+      "longitude": -117.923907757,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/22/2022",
+          "doc": "0652944",
+          "price": "9",
+          "assessed": "103840",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/31/2020",
+          "doc": "0366254",
+          "price": "",
+          "assessed": "99810",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/05/2015",
+          "doc": "1232636",
+          "price": "",
+          "assessed": "91268",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/21/2015",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/18/2003",
+          "doc": "0470039",
+          "price": "",
+          "assessed": "76002",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-011",
+      "status": "VALID",
+      "address": "1051 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1837,
+      "lot": 8451,
+      "units": null,
+      "land": 670565,
+      "imp": 292797,
+      "assessed": 963362,
+      "latitude": 34.0778830079,
+      "longitude": -117.924187714,
+      "lastBuy": {
+        "rec": "12/10/2021",
+        "doc": "1838251",
+        "price": "890000",
+        "assessed": "890000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/14/2022",
+          "doc": "0415988",
+          "price": "9",
+          "assessed": "907800",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/10/2021",
+          "doc": "1838251",
+          "price": "890000",
+          "assessed": "890000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/16/2015",
+          "doc": "0061371",
+          "price": "480004",
+          "assessed": "480000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/09/1992",
+          "doc": "1249732",
+          "price": "165000",
+          "assessed": "165000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/01/1986",
+          "doc": "0823856",
+          "price": "",
+          "assessed": "73574",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-012",
+      "status": "VALID",
+      "address": "1045 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 2109,
+      "lot": 7136,
+      "units": null,
+      "land": 557756,
+      "imp": 250989,
+      "assessed": 808745,
+      "latitude": 34.0778693539,
+      "longitude": -117.924439023,
+      "lastBuy": {
+        "rec": "01/03/2020",
+        "doc": "0009057",
+        "price": "725007",
+        "assessed": "725000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/03/2020",
+          "doc": "0009057",
+          "price": "725007",
+          "assessed": "725000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/08/2019",
+          "doc": "0207886",
+          "price": "",
+          "assessed": "515000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/30/2019",
+          "doc": "0087562",
+          "price": "515000",
+          "assessed": "515000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/25/2019",
+          "doc": "0072241",
+          "price": "470000",
+          "assessed": "470000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/24/2014",
+          "doc": "1401809",
+          "price": "",
+          "assessed": "177252",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-013",
+      "status": "VALID",
+      "address": "1039 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1308,
+      "lot": 7126,
+      "units": null,
+      "land": 365498,
+      "imp": 229174,
+      "assessed": 594672,
+      "latitude": 34.0778701154,
+      "longitude": -117.924662875,
+      "lastBuy": {
+        "rec": "12/23/2015",
+        "doc": "1611790",
+        "price": "492504",
+        "assessed": "492500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/23/2015",
+          "doc": "1611790",
+          "price": "492504",
+          "assessed": "492500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/12/2004",
+          "doc": "2073541",
+          "price": "",
+          "assessed": "326298",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/19/2003",
+          "doc": "2770143",
+          "price": "320000",
+          "assessed": "319900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/16/2002",
+          "doc": "3068697",
+          "price": "",
+          "assessed": "184010",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/31/1998",
+          "doc": "1552398",
+          "price": "170000",
+          "assessed": "170000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-014",
+      "status": "VALID",
+      "address": "1035 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 2,
+      "baths": 2,
+      "bldg": 1560,
+      "lot": 7115,
+      "units": null,
+      "land": 284779,
+      "imp": 219478,
+      "assessed": 504257,
+      "latitude": 34.0778706653,
+      "longitude": -117.924886828,
+      "lastBuy": {
+        "rec": "03/09/2010",
+        "doc": "0316902",
+        "price": "383003",
+        "assessed": "383000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "03/09/2010",
+          "doc": "0316902",
+          "price": "383003",
+          "assessed": "383000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/02/2010",
+          "doc": "0148299",
+          "price": "295000",
+          "assessed": "360000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "02/16/2007",
+          "doc": "0336198",
+          "price": "505000",
+          "assessed": "505000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/26/2006",
+          "doc": "2137264",
+          "price": "",
+          "assessed": "241272",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/05/2004",
+          "doc": "2018329",
+          "price": "",
+          "assessed": "231905",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-015",
+      "status": "VALID",
+      "address": "1029 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1331,
+      "lot": 7207,
+      "units": null,
+      "land": 58400,
+      "imp": 113928,
+      "assessed": 172328,
+      "latitude": 34.0778713688,
+      "longitude": -117.925112492,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/25/2007",
+          "doc": "2421238",
+          "price": "0",
+          "assessed": "128639",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/25/1995",
+          "doc": "0676140",
+          "price": "",
+          "assessed": "101721",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/17/1984",
+          "doc": "1113474",
+          "price": "",
+          "assessed": "83200",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "04/28/1978",
+          "doc": "0449042",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-016",
+      "status": "VALID",
+      "address": "1023 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1228,
+      "lot": 7106,
+      "units": null,
+      "land": 491866,
+      "imp": 126415,
+      "assessed": 618281,
+      "latitude": 34.0778722385,
+      "longitude": -117.925338461,
+      "lastBuy": {
+        "rec": "08/05/2020",
+        "doc": "0893856",
+        "price": "560005",
+        "assessed": "560000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/05/2020",
+          "doc": "0893856",
+          "price": "560005",
+          "assessed": "560000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/26/2013",
+          "doc": "0125342",
+          "price": "",
+          "assessed": "62154",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/03/2006",
+          "doc": "2205297",
+          "price": "",
+          "assessed": "56876",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "12/28/2005",
+          "doc": "3203928",
+          "price": "",
+          "assessed": "55762",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/08/1956",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-017",
+      "status": "VALID",
+      "address": "1019 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1955",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1419,
+      "lot": 7098,
+      "units": null,
+      "land": 344468,
+      "imp": 137241,
+      "assessed": 481709,
+      "latitude": 34.0778730109,
+      "longitude": -117.92556313,
+      "lastBuy": {
+        "rec": "08/31/2012",
+        "doc": "1307923",
+        "price": "365000",
+        "assessed": "365000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/13/2020",
+          "doc": "1447821",
+          "price": "9",
+          "assessed": "436312",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/26/2014",
+          "doc": "1024209",
+          "price": "",
+          "assessed": "388080",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "08/31/2012",
+          "doc": "1307923",
+          "price": "365000",
+          "assessed": "365000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/21/2009",
+          "doc": "1293126",
+          "price": "",
+          "assessed": "334841",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "11/19/2003",
+          "doc": "3501701",
+          "price": "",
+          "assessed": "304000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-016-018",
+      "status": "VALID",
+      "address": "1013 E THELBORN ST, WEST COVINA CA 91790-2306",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1416,
+      "lot": 7026,
+      "units": null,
+      "land": 361999,
+      "imp": 238676,
+      "assessed": 600675,
+      "latitude": 34.0778745878,
+      "longitude": -117.925786936,
+      "lastBuy": {
+        "rec": "09/02/2014",
+        "doc": "0917381",
+        "price": "490004",
+        "assessed": "490000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/02/2014",
+          "doc": "0917381",
+          "price": "490004",
+          "assessed": "490000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/31/2013",
+          "doc": "0813398",
+          "price": "340000",
+          "assessed": "340000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/2012",
+          "doc": "1250271",
+          "price": "232002",
+          "assessed": "330600",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/30/2005",
+          "doc": "0732670",
+          "price": "",
+          "assessed": "353788",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/27/2002",
+          "doc": "2896184",
+          "price": "265000",
+          "assessed": "265000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-001",
+      "status": "VALID",
+      "address": "1012 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1960",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1824,
+      "lot": 6943,
+      "units": null,
+      "land": 81225,
+      "imp": 134041,
+      "assessed": 215266,
+      "latitude": 34.0774342657,
+      "longitude": -117.925824572,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/26/2022",
+          "doc": "1018059",
+          "price": "9",
+          "assessed": "202853",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "12/22/1992",
+          "doc": "2400089",
+          "price": "",
+          "assessed": "121754",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/16/1991",
+          "doc": "1453320",
+          "price": "",
+          "assessed": "119368",
+          "docType": "File Correction",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "08/18/1989",
+          "doc": "1333425",
+          "price": "",
+          "assessed": "114735",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/06/1989",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-002",
+      "status": "VALID",
+      "address": "1018 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1244,
+      "lot": 6980,
+      "units": null,
+      "land": 308161,
+      "imp": 159515,
+      "assessed": 467676,
+      "latitude": 34.0774339988,
+      "longitude": -117.92560002,
+      "lastBuy": {
+        "rec": "11/12/2003",
+        "doc": "3401723",
+        "price": "322503",
+        "assessed": "322500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/12/2003",
+          "doc": "3401723",
+          "price": "322503",
+          "assessed": "322500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/24/2001",
+          "doc": "0698636",
+          "price": "",
+          "assessed": "175098",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/08/1999",
+          "doc": "7777777",
+          "price": "0",
+          "assessed": "165000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/18/1992",
+          "doc": "1531268",
+          "price": "",
+          "assessed": "49334",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/30/1992",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-003",
+      "status": "VALID",
+      "address": "1022 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1238,
+      "lot": 6969,
+      "units": null,
+      "land": 411484,
+      "imp": 170935,
+      "assessed": 582419,
+      "latitude": 34.0774329376,
+      "longitude": -117.925374889,
+      "lastBuy": {
+        "rec": "05/31/2017",
+        "doc": "0597897",
+        "price": "492004",
+        "assessed": "492000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/31/2017",
+          "doc": "0597897",
+          "price": "492004",
+          "assessed": "492000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/01/2014",
+          "doc": "0328435",
+          "price": "",
+          "assessed": "233477",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/14/1999",
+          "doc": "0877088",
+          "price": "179000",
+          "assessed": "179000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/07/1993",
+          "doc": "1291199",
+          "price": "",
+          "assessed": "44985",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/01/1955",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-004",
+      "status": "VALID",
+      "address": "1028 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 2100,
+      "lot": 6967,
+      "units": null,
+      "land": 134017,
+      "imp": 222188,
+      "assessed": 356205,
+      "latitude": 34.0774319448,
+      "longitude": -117.925149747,
+      "lastBuy": {
+        "rec": "09/15/1995",
+        "doc": "1507305",
+        "price": "138000",
+        "assessed": "138000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/10/2025",
+          "doc": "0704290",
+          "price": "0",
+          "assessed": "356205",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/04/2011",
+          "doc": "0196360",
+          "price": "",
+          "assessed": "278042",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/15/1995",
+          "doc": "1507305",
+          "price": "138000",
+          "assessed": "138000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/23/1974",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-005",
+      "status": "VALID",
+      "address": "1036 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1546,
+      "lot": 6951,
+      "units": null,
+      "land": 273438,
+      "imp": 203225,
+      "assessed": 476663,
+      "latitude": 34.0774309618,
+      "longitude": -117.924924637,
+      "lastBuy": {
+        "rec": "04/10/2013",
+        "doc": "0532469",
+        "price": "379503",
+        "assessed": "379500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/10/2013",
+          "doc": "0532469",
+          "price": "379503",
+          "assessed": "379500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/08/2013",
+          "doc": "0208615",
+          "price": "300000",
+          "assessed": "300000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/29/2012",
+          "doc": "0046095",
+          "price": "",
+          "assessed": "69038",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/10/2006",
+          "doc": "2240748",
+          "price": "",
+          "assessed": "63460",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/15/1986",
+          "doc": "1217379",
+          "price": "",
+          "assessed": "43565",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-006",
+      "status": "VALID",
+      "address": "1038 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1932,
+      "lot": 6950,
+      "units": null,
+      "land": 446480,
+      "imp": 233934,
+      "assessed": 680414,
+      "latitude": 34.0774299681,
+      "longitude": -117.92469947,
+      "lastBuy": {
+        "rec": "04/26/2019",
+        "doc": "0374853",
+        "price": "598005",
+        "assessed": "598000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/26/2019",
+          "doc": "0374853",
+          "price": "598005",
+          "assessed": "598000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/27/2001",
+          "doc": "1340119",
+          "price": "225002",
+          "assessed": "225000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/09/2000",
+          "doc": "7777777",
+          "price": "0",
+          "assessed": "186000",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/08/1999",
+          "doc": "2085527",
+          "price": "",
+          "assessed": "49422",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/10/1999",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-007",
+      "status": "VALID",
+      "address": "1044 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 2079,
+      "lot": 6945,
+      "units": null,
+      "land": 166901,
+      "imp": 199680,
+      "assessed": 366581,
+      "latitude": 34.0774289706,
+      "longitude": -117.924474282,
+      "lastBuy": {
+        "rec": "08/18/2000",
+        "doc": "1298350",
+        "price": "235002",
+        "assessed": "235000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/18/2000",
+          "doc": "1298350",
+          "price": "235002",
+          "assessed": "235000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/25/1996",
+          "doc": "1197394",
+          "price": "",
+          "assessed": "62447",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/27/1996",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/28/1955",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-008",
+      "status": "VALID",
+      "address": "1050 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 999,
+      "lot": 8099,
+      "units": null,
+      "land": 624240,
+      "imp": 113220,
+      "assessed": 737460,
+      "latitude": 34.0774161929,
+      "longitude": -117.924227355,
+      "lastBuy": {
+        "rec": "10/29/2024",
+        "doc": "0739941",
+        "price": "565000",
+        "assessed": "723000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/29/2024",
+          "doc": "0739941",
+          "price": "565000",
+          "assessed": "723000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/20/2024",
+          "doc": "0203663",
+          "price": "",
+          "assessed": "685337",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/16/1995",
+          "doc": "1339418",
+          "price": "",
+          "assessed": "41005",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/13/1973",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-009",
+      "status": "VALID",
+      "address": "1056 E THELBORN ST, WEST COVINA CA 91790-2305",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1956",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1837,
+      "lot": 9969,
+      "units": null,
+      "land": 435050,
+      "imp": 313574,
+      "assessed": 748624,
+      "latitude": 34.077461975,
+      "longitude": -117.923941846,
+      "lastBuy": {
+        "rec": "10/19/2015",
+        "doc": "1277505",
+        "price": "620006",
+        "assessed": "620000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/19/2015",
+          "doc": "1277505",
+          "price": "620006",
+          "assessed": "620000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/06/2015",
+          "doc": "0525413",
+          "price": "380000",
+          "assessed": "380000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/12/1996",
+          "doc": "2005504",
+          "price": "",
+          "assessed": "179334",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/18/1991",
+          "doc": "1824735",
+          "price": "201000",
+          "assessed": "201000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/24/1977",
+          "doc": "0541237",
+          "price": "53000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-010",
+      "status": "VALID",
+      "address": "1055 E GREENDALE ST, WEST COVINA CA 91790-2302",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1496,
+      "lot": 9759,
+      "units": null,
+      "land": 36472,
+      "imp": 48476,
+      "assessed": 84948,
+      "latitude": 34.0771136598,
+      "longitude": -117.923972938,
+      "lastBuy": {
+        "rec": "07/16/1974",
+        "doc": "",
+        "price": "6500",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/13/2023",
+          "doc": "0386468",
+          "price": "9",
+          "assessed": "81654",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/20/2018",
+          "doc": "0264170",
+          "price": "",
+          "assessed": "74667",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/16/1974",
+          "doc": "",
+          "price": "6500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-011",
+      "status": "VALID",
+      "address": "1049 E GREENDALE ST, WEST COVINA CA 91790-2302",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1118,
+      "lot": 8040,
+      "units": null,
+      "land": 491197,
+      "imp": 123224,
+      "assessed": 614421,
+      "latitude": 34.0771630255,
+      "longitude": -117.924249578,
+      "lastBuy": {
+        "rec": "10/30/2018",
+        "doc": "1099828",
+        "price": "540005",
+        "assessed": "540000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/30/2018",
+          "doc": "1099828",
+          "price": "540005",
+          "assessed": "540000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/24/2018",
+          "doc": "0736959",
+          "price": "370000",
+          "assessed": "487700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/11/2013",
+          "doc": "0102400",
+          "price": "",
+          "assessed": "60550",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/11/2001",
+          "doc": "1924840",
+          "price": "",
+          "assessed": "50255",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/45/1967",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-012",
+      "status": "VALID",
+      "address": "1043 E GREENDALE ST, WEST COVINA CA 91790-2302",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1970,
+      "lot": 6885,
+      "units": null,
+      "land": 461329,
+      "imp": 279118,
+      "assessed": 740447,
+      "latitude": 34.0771505598,
+      "longitude": -117.924500884,
+      "lastBuy": {
+        "rec": "05/01/2018",
+        "doc": "0424391",
+        "price": "638006",
+        "assessed": "638000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/01/2018",
+          "doc": "0424391",
+          "price": "638006",
+          "assessed": "638000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/21/2017",
+          "doc": "0817079",
+          "price": "530000",
+          "assessed": "530000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/15/2016",
+          "doc": "0427069",
+          "price": "",
+          "assessed": "77688",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/25/2005",
+          "doc": "0954428",
+          "price": "",
+          "assessed": "65987",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/06/2005",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-013",
+      "status": "VALID",
+      "address": "1039 E GREENDALE ST, WEST COVINA CA 91790-2302",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1404,
+      "lot": 6862,
+      "units": null,
+      "land": 143219,
+      "imp": 173942,
+      "assessed": 317161,
+      "latitude": 34.0771518271,
+      "longitude": -117.924726201,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/18/2023",
+          "doc": "0248044",
+          "price": "9",
+          "assessed": "304855",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/23/2013",
+          "doc": "1078440",
+          "price": "",
+          "assessed": "253667",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/11/2007",
+          "doc": "1154195",
+          "price": "",
+          "assessed": "203315",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/05/2007",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/27/2003",
+          "doc": "2491869",
+          "price": "",
+          "assessed": "187834",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-014",
+      "status": "VALID",
+      "address": "1033 E GREENDALE ST, WEST COVINA CA 91790-2302",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1642,
+      "lot": 6847,
+      "units": null,
+      "land": 170899,
+      "imp": 166441,
+      "assessed": 337340,
+      "latitude": 34.0771529874,
+      "longitude": -117.924951408,
+      "lastBuy": {
+        "rec": "08/31/2000",
+        "doc": "1369525",
+        "price": "219500",
+        "assessed": "219500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/07/2017",
+          "doc": "0155383",
+          "price": "9",
+          "assessed": "290671",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "12/28/2001",
+          "doc": "2491428",
+          "price": "",
+          "assessed": "223890",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "08/31/2000",
+          "doc": "1369525",
+          "price": "219500",
+          "assessed": "219500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/10/1969",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-017-015",
+      "status": "VALID",
+      "address": "1029 E GREENDALE ST, WEST COVINA CA 91790-2302",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1238,
+      "lot": 6831,
+      "units": null,
+      "land": 379022,
+      "imp": 178218,
+      "assessed": 557240,
+      "latitude": 34.0771540716,
+      "longitude": -117.925176606,
+      "lastBuy": {
+        "rec": "12/18/2015",
+        "doc": "1598878",
+        "price": "461504",
+        "assessed": "461500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/18/2015",
+          "doc": "1598878",
+          "price": "461504",
+          "assessed": "461500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/23/2007",
+          "doc": "1250952",
+          "price": "",
+          "assessed": "64728",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/04/2003",
+          "doc": "0959273",
+          "price": "",
+          "assessed": "59803",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "01/20/1970",
+          "doc": "",
+          "price": "2000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8456-016-002",
+      "parcel": {
+        "AIN": "8456016002",
+        "Latitude": 34.0781574705,
+        "Longitude": -117.925536246,
+        "SitusStreet": "1020 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6985,
+        "SqftMain": 1578,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 155970,
+        "CurrentRoll_ImpValue": 153143
+      }
+    },
+    {
+      "ain": "8456-016-003",
+      "parcel": {
+        "AIN": "8456016003",
+        "Latitude": 34.078156779,
+        "Longitude": -117.925311972,
+        "SitusStreet": "1024 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 6966,
+        "SqftMain": 1751,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 296170,
+        "CurrentRoll_ImpValue": 237639
+      }
+    },
+    {
+      "ain": "8456-016-004",
+      "parcel": {
+        "AIN": "8456016004",
+        "Latitude": 34.0781561215,
+        "Longitude": -117.925087746,
+        "SitusStreet": "1030 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 6964,
+        "SqftMain": 1751,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 78356,
+        "CurrentRoll_ImpValue": 120965
+      }
+    },
+    {
+      "ain": "8456-016-005",
+      "parcel": {
+        "AIN": "8456016005",
+        "Latitude": 34.0781553551,
+        "Longitude": -117.924863146,
+        "SitusStreet": "1036 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 6967,
+        "SqftMain": 1476,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 202205,
+        "CurrentRoll_ImpValue": 172976
+      }
+    },
+    {
+      "ain": "8456-016-006",
+      "parcel": {
+        "AIN": "8456016006",
+        "Latitude": 34.0781547671,
+        "Longitude": -117.924638724,
+        "SitusStreet": "1040 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1960",
+        "SqftLot": 6934,
+        "SqftMain": 1925,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 61094,
+        "CurrentRoll_ImpValue": 174710
+      }
+    },
+    {
+      "ain": "8456-016-007",
+      "parcel": {
+        "AIN": "8456016007",
+        "Latitude": 34.0781541342,
+        "Longitude": -117.924414601,
+        "SitusStreet": "1046 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1960",
+        "SqftLot": 6926,
+        "SqftMain": 1484,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 194975,
+        "CurrentRoll_ImpValue": 163628
+      }
+    },
+    {
+      "ain": "8456-016-008",
+      "parcel": {
+        "AIN": "8456016008",
+        "Latitude": 34.0781404846,
+        "Longitude": -117.924166013,
+        "SitusStreet": "1052 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 8190,
+        "SqftMain": 1727,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 234704,
+        "CurrentRoll_ImpValue": 188069
+      }
+    },
+    {
+      "ain": "8456-016-009",
+      "parcel": {
+        "AIN": "8456016009",
+        "Latitude": 34.0781865276,
+        "Longitude": -117.923875089,
+        "SitusStreet": "1058 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2303",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 9916,
+        "SqftMain": 2607,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 106973,
+        "CurrentRoll_ImpValue": 279290
+      }
+    },
+    {
+      "ain": "8456-016-010",
+      "parcel": {
+        "AIN": "8456016010",
+        "Latitude": 34.0778328362,
+        "Longitude": -117.923907757,
+        "SitusStreet": "1057 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 10301,
+        "SqftMain": 1736,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 36473,
+        "CurrentRoll_ImpValue": 73721
+      }
+    },
+    {
+      "ain": "8456-016-011",
+      "parcel": {
+        "AIN": "8456016011",
+        "Latitude": 34.0778830079,
+        "Longitude": -117.924187714,
+        "SitusStreet": "1051 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 8451,
+        "SqftMain": 1837,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 670565,
+        "CurrentRoll_ImpValue": 292797
+      }
+    },
+    {
+      "ain": "8456-016-012",
+      "parcel": {
+        "AIN": "8456016012",
+        "Latitude": 34.0778693539,
+        "Longitude": -117.924439023,
+        "SitusStreet": "1045 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7136,
+        "SqftMain": 2109,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 557756,
+        "CurrentRoll_ImpValue": 250989
+      }
+    },
+    {
+      "ain": "8456-016-013",
+      "parcel": {
+        "AIN": "8456016013",
+        "Latitude": 34.0778701154,
+        "Longitude": -117.924662875,
+        "SitusStreet": "1039 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7126,
+        "SqftMain": 1308,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 365498,
+        "CurrentRoll_ImpValue": 229174
+      }
+    },
+    {
+      "ain": "8456-016-014",
+      "parcel": {
+        "AIN": "8456016014",
+        "Latitude": 34.0778706653,
+        "Longitude": -117.924886828,
+        "SitusStreet": "1035 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7115,
+        "SqftMain": 1560,
+        "NumOfBeds": 2,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 284779,
+        "CurrentRoll_ImpValue": 219478
+      }
+    },
+    {
+      "ain": "8456-016-015",
+      "parcel": {
+        "AIN": "8456016015",
+        "Latitude": 34.0778713688,
+        "Longitude": -117.925112492,
+        "SitusStreet": "1029 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7207,
+        "SqftMain": 1331,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 58400,
+        "CurrentRoll_ImpValue": 113928
+      }
+    },
+    {
+      "ain": "8456-016-016",
+      "parcel": {
+        "AIN": "8456016016",
+        "Latitude": 34.0778722385,
+        "Longitude": -117.925338461,
+        "SitusStreet": "1023 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7106,
+        "SqftMain": 1228,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 491866,
+        "CurrentRoll_ImpValue": 126415
+      }
+    },
+    {
+      "ain": "8456-016-017",
+      "parcel": {
+        "AIN": "8456016017",
+        "Latitude": 34.0778730109,
+        "Longitude": -117.92556313,
+        "SitusStreet": "1019 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1955",
+        "SqftLot": 7098,
+        "SqftMain": 1419,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 344468,
+        "CurrentRoll_ImpValue": 137241
+      }
+    },
+    {
+      "ain": "8456-016-018",
+      "parcel": {
+        "AIN": "8456016018",
+        "Latitude": 34.0778745878,
+        "Longitude": -117.925786936,
+        "SitusStreet": "1013 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2306",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7026,
+        "SqftMain": 1416,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 361999,
+        "CurrentRoll_ImpValue": 238676
+      }
+    },
+    {
+      "ain": "8456-017-001",
+      "parcel": {
+        "AIN": "8456017001",
+        "Latitude": 34.0774342657,
+        "Longitude": -117.925824572,
+        "SitusStreet": "1012 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1960",
+        "SqftLot": 6943,
+        "SqftMain": 1824,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 81225,
+        "CurrentRoll_ImpValue": 134041
+      }
+    },
+    {
+      "ain": "8456-017-002",
+      "parcel": {
+        "AIN": "8456017002",
+        "Latitude": 34.0774339988,
+        "Longitude": -117.92560002,
+        "SitusStreet": "1018 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6980,
+        "SqftMain": 1244,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 308161,
+        "CurrentRoll_ImpValue": 159515
+      }
+    },
+    {
+      "ain": "8456-017-003",
+      "parcel": {
+        "AIN": "8456017003",
+        "Latitude": 34.0774329376,
+        "Longitude": -117.925374889,
+        "SitusStreet": "1022 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6969,
+        "SqftMain": 1238,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 411484,
+        "CurrentRoll_ImpValue": 170935
+      }
+    },
+    {
+      "ain": "8456-017-004",
+      "parcel": {
+        "AIN": "8456017004",
+        "Latitude": 34.0774319448,
+        "Longitude": -117.925149747,
+        "SitusStreet": "1028 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6967,
+        "SqftMain": 2100,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 134017,
+        "CurrentRoll_ImpValue": 222188
+      }
+    },
+    {
+      "ain": "8456-017-005",
+      "parcel": {
+        "AIN": "8456017005",
+        "Latitude": 34.0774309618,
+        "Longitude": -117.924924637,
+        "SitusStreet": "1036 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6951,
+        "SqftMain": 1546,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 273438,
+        "CurrentRoll_ImpValue": 203225
+      }
+    },
+    {
+      "ain": "8456-017-006",
+      "parcel": {
+        "AIN": "8456017006",
+        "Latitude": 34.0774299681,
+        "Longitude": -117.92469947,
+        "SitusStreet": "1038 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6950,
+        "SqftMain": 1932,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 446480,
+        "CurrentRoll_ImpValue": 233934
+      }
+    },
+    {
+      "ain": "8456-017-007",
+      "parcel": {
+        "AIN": "8456017007",
+        "Latitude": 34.0774289706,
+        "Longitude": -117.924474282,
+        "SitusStreet": "1044 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6945,
+        "SqftMain": 2079,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 166901,
+        "CurrentRoll_ImpValue": 199680
+      }
+    },
+    {
+      "ain": "8456-017-008",
+      "parcel": {
+        "AIN": "8456017008",
+        "Latitude": 34.0774161929,
+        "Longitude": -117.924227355,
+        "SitusStreet": "1050 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 8099,
+        "SqftMain": 999,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 624240,
+        "CurrentRoll_ImpValue": 113220
+      }
+    },
+    {
+      "ain": "8456-017-009",
+      "parcel": {
+        "AIN": "8456017009",
+        "Latitude": 34.077461975,
+        "Longitude": -117.923941846,
+        "SitusStreet": "1056 E THELBORN ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2305",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1956",
+        "SqftLot": 9969,
+        "SqftMain": 1837,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 435050,
+        "CurrentRoll_ImpValue": 313574
+      }
+    },
+    {
+      "ain": "8456-017-010",
+      "parcel": {
+        "AIN": "8456017010",
+        "Latitude": 34.0771136598,
+        "Longitude": -117.923972938,
+        "SitusStreet": "1055 E GREENDALE ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2302",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 9759,
+        "SqftMain": 1496,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 36472,
+        "CurrentRoll_ImpValue": 48476
+      }
+    },
+    {
+      "ain": "8456-017-011",
+      "parcel": {
+        "AIN": "8456017011",
+        "Latitude": 34.0771630255,
+        "Longitude": -117.924249578,
+        "SitusStreet": "1049 E GREENDALE ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2302",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 8040,
+        "SqftMain": 1118,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 491197,
+        "CurrentRoll_ImpValue": 123224
+      }
+    },
+    {
+      "ain": "8456-017-012",
+      "parcel": {
+        "AIN": "8456017012",
+        "Latitude": 34.0771505598,
+        "Longitude": -117.924500884,
+        "SitusStreet": "1043 E GREENDALE ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2302",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6885,
+        "SqftMain": 1970,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 461329,
+        "CurrentRoll_ImpValue": 279118
+      }
+    },
+    {
+      "ain": "8456-017-013",
+      "parcel": {
+        "AIN": "8456017013",
+        "Latitude": 34.0771518271,
+        "Longitude": -117.924726201,
+        "SitusStreet": "1039 E GREENDALE ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2302",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6862,
+        "SqftMain": 1404,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 143219,
+        "CurrentRoll_ImpValue": 173942
+      }
+    },
+    {
+      "ain": "8456-017-014",
+      "parcel": {
+        "AIN": "8456017014",
+        "Latitude": 34.0771529874,
+        "Longitude": -117.924951408,
+        "SitusStreet": "1033 E GREENDALE ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2302",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6847,
+        "SqftMain": 1642,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 170899,
+        "CurrentRoll_ImpValue": 166441
+      }
+    },
+    {
+      "ain": "8456-017-015",
+      "parcel": {
+        "AIN": "8456017015",
+        "Latitude": 34.0771540716,
+        "Longitude": -117.925176606,
+        "SitusStreet": "1029 E GREENDALE ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2302",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 6831,
+        "SqftMain": 1238,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 379022,
+        "CurrentRoll_ImpValue": 178218
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8456-016-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-017",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-018",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-016-019",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8456-016-020",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8456-016-021",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8456-016-022",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8456-016-023",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8456-016-024",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8456-016-025",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8456-016-026",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8456-016-027",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8456-016-028",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8456-016-029",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8456-016-030",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8456-017-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-017-015",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-07-23T14:40:34.970Z",
+  "endedAt": "2026-07-23T14:40:55.968Z"
+}
