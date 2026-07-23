@@ -1,0 +1,4271 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8456-010-003",
+  "lastAinChecked": "8456-012-017",
+  "nextCursor": "8456-012-018",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8456-010-030",
+      "streak": 12,
+      "to": "8456-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-002-054",
+      "streak": 12,
+      "to": "8453-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-003-049",
+      "streak": 12,
+      "to": "8453-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-011-036",
+      "streak": 12,
+      "to": "8453-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-012-041",
+      "streak": 12,
+      "to": "8453-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-013-045",
+      "streak": 12,
+      "to": "8453-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-015-048",
+      "streak": 12,
+      "to": "8453-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-024-033",
+      "streak": 12,
+      "to": "8453-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-026-044",
+      "streak": 12,
+      "to": "8453-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-005-029",
+      "streak": 12,
+      "to": "8453-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-007-026",
+      "streak": 12,
+      "to": "8453-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-008-022",
+      "streak": 12,
+      "to": "8453-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-009-029",
+      "streak": 12,
+      "to": "8453-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-010-031",
+      "streak": 12,
+      "to": "8453-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-017-026",
+      "streak": 12,
+      "to": "8453-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-018-024",
+      "streak": 12,
+      "to": "8453-019-014",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-019-034",
+      "streak": 12,
+      "to": "8453-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-020-031",
+      "streak": 12,
+      "to": "8453-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-022-029",
+      "streak": 12,
+      "to": "8453-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-023-033",
+      "streak": 12,
+      "to": "8453-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-025-040",
+      "streak": 20,
+      "to": "8454-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8454-001-041",
+      "streak": 12,
+      "to": "8454-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-005-040",
+      "streak": 12,
+      "to": "8454-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-006-045",
+      "streak": 12,
+      "to": "8454-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-007-045",
+      "streak": 12,
+      "to": "8454-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-008-045",
+      "streak": 12,
+      "to": "8454-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-012-045",
+      "streak": 12,
+      "to": "8454-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-028-052",
+      "streak": 12,
+      "to": "8454-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-030-039",
+      "streak": 12,
+      "to": "8454-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-016-044",
+      "streak": 12,
+      "to": "8454-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-018-045",
+      "streak": 12,
+      "to": "8454-019-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-019-039",
+      "streak": 12,
+      "to": "8454-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-025-044",
+      "streak": 12,
+      "to": "8454-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-026-045",
+      "streak": 12,
+      "to": "8454-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-002-024",
+      "streak": 12,
+      "to": "8454-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-003-025",
+      "streak": 12,
+      "to": "8454-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-004-025",
+      "streak": 12,
+      "to": "8454-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-009-024",
+      "streak": 12,
+      "to": "8454-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-010-037",
+      "streak": 12,
+      "to": "8454-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-011-029",
+      "streak": 12,
+      "to": "8454-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-013-031",
+      "streak": 12,
+      "to": "8454-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-014-030",
+      "streak": 12,
+      "to": "8454-015-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-015-019",
+      "streak": 12,
+      "to": "8454-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-020-027",
+      "streak": 12,
+      "to": "8454-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-021-023",
+      "streak": 12,
+      "to": "8454-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-022-027",
+      "streak": 12,
+      "to": "8454-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-023-027",
+      "streak": 12,
+      "to": "8454-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-024-029",
+      "streak": 12,
+      "to": "8454-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-027-039",
+      "streak": 20,
+      "to": "8455-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8455-001-037",
+      "streak": 12,
+      "to": "8455-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-015-049",
+      "streak": 12,
+      "to": "8455-026-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-026-058",
+      "streak": 12,
+      "to": "8455-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-003-045",
+      "streak": 12,
+      "to": "8455-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-016-045",
+      "streak": 12,
+      "to": "8455-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-017-045",
+      "streak": 12,
+      "to": "8455-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-019-045",
+      "streak": 12,
+      "to": "8455-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-020-045",
+      "streak": 12,
+      "to": "8455-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-021-045",
+      "streak": 12,
+      "to": "8455-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-023-045",
+      "streak": 12,
+      "to": "8455-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-024-045",
+      "streak": 12,
+      "to": "8455-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-025-045",
+      "streak": 12,
+      "to": "8455-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-002-031",
+      "streak": 12,
+      "to": "8455-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-004-029",
+      "streak": 12,
+      "to": "8455-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-005-031",
+      "streak": 12,
+      "to": "8455-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-006-031",
+      "streak": 12,
+      "to": "8455-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-007-029",
+      "streak": 12,
+      "to": "8455-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-008-031",
+      "streak": 12,
+      "to": "8455-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-009-043",
+      "streak": 12,
+      "to": "8455-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-010-029",
+      "streak": 12,
+      "to": "8455-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-011-032",
+      "streak": 12,
+      "to": "8455-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-012-032",
+      "streak": 12,
+      "to": "8455-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-013-042",
+      "streak": 12,
+      "to": "8455-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-014-033",
+      "streak": 12,
+      "to": "8455-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-018-031",
+      "streak": 12,
+      "to": "8455-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-022-045",
+      "streak": 12,
+      "to": "8455-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-027-053",
+      "streak": 20,
+      "to": "8456-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8456-001-037",
+      "streak": 12,
+      "to": "8456-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-005-045",
+      "streak": 12,
+      "to": "8456-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-018-052",
+      "streak": 12,
+      "to": "8456-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-020-041",
+      "streak": 12,
+      "to": "8456-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-021-043",
+      "streak": 12,
+      "to": "8456-032-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-032-044",
+      "streak": 12,
+      "to": "8456-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-007-045",
+      "streak": 12,
+      "to": "8456-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-009-045",
+      "streak": 12,
+      "to": "8456-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-011-045",
+      "streak": 12,
+      "to": "8456-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-013-045",
+      "streak": 12,
+      "to": "8456-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-014-045",
+      "streak": 12,
+      "to": "8456-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-023-050",
+      "streak": 12,
+      "to": "8456-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-024-040",
+      "streak": 12,
+      "to": "8456-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-025-045",
+      "streak": 12,
+      "to": "8456-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-027-045",
+      "streak": 12,
+      "to": "8456-031-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-031-045",
+      "streak": 12,
+      "to": "8456-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-002-030",
+      "streak": 12,
+      "to": "8456-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-003-032",
+      "streak": 12,
+      "to": "8456-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-004-032",
+      "streak": 12,
+      "to": "8456-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-006-041",
+      "streak": 12,
+      "to": "8456-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-008-030",
+      "streak": 12,
+      "to": "8456-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-010-030",
+      "streak": 12,
+      "to": "8456-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8456,
+      "page": 15,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-015"
+    },
+    {
+      "book": 8456,
+      "page": 16,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-016"
+    },
+    {
+      "book": 8456,
+      "page": 17,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-017"
+    },
+    {
+      "book": 8456,
+      "page": 19,
+      "hits": 1,
+      "firstValidParcel": 26,
+      "key": "8456-019"
+    },
+    {
+      "book": 8456,
+      "page": 22,
+      "hits": 1,
+      "firstValidParcel": 3,
+      "key": "8456-022"
+    },
+    {
+      "book": 8456,
+      "page": 26,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-026"
+    },
+    {
+      "book": 8456,
+      "page": 28,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-028"
+    },
+    {
+      "book": 8456,
+      "page": 29,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-029"
+    },
+    {
+      "book": 8456,
+      "page": 30,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8456-030"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001",
+    "8453-002",
+    "8453-003",
+    "8453-005",
+    "8453-006",
+    "8453-007",
+    "8453-008",
+    "8453-009",
+    "8453-010",
+    "8453-011",
+    "8453-012",
+    "8453-013",
+    "8453-014",
+    "8453-015",
+    "8453-016",
+    "8453-017",
+    "8453-018",
+    "8453-019",
+    "8453-020",
+    "8453-021",
+    "8453-022",
+    "8453-023",
+    "8453-024",
+    "8453-025",
+    "8453-026",
+    "8454-001",
+    "8454-002",
+    "8454-003",
+    "8454-004",
+    "8454-005",
+    "8454-006",
+    "8454-007",
+    "8454-008",
+    "8454-009",
+    "8454-010",
+    "8454-011",
+    "8454-012",
+    "8454-013",
+    "8454-014",
+    "8454-015",
+    "8454-016",
+    "8454-018",
+    "8454-019",
+    "8454-020",
+    "8454-021",
+    "8454-022",
+    "8454-023",
+    "8454-024",
+    "8454-025",
+    "8454-026",
+    "8454-027",
+    "8454-028",
+    "8454-030",
+    "8455-001",
+    "8455-002",
+    "8455-003",
+    "8455-004",
+    "8455-005",
+    "8455-006",
+    "8455-007",
+    "8455-008",
+    "8455-009",
+    "8455-010",
+    "8455-011",
+    "8455-012",
+    "8455-013",
+    "8455-014",
+    "8455-015",
+    "8455-016",
+    "8455-017",
+    "8455-018",
+    "8455-019",
+    "8455-020",
+    "8455-021",
+    "8455-022",
+    "8455-023",
+    "8455-024",
+    "8455-025",
+    "8455-026",
+    "8455-027",
+    "8456-001",
+    "8456-002",
+    "8456-003",
+    "8456-004",
+    "8456-005",
+    "8456-006",
+    "8456-007",
+    "8456-008",
+    "8456-009",
+    "8456-010",
+    "8456-011",
+    "8456-013",
+    "8456-014",
+    "8456-018",
+    "8456-020",
+    "8456-021",
+    "8456-023",
+    "8456-024",
+    "8456-025",
+    "8456-027",
+    "8456-031",
+    "8456-032"
+  ],
+  "valids": [
+    {
+      "ain": "8456-010-003",
+      "status": "VALID",
+      "address": "311 N TOLAND AVE, WEST COVINA CA 91790-1853",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1127,
+      "lot": 7264,
+      "units": null,
+      "land": 64643,
+      "imp": 93742,
+      "assessed": 158385,
+      "latitude": 34.0759956046,
+      "longitude": -117.921580858,
+      "lastBuy": {
+        "rec": "04/20/1982",
+        "doc": "0406607",
+        "price": "51500",
+        "assessed": "73500",
+        "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/20/1982",
+          "doc": "0406607",
+          "price": "51500",
+          "assessed": "73500",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-004",
+      "status": "VALID",
+      "address": "315 N TOLAND AVE, WEST COVINA CA 91790-1853",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 3,
+      "bldg": 2034,
+      "lot": 7283,
+      "units": null,
+      "land": 96364,
+      "imp": 214785,
+      "assessed": 311149,
+      "latitude": 34.0761681843,
+      "longitude": -117.921565093,
+      "lastBuy": {
+        "rec": "06/04/1987",
+        "doc": "0879705",
+        "price": "99500",
+        "assessed": "99500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/16/2006",
+          "doc": "0358683",
+          "price": "0",
+          "assessed": "227700",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "06/04/1987",
+          "doc": "0879705",
+          "price": "99500",
+          "assessed": "99500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/25/1983",
+          "doc": "0844679",
+          "price": "",
+          "assessed": "74500",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "12/22/1980",
+          "doc": "1281315",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-005",
+      "status": "VALID",
+      "address": "318 N LYALL AVE, WEST COVINA CA 91790-2329",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1635,
+      "lot": 15045,
+      "units": null,
+      "land": 166758,
+      "imp": 202475,
+      "assessed": 369233,
+      "latitude": 34.076070335,
+      "longitude": -117.921947649,
+      "lastBuy": {
+        "rec": "05/27/1994",
+        "doc": "1029500",
+        "price": "213002",
+        "assessed": "213000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "05/27/1994",
+          "doc": "1029500",
+          "price": "213002",
+          "assessed": "213000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/22/1989",
+          "doc": "0821797",
+          "price": "150000",
+          "assessed": "150000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/23/1985",
+          "doc": "0077571",
+          "price": "9",
+          "assessed": "94000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "07/13/1982",
+          "doc": "0703256",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "05/13/1981",
+          "doc": "0478588",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-006",
+      "status": "VALID",
+      "address": "1138 E VERNESS ST, WEST COVINA CA 91790-2355",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1161,
+      "lot": 8626,
+      "units": null,
+      "land": 133537,
+      "imp": 113181,
+      "assessed": 246718,
+      "latitude": 34.0759663403,
+      "longitude": -117.922259152,
+      "lastBuy": {
+        "rec": "04/06/1998",
+        "doc": "0550994",
+        "price": "151501",
+        "assessed": "151500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/06/1998",
+          "doc": "0550994",
+          "price": "151501",
+          "assessed": "151500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/10/1998",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "07/14/1993",
+          "doc": "1352944",
+          "price": "",
+          "assessed": "95482",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/22/1985",
+          "doc": "0971555",
+          "price": "",
+          "assessed": "81500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/28/1977",
+          "doc": "0306042",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-007",
+      "status": "VALID",
+      "address": "1130 E VERNESS ST, WEST COVINA CA 91790-2355",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 2,
+      "baths": 2,
+      "bldg": 1546,
+      "lot": 7869,
+      "units": null,
+      "land": 166113,
+      "imp": 106318,
+      "assessed": 272431,
+      "latitude": 34.0760088462,
+      "longitude": -117.922552908,
+      "lastBuy": {
+        "rec": "03/14/1997",
+        "doc": "0385980",
+        "price": "170001",
+        "assessed": "141100",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/23/2016",
+          "doc": "1633908",
+          "price": "9",
+          "assessed": "230142",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/14/1997",
+          "doc": "0385980",
+          "price": "170001",
+          "assessed": "141100",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/16/1990",
+          "doc": "0426726",
+          "price": "",
+          "assessed": "41444",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/45/1967",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-008",
+      "status": "VALID",
+      "address": "1126 E VERNESS ST, WEST COVINA CA 91790-2355",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1161,
+      "lot": 7568,
+      "units": null,
+      "land": 89804,
+      "imp": 123643,
+      "assessed": 213447,
+      "latitude": 34.0760120901,
+      "longitude": -117.92278863,
+      "lastBuy": {
+        "rec": "08/13/1964",
+        "doc": "",
+        "price": "16000",
+        "assessed": "",
+        "docType": "",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/27/2005",
+          "doc": "1506820",
+          "price": "0",
+          "assessed": "153144",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/07/1993",
+          "doc": "1073980",
+          "price": "",
+          "assessed": "120727",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "10/01/1990",
+          "doc": "1673187",
+          "price": "",
+          "assessed": "110404",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/15/1986",
+          "doc": "0052446",
+          "price": "",
+          "assessed": "100000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/13/1964",
+          "doc": "",
+          "price": "16000",
+          "assessed": "",
+          "docType": "",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-009",
+      "status": "VALID",
+      "address": "1122 E VERNESS ST, WEST COVINA CA 91790-2355",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1244,
+      "lot": 7595,
+      "units": null,
+      "land": 302909,
+      "imp": 126835,
+      "assessed": 429744,
+      "latitude": 34.0760136028,
+      "longitude": -117.923019508,
+      "lastBuy": {
+        "rec": "11/09/2010",
+        "doc": "1607052",
+        "price": "319503",
+        "assessed": "319500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/09/2010",
+          "doc": "1607052",
+          "price": "319503",
+          "assessed": "319500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/18/2009",
+          "doc": "0218002",
+          "price": "",
+          "assessed": "57128",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/03/1991",
+          "doc": "0469575",
+          "price": "",
+          "assessed": "41714",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/25/1953",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-010",
+      "status": "VALID",
+      "address": "1114 E VERNESS ST, WEST COVINA CA 91790-2355",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1244,
+      "lot": 7224,
+      "units": null,
+      "land": 136898,
+      "imp": 98606,
+      "assessed": 235504,
+      "latitude": 34.0760136673,
+      "longitude": -117.923244963,
+      "lastBuy": {
+        "rec": "07/18/1995",
+        "doc": "1162371",
+        "price": "139001",
+        "assessed": "139000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/18/1995",
+          "doc": "1162371",
+          "price": "139001",
+          "assessed": "139000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/04/1988",
+          "doc": "1781781",
+          "price": "150000",
+          "assessed": "150000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/02/1982",
+          "doc": "0216317",
+          "price": "",
+          "assessed": "71600",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-011",
+      "status": "VALID",
+      "address": "1115 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1400,
+      "lot": 6876,
+      "units": null,
+      "land": 359179,
+      "imp": 235365,
+      "assessed": 594544,
+      "latitude": 34.0757189274,
+      "longitude": -117.923273858,
+      "lastBuy": {
+        "rec": "05/08/2015",
+        "doc": "0532610",
+        "price": "485004",
+        "assessed": "485000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/08/2015",
+          "doc": "0532610",
+          "price": "485004",
+          "assessed": "485000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/25/2013",
+          "doc": "0938633",
+          "price": "",
+          "assessed": "187911",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/07/2008",
+          "doc": "1201023",
+          "price": "",
+          "assessed": "178883",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/15/2007",
+          "doc": "2347801",
+          "price": "",
+          "assessed": "175377",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/20/2004",
+          "doc": "1289032",
+          "price": "",
+          "assessed": "165264",
+          "docType": "File Correction",
+          "reason": "Life Estate Transfer - Grantor Retains (SEC. 62E)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-012",
+      "status": "VALID",
+      "address": "1123 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1161,
+      "lot": 7317,
+      "units": null,
+      "land": 361030,
+      "imp": 127987,
+      "assessed": 489017,
+      "latitude": 34.0757172221,
+      "longitude": -117.923055277,
+      "lastBuy": {
+        "rec": "08/13/2015",
+        "doc": "0994812",
+        "price": "405004",
+        "assessed": "405000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/07/2016",
+          "doc": "1073221",
+          "price": "9",
+          "assessed": "413100",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "08/13/2015",
+          "doc": "0994812",
+          "price": "405004",
+          "assessed": "405000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/18/2000",
+          "doc": "1962244",
+          "price": "196500",
+          "assessed": "196200",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/07/1997",
+          "doc": "1550136",
+          "price": "",
+          "assessed": "63181",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/12/1995",
+          "doc": "9999999",
+          "price": "",
+          "assessed": "60063",
+          "docType": "Unrecorded Instrument",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-013",
+      "status": "VALID",
+      "address": "1127 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 2,
+      "baths": 2,
+      "bldg": 1566,
+      "lot": 7307,
+      "units": null,
+      "land": 131270,
+      "imp": 122953,
+      "assessed": 254223,
+      "latitude": 34.0757166695,
+      "longitude": -117.922829765,
+      "lastBuy": {
+        "rec": "08/28/1998",
+        "doc": "1542182",
+        "price": "159000",
+        "assessed": "159000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "11/26/2008",
+          "doc": "2093953",
+          "price": "0",
+          "assessed": "193558",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/28/1998",
+          "doc": "1542182",
+          "price": "159000",
+          "assessed": "159000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/13/1998",
+          "doc": "0603357",
+          "price": "",
+          "assessed": "159000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "09/13/1996",
+          "doc": "1513755",
+          "price": "",
+          "assessed": "152170",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "03/13/1995",
+          "doc": "0378730",
+          "price": "150500",
+          "assessed": "150500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-014",
+      "status": "VALID",
+      "address": "1131 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1556,
+      "lot": 7294,
+      "units": null,
+      "land": 311839,
+      "imp": 119530,
+      "assessed": 431369,
+      "latitude": 34.0757161285,
+      "longitude": -117.922604229,
+      "lastBuy": {
+        "rec": "07/12/2013",
+        "doc": "1024225",
+        "price": "345003",
+        "assessed": "345000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/30/2020",
+          "doc": "1203590",
+          "price": "9",
+          "assessed": "390710",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/12/2013",
+          "doc": "1024225",
+          "price": "345003",
+          "assessed": "345000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/09/2012",
+          "doc": "0047348",
+          "price": "",
+          "assessed": "84388",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "04/02/2008",
+          "doc": "0569157",
+          "price": "",
+          "assessed": "80700",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/29/1977",
+          "doc": "1078320",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-015",
+      "status": "VALID",
+      "address": "1139 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1311,
+      "lot": 7280,
+      "units": null,
+      "land": 231613,
+      "imp": 122585,
+      "assessed": 354198,
+      "latitude": 34.0757157055,
+      "longitude": -117.922378667,
+      "lastBuy": {
+        "rec": "10/30/2012",
+        "doc": "1644402",
+        "price": "282002",
+        "assessed": "282000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/30/2012",
+          "doc": "1644402",
+          "price": "282002",
+          "assessed": "282000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/19/2004",
+          "doc": "2681656",
+          "price": "375000",
+          "assessed": "374900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/24/2001",
+          "doc": "0695292",
+          "price": "",
+          "assessed": "192700",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "09/14/1992",
+          "doc": "1705770",
+          "price": "",
+          "assessed": "164900",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "12/17/1990",
+          "doc": "2071597",
+          "price": "",
+          "assessed": "168300",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-016",
+      "status": "VALID",
+      "address": "1143 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1844,
+      "lot": 7270,
+      "units": null,
+      "land": 132868,
+      "imp": 175387,
+      "assessed": 308255,
+      "latitude": 34.0757151499,
+      "longitude": -117.9221531,
+      "lastBuy": {
+        "rec": "09/25/1998",
+        "doc": "1738476",
+        "price": "151501",
+        "assessed": "151500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "09/25/1998",
+          "doc": "1738476",
+          "price": "151501",
+          "assessed": "151500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/05/1998",
+          "doc": "0358797",
+          "price": "",
+          "assessed": "160400",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "03/21/1995",
+          "doc": "0411778",
+          "price": "",
+          "assessed": "157000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/21/1995",
+          "doc": "0411777",
+          "price": "",
+          "assessed": "188445",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "08/23/1991",
+          "doc": "1331072",
+          "price": "179000",
+          "assessed": "179000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-010-017",
+      "status": "VALID",
+      "address": "1153 E WORKMAN AVE, WEST COVINA CA 91790-2358",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1952",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 956,
+      "lot": 7846,
+      "units": null,
+      "land": 283443,
+      "imp": 138435,
+      "assessed": 421878,
+      "latitude": 34.07571511,
+      "longitude": -117.921918422,
+      "lastBuy": {
+        "rec": "10/18/2023",
+        "doc": "0711247",
+        "price": "830008",
+        "assessed": "405498",
+        "docType": "Special Processing",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/04/2024",
+          "doc": "0361202",
+          "price": "0",
+          "assessed": "413607",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/18/2023",
+          "doc": "0711247",
+          "price": "830008",
+          "assessed": "405498",
+          "docType": "Special Processing",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "10/20/2021",
+          "doc": "1581876",
+          "price": "",
+          "assessed": "445578",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/09/2007",
+          "doc": "2519440",
+          "price": "360003",
+          "assessed": "360000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/23/1995",
+          "doc": "0816731",
+          "price": "135000",
+          "assessed": "135500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-001",
+      "status": "VALID",
+      "address": "441 N TOLAND AVE, WEST COVINA CA 91790-1855",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 2135,
+      "lot": 7044,
+      "units": null,
+      "land": 33977,
+      "imp": 65734,
+      "assessed": 99711,
+      "latitude": 34.0789266961,
+      "longitude": -117.921307946,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/11/2003",
+          "doc": "1669749",
+          "price": "0",
+          "assessed": "68774",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "11/27/1995",
+          "doc": "1874217",
+          "price": "",
+          "assessed": "58866",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/26/1993",
+          "doc": "0772707",
+          "price": "",
+          "assessed": "57536",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/45/1967",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-002",
+      "status": "VALID",
+      "address": "437 N TOLAND AVE, WEST COVINA CA 91790-1855",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 4,
+      "bldg": 2044,
+      "lot": 7405,
+      "units": null,
+      "land": 600000,
+      "imp": 251000,
+      "assessed": 851000,
+      "latitude": 34.0787581827,
+      "longitude": -117.921322839,
+      "lastBuy": {
+        "rec": "02/13/2002",
+        "doc": "0346155",
+        "price": "260000",
+        "assessed": "260000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/03/2025",
+          "doc": "0683265",
+          "price": "0",
+          "assessed": "851000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/30/2016",
+          "doc": "1037383",
+          "price": "",
+          "assessed": "359233",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "02/13/2013",
+          "doc": "0230873",
+          "price": "",
+          "assessed": "340106",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/12/2005",
+          "doc": "0834510",
+          "price": "",
+          "assessed": "281063",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/13/2002",
+          "doc": "0346155",
+          "price": "260000",
+          "assessed": "260000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-003",
+      "status": "VALID",
+      "address": "433 N TOLAND AVE, WEST COVINA CA 91790-1855",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1582,
+      "lot": 7423,
+      "units": null,
+      "land": 57956,
+      "imp": 90620,
+      "assessed": 148576,
+      "latitude": 34.0785853685,
+      "longitude": -117.921339874,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/13/2011",
+          "doc": "0939695",
+          "price": "9",
+          "assessed": "115980",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/19/1978",
+          "doc": "0784495",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-004",
+      "status": "VALID",
+      "address": "427 N TOLAND AVE, WEST COVINA CA 91790-1855",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1418,
+      "lot": 7423,
+      "units": null,
+      "land": 342972,
+      "imp": 208430,
+      "assessed": 551402,
+      "latitude": 34.0784125406,
+      "longitude": -117.921356843,
+      "lastBuy": {
+        "rec": "03/06/2014",
+        "doc": "0231027",
+        "price": "441004",
+        "assessed": "441000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "06/03/2024",
+          "doc": "0360301",
+          "price": "0",
+          "assessed": "540592",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/06/2014",
+          "doc": "0231027",
+          "price": "441004",
+          "assessed": "441000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/27/2012",
+          "doc": "1116908",
+          "price": "",
+          "assessed": "300000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "04/18/2007",
+          "doc": "0931118",
+          "price": "",
+          "assessed": "483000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/27/2006",
+          "doc": "0923930",
+          "price": "500000",
+          "assessed": "500000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-005",
+      "status": "VALID",
+      "address": "426 N LYALL AVE, WEST COVINA CA 91790-2331",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1288,
+      "lot": 16118,
+      "units": null,
+      "land": 36472,
+      "imp": 41974,
+      "assessed": 78446,
+      "latitude": 34.0785007934,
+      "longitude": -117.92173222,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/06/1994",
+          "doc": "1273495",
+          "price": "9",
+          "assessed": "45809",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/01/1994",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "09/25/1990",
+          "doc": "7777777",
+          "price": "",
+          "assessed": "42664",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "09/14/1990",
+          "doc": "1587328",
+          "price": "",
+          "assessed": "42664",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "02/45/1967",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-006",
+      "status": "VALID",
+      "address": "1147 E MARBURY ST, WEST COVINA CA 91790-2334",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1334,
+      "lot": 8746,
+      "units": null,
+      "land": 226015,
+      "imp": 82487,
+      "assessed": 308502,
+      "latitude": 34.0786081473,
+      "longitude": -117.922024287,
+      "lastBuy": {
+        "rec": "10/05/2001",
+        "doc": "1898298",
+        "price": "192501",
+        "assessed": "192500",
+        "docType": "HUD as Grantor",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "10/22/2021",
+          "doc": "1594442",
+          "price": "9",
+          "assessed": "285034",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/05/2001",
+          "doc": "1898298",
+          "price": "192501",
+          "assessed": "192500",
+          "docType": "HUD as Grantor",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/07/2001",
+          "doc": "0986188",
+          "price": "",
+          "assessed": "210000",
+          "docType": "HUD as Grantee",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/23/2001",
+          "doc": "0305429",
+          "price": "",
+          "assessed": "200000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "10/30/1998",
+          "doc": "1989449",
+          "price": "174000",
+          "assessed": "174000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-007",
+      "status": "VALID",
+      "address": "1141 E MARBURY ST, WEST COVINA CA 91790-2334",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1752,
+      "lot": 7414,
+      "units": null,
+      "land": 463160,
+      "imp": 397173,
+      "assessed": 860333,
+      "latitude": 34.0785755427,
+      "longitude": -117.922315713,
+      "lastBuy": {
+        "rec": "10/23/2019",
+        "doc": "1135893",
+        "price": "650006",
+        "assessed": "650000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/23/2019",
+          "doc": "1135893",
+          "price": "650006",
+          "assessed": "650000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/26/1988",
+          "doc": "1175540",
+          "price": "",
+          "assessed": "94229",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/16/1984",
+          "doc": "0585622",
+          "price": "",
+          "assessed": "89900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "10/14/1970",
+          "doc": "0001117",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-008",
+      "status": "VALID",
+      "address": "1137 E MARBURY ST, WEST COVINA CA 91790-2334",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 2,
+      "bldg": 1284,
+      "lot": 7560,
+      "units": null,
+      "land": 364938,
+      "imp": 152372,
+      "assessed": 517310,
+      "latitude": 34.0785720567,
+      "longitude": -117.922546252,
+      "lastBuy": {
+        "rec": "12/16/2014",
+        "doc": "1362852",
+        "price": "422004",
+        "assessed": "422000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/03/2020",
+          "doc": "1384769",
+          "price": "9",
+          "assessed": "468549",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "11/07/2018",
+          "doc": "1128662",
+          "price": "",
+          "assessed": "454653",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/16/2014",
+          "doc": "1362852",
+          "price": "422004",
+          "assessed": "422000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/17/2010",
+          "doc": "0366682",
+          "price": "",
+          "assessed": "307000",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/30/2003",
+          "doc": "2176605",
+          "price": "299000",
+          "assessed": "299000",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-009",
+      "status": "VALID",
+      "address": "1131 E MARBURY ST, WEST COVINA CA 91790-2334",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 956,
+      "lot": 7475,
+      "units": null,
+      "land": 301341,
+      "imp": 110286,
+      "assessed": 411627,
+      "latitude": 34.0785724465,
+      "longitude": -117.922776849,
+      "lastBuy": {
+        "rec": "07/08/2010",
+        "doc": "0934283",
+        "price": "315003",
+        "assessed": "315000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "07/08/2010",
+          "doc": "0934283",
+          "price": "315003",
+          "assessed": "315000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/28/2010",
+          "doc": "0571656",
+          "price": "",
+          "assessed": "299000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "03/27/2001",
+          "doc": "0492841",
+          "price": "229500",
+          "assessed": "229500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/19/1994",
+          "doc": "0754563",
+          "price": "",
+          "assessed": "106928",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/15/1993",
+          "doc": "2015615",
+          "price": "",
+          "assessed": "105672",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-010",
+      "status": "VALID",
+      "address": "1125 E MARBURY ST, WEST COVINA CA 91790-2334",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1254,
+      "lot": 7277,
+      "units": null,
+      "land": 527334,
+      "imp": 131826,
+      "assessed": 659160,
+      "latitude": 34.0785747411,
+      "longitude": -117.92300313,
+      "lastBuy": {
+        "rec": "07/25/2007",
+        "doc": "1756149",
+        "price": "492004",
+        "assessed": "492000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/25/2007",
+          "doc": "1756149",
+          "price": "492004",
+          "assessed": "492000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/16/2002",
+          "doc": "3068824",
+          "price": "",
+          "assessed": "148268",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "05/19/1995",
+          "doc": "0800429",
+          "price": "",
+          "assessed": "129269",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/01/1992",
+          "doc": "1644037",
+          "price": "",
+          "assessed": "123872",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/10/1991",
+          "doc": "0040707",
+          "price": "",
+          "assessed": "119064",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-011",
+      "status": "VALID",
+      "address": "1124 E ROWLAND AVE, WEST COVINA CA 91790-1868",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 2,
+      "bldg": 1413,
+      "lot": 6990,
+      "units": null,
+      "land": 196949,
+      "imp": 118663,
+      "assessed": 315612,
+      "latitude": 34.0788659245,
+      "longitude": -117.922977442,
+      "lastBuy": {
+        "rec": "09/09/1991",
+        "doc": "1412451",
+        "price": "155001",
+        "assessed": "175000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/05/2018",
+          "doc": "1117182",
+          "price": "9",
+          "assessed": "277387",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/09/1991",
+          "doc": "1412451",
+          "price": "155001",
+          "assessed": "175000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/13/1985",
+          "doc": "0931882",
+          "price": "",
+          "assessed": "96856",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/09/1984",
+          "doc": "0022646",
+          "price": "",
+          "assessed": "91900",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/03/1980",
+          "doc": "0641824",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-012",
+      "status": "VALID",
+      "address": "1130 E ROWLAND AVE, WEST COVINA CA 91790-1868",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1878,
+      "lot": 7198,
+      "units": null,
+      "land": 240493,
+      "imp": 216858,
+      "assessed": 457351,
+      "latitude": 34.078866058,
+      "longitude": -117.922756076,
+      "lastBuy": {
+        "rec": "11/06/2002",
+        "doc": "2652909",
+        "price": "230002",
+        "assessed": "230000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/06/2002",
+          "doc": "2652909",
+          "price": "230002",
+          "assessed": "230000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/18/1987",
+          "doc": "0774955",
+          "price": "",
+          "assessed": "102000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/06/1986",
+          "doc": "",
+          "price": "",
+          "assessed": "92500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "07/31/1984",
+          "doc": "0912786",
+          "price": "",
+          "assessed": "77000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "05/24/1978",
+          "doc": "0552704",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-013",
+      "status": "VALID",
+      "address": "1136 E ROWLAND AVE, WEST COVINA CA 91790-1868",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1739,
+      "lot": 7208,
+      "units": null,
+      "land": 662592,
+      "imp": 283968,
+      "assessed": 946560,
+      "latitude": 34.0788656549,
+      "longitude": -117.922531664,
+      "lastBuy": {
+        "rec": "04/10/2025",
+        "doc": "0233769",
+        "price": "928000",
+        "assessed": "928000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/10/2025",
+          "doc": "0233769",
+          "price": "928000",
+          "assessed": "928000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/31/2017",
+          "doc": "1249171",
+          "price": "",
+          "assessed": "106892",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/30/2012",
+          "doc": "1305129",
+          "price": "",
+          "assessed": "98771",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/27/2010",
+          "doc": "0564936",
+          "price": "",
+          "assessed": "94939",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/18/2001",
+          "doc": "1259145",
+          "price": "",
+          "assessed": "82343",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-014",
+      "status": "VALID",
+      "address": "1140 E ROWLAND AVE, WEST COVINA CA 91790-1868",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1872,
+      "lot": 7218,
+      "units": null,
+      "land": 212481,
+      "imp": 137043,
+      "assessed": 349524,
+      "latitude": 34.0788652429,
+      "longitude": -117.922307297,
+      "lastBuy": {
+        "rec": "01/24/1991",
+        "doc": "0105099",
+        "price": "190001",
+        "assessed": "190000",
+        "docType": "Probate Transfer",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/22/2024",
+          "doc": "0718237",
+          "price": "0",
+          "assessed": "342671",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/24/1991",
+          "doc": "0105099",
+          "price": "190001",
+          "assessed": "190000",
+          "docType": "Probate Transfer",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/17/1989",
+          "doc": "7777777",
+          "price": "",
+          "assessed": "47027",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "07/26/1982",
+          "doc": "0747141",
+          "price": "",
+          "assessed": "40947",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Historical: Spousal Transfers"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-015",
+      "status": "VALID",
+      "address": "1146 E ROWLAND AVE, WEST COVINA CA 91790-1868",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1254,
+      "lot": 7231,
+      "units": null,
+      "land": 294284,
+      "imp": 155240,
+      "assessed": 449524,
+      "latitude": 34.0788647978,
+      "longitude": -117.922082817,
+      "lastBuy": {
+        "rec": "11/30/2010",
+        "doc": "1737066",
+        "price": "344503",
+        "assessed": "344000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/20/2023",
+          "doc": "0478146",
+          "price": "9",
+          "assessed": "432070",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/30/2010",
+          "doc": "1737066",
+          "price": "344503",
+          "assessed": "344000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/15/2008",
+          "doc": "0080256",
+          "price": "475000",
+          "assessed": "475000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/02/1985",
+          "doc": "0002130",
+          "price": "",
+          "assessed": "53453",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/28/1977",
+          "doc": "1073046",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-016",
+      "status": "VALID",
+      "address": "1152 E ROWLAND AVE, WEST COVINA CA 91790-1868",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 956,
+      "lot": 7235,
+      "units": null,
+      "land": 32722,
+      "imp": 39126,
+      "assessed": 71848,
+      "latitude": 34.0788642131,
+      "longitude": -117.921858327,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/21/1996",
+          "doc": "1704206",
+          "price": "9",
+          "assessed": "43272",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/04/1978",
+          "doc": "0475362",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8456-012-017",
+      "status": "VALID",
+      "address": "1204 E ROWLAND AVE, WEST COVINA CA 91790-1842",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1953",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1696,
+      "lot": 7721,
+      "units": null,
+      "land": 195866,
+      "imp": 159744,
+      "assessed": 355610,
+      "latitude": 34.0788642879,
+      "longitude": -117.92162654,
+      "lastBuy": {
+        "rec": "10/18/1991",
+        "doc": "1653336",
+        "price": "164501",
+        "assessed": "164500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/20/2017",
+          "doc": "1076676",
+          "price": "9",
+          "assessed": "306430",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/18/1991",
+          "doc": "1653336",
+          "price": "164501",
+          "assessed": "164500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/09/1988",
+          "doc": "1808736",
+          "price": "",
+          "assessed": "108426",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/29/1987",
+          "doc": "1208021",
+          "price": "",
+          "assessed": "106300",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/20/1985",
+          "doc": "1375090",
+          "price": "",
+          "assessed": "38772",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8456-010-003",
+      "parcel": {
+        "AIN": "8456010003",
+        "Latitude": 34.0759956046,
+        "Longitude": -117.921580858,
+        "SitusStreet": "311 N TOLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1853",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7264,
+        "SqftMain": 1127,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 64643,
+        "CurrentRoll_ImpValue": 93742
+      }
+    },
+    {
+      "ain": "8456-010-004",
+      "parcel": {
+        "AIN": "8456010004",
+        "Latitude": 34.0761681843,
+        "Longitude": -117.921565093,
+        "SitusStreet": "315 N TOLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1853",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7283,
+        "SqftMain": 2034,
+        "NumOfBeds": 3,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 96364,
+        "CurrentRoll_ImpValue": 214785
+      }
+    },
+    {
+      "ain": "8456-010-005",
+      "parcel": {
+        "AIN": "8456010005",
+        "Latitude": 34.076070335,
+        "Longitude": -117.921947649,
+        "SitusStreet": "318 N LYALL AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2329",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 15045,
+        "SqftMain": 1635,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 166758,
+        "CurrentRoll_ImpValue": 202475
+      }
+    },
+    {
+      "ain": "8456-010-006",
+      "parcel": {
+        "AIN": "8456010006",
+        "Latitude": 34.0759663403,
+        "Longitude": -117.922259152,
+        "SitusStreet": "1138 E VERNESS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2355",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 8626,
+        "SqftMain": 1161,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 133537,
+        "CurrentRoll_ImpValue": 113181
+      }
+    },
+    {
+      "ain": "8456-010-007",
+      "parcel": {
+        "AIN": "8456010007",
+        "Latitude": 34.0760088462,
+        "Longitude": -117.922552908,
+        "SitusStreet": "1130 E VERNESS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2355",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7869,
+        "SqftMain": 1546,
+        "NumOfBeds": 2,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 166113,
+        "CurrentRoll_ImpValue": 106318
+      }
+    },
+    {
+      "ain": "8456-010-008",
+      "parcel": {
+        "AIN": "8456010008",
+        "Latitude": 34.0760120901,
+        "Longitude": -117.92278863,
+        "SitusStreet": "1126 E VERNESS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2355",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7568,
+        "SqftMain": 1161,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 89804,
+        "CurrentRoll_ImpValue": 123643
+      }
+    },
+    {
+      "ain": "8456-010-009",
+      "parcel": {
+        "AIN": "8456010009",
+        "Latitude": 34.0760136028,
+        "Longitude": -117.923019508,
+        "SitusStreet": "1122 E VERNESS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2355",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7595,
+        "SqftMain": 1244,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 302909,
+        "CurrentRoll_ImpValue": 126835
+      }
+    },
+    {
+      "ain": "8456-010-010",
+      "parcel": {
+        "AIN": "8456010010",
+        "Latitude": 34.0760136673,
+        "Longitude": -117.923244963,
+        "SitusStreet": "1114 E VERNESS ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2355",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7224,
+        "SqftMain": 1244,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 136898,
+        "CurrentRoll_ImpValue": 98606
+      }
+    },
+    {
+      "ain": "8456-010-011",
+      "parcel": {
+        "AIN": "8456010011",
+        "Latitude": 34.0757189274,
+        "Longitude": -117.923273858,
+        "SitusStreet": "1115 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 6876,
+        "SqftMain": 1400,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 359179,
+        "CurrentRoll_ImpValue": 235365
+      }
+    },
+    {
+      "ain": "8456-010-012",
+      "parcel": {
+        "AIN": "8456010012",
+        "Latitude": 34.0757172221,
+        "Longitude": -117.923055277,
+        "SitusStreet": "1123 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7317,
+        "SqftMain": 1161,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 361030,
+        "CurrentRoll_ImpValue": 127987
+      }
+    },
+    {
+      "ain": "8456-010-013",
+      "parcel": {
+        "AIN": "8456010013",
+        "Latitude": 34.0757166695,
+        "Longitude": -117.922829765,
+        "SitusStreet": "1127 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7307,
+        "SqftMain": 1566,
+        "NumOfBeds": 2,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 131270,
+        "CurrentRoll_ImpValue": 122953
+      }
+    },
+    {
+      "ain": "8456-010-014",
+      "parcel": {
+        "AIN": "8456010014",
+        "Latitude": 34.0757161285,
+        "Longitude": -117.922604229,
+        "SitusStreet": "1131 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7294,
+        "SqftMain": 1556,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 311839,
+        "CurrentRoll_ImpValue": 119530
+      }
+    },
+    {
+      "ain": "8456-010-015",
+      "parcel": {
+        "AIN": "8456010015",
+        "Latitude": 34.0757157055,
+        "Longitude": -117.922378667,
+        "SitusStreet": "1139 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7280,
+        "SqftMain": 1311,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 231613,
+        "CurrentRoll_ImpValue": 122585
+      }
+    },
+    {
+      "ain": "8456-010-016",
+      "parcel": {
+        "AIN": "8456010016",
+        "Latitude": 34.0757151499,
+        "Longitude": -117.9221531,
+        "SitusStreet": "1143 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7270,
+        "SqftMain": 1844,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 132868,
+        "CurrentRoll_ImpValue": 175387
+      }
+    },
+    {
+      "ain": "8456-010-017",
+      "parcel": {
+        "AIN": "8456010017",
+        "Latitude": 34.07571511,
+        "Longitude": -117.921918422,
+        "SitusStreet": "1153 E WORKMAN AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2358",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1952",
+        "SqftLot": 7846,
+        "SqftMain": 956,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 283443,
+        "CurrentRoll_ImpValue": 138435
+      }
+    },
+    {
+      "ain": "8456-012-001",
+      "parcel": {
+        "AIN": "8456012001",
+        "Latitude": 34.0789266961,
+        "Longitude": -117.921307946,
+        "SitusStreet": "441 N TOLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1855",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7044,
+        "SqftMain": 2135,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 33977,
+        "CurrentRoll_ImpValue": 65734
+      }
+    },
+    {
+      "ain": "8456-012-002",
+      "parcel": {
+        "AIN": "8456012002",
+        "Latitude": 34.0787581827,
+        "Longitude": -117.921322839,
+        "SitusStreet": "437 N TOLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1855",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7405,
+        "SqftMain": 2044,
+        "NumOfBeds": 3,
+        "NumOfBaths": 4,
+        "CurrentRoll_LandValue": 600000,
+        "CurrentRoll_ImpValue": 251000
+      }
+    },
+    {
+      "ain": "8456-012-003",
+      "parcel": {
+        "AIN": "8456012003",
+        "Latitude": 34.0785853685,
+        "Longitude": -117.921339874,
+        "SitusStreet": "433 N TOLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1855",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7423,
+        "SqftMain": 1582,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 57956,
+        "CurrentRoll_ImpValue": 90620
+      }
+    },
+    {
+      "ain": "8456-012-004",
+      "parcel": {
+        "AIN": "8456012004",
+        "Latitude": 34.0784125406,
+        "Longitude": -117.921356843,
+        "SitusStreet": "427 N TOLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1855",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 7423,
+        "SqftMain": 1418,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 342972,
+        "CurrentRoll_ImpValue": 208430
+      }
+    },
+    {
+      "ain": "8456-012-005",
+      "parcel": {
+        "AIN": "8456012005",
+        "Latitude": 34.0785007934,
+        "Longitude": -117.92173222,
+        "SitusStreet": "426 N LYALL AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2331",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 16118,
+        "SqftMain": 1288,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 36472,
+        "CurrentRoll_ImpValue": 41974
+      }
+    },
+    {
+      "ain": "8456-012-006",
+      "parcel": {
+        "AIN": "8456012006",
+        "Latitude": 34.0786081473,
+        "Longitude": -117.922024287,
+        "SitusStreet": "1147 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2334",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 8746,
+        "SqftMain": 1334,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 226015,
+        "CurrentRoll_ImpValue": 82487
+      }
+    },
+    {
+      "ain": "8456-012-007",
+      "parcel": {
+        "AIN": "8456012007",
+        "Latitude": 34.0785755427,
+        "Longitude": -117.922315713,
+        "SitusStreet": "1141 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2334",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7414,
+        "SqftMain": 1752,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 463160,
+        "CurrentRoll_ImpValue": 397173
+      }
+    },
+    {
+      "ain": "8456-012-008",
+      "parcel": {
+        "AIN": "8456012008",
+        "Latitude": 34.0785720567,
+        "Longitude": -117.922546252,
+        "SitusStreet": "1137 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2334",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7560,
+        "SqftMain": 1284,
+        "NumOfBeds": 2,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 364938,
+        "CurrentRoll_ImpValue": 152372
+      }
+    },
+    {
+      "ain": "8456-012-009",
+      "parcel": {
+        "AIN": "8456012009",
+        "Latitude": 34.0785724465,
+        "Longitude": -117.922776849,
+        "SitusStreet": "1131 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2334",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7475,
+        "SqftMain": 956,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 301341,
+        "CurrentRoll_ImpValue": 110286
+      }
+    },
+    {
+      "ain": "8456-012-010",
+      "parcel": {
+        "AIN": "8456012010",
+        "Latitude": 34.0785747411,
+        "Longitude": -117.92300313,
+        "SitusStreet": "1125 E MARBURY ST",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2334",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7277,
+        "SqftMain": 1254,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 527334,
+        "CurrentRoll_ImpValue": 131826
+      }
+    },
+    {
+      "ain": "8456-012-011",
+      "parcel": {
+        "AIN": "8456012011",
+        "Latitude": 34.0788659245,
+        "Longitude": -117.922977442,
+        "SitusStreet": "1124 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1868",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 6990,
+        "SqftMain": 1413,
+        "NumOfBeds": 2,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 196949,
+        "CurrentRoll_ImpValue": 118663
+      }
+    },
+    {
+      "ain": "8456-012-012",
+      "parcel": {
+        "AIN": "8456012012",
+        "Latitude": 34.078866058,
+        "Longitude": -117.922756076,
+        "SitusStreet": "1130 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1868",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7198,
+        "SqftMain": 1878,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 240493,
+        "CurrentRoll_ImpValue": 216858
+      }
+    },
+    {
+      "ain": "8456-012-013",
+      "parcel": {
+        "AIN": "8456012013",
+        "Latitude": 34.0788656549,
+        "Longitude": -117.922531664,
+        "SitusStreet": "1136 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1868",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7208,
+        "SqftMain": 1739,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 662592,
+        "CurrentRoll_ImpValue": 283968
+      }
+    },
+    {
+      "ain": "8456-012-014",
+      "parcel": {
+        "AIN": "8456012014",
+        "Latitude": 34.0788652429,
+        "Longitude": -117.922307297,
+        "SitusStreet": "1140 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1868",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7218,
+        "SqftMain": 1872,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 212481,
+        "CurrentRoll_ImpValue": 137043
+      }
+    },
+    {
+      "ain": "8456-012-015",
+      "parcel": {
+        "AIN": "8456012015",
+        "Latitude": 34.0788647978,
+        "Longitude": -117.922082817,
+        "SitusStreet": "1146 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1868",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7231,
+        "SqftMain": 1254,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 294284,
+        "CurrentRoll_ImpValue": 155240
+      }
+    },
+    {
+      "ain": "8456-012-016",
+      "parcel": {
+        "AIN": "8456012016",
+        "Latitude": 34.0788642131,
+        "Longitude": -117.921858327,
+        "SitusStreet": "1152 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1868",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7235,
+        "SqftMain": 956,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 32722,
+        "CurrentRoll_ImpValue": 39126
+      }
+    },
+    {
+      "ain": "8456-012-017",
+      "parcel": {
+        "AIN": "8456012017",
+        "Latitude": 34.0788642879,
+        "Longitude": -117.92162654,
+        "SitusStreet": "1204 E ROWLAND AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-1842",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1953",
+        "SqftLot": 7721,
+        "SqftMain": 1696,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 195866,
+        "CurrentRoll_ImpValue": 159744
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8456-010-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-017",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-010-018",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8456-010-019",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8456-010-020",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8456-010-021",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8456-010-022",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8456-010-023",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8456-010-024",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8456-010-025",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8456-010-026",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8456-010-027",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8456-010-028",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8456-010-029",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8456-012-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8456-012-017",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-07-23T10:21:40.614Z",
+  "endedAt": "2026-07-23T10:22:04.024Z"
+}
