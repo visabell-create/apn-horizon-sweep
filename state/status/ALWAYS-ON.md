@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-140
+# ALWAYS-ON cycle — RUN-141
 
-- **When:** 2026-07-24T21:36:59.035Z
-- **nextCursor:** 8457-029-142
+- **When:** 2026-07-24T23:00:40.711Z
+- **nextCursor:** 8457-029-187
 - **valids:** 45
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-140-2026-07-24-horizon`
+- **runDir:** `RUN-141-2026-07-24-horizon`
 - **mode:** ci
