@@ -240,16 +240,10 @@
         "8457-028",
         "8457-029",
         "8458-001",
-        "8458-002"
+        "8458-002",
+        "8458-004"
     ],
     "horizonQueue": [
-        {
-            "book": 8458,
-            "page": 5,
-            "hits": 3,
-            "firstValidParcel": 1,
-            "key": "8458-005"
-        },
         {
             "book": 8458,
             "page": 7,
@@ -322,6 +316,13 @@
         },
         {
             "book": 8458,
+            "page": 19,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8458-019"
+        },
+        {
+            "book": 8458,
             "page": 3,
             "hits": 2,
             "firstValidParcel": 1,
@@ -347,9 +348,16 @@
             "hits": 1,
             "firstValidParcel": 1,
             "key": "8458-013"
+        },
+        {
+            "book": 8458,
+            "page": 20,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8458-020"
         }
     ],
-    "nextCursor": "8458-004-033",
+    "nextCursor": "8458-005-027",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -1651,6 +1659,13 @@
             "to": "8458-004-001",
             "reason": "SOFT_JUMP",
             "hits": 3
+        },
+        {
+            "at": "8458-004-051",
+            "streak": 12,
+            "to": "8458-005-001",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -1811,14 +1826,15 @@
         "RUN-155",
         "RUN-156",
         "RUN-157",
-        "RUN-158"
+        "RUN-158",
+        "RUN-159"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-158-2026-07-26-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-159-2026-07-26-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-07-26T06:04:58.238Z",
+    "lastAlwaysOnAt": "2026-07-26T08:56:31.618Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -1966,5 +1982,6 @@
     "validCountRUN155": 24,
     "validCountRUN156": 32,
     "validCountRUN157": 33,
-    "validCountRUN158": 30
+    "validCountRUN158": 30,
+    "validCountRUN159": 30
 }
