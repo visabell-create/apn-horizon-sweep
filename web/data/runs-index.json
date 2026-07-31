@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-31T18:53:38.154Z",
-  "runCount": 254,
-  "propertyRowCount": 7186,
-  "uniqueAinCount": 7084,
-  "propertyWithCoordsCount": 6342,
-  "nextCursor": "8460-006-033",
-  "donePageCount": 301,
+  "builtAt": "2026-07-31T20:20:01.840Z",
+  "runCount": 255,
+  "propertyRowCount": 7218,
+  "uniqueAinCount": 7116,
+  "propertyWithCoordsCount": 6371,
+  "nextCursor": "8460-010-021",
+  "donePageCount": 302,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1723,6 +1723,13 @@
       "to": "8460-006-001",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8460-006-057",
+      "streak": 12,
+      "to": "8460-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
@@ -1755,15 +1762,15 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 824,
-      "uniqueAinCount": 785,
+      "propertyRowCount": 826,
+      "uniqueAinCount": 787,
       "areas": []
     },
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 356,
-      "uniqueAinCount": 356,
+      "propertyRowCount": 386,
+      "uniqueAinCount": 386,
       "areas": []
     },
     {
@@ -9723,6 +9730,43 @@
         {
           "city": "Unlabeled situs",
           "count": 4,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-223-2026-07-31-horizon",
+      "title": "RUN-223 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-31",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-07-31T20:19:24.575Z",
+      "end": "8460-010-020",
+      "nextCursor": "8460-010-021",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8460-006-057",
+          "streak": 12,
+          "to": "8460-010-001",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-31T20:19:58.755Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 30,
+          "slug": "baldwin-park"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
           "slug": "unlabeled-situs"
         }
       ],
