@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-31T01:04:29.111Z",
-  "runCount": 247,
-  "propertyRowCount": 6974,
-  "uniqueAinCount": 6872,
-  "propertyWithCoordsCount": 6191,
-  "nextCursor": "8460-009-055",
-  "donePageCount": 296,
+  "builtAt": "2026-07-31T05:00:11.371Z",
+  "runCount": 248,
+  "propertyRowCount": 6998,
+  "uniqueAinCount": 6896,
+  "propertyWithCoordsCount": 6215,
+  "nextCursor": "8460-012-033",
+  "donePageCount": 297,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1688,6 +1688,13 @@
       "to": "8460-009-001",
       "reason": "SOFT_JUMP",
       "hits": 5
+    },
+    {
+      "at": "8460-009-067",
+      "streak": 12,
+      "to": "8460-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
     }
   ],
   "cities": [
@@ -1727,8 +1734,8 @@
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 181,
-      "uniqueAinCount": 181,
+      "propertyRowCount": 205,
+      "uniqueAinCount": 205,
       "areas": []
     },
     {
@@ -9461,6 +9468,38 @@
           "city": "Unlabeled situs",
           "count": 2,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-216-2026-07-31-horizon",
+      "title": "RUN-216 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-07-31",
+      "validCount": 24,
+      "checks": 45,
+      "start": "2026-07-31T04:58:12.912Z",
+      "end": "8460-012-032",
+      "nextCursor": "8460-012-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8460-009-067",
+          "streak": 12,
+          "to": "8460-012-001",
+          "reason": "SOFT_JUMP",
+          "hits": 5
+        }
+      ],
+      "started": null,
+      "ended": "2026-07-31T05:00:09.542Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 24,
+          "slug": "baldwin-park"
         }
       ],
       "primaryCity": "Baldwin Park"
