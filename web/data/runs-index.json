@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-07-31T22:59:41.210Z",
-  "runCount": 257,
-  "propertyRowCount": 7275,
-  "uniqueAinCount": 7173,
-  "propertyWithCoordsCount": 6423,
-  "nextCursor": "8460-011-049",
-  "donePageCount": 303,
+  "builtAt": "2026-08-01T00:08:02.734Z",
+  "runCount": 258,
+  "propertyRowCount": 7306,
+  "uniqueAinCount": 7204,
+  "propertyWithCoordsCount": 6454,
+  "nextCursor": "8460-013-022",
+  "donePageCount": 304,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1737,6 +1737,13 @@
       "to": "8460-011-001",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8460-011-072",
+      "streak": 12,
+      "to": "8460-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
@@ -1776,8 +1783,8 @@
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 439,
-      "uniqueAinCount": 439,
+      "propertyRowCount": 468,
+      "uniqueAinCount": 468,
       "areas": []
     },
     {
@@ -1790,6 +1797,13 @@
     {
       "city": "West Covin",
       "slug": "west-covin",
+      "propertyRowCount": 2,
+      "uniqueAinCount": 2,
+      "areas": []
+    },
+    {
+      "city": "Baldwin Pk",
+      "slug": "baldwin-pk",
       "propertyRowCount": 2,
       "uniqueAinCount": 2,
       "areas": []
@@ -9841,6 +9855,43 @@
           "city": "Unlabeled situs",
           "count": 1,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-226-2026-08-01-horizon",
+      "title": "RUN-226 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-01",
+      "validCount": 31,
+      "checks": 45,
+      "start": "2026-08-01T00:06:50.111Z",
+      "end": "8460-013-021",
+      "nextCursor": "8460-013-022",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8460-011-072",
+          "streak": 12,
+          "to": "8460-013-001",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-01T00:08:00.683Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 29,
+          "slug": "baldwin-park"
+        },
+        {
+          "city": "Baldwin Pk",
+          "count": 2,
+          "slug": "baldwin-pk"
         }
       ],
       "primaryCity": "Baldwin Park"
