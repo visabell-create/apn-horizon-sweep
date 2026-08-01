@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-01T09:35:10.911Z",
-  "runCount": 261,
-  "propertyRowCount": 7389,
-  "uniqueAinCount": 7287,
-  "propertyWithCoordsCount": 6519,
-  "nextCursor": "8460-014-033",
-  "donePageCount": 306,
+  "builtAt": "2026-08-01T11:17:37.639Z",
+  "runCount": 262,
+  "propertyRowCount": 7415,
+  "uniqueAinCount": 7313,
+  "propertyWithCoordsCount": 6545,
+  "nextCursor": "8460-015-033",
+  "donePageCount": 307,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1758,6 +1758,13 @@
       "to": "8460-014-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8460-014-045",
+      "streak": 12,
+      "to": "8460-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -1797,8 +1804,8 @@
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 513,
-      "uniqueAinCount": 513,
+      "propertyRowCount": 539,
+      "uniqueAinCount": 539,
       "areas": []
     },
     {
@@ -9998,6 +10005,38 @@
       ],
       "started": null,
       "ended": "2026-08-01T09:35:08.774Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 26,
+          "slug": "baldwin-park"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-230-2026-08-01-horizon",
+      "title": "RUN-230 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-01",
+      "validCount": 26,
+      "checks": 45,
+      "start": "2026-08-01T11:15:36.667Z",
+      "end": "8460-015-032",
+      "nextCursor": "8460-015-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8460-014-045",
+          "streak": 12,
+          "to": "8460-015-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-01T11:17:36.152Z",
       "isAggregate": false,
       "cities": [
         {
