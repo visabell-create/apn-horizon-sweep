@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-01T00:08:02.734Z",
-  "runCount": 258,
-  "propertyRowCount": 7306,
-  "uniqueAinCount": 7204,
-  "propertyWithCoordsCount": 6454,
-  "nextCursor": "8460-013-022",
-  "donePageCount": 304,
+  "builtAt": "2026-08-01T04:03:09.111Z",
+  "runCount": 259,
+  "propertyRowCount": 7338,
+  "uniqueAinCount": 7236,
+  "propertyWithCoordsCount": 6473,
+  "nextCursor": "8460-019-014",
+  "donePageCount": 305,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1744,14 +1744,21 @@
       "to": "8460-013-001",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8460-013-053",
+      "streak": 12,
+      "to": "8460-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 3539,
-      "uniqueAinCount": 3539,
+      "propertyRowCount": 3552,
+      "uniqueAinCount": 3552,
       "areas": []
     },
     {
@@ -1783,8 +1790,8 @@
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 468,
-      "uniqueAinCount": 468,
+      "propertyRowCount": 487,
+      "uniqueAinCount": 487,
       "areas": []
     },
     {
@@ -9892,6 +9899,43 @@
           "city": "Baldwin Pk",
           "count": 2,
           "slug": "baldwin-pk"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-227-2026-08-01-horizon",
+      "title": "RUN-227 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-01",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-08-01T04:02:13.217Z",
+      "end": "8460-019-013",
+      "nextCursor": "8460-019-014",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8460-013-053",
+          "streak": 12,
+          "to": "8460-019-001",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-01T04:03:04.220Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 19,
+          "slug": "baldwin-park"
+        },
+        {
+          "city": "West Covina",
+          "count": 13,
+          "slug": "west-covina"
         }
       ],
       "primaryCity": "Baldwin Park"
