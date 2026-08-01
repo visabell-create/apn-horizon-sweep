@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-08-01T04:03:09.111Z",
+  "builtAt": "2026-08-01T07:05:01.395Z",
   "cursor": {
     "donePages": [
       "8448-003",
@@ -366,7 +366,7 @@
         "key": "8460-021"
       }
     ],
-    "nextCursor": "8460-019-014",
+    "nextCursor": "8460-019-059",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -2343,14 +2343,15 @@
       "RUN-224",
       "RUN-225",
       "RUN-226",
-      "RUN-227"
+      "RUN-227",
+      "RUN-228"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-227-2026-08-01-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-228-2026-08-01-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-01T04:03:04.220Z",
+    "lastAlwaysOnAt": "2026-08-01T07:04:57.746Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -2567,9 +2568,10 @@
     "validCountRUN224": 29,
     "validCountRUN225": 28,
     "validCountRUN226": 31,
-    "validCountRUN227": 32
+    "validCountRUN227": 32,
+    "validCountRUN228": 25
   },
-  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-08-01T04:03:04.224Z (always-on cycle RUN-227)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8460-019-014`\n\n- Last cycle: **RUN-227** — valids **32**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
+  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-08-01T07:04:57.750Z (always-on cycle RUN-228)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8460-019-059`\n\n- Last cycle: **RUN-228** — valids **25**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
   "statusNotes": [
     {
       "id": "CURSOR-RECONCILE.md",
