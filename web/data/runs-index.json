@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-01T11:17:37.639Z",
-  "runCount": 262,
-  "propertyRowCount": 7415,
-  "uniqueAinCount": 7313,
-  "propertyWithCoordsCount": 6545,
-  "nextCursor": "8460-015-033",
-  "donePageCount": 307,
+  "builtAt": "2026-08-01T12:33:20.633Z",
+  "runCount": 263,
+  "propertyRowCount": 7445,
+  "uniqueAinCount": 7343,
+  "propertyWithCoordsCount": 6571,
+  "nextCursor": "8460-016-033",
+  "donePageCount": 308,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1765,14 +1765,21 @@
       "to": "8460-015-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8460-015-045",
+      "streak": 12,
+      "to": "8460-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 3574,
-      "uniqueAinCount": 3574,
+      "propertyRowCount": 3602,
+      "uniqueAinCount": 3602,
       "areas": []
     },
     {
@@ -1797,8 +1804,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 833,
-      "uniqueAinCount": 794,
+      "propertyRowCount": 835,
+      "uniqueAinCount": 796,
       "areas": []
     },
     {
@@ -10046,6 +10053,43 @@
         }
       ],
       "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-231-2026-08-01-horizon",
+      "title": "RUN-231 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-01",
+      "validCount": 30,
+      "checks": 45,
+      "start": "2026-08-01T12:32:16.202Z",
+      "end": "8460-016-032",
+      "nextCursor": "8460-016-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8460-015-045",
+          "streak": 12,
+          "to": "8460-016-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-01T12:33:17.642Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 28,
+          "slug": "west-covina"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "West Covina"
     },
     {
       "id": "RUN-A01-8448-043",
