@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-02T16:57:35.494Z",
-  "runCount": 280,
-  "propertyRowCount": 7850,
-  "uniqueAinCount": 7748,
-  "propertyWithCoordsCount": 6935,
-  "nextCursor": "8463-013-033",
-  "donePageCount": 325,
+  "builtAt": "2026-08-02T18:02:01.764Z",
+  "runCount": 281,
+  "propertyRowCount": 7868,
+  "uniqueAinCount": 7766,
+  "propertyWithCoordsCount": 6947,
+  "nextCursor": "8463-016-023",
+  "donePageCount": 327,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1888,14 +1888,28 @@
       "to": "8463-013-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8463-013-045",
+      "streak": 12,
+      "to": "8463-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-014-054",
+      "streak": 12,
+      "to": "8463-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 3864,
-      "uniqueAinCount": 3864,
+      "propertyRowCount": 3869,
+      "uniqueAinCount": 3869,
       "areas": []
     },
     {
@@ -1920,15 +1934,15 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 857,
-      "uniqueAinCount": 818,
+      "propertyRowCount": 861,
+      "uniqueAinCount": 822,
       "areas": []
     },
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 660,
-      "uniqueAinCount": 660,
+      "propertyRowCount": 669,
+      "uniqueAinCount": 669,
       "areas": []
     },
     {
@@ -10778,6 +10792,55 @@
           "city": "Baldwin Park",
           "count": 24,
           "slug": "baldwin-park"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
+    },
+    {
+      "id": "RUN-249-2026-08-02-horizon",
+      "title": "RUN-249 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-02",
+      "validCount": 18,
+      "checks": 45,
+      "start": "2026-08-02T18:01:06.446Z",
+      "end": "8463-016-022",
+      "nextCursor": "8463-016-023",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8463-013-045",
+          "streak": 12,
+          "to": "8463-014-026",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        },
+        {
+          "at": "8463-014-054",
+          "streak": 12,
+          "to": "8463-016-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-02T18:01:58.723Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 9,
+          "slug": "baldwin-park"
+        },
+        {
+          "city": "West Covina",
+          "count": 5,
+          "slug": "west-covina"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 4,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "Baldwin Park"
