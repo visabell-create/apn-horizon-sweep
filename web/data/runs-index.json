@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-02T15:39:53.522Z",
-  "runCount": 279,
-  "propertyRowCount": 7826,
-  "uniqueAinCount": 7724,
-  "propertyWithCoordsCount": 6911,
-  "nextCursor": "8463-009-057",
-  "donePageCount": 324,
+  "builtAt": "2026-08-02T16:57:35.494Z",
+  "runCount": 280,
+  "propertyRowCount": 7850,
+  "uniqueAinCount": 7748,
+  "propertyWithCoordsCount": 6935,
+  "nextCursor": "8463-013-033",
+  "donePageCount": 325,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -1881,6 +1881,13 @@
       "to": "8463-009-026",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8463-009-069",
+      "streak": 12,
+      "to": "8463-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -1920,8 +1927,8 @@
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 636,
-      "uniqueAinCount": 636,
+      "propertyRowCount": 660,
+      "uniqueAinCount": 660,
       "areas": []
     },
     {
@@ -10742,6 +10749,38 @@
         }
       ],
       "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-248-2026-08-02-horizon",
+      "title": "RUN-248 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-02",
+      "validCount": 24,
+      "checks": 45,
+      "start": "2026-08-02T16:56:38.570Z",
+      "end": "8463-013-032",
+      "nextCursor": "8463-013-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8463-009-069",
+          "streak": 12,
+          "to": "8463-013-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-02T16:57:33.472Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Baldwin Park",
+          "count": 24,
+          "slug": "baldwin-park"
+        }
+      ],
+      "primaryCity": "Baldwin Park"
     },
     {
       "id": "RUN-A01-8448-043",
