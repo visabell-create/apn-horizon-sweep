@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-03T16:26:22.366Z",
-  "runCount": 291,
-  "propertyRowCount": 8084,
-  "uniqueAinCount": 7982,
-  "propertyWithCoordsCount": 7157,
-  "nextCursor": "8463-022-032",
-  "donePageCount": 341,
+  "builtAt": "2026-08-03T18:20:04.954Z",
+  "runCount": 292,
+  "propertyRowCount": 8095,
+  "uniqueAinCount": 7993,
+  "propertyWithCoordsCount": 7168,
+  "nextCursor": "8464-006-012",
+  "donePageCount": 343,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2000,6 +2000,19 @@
       "to": "8463-022-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8463-022-052",
+      "streak": 20,
+      "to": "8464-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8464-001-013",
+      "streak": 12,
+      "to": "8464-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -2044,8 +2057,22 @@
       "areas": []
     },
     {
+      "city": "La Puente",
+      "slug": "la-puente",
+      "propertyRowCount": 8,
+      "uniqueAinCount": 8,
+      "areas": []
+    },
+    {
       "city": "W Covina",
       "slug": "w-covina",
+      "propertyRowCount": 3,
+      "uniqueAinCount": 3,
+      "areas": []
+    },
+    {
+      "city": "Valinda",
+      "slug": "valinda",
       "propertyRowCount": 3,
       "uniqueAinCount": 3,
       "areas": []
@@ -11325,6 +11352,49 @@
         }
       ],
       "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-260-2026-08-03-horizon",
+      "title": "RUN-260 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-03",
+      "validCount": 11,
+      "checks": 45,
+      "start": "2026-08-03T18:16:20.892Z",
+      "end": "8464-006-011",
+      "nextCursor": "8464-006-012",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8463-022-052",
+          "streak": 20,
+          "to": "8464-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+          "at": "8464-001-013",
+          "streak": 12,
+          "to": "8464-006-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-03T18:20:02.814Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 8,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Valinda",
+          "count": 3,
+          "slug": "valinda"
+        }
+      ],
+      "primaryCity": "La Puente"
     },
     {
       "id": "RUN-A01-8448-043",
