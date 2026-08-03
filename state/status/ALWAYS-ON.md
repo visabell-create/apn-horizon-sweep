@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-255
+# ALWAYS-ON cycle — RUN-256
 
-- **When:** 2026-08-03T03:38:11.522Z
-- **nextCursor:** 8463-010-025
-- **valids:** 23
+- **When:** 2026-08-03T06:59:11.746Z
+- **nextCursor:** 8463-012-001
+- **valids:** 19
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-255-2026-08-03-horizon`
+- **runDir:** `RUN-256-2026-08-03-horizon`
 - **mode:** ci
