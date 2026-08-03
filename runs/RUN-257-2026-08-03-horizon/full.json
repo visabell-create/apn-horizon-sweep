@@ -1,0 +1,5284 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8463-012-001",
+  "lastAinChecked": "8463-015-014",
+  "nextCursor": "8463-015-015",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8463-012-031",
+      "streak": 12,
+      "to": "8463-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-002-054",
+      "streak": 12,
+      "to": "8453-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-003-049",
+      "streak": 12,
+      "to": "8453-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-011-036",
+      "streak": 12,
+      "to": "8453-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-012-041",
+      "streak": 12,
+      "to": "8453-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-013-045",
+      "streak": 12,
+      "to": "8453-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-015-048",
+      "streak": 12,
+      "to": "8453-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-024-033",
+      "streak": 12,
+      "to": "8453-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-026-044",
+      "streak": 12,
+      "to": "8453-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-005-029",
+      "streak": 12,
+      "to": "8453-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-007-026",
+      "streak": 12,
+      "to": "8453-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-008-022",
+      "streak": 12,
+      "to": "8453-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-009-029",
+      "streak": 12,
+      "to": "8453-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-010-031",
+      "streak": 12,
+      "to": "8453-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-017-026",
+      "streak": 12,
+      "to": "8453-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-018-024",
+      "streak": 12,
+      "to": "8453-019-014",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-019-034",
+      "streak": 12,
+      "to": "8453-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-020-031",
+      "streak": 12,
+      "to": "8453-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-022-029",
+      "streak": 12,
+      "to": "8453-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-023-033",
+      "streak": 12,
+      "to": "8453-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-025-040",
+      "streak": 20,
+      "to": "8454-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8454-001-041",
+      "streak": 12,
+      "to": "8454-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-005-040",
+      "streak": 12,
+      "to": "8454-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-006-045",
+      "streak": 12,
+      "to": "8454-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-007-045",
+      "streak": 12,
+      "to": "8454-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-008-045",
+      "streak": 12,
+      "to": "8454-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-012-045",
+      "streak": 12,
+      "to": "8454-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-028-052",
+      "streak": 12,
+      "to": "8454-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-030-039",
+      "streak": 12,
+      "to": "8454-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-016-044",
+      "streak": 12,
+      "to": "8454-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-018-045",
+      "streak": 12,
+      "to": "8454-019-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-019-039",
+      "streak": 12,
+      "to": "8454-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-025-044",
+      "streak": 12,
+      "to": "8454-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-026-045",
+      "streak": 12,
+      "to": "8454-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-002-024",
+      "streak": 12,
+      "to": "8454-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-003-025",
+      "streak": 12,
+      "to": "8454-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-004-025",
+      "streak": 12,
+      "to": "8454-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-009-024",
+      "streak": 12,
+      "to": "8454-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-010-037",
+      "streak": 12,
+      "to": "8454-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-011-029",
+      "streak": 12,
+      "to": "8454-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-013-031",
+      "streak": 12,
+      "to": "8454-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-014-030",
+      "streak": 12,
+      "to": "8454-015-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-015-019",
+      "streak": 12,
+      "to": "8454-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-020-027",
+      "streak": 12,
+      "to": "8454-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-021-023",
+      "streak": 12,
+      "to": "8454-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-022-027",
+      "streak": 12,
+      "to": "8454-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-023-027",
+      "streak": 12,
+      "to": "8454-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-024-029",
+      "streak": 12,
+      "to": "8454-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-027-039",
+      "streak": 20,
+      "to": "8455-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8455-001-037",
+      "streak": 12,
+      "to": "8455-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-015-049",
+      "streak": 12,
+      "to": "8455-026-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-026-058",
+      "streak": 12,
+      "to": "8455-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-003-045",
+      "streak": 12,
+      "to": "8455-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-016-045",
+      "streak": 12,
+      "to": "8455-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-017-045",
+      "streak": 12,
+      "to": "8455-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-019-045",
+      "streak": 12,
+      "to": "8455-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-020-045",
+      "streak": 12,
+      "to": "8455-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-021-045",
+      "streak": 12,
+      "to": "8455-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-023-045",
+      "streak": 12,
+      "to": "8455-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-024-045",
+      "streak": 12,
+      "to": "8455-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-025-045",
+      "streak": 12,
+      "to": "8455-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-002-031",
+      "streak": 12,
+      "to": "8455-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-004-029",
+      "streak": 12,
+      "to": "8455-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-005-031",
+      "streak": 12,
+      "to": "8455-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-006-031",
+      "streak": 12,
+      "to": "8455-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-007-029",
+      "streak": 12,
+      "to": "8455-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-008-031",
+      "streak": 12,
+      "to": "8455-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-009-043",
+      "streak": 12,
+      "to": "8455-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-010-029",
+      "streak": 12,
+      "to": "8455-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-011-032",
+      "streak": 12,
+      "to": "8455-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-012-032",
+      "streak": 12,
+      "to": "8455-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-013-042",
+      "streak": 12,
+      "to": "8455-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-014-033",
+      "streak": 12,
+      "to": "8455-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-018-031",
+      "streak": 12,
+      "to": "8455-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-022-045",
+      "streak": 12,
+      "to": "8455-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-027-053",
+      "streak": 20,
+      "to": "8456-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8456-001-037",
+      "streak": 12,
+      "to": "8456-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-005-045",
+      "streak": 12,
+      "to": "8456-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-018-052",
+      "streak": 12,
+      "to": "8456-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-020-041",
+      "streak": 12,
+      "to": "8456-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-021-043",
+      "streak": 12,
+      "to": "8456-032-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-032-044",
+      "streak": 12,
+      "to": "8456-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-007-045",
+      "streak": 12,
+      "to": "8456-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-009-045",
+      "streak": 12,
+      "to": "8456-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-011-045",
+      "streak": 12,
+      "to": "8456-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-013-045",
+      "streak": 12,
+      "to": "8456-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-014-045",
+      "streak": 12,
+      "to": "8456-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-023-050",
+      "streak": 12,
+      "to": "8456-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-024-040",
+      "streak": 12,
+      "to": "8456-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-025-045",
+      "streak": 12,
+      "to": "8456-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-027-045",
+      "streak": 12,
+      "to": "8456-031-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-031-045",
+      "streak": 12,
+      "to": "8456-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-002-030",
+      "streak": 12,
+      "to": "8456-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-003-032",
+      "streak": 12,
+      "to": "8456-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-004-032",
+      "streak": 12,
+      "to": "8456-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-006-041",
+      "streak": 12,
+      "to": "8456-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-008-030",
+      "streak": 12,
+      "to": "8456-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-010-030",
+      "streak": 12,
+      "to": "8456-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-012-030",
+      "streak": 12,
+      "to": "8456-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-015-031",
+      "streak": 12,
+      "to": "8456-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-016-031",
+      "streak": 12,
+      "to": "8456-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-017-031",
+      "streak": 12,
+      "to": "8456-019-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-019-040",
+      "streak": 12,
+      "to": "8456-022-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-022-030",
+      "streak": 12,
+      "to": "8456-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-026-044",
+      "streak": 12,
+      "to": "8456-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-028-028",
+      "streak": 12,
+      "to": "8456-029-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-029-027",
+      "streak": 12,
+      "to": "8456-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-030-043",
+      "streak": 20,
+      "to": "8457-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8457-001-037",
+      "streak": 12,
+      "to": "8457-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-006-045",
+      "streak": 12,
+      "to": "8457-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-007-045",
+      "streak": 12,
+      "to": "8457-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-012-045",
+      "streak": 12,
+      "to": "8457-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-004-045",
+      "streak": 12,
+      "to": "8457-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-005-045",
+      "streak": 12,
+      "to": "8457-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-008-045",
+      "streak": 12,
+      "to": "8457-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-010-045",
+      "streak": 12,
+      "to": "8457-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-011-045",
+      "streak": 12,
+      "to": "8457-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-013-045",
+      "streak": 12,
+      "to": "8457-029-020",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8457-029-206",
+      "streak": 12,
+      "to": "8457-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-014-038",
+      "streak": 12,
+      "to": "8457-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-015-045",
+      "streak": 12,
+      "to": "8457-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-016-045",
+      "streak": 12,
+      "to": "8457-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-017-045",
+      "streak": 12,
+      "to": "8457-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-020-045",
+      "streak": 12,
+      "to": "8457-021-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-021-042",
+      "streak": 12,
+      "to": "8457-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-022-033",
+      "streak": 12,
+      "to": "8457-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-026-034",
+      "streak": 12,
+      "to": "8457-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-002-025",
+      "streak": 12,
+      "to": "8457-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-003-023",
+      "streak": 12,
+      "to": "8457-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-009-042",
+      "streak": 12,
+      "to": "8457-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-018-027",
+      "streak": 12,
+      "to": "8457-019-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-019-020",
+      "streak": 12,
+      "to": "8457-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-023-031",
+      "streak": 12,
+      "to": "8457-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-024-033",
+      "streak": 12,
+      "to": "8457-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-025-029",
+      "streak": 12,
+      "to": "8457-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-027-029",
+      "streak": 12,
+      "to": "8457-028-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-028-042",
+      "streak": 20,
+      "to": "8458-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8458-001-061",
+      "streak": 12,
+      "to": "8458-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8458-002-066",
+      "streak": 12,
+      "to": "8458-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-004-051",
+      "streak": 12,
+      "to": "8458-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-005-048",
+      "streak": 12,
+      "to": "8458-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-007-061",
+      "streak": 12,
+      "to": "8458-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-008-048",
+      "streak": 12,
+      "to": "8458-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-009-044",
+      "streak": 12,
+      "to": "8458-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-010-046",
+      "streak": 12,
+      "to": "8458-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-012-045",
+      "streak": 12,
+      "to": "8458-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8458-027-064",
+      "streak": 12,
+      "to": "8458-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-014-043",
+      "streak": 12,
+      "to": "8458-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-015-049",
+      "streak": 12,
+      "to": "8458-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-016-048",
+      "streak": 12,
+      "to": "8458-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-017-049",
+      "streak": 12,
+      "to": "8458-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-018-039",
+      "streak": 12,
+      "to": "8458-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-019-040",
+      "streak": 12,
+      "to": "8458-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-021-045",
+      "streak": 12,
+      "to": "8458-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-022-045",
+      "streak": 12,
+      "to": "8458-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-023-045",
+      "streak": 12,
+      "to": "8458-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-026-045",
+      "streak": 12,
+      "to": "8458-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-003-045",
+      "streak": 12,
+      "to": "8458-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-006-045",
+      "streak": 12,
+      "to": "8458-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-011-045",
+      "streak": 12,
+      "to": "8458-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-024-057",
+      "streak": 12,
+      "to": "8458-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-025-049",
+      "streak": 12,
+      "to": "8458-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8458-013-038",
+      "streak": 12,
+      "to": "8458-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8458-020-044",
+      "streak": 20,
+      "to": "8459-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8459-001-044",
+      "streak": 12,
+      "to": "8459-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8459-008-056",
+      "streak": 12,
+      "to": "8459-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8459-017-057",
+      "streak": 12,
+      "to": "8459-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8459-026-019",
+      "streak": 12,
+      "to": "8459-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-002-050",
+      "streak": 12,
+      "to": "8459-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-004-042",
+      "streak": 12,
+      "to": "8459-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-005-049",
+      "streak": 12,
+      "to": "8459-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-006-049",
+      "streak": 12,
+      "to": "8459-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-011-048",
+      "streak": 12,
+      "to": "8459-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-013-047",
+      "streak": 12,
+      "to": "8459-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-018-041",
+      "streak": 12,
+      "to": "8459-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-019-040",
+      "streak": 12,
+      "to": "8459-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-020-041",
+      "streak": 12,
+      "to": "8459-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-021-047",
+      "streak": 12,
+      "to": "8459-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-022-048",
+      "streak": 12,
+      "to": "8459-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-023-047",
+      "streak": 12,
+      "to": "8459-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-024-043",
+      "streak": 12,
+      "to": "8459-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-025-042",
+      "streak": 12,
+      "to": "8459-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-003-037",
+      "streak": 12,
+      "to": "8459-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-007-045",
+      "streak": 12,
+      "to": "8459-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-009-045",
+      "streak": 12,
+      "to": "8459-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-010-045",
+      "streak": 12,
+      "to": "8459-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-012-045",
+      "streak": 12,
+      "to": "8459-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-014-045",
+      "streak": 12,
+      "to": "8459-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-015-045",
+      "streak": 12,
+      "to": "8459-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8459-016-029",
+      "streak": 12,
+      "to": "8459-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8459-027-024",
+      "streak": 20,
+      "to": "8460-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8460-001-064",
+      "streak": 12,
+      "to": "8460-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-002-067",
+      "streak": 12,
+      "to": "8460-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-008-064",
+      "streak": 12,
+      "to": "8460-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-009-067",
+      "streak": 12,
+      "to": "8460-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-012-090",
+      "streak": 12,
+      "to": "8460-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-020-065",
+      "streak": 12,
+      "to": "8460-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-004-055",
+      "streak": 12,
+      "to": "8460-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-005-060",
+      "streak": 12,
+      "to": "8460-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-006-057",
+      "streak": 12,
+      "to": "8460-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-010-062",
+      "streak": 12,
+      "to": "8460-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-011-072",
+      "streak": 12,
+      "to": "8460-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-013-053",
+      "streak": 12,
+      "to": "8460-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-019-071",
+      "streak": 12,
+      "to": "8460-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-014-045",
+      "streak": 12,
+      "to": "8460-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-015-045",
+      "streak": 12,
+      "to": "8460-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-016-045",
+      "streak": 12,
+      "to": "8460-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-017-045",
+      "streak": 12,
+      "to": "8460-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-018-045",
+      "streak": 12,
+      "to": "8460-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8460-003-045",
+      "streak": 12,
+      "to": "8460-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8460-007-062",
+      "streak": 12,
+      "to": "8460-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8460-021-037",
+      "streak": 20,
+      "to": "8461-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8461-001-021",
+      "streak": 20,
+      "to": "8462-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8462-001-021",
+      "streak": 20,
+      "to": "8463-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8463-001-037",
+      "streak": 12,
+      "to": "8463-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-006-045",
+      "streak": 12,
+      "to": "8463-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-018-058",
+      "streak": 12,
+      "to": "8463-021-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-021-083",
+      "streak": 12,
+      "to": "8463-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-025-058",
+      "streak": 12,
+      "to": "8463-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-023-045",
+      "streak": 12,
+      "to": "8463-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-024-045",
+      "streak": 12,
+      "to": "8463-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-026-046",
+      "streak": 12,
+      "to": "8463-009-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-009-069",
+      "streak": 12,
+      "to": "8463-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-013-045",
+      "streak": 12,
+      "to": "8463-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-014-054",
+      "streak": 12,
+      "to": "8463-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-016-043",
+      "streak": 12,
+      "to": "8463-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-019-037",
+      "streak": 12,
+      "to": "8463-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-002-038",
+      "streak": 12,
+      "to": "8463-003-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-003-038",
+      "streak": 12,
+      "to": "8463-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-004-035",
+      "streak": 12,
+      "to": "8463-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-005-045",
+      "streak": 12,
+      "to": "8463-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-007-026",
+      "streak": 12,
+      "to": "8463-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-008-027",
+      "streak": 12,
+      "to": "8463-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-010-037",
+      "streak": 12,
+      "to": "8463-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-011-032",
+      "streak": 12,
+      "to": "8463-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-012-031",
+      "streak": 12,
+      "to": "8463-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8463,
+      "page": 17,
+      "hits": 1,
+      "firstValidParcel": 26,
+      "key": "8463-017"
+    },
+    {
+      "book": 8463,
+      "page": 20,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8463-020"
+    },
+    {
+      "book": 8463,
+      "page": 22,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8463-022"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001",
+    "8453-002",
+    "8453-003",
+    "8453-005",
+    "8453-006",
+    "8453-007",
+    "8453-008",
+    "8453-009",
+    "8453-010",
+    "8453-011",
+    "8453-012",
+    "8453-013",
+    "8453-014",
+    "8453-015",
+    "8453-016",
+    "8453-017",
+    "8453-018",
+    "8453-019",
+    "8453-020",
+    "8453-021",
+    "8453-022",
+    "8453-023",
+    "8453-024",
+    "8453-025",
+    "8453-026",
+    "8454-001",
+    "8454-002",
+    "8454-003",
+    "8454-004",
+    "8454-005",
+    "8454-006",
+    "8454-007",
+    "8454-008",
+    "8454-009",
+    "8454-010",
+    "8454-011",
+    "8454-012",
+    "8454-013",
+    "8454-014",
+    "8454-015",
+    "8454-016",
+    "8454-018",
+    "8454-019",
+    "8454-020",
+    "8454-021",
+    "8454-022",
+    "8454-023",
+    "8454-024",
+    "8454-025",
+    "8454-026",
+    "8454-027",
+    "8454-028",
+    "8454-030",
+    "8455-001",
+    "8455-002",
+    "8455-003",
+    "8455-004",
+    "8455-005",
+    "8455-006",
+    "8455-007",
+    "8455-008",
+    "8455-009",
+    "8455-010",
+    "8455-011",
+    "8455-012",
+    "8455-013",
+    "8455-014",
+    "8455-015",
+    "8455-016",
+    "8455-017",
+    "8455-018",
+    "8455-019",
+    "8455-020",
+    "8455-021",
+    "8455-022",
+    "8455-023",
+    "8455-024",
+    "8455-025",
+    "8455-026",
+    "8455-027",
+    "8456-001",
+    "8456-002",
+    "8456-003",
+    "8456-004",
+    "8456-005",
+    "8456-006",
+    "8456-007",
+    "8456-008",
+    "8456-009",
+    "8456-010",
+    "8456-011",
+    "8456-012",
+    "8456-013",
+    "8456-014",
+    "8456-015",
+    "8456-016",
+    "8456-017",
+    "8456-018",
+    "8456-019",
+    "8456-020",
+    "8456-021",
+    "8456-022",
+    "8456-023",
+    "8456-024",
+    "8456-025",
+    "8456-026",
+    "8456-027",
+    "8456-028",
+    "8456-029",
+    "8456-030",
+    "8456-031",
+    "8456-032",
+    "8457-001",
+    "8457-002",
+    "8457-003",
+    "8457-004",
+    "8457-005",
+    "8457-006",
+    "8457-007",
+    "8457-008",
+    "8457-009",
+    "8457-010",
+    "8457-011",
+    "8457-012",
+    "8457-013",
+    "8457-014",
+    "8457-015",
+    "8457-016",
+    "8457-017",
+    "8457-018",
+    "8457-019",
+    "8457-020",
+    "8457-021",
+    "8457-022",
+    "8457-023",
+    "8457-024",
+    "8457-025",
+    "8457-026",
+    "8457-027",
+    "8457-028",
+    "8457-029",
+    "8458-001",
+    "8458-002",
+    "8458-003",
+    "8458-004",
+    "8458-005",
+    "8458-006",
+    "8458-007",
+    "8458-008",
+    "8458-009",
+    "8458-010",
+    "8458-011",
+    "8458-012",
+    "8458-013",
+    "8458-014",
+    "8458-015",
+    "8458-016",
+    "8458-017",
+    "8458-018",
+    "8458-019",
+    "8458-020",
+    "8458-021",
+    "8458-022",
+    "8458-023",
+    "8458-024",
+    "8458-025",
+    "8458-026",
+    "8458-027",
+    "8459-001",
+    "8459-002",
+    "8459-003",
+    "8459-004",
+    "8459-005",
+    "8459-006",
+    "8459-007",
+    "8459-008",
+    "8459-009",
+    "8459-010",
+    "8459-011",
+    "8459-012",
+    "8459-013",
+    "8459-014",
+    "8459-015",
+    "8459-016",
+    "8459-017",
+    "8459-018",
+    "8459-019",
+    "8459-020",
+    "8459-021",
+    "8459-022",
+    "8459-023",
+    "8459-024",
+    "8459-025",
+    "8459-026",
+    "8459-027",
+    "8460-001",
+    "8460-002",
+    "8460-003",
+    "8460-004",
+    "8460-005",
+    "8460-006",
+    "8460-007",
+    "8460-008",
+    "8460-009",
+    "8460-010",
+    "8460-011",
+    "8460-012",
+    "8460-013",
+    "8460-014",
+    "8460-015",
+    "8460-016",
+    "8460-017",
+    "8460-018",
+    "8460-019",
+    "8460-020",
+    "8460-021",
+    "8461-001",
+    "8462-001",
+    "8463-001",
+    "8463-002",
+    "8463-003",
+    "8463-004",
+    "8463-005",
+    "8463-006",
+    "8463-007",
+    "8463-008",
+    "8463-009",
+    "8463-010",
+    "8463-011",
+    "8463-012",
+    "8463-013",
+    "8463-014",
+    "8463-016",
+    "8463-018",
+    "8463-019",
+    "8463-021",
+    "8463-023",
+    "8463-024",
+    "8463-025",
+    "8463-026"
+  ],
+  "valids": [
+    {
+      "ain": "8463-012-001",
+      "status": "VALID",
+      "address": "1304 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1946",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1140,
+      "lot": 12146,
+      "units": null,
+      "land": 143592,
+      "imp": 44507,
+      "assessed": 188099,
+      "latitude": 34.0688764253,
+      "longitude": -117.961216687,
+      "lastBuy": {
+        "rec": "11/18/1999",
+        "doc": "2148595",
+        "price": "120000",
+        "assessed": "120000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/2023",
+          "doc": "0057988",
+          "price": "9",
+          "assessed": "180797",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/10/2021",
+          "doc": "0237422",
+          "price": "",
+          "assessed": "173778",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/19/2016",
+          "doc": "0841342",
+          "price": "",
+          "assessed": "158900",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "11/18/1999",
+          "doc": "2148595",
+          "price": "120000",
+          "assessed": "120000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/45/1967",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-002",
+      "status": "VALID",
+      "address": "1310 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1948",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1083,
+      "lot": 11691,
+      "units": null,
+      "land": 303708,
+      "imp": 85655,
+      "assessed": 389363,
+      "latitude": 34.0687242115,
+      "longitude": -117.961379355,
+      "lastBuy": {
+        "rec": "03/08/2013",
+        "doc": "0352401",
+        "price": "310003",
+        "assessed": "310000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/07/2023",
+          "doc": "0224196",
+          "price": "9",
+          "assessed": "374245",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/08/2013",
+          "doc": "0352401",
+          "price": "310003",
+          "assessed": "310000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/20/2001",
+          "doc": "2210298",
+          "price": "",
+          "assessed": "36376",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/23/1995",
+          "doc": "0426086",
+          "price": "",
+          "assessed": "32353",
+          "docType": "File Correction",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "07/16/1986",
+          "doc": "0895436",
+          "price": "",
+          "assessed": "27536",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-003",
+      "status": "VALID",
+      "address": "1316 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1946",
+      "beds": 5,
+      "baths": 4,
+      "bldg": 3600,
+      "lot": 11705,
+      "units": null,
+      "land": 448181,
+      "imp": 250250,
+      "assessed": 698431,
+      "latitude": 34.0685743954,
+      "longitude": -117.961538125,
+      "lastBuy": {
+        "rec": "05/26/2017",
+        "doc": "0587611",
+        "price": "590000",
+        "assessed": "590000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/15/2022",
+          "doc": "0417751",
+          "price": "9",
+          "assessed": "658151",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "05/26/2017",
+          "doc": "0587611",
+          "price": "590000",
+          "assessed": "590000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/12/2001",
+          "doc": "2381465",
+          "price": "276002",
+          "assessed": "276000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/27/1991",
+          "doc": "2027494",
+          "price": "",
+          "assessed": "98249",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/17/1985",
+          "doc": "0060739",
+          "price": "",
+          "assessed": "70650",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-004",
+      "status": "VALID",
+      "address": "1320 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1083,
+      "lot": 11713,
+      "units": null,
+      "land": 255735,
+      "imp": 164574,
+      "assessed": 420309,
+      "latitude": 34.0684244727,
+      "longitude": -117.961696759,
+      "lastBuy": {
+        "rec": "06/16/2009",
+        "doc": "0896142",
+        "price": "320003",
+        "assessed": "320000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/16/2009",
+          "doc": "0896142",
+          "price": "320003",
+          "assessed": "320000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/2003",
+          "doc": "2435798",
+          "price": "",
+          "assessed": "230322",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/12/1989",
+          "doc": "1641903",
+          "price": "178000",
+          "assessed": "178000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/12/1989",
+          "doc": "1641902",
+          "price": "9",
+          "assessed": "94976",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "03/26/1986",
+          "doc": "0371847",
+          "price": "",
+          "assessed": "89500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-005",
+      "status": "VALID",
+      "address": "1326 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1919,
+      "lot": 11724,
+      "units": null,
+      "land": 690100,
+      "imp": 174900,
+      "assessed": 865000,
+      "latitude": 34.0682745771,
+      "longitude": -117.961855326,
+      "lastBuy": {
+        "rec": "08/29/2025",
+        "doc": "0592480",
+        "price": "865000",
+        "assessed": "865000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/29/2025",
+          "doc": "0592480",
+          "price": "865000",
+          "assessed": "865000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/12/2021",
+          "doc": "0406569",
+          "price": "",
+          "assessed": "658006",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "03/15/2007",
+          "doc": "0575839",
+          "price": "521505",
+          "assessed": "521200",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/22/2004",
+          "doc": "2431179",
+          "price": "397000",
+          "assessed": "397000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/27/1999",
+          "doc": "1622315",
+          "price": "200000",
+          "assessed": "200000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-006",
+      "status": "VALID",
+      "address": "1332 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1204,
+      "lot": 11744,
+      "units": null,
+      "land": 18469,
+      "imp": 36723,
+      "assessed": 55192,
+      "latitude": 34.068124666,
+      "longitude": -117.962014072,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/2023",
+          "doc": "0056551",
+          "price": "9",
+          "assessed": "53055",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/10/2021",
+          "doc": "0237457",
+          "price": "",
+          "assessed": "50996",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/03/2016",
+          "doc": "0909868",
+          "price": "",
+          "assessed": "46634",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "04/02/2003",
+          "doc": "0923254",
+          "price": "",
+          "assessed": "38079",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/16/1981",
+          "doc": "0265845",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-007",
+      "status": "VALID",
+      "address": "1338 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1948",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 875,
+      "lot": 11742,
+      "units": null,
+      "land": 18469,
+      "imp": 27976,
+      "assessed": 46445,
+      "latitude": 34.0679748147,
+      "longitude": -117.962172766,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/2023",
+          "doc": "0057987",
+          "price": "9",
+          "assessed": "44646",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/09/2021",
+          "doc": "0229226",
+          "price": "",
+          "assessed": "42914",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/21/2016",
+          "doc": "0855942",
+          "price": "",
+          "assessed": "39245",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "04/13/1959",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-008",
+      "status": "VALID",
+      "address": "1344 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1948",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1835,
+      "lot": 11755,
+      "units": null,
+      "land": 18469,
+      "imp": 51478,
+      "assessed": 69947,
+      "latitude": 34.0678249615,
+      "longitude": -117.962331294,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/27/2023",
+          "doc": "0056553",
+          "price": "9",
+          "assessed": "67235",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/10/2021",
+          "doc": "0237258",
+          "price": "",
+          "assessed": "64625",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/03/2016",
+          "doc": "0909804",
+          "price": "",
+          "assessed": "59096",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "12/13/2002",
+          "doc": "3058917",
+          "price": "",
+          "assessed": "47368",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/01/2000",
+          "doc": "0310026",
+          "price": "",
+          "assessed": "45530",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-009",
+      "status": "VALID",
+      "address": "1350 S HALINOR AVE, WEST COVINA CA 91790-2415",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 4,
+      "baths": 4,
+      "bldg": 1666,
+      "lot": 12026,
+      "units": null,
+      "land": 174353,
+      "imp": 279416,
+      "assessed": 453769,
+      "latitude": 34.0676735252,
+      "longitude": -117.962491781,
+      "lastBuy": {
+        "rec": "12/06/1988",
+        "doc": "1952283",
+        "price": "166000",
+        "assessed": "166000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/16/1999",
+          "doc": "1539152",
+          "price": "9",
+          "assessed": "200000",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "12/06/1988",
+          "doc": "1952283",
+          "price": "166000",
+          "assessed": "166000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/15/1979",
+          "doc": "0189329",
+          "price": "53500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-010",
+      "status": "VALID",
+      "address": "1351 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1380,
+      "lot": 11769,
+      "units": null,
+      "land": 163001,
+      "imp": 175398,
+      "assessed": 338399,
+      "latitude": 34.0673822837,
+      "longitude": -117.962093578,
+      "lastBuy": {
+        "rec": "10/21/1996",
+        "doc": "1700100",
+        "price": "104000",
+        "assessed": "142000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/02/1999",
+          "doc": "0340368",
+          "price": "9",
+          "assessed": "149261",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "10/21/1996",
+          "doc": "1700100",
+          "price": "104000",
+          "assessed": "142000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/22/1992",
+          "doc": "1766945",
+          "price": "",
+          "assessed": "116000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/27/1992",
+          "doc": "0953145",
+          "price": "166000",
+          "assessed": "166000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/19/1989",
+          "doc": "2034917",
+          "price": "166000",
+          "assessed": "166000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-011",
+      "status": "VALID",
+      "address": "1345 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1080,
+      "lot": 11572,
+      "units": null,
+      "land": 589707,
+      "imp": 147426,
+      "assessed": 737133,
+      "latitude": 34.0675333023,
+      "longitude": -117.961933576,
+      "lastBuy": {
+        "rec": "07/16/2021",
+        "doc": "1105587",
+        "price": "681006",
+        "assessed": "681000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/16/2021",
+          "doc": "1105587",
+          "price": "681006",
+          "assessed": "681000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/26/2021",
+          "doc": "0847397",
+          "price": "530000",
+          "assessed": "530000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/16/1976",
+          "doc": "0004995",
+          "price": "30000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-012",
+      "status": "VALID",
+      "address": "1339 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 2746,
+      "lot": 11566,
+      "units": null,
+      "land": 270480,
+      "imp": 205185,
+      "assessed": 475665,
+      "latitude": 34.0676830709,
+      "longitude": -117.961775166,
+      "lastBuy": {
+        "rec": "04/21/2003",
+        "doc": "1117371",
+        "price": "330000",
+        "assessed": "322000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/03/2022",
+          "doc": "0249601",
+          "price": "9",
+          "assessed": "448232",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/16/2011",
+          "doc": "0687134",
+          "price": "",
+          "assessed": "371284",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/21/2003",
+          "doc": "1117371",
+          "price": "330000",
+          "assessed": "322000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/15/1991",
+          "doc": "1807380",
+          "price": "",
+          "assessed": "264800",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/27/1988",
+          "doc": "1735981",
+          "price": "157000",
+          "assessed": "157000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-013",
+      "status": "VALID",
+      "address": "1333 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1880,
+      "lot": 11579,
+      "units": null,
+      "land": 124399,
+      "imp": 261575,
+      "assessed": 385974,
+      "latitude": 34.0678328823,
+      "longitude": -117.961616938,
+      "lastBuy": {
+        "rec": "06/17/1988",
+        "doc": "0964043",
+        "price": "125000",
+        "assessed": "125000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/20/2023",
+          "doc": "0895029",
+          "price": "9",
+          "assessed": "371005",
+          "docType": "File Correction",
+          "reason": "Life Estate Transfer - Grantor Retains (SEC. 62E)"
+        },
+        {
+          "rec": "02/08/2019",
+          "doc": "0117732",
+          "price": "",
+          "assessed": "346025",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/17/2001",
+          "doc": "0648730",
+          "price": "",
+          "assessed": "220000",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "06/21/1990",
+          "doc": "1099813",
+          "price": "",
+          "assessed": "166300",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/17/1988",
+          "doc": "0964043",
+          "price": "125000",
+          "assessed": "125000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-014",
+      "status": "VALID",
+      "address": "1327 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 2503,
+      "lot": 11583,
+      "units": null,
+      "land": 40727,
+      "imp": 275732,
+      "assessed": 316459,
+      "latitude": 34.0679826006,
+      "longitude": -117.961458475,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/04/2012",
+          "doc": "1321655",
+          "price": "9",
+          "assessed": "251960",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/14/2003",
+          "doc": "0451059",
+          "price": "",
+          "assessed": "90705",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "01/13/1998",
+          "doc": "0059885",
+          "price": "",
+          "assessed": "82267",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/17/1993",
+          "doc": "0927971",
+          "price": "",
+          "assessed": "75883",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/02/1989",
+          "doc": "1236883",
+          "price": "",
+          "assessed": "70108",
+          "docType": "Excluded Transfer with DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-015",
+      "status": "VALID",
+      "address": "1321 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1516,
+      "lot": 11594,
+      "units": null,
+      "land": 452276,
+      "imp": 203448,
+      "assessed": 655724,
+      "latitude": 34.0681323755,
+      "longitude": -117.961300046,
+      "lastBuy": {
+        "rec": "07/25/2017",
+        "doc": "0831856",
+        "price": "565005",
+        "assessed": "565000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/25/2017",
+          "doc": "0831856",
+          "price": "565005",
+          "assessed": "565000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/26/2006",
+          "doc": "1162487",
+          "price": "",
+          "assessed": "301041",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "02/10/1999",
+          "doc": "0217913",
+          "price": "",
+          "assessed": "175980",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "08/15/1988",
+          "doc": "1287040",
+          "price": "",
+          "assessed": "144140",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "08/15/1988",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Perfection of Title (SEC. 62B)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-016",
+      "status": "VALID",
+      "address": "1317 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1399,
+      "lot": 11604,
+      "units": null,
+      "land": 599956,
+      "imp": 150816,
+      "assessed": 750772,
+      "latitude": 34.0682821209,
+      "longitude": -117.961141639,
+      "lastBuy": {
+        "rec": "04/15/2021",
+        "doc": "0598635",
+        "price": "680006",
+        "assessed": "680000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/15/2021",
+          "doc": "0598635",
+          "price": "680006",
+          "assessed": "680000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/31/2014",
+          "doc": "0797293",
+          "price": "",
+          "assessed": "438591",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/05/2013",
+          "doc": "1721273",
+          "price": "430000",
+          "assessed": "430000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/28/2008",
+          "doc": "0733992",
+          "price": "",
+          "assessed": "141557",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/03/1984",
+          "doc": "0001484",
+          "price": "",
+          "assessed": "88000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-017",
+      "status": "VALID",
+      "address": "1311 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1090,
+      "lot": 11600,
+      "units": null,
+      "land": 18472,
+      "imp": 32722,
+      "assessed": 51194,
+      "latitude": 34.0684318215,
+      "longitude": -117.960983259,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/22/2018",
+          "doc": "0507755",
+          "price": "9",
+          "assessed": "44999",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "08/10/2017",
+          "doc": "0903775",
+          "price": "",
+          "assessed": "44118",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "06/25/2007",
+          "doc": "1521167",
+          "price": "",
+          "assessed": "38228",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "08/11/1992",
+          "doc": "1478081",
+          "price": "",
+          "assessed": "28975",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "12/19/1961",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-012-018",
+      "status": "VALID",
+      "address": "1305 S SIESTA AVE, WEST COVINA CA 91790-2444",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1947",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1204,
+      "lot": 12129,
+      "units": null,
+      "land": 636724,
+      "imp": 159181,
+      "assessed": 795905,
+      "latitude": 34.068585368,
+      "longitude": -117.960821933,
+      "lastBuy": {
+        "rec": "06/14/2023",
+        "doc": "0388828",
+        "price": "750007",
+        "assessed": "750000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/14/2023",
+          "doc": "0388828",
+          "price": "750007",
+          "assessed": "750000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/01/2015",
+          "doc": "1498681",
+          "price": "511005",
+          "assessed": "511000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/30/2000",
+          "doc": "1695106",
+          "price": "168000",
+          "assessed": "168000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/19/1989",
+          "doc": "1684972",
+          "price": "175000",
+          "assessed": "175000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/21/1988",
+          "doc": "1516057",
+          "price": "",
+          "assessed": "27555",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-001",
+      "status": "VALID",
+      "address": "14330 VALONA DR, BALDWIN PARK CA 91706-6029",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1198,
+      "lot": 6598,
+      "units": null,
+      "land": 287489,
+      "imp": 125445,
+      "assessed": 412934,
+      "latitude": 34.0663249766,
+      "longitude": -117.964600649,
+      "lastBuy": {
+        "rec": "09/22/2008",
+        "doc": "1700412",
+        "price": "224500",
+        "assessed": "291000",
+        "docType": "Foreclosure",
+        "reason": "Trustee Sale - May Not Be Market"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "08/20/2010",
+          "doc": "1165503",
+          "price": "9",
+          "assessed": "316000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/20/2010",
+          "doc": "1165495",
+          "price": "",
+          "assessed": "261000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/22/2008",
+          "doc": "1700412",
+          "price": "224500",
+          "assessed": "291000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "08/30/2006",
+          "doc": "1931578",
+          "price": "485000",
+          "assessed": "485000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/06/1991",
+          "doc": "1406439",
+          "price": "",
+          "assessed": "107091",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-002",
+      "status": "VALID",
+      "address": "14331 VALONA DR, BALDWIN PARK CA 91706-6030",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1198,
+      "lot": 6821,
+      "units": null,
+      "land": 298013,
+      "imp": 171115,
+      "assessed": 469128,
+      "latitude": 34.0664603898,
+      "longitude": -117.96441438,
+      "lastBuy": {
+        "rec": "03/11/2004",
+        "doc": "0586462",
+        "price": "235000",
+        "assessed": "323500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/06/2019",
+          "doc": "1350464",
+          "price": "9",
+          "assessed": "420553",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/17/2006",
+          "doc": "0573398",
+          "price": "",
+          "assessed": "343300",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/11/2004",
+          "doc": "0586462",
+          "price": "235000",
+          "assessed": "323500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/22/1997",
+          "doc": "0601713",
+          "price": "",
+          "assessed": "55684",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/02/1992",
+          "doc": "0337780",
+          "price": "",
+          "assessed": "51289",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-003",
+      "status": "VALID",
+      "address": "14335 VALONA DR, BALDWIN PARK CA 91706-6030",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1198,
+      "lot": 6829,
+      "units": null,
+      "land": 127412,
+      "imp": 128274,
+      "assessed": 255686,
+      "latitude": 34.0664477075,
+      "longitude": -117.964219419,
+      "lastBuy": {
+        "rec": "10/18/1993",
+        "doc": "2020387",
+        "price": "147501",
+        "assessed": "147500",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "10/18/1993",
+          "doc": "2020387",
+          "price": "147501",
+          "assessed": "147500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/18/1993",
+          "doc": "2020386",
+          "price": "9",
+          "assessed": "147400",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/05/1993",
+          "doc": "0853048",
+          "price": "",
+          "assessed": "147400",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "04/07/1977",
+          "doc": "0351308",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-004",
+      "status": "VALID",
+      "address": "14341 VALONA DR, BALDWIN PARK CA 91706-6030",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1233,
+      "lot": 6175,
+      "units": null,
+      "land": 14671,
+      "imp": 52069,
+      "assessed": 66740,
+      "latitude": 34.0663428336,
+      "longitude": -117.964057474,
+      "lastBuy": {
+        "rec": "10/17/1975",
+        "doc": "",
+        "price": "4500",
+        "assessed": "",
+        "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/17/2019",
+          "doc": "0453834",
+          "price": "9",
+          "assessed": "59834",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/17/1975",
+          "doc": "",
+          "price": "4500",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-005",
+      "status": "VALID",
+      "address": "14347 VALONA DR, BALDWIN PARK CA 91706-6030",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1198,
+      "lot": 6007,
+      "units": null,
+      "land": 205056,
+      "imp": 138884,
+      "assessed": 343940,
+      "latitude": 34.0662722323,
+      "longitude": -117.9639015,
+      "lastBuy": {
+        "rec": "11/09/1987",
+        "doc": "1786528",
+        "price": "105000",
+        "assessed": "105000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "01/22/2016",
+          "doc": "0077508",
+          "price": "9",
+          "assessed": "284859",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/06/2004",
+          "doc": "1138584",
+          "price": "",
+          "assessed": "144170",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/09/1987",
+          "doc": "1786528",
+          "price": "105000",
+          "assessed": "105000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/03/1987",
+          "doc": "0157749",
+          "price": "",
+          "assessed": "113400",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "01/29/1985",
+          "doc": "0107481",
+          "price": "",
+          "assessed": "95000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-006",
+      "status": "VALID",
+      "address": "14353 VALONA DR, BALDWIN PARK CA 91706-6030",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1486,
+      "lot": 6200,
+      "units": null,
+      "land": 530604,
+      "imp": 128193,
+      "assessed": 658797,
+      "latitude": 34.0661906882,
+      "longitude": -117.963708333,
+      "lastBuy": {
+        "rec": "12/16/2022",
+        "doc": "1178579",
+        "price": "480004",
+        "assessed": "620800",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/16/2022",
+          "doc": "1178579",
+          "price": "480004",
+          "assessed": "620800",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/12/2013",
+          "doc": "1606945",
+          "price": "",
+          "assessed": "63019",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/27/1969",
+          "doc": "",
+          "price": "9",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-007",
+      "status": "VALID",
+      "address": "1813 VALONA DR, BALDWIN PARK CA 91706-6028",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1745,
+      "lot": 6161,
+      "units": null,
+      "land": 14627,
+      "imp": 73176,
+      "assessed": 87803,
+      "latitude": 34.0661246819,
+      "longitude": -117.96345465,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/11/1982",
+          "doc": "0592262",
+          "price": "9",
+          "assessed": "32889",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Historical: Spousal Transfers"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-008",
+      "status": "VALID",
+      "address": "14362 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "DELINQUENT",
+      "yearDefaulted": "2025",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1326,
+      "lot": 6153,
+      "units": null,
+      "land": 616998,
+      "imp": 183702,
+      "assessed": 800700,
+      "latitude": 34.0662626637,
+      "longitude": -117.963311505,
+      "lastBuy": {
+        "rec": "08/30/2024",
+        "doc": "0586075",
+        "price": "785000",
+        "assessed": "785000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/30/2024",
+          "doc": "0586075",
+          "price": "785000",
+          "assessed": "785000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/23/2021",
+          "doc": "1453111",
+          "price": "",
+          "assessed": "353892",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/21/2012",
+          "doc": "0438888",
+          "price": "299002",
+          "assessed": "299000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/07/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-009",
+      "status": "VALID",
+      "address": "14354 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1407,
+      "lot": 5895,
+      "units": null,
+      "land": 20227,
+      "imp": 72079,
+      "assessed": 92306,
+      "latitude": 34.0663763391,
+      "longitude": -117.963537871,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/07/2016",
+          "doc": "0650943",
+          "price": "9",
+          "assessed": "77984",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/29/1992",
+          "doc": "1995585",
+          "price": "",
+          "assessed": "52223",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "05/16/1977",
+          "doc": "0505170",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-010",
+      "status": "VALID",
+      "address": "14346 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1198,
+      "lot": 6173,
+      "units": null,
+      "land": 514509,
+      "imp": 128584,
+      "assessed": 643093,
+      "latitude": 34.0664861573,
+      "longitude": -117.963697019,
+      "lastBuy": {
+        "rec": "11/08/2006",
+        "doc": "2478422",
+        "price": "465004",
+        "assessed": "470600",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/08/2006",
+          "doc": "2478422",
+          "price": "465004",
+          "assessed": "470600",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/29/2005",
+          "doc": "2072202",
+          "price": "",
+          "assessed": "153911",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "03/12/2001",
+          "doc": "0398107",
+          "price": "",
+          "assessed": "142378",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/19/1993",
+          "doc": "0107120",
+          "price": "100000",
+          "assessed": "122889",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/24/1980",
+          "doc": "0933462",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-011",
+      "status": "VALID",
+      "address": "14340 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1588,
+      "lot": 6352,
+      "units": null,
+      "land": 19189,
+      "imp": 93154,
+      "assessed": 112343,
+      "latitude": 34.0665919467,
+      "longitude": -117.963857764,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/22/2002",
+          "doc": "1699727",
+          "price": "9",
+          "assessed": "76068",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/11/2001",
+          "doc": "1930992",
+          "price": "",
+          "assessed": "74578",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "03/31/1999",
+          "doc": "0555136",
+          "price": "",
+          "assessed": "71684",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "03/29/1999",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "11/09/1987",
+          "doc": "1795655",
+          "price": "",
+          "assessed": "55410",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-012",
+      "status": "VALID",
+      "address": "14334 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1611,
+      "lot": 6497,
+      "units": null,
+      "land": 278017,
+      "imp": 167055,
+      "assessed": 445072,
+      "latitude": 34.0666859514,
+      "longitude": -117.964013987,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/12/2004",
+          "doc": "2074022",
+          "price": "0",
+          "assessed": "309492",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "12/08/1994",
+          "doc": "2187763",
+          "price": "",
+          "assessed": "180806",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/16/1990",
+          "doc": "0892972",
+          "price": "",
+          "assessed": "206200",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/15/1990",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "05/02/1990",
+          "doc": "0804010",
+          "price": "",
+          "assessed": "99364",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-013",
+      "status": "VALID",
+      "address": "14330 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1233,
+      "lot": 6410,
+      "units": null,
+      "land": 326999,
+      "imp": 213259,
+      "assessed": 540258,
+      "latitude": 34.0667757342,
+      "longitude": -117.964152222,
+      "lastBuy": {
+        "rec": "06/13/2002",
+        "doc": "1345621",
+        "price": "185000",
+        "assessed": "185000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/04/2021",
+          "doc": "0199145",
+          "price": "9",
+          "assessed": "499119",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "01/24/2005",
+          "doc": "0171567",
+          "price": "",
+          "assessed": "380000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/15/2004",
+          "doc": "0615683",
+          "price": "",
+          "assessed": "330000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/20/2003",
+          "doc": "2416802",
+          "price": "",
+          "assessed": "188700",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/13/2002",
+          "doc": "1345621",
+          "price": "185000",
+          "assessed": "185000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8463-015-014",
+      "status": "VALID",
+      "address": "14324 WALNUT CREEK PKWY, BALDWIN PARK CA 91706-6033",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1958",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1198,
+      "lot": 6179,
+      "units": null,
+      "land": 193389,
+      "imp": 133842,
+      "assessed": 327231,
+      "latitude": 34.0668922307,
+      "longitude": -117.964270891,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/04/2020",
+          "doc": "1577700",
+          "price": "9",
+          "assessed": "296388",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/29/2015",
+          "doc": "1323839",
+          "price": "",
+          "assessed": "268579",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/24/2013",
+          "doc": "0120180",
+          "price": "",
+          "assessed": "234165",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "12/08/2003",
+          "doc": "3696623",
+          "price": "",
+          "assessed": "201905",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/04/2002",
+          "doc": "2336725",
+          "price": "",
+          "assessed": "192900",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8463-012-001",
+      "parcel": {
+        "AIN": "8463012001",
+        "Latitude": 34.0688764253,
+        "Longitude": -117.961216687,
+        "SitusStreet": "1304 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1946",
+        "SqftLot": 12146,
+        "SqftMain": 1140,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 143592,
+        "CurrentRoll_ImpValue": 44507
+      }
+    },
+    {
+      "ain": "8463-012-002",
+      "parcel": {
+        "AIN": "8463012002",
+        "Latitude": 34.0687242115,
+        "Longitude": -117.961379355,
+        "SitusStreet": "1310 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1948",
+        "SqftLot": 11691,
+        "SqftMain": 1083,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 303708,
+        "CurrentRoll_ImpValue": 85655
+      }
+    },
+    {
+      "ain": "8463-012-003",
+      "parcel": {
+        "AIN": "8463012003",
+        "Latitude": 34.0685743954,
+        "Longitude": -117.961538125,
+        "SitusStreet": "1316 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1946",
+        "SqftLot": 11705,
+        "SqftMain": 3600,
+        "NumOfBeds": 5,
+        "NumOfBaths": 4,
+        "CurrentRoll_LandValue": 448181,
+        "CurrentRoll_ImpValue": 250250
+      }
+    },
+    {
+      "ain": "8463-012-004",
+      "parcel": {
+        "AIN": "8463012004",
+        "Latitude": 34.0684244727,
+        "Longitude": -117.961696759,
+        "SitusStreet": "1320 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11713,
+        "SqftMain": 1083,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 255735,
+        "CurrentRoll_ImpValue": 164574
+      }
+    },
+    {
+      "ain": "8463-012-005",
+      "parcel": {
+        "AIN": "8463012005",
+        "Latitude": 34.0682745771,
+        "Longitude": -117.961855326,
+        "SitusStreet": "1326 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11724,
+        "SqftMain": 1919,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 690100,
+        "CurrentRoll_ImpValue": 174900
+      }
+    },
+    {
+      "ain": "8463-012-006",
+      "parcel": {
+        "AIN": "8463012006",
+        "Latitude": 34.068124666,
+        "Longitude": -117.962014072,
+        "SitusStreet": "1332 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11744,
+        "SqftMain": 1204,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 18469,
+        "CurrentRoll_ImpValue": 36723
+      }
+    },
+    {
+      "ain": "8463-012-007",
+      "parcel": {
+        "AIN": "8463012007",
+        "Latitude": 34.0679748147,
+        "Longitude": -117.962172766,
+        "SitusStreet": "1338 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1948",
+        "SqftLot": 11742,
+        "SqftMain": 875,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 18469,
+        "CurrentRoll_ImpValue": 27976
+      }
+    },
+    {
+      "ain": "8463-012-008",
+      "parcel": {
+        "AIN": "8463012008",
+        "Latitude": 34.0678249615,
+        "Longitude": -117.962331294,
+        "SitusStreet": "1344 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1948",
+        "SqftLot": 11755,
+        "SqftMain": 1835,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 18469,
+        "CurrentRoll_ImpValue": 51478
+      }
+    },
+    {
+      "ain": "8463-012-009",
+      "parcel": {
+        "AIN": "8463012009",
+        "Latitude": 34.0676735252,
+        "Longitude": -117.962491781,
+        "SitusStreet": "1350 S HALINOR AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2415",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 12026,
+        "SqftMain": 1666,
+        "NumOfBeds": 4,
+        "NumOfBaths": 4,
+        "CurrentRoll_LandValue": 174353,
+        "CurrentRoll_ImpValue": 279416
+      }
+    },
+    {
+      "ain": "8463-012-010",
+      "parcel": {
+        "AIN": "8463012010",
+        "Latitude": 34.0673822837,
+        "Longitude": -117.962093578,
+        "SitusStreet": "1351 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11769,
+        "SqftMain": 1380,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 163001,
+        "CurrentRoll_ImpValue": 175398
+      }
+    },
+    {
+      "ain": "8463-012-011",
+      "parcel": {
+        "AIN": "8463012011",
+        "Latitude": 34.0675333023,
+        "Longitude": -117.961933576,
+        "SitusStreet": "1345 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11572,
+        "SqftMain": 1080,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 589707,
+        "CurrentRoll_ImpValue": 147426
+      }
+    },
+    {
+      "ain": "8463-012-012",
+      "parcel": {
+        "AIN": "8463012012",
+        "Latitude": 34.0676830709,
+        "Longitude": -117.961775166,
+        "SitusStreet": "1339 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11566,
+        "SqftMain": 2746,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 270480,
+        "CurrentRoll_ImpValue": 205185
+      }
+    },
+    {
+      "ain": "8463-012-013",
+      "parcel": {
+        "AIN": "8463012013",
+        "Latitude": 34.0678328823,
+        "Longitude": -117.961616938,
+        "SitusStreet": "1333 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11579,
+        "SqftMain": 1880,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 124399,
+        "CurrentRoll_ImpValue": 261575
+      }
+    },
+    {
+      "ain": "8463-012-014",
+      "parcel": {
+        "AIN": "8463012014",
+        "Latitude": 34.0679826006,
+        "Longitude": -117.961458475,
+        "SitusStreet": "1327 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11583,
+        "SqftMain": 2503,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 40727,
+        "CurrentRoll_ImpValue": 275732
+      }
+    },
+    {
+      "ain": "8463-012-015",
+      "parcel": {
+        "AIN": "8463012015",
+        "Latitude": 34.0681323755,
+        "Longitude": -117.961300046,
+        "SitusStreet": "1321 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11594,
+        "SqftMain": 1516,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 452276,
+        "CurrentRoll_ImpValue": 203448
+      }
+    },
+    {
+      "ain": "8463-012-016",
+      "parcel": {
+        "AIN": "8463012016",
+        "Latitude": 34.0682821209,
+        "Longitude": -117.961141639,
+        "SitusStreet": "1317 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11604,
+        "SqftMain": 1399,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 599956,
+        "CurrentRoll_ImpValue": 150816
+      }
+    },
+    {
+      "ain": "8463-012-017",
+      "parcel": {
+        "AIN": "8463012017",
+        "Latitude": 34.0684318215,
+        "Longitude": -117.960983259,
+        "SitusStreet": "1311 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 11600,
+        "SqftMain": 1090,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 18472,
+        "CurrentRoll_ImpValue": 32722
+      }
+    },
+    {
+      "ain": "8463-012-018",
+      "parcel": {
+        "AIN": "8463012018",
+        "Latitude": 34.068585368,
+        "Longitude": -117.960821933,
+        "SitusStreet": "1305 S SIESTA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-2444",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1947",
+        "SqftLot": 12129,
+        "SqftMain": 1204,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 636724,
+        "CurrentRoll_ImpValue": 159181
+      }
+    },
+    {
+      "ain": "8463-015-001",
+      "parcel": {
+        "AIN": "8463015001",
+        "Latitude": 34.0663249766,
+        "Longitude": -117.964600649,
+        "SitusStreet": "14330 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6029",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6598,
+        "SqftMain": 1198,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 287489,
+        "CurrentRoll_ImpValue": 125445
+      }
+    },
+    {
+      "ain": "8463-015-002",
+      "parcel": {
+        "AIN": "8463015002",
+        "Latitude": 34.0664603898,
+        "Longitude": -117.96441438,
+        "SitusStreet": "14331 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6030",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6821,
+        "SqftMain": 1198,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 298013,
+        "CurrentRoll_ImpValue": 171115
+      }
+    },
+    {
+      "ain": "8463-015-003",
+      "parcel": {
+        "AIN": "8463015003",
+        "Latitude": 34.0664477075,
+        "Longitude": -117.964219419,
+        "SitusStreet": "14335 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6030",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6829,
+        "SqftMain": 1198,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 127412,
+        "CurrentRoll_ImpValue": 128274
+      }
+    },
+    {
+      "ain": "8463-015-004",
+      "parcel": {
+        "AIN": "8463015004",
+        "Latitude": 34.0663428336,
+        "Longitude": -117.964057474,
+        "SitusStreet": "14341 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6030",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6175,
+        "SqftMain": 1233,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 14671,
+        "CurrentRoll_ImpValue": 52069
+      }
+    },
+    {
+      "ain": "8463-015-005",
+      "parcel": {
+        "AIN": "8463015005",
+        "Latitude": 34.0662722323,
+        "Longitude": -117.9639015,
+        "SitusStreet": "14347 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6030",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6007,
+        "SqftMain": 1198,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 205056,
+        "CurrentRoll_ImpValue": 138884
+      }
+    },
+    {
+      "ain": "8463-015-006",
+      "parcel": {
+        "AIN": "8463015006",
+        "Latitude": 34.0661906882,
+        "Longitude": -117.963708333,
+        "SitusStreet": "14353 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6030",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6200,
+        "SqftMain": 1486,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 530604,
+        "CurrentRoll_ImpValue": 128193
+      }
+    },
+    {
+      "ain": "8463-015-007",
+      "parcel": {
+        "AIN": "8463015007",
+        "Latitude": 34.0661246819,
+        "Longitude": -117.96345465,
+        "SitusStreet": "1813 VALONA DR",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6028",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6161,
+        "SqftMain": 1745,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 14627,
+        "CurrentRoll_ImpValue": 73176
+      }
+    },
+    {
+      "ain": "8463-015-008",
+      "parcel": {
+        "AIN": "8463015008",
+        "Latitude": 34.0662626637,
+        "Longitude": -117.963311505,
+        "SitusStreet": "14362 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "DELINQUENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6153,
+        "SqftMain": 1326,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 616998,
+        "CurrentRoll_ImpValue": 183702
+      }
+    },
+    {
+      "ain": "8463-015-009",
+      "parcel": {
+        "AIN": "8463015009",
+        "Latitude": 34.0663763391,
+        "Longitude": -117.963537871,
+        "SitusStreet": "14354 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 5895,
+        "SqftMain": 1407,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 20227,
+        "CurrentRoll_ImpValue": 72079
+      }
+    },
+    {
+      "ain": "8463-015-010",
+      "parcel": {
+        "AIN": "8463015010",
+        "Latitude": 34.0664861573,
+        "Longitude": -117.963697019,
+        "SitusStreet": "14346 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6173,
+        "SqftMain": 1198,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 514509,
+        "CurrentRoll_ImpValue": 128584
+      }
+    },
+    {
+      "ain": "8463-015-011",
+      "parcel": {
+        "AIN": "8463015011",
+        "Latitude": 34.0665919467,
+        "Longitude": -117.963857764,
+        "SitusStreet": "14340 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6352,
+        "SqftMain": 1588,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 19189,
+        "CurrentRoll_ImpValue": 93154
+      }
+    },
+    {
+      "ain": "8463-015-012",
+      "parcel": {
+        "AIN": "8463015012",
+        "Latitude": 34.0666859514,
+        "Longitude": -117.964013987,
+        "SitusStreet": "14334 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6497,
+        "SqftMain": 1611,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 278017,
+        "CurrentRoll_ImpValue": 167055
+      }
+    },
+    {
+      "ain": "8463-015-013",
+      "parcel": {
+        "AIN": "8463015013",
+        "Latitude": 34.0667757342,
+        "Longitude": -117.964152222,
+        "SitusStreet": "14330 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6410,
+        "SqftMain": 1233,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 326999,
+        "CurrentRoll_ImpValue": 213259
+      }
+    },
+    {
+      "ain": "8463-015-014",
+      "parcel": {
+        "AIN": "8463015014",
+        "Latitude": 34.0668922307,
+        "Longitude": -117.964270891,
+        "SitusStreet": "14324 WALNUT CREEK PKWY",
+        "SitusCity": "BALDWIN PARK CA",
+        "SitusZipCode": "91706-6033",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1958",
+        "SqftLot": 6179,
+        "SqftMain": 1198,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 193389,
+        "CurrentRoll_ImpValue": 133842
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8463-012-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-017",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-018",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-012-019",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8463-012-020",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8463-012-021",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8463-012-022",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8463-012-023",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8463-012-024",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8463-012-025",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8463-012-026",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8463-012-027",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8463-012-028",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8463-012-029",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8463-012-030",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8463-015-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8463-015-014",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-08-03T10:50:05.716Z",
+  "endedAt": "2026-08-03T10:50:44.331Z"
+}
