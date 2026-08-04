@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-04T09:21:56.608Z",
-  "runCount": 299,
-  "propertyRowCount": 8319,
-  "uniqueAinCount": 8217,
-  "propertyWithCoordsCount": 7391,
-  "nextCursor": "8464-023-007",
-  "donePageCount": 350,
+  "builtAt": "2026-08-04T11:40:24.337Z",
+  "runCount": 300,
+  "propertyRowCount": 8351,
+  "uniqueAinCount": 8249,
+  "propertyWithCoordsCount": 7423,
+  "nextCursor": "8464-024-013",
+  "donePageCount": 351,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2062,6 +2062,13 @@
       "to": "8464-023-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8464-023-039",
+      "streak": 12,
+      "to": "8464-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -2108,15 +2115,15 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 178,
-      "uniqueAinCount": 178,
+      "propertyRowCount": 197,
+      "uniqueAinCount": 197,
       "areas": []
     },
     {
       "city": "Valinda",
       "slug": "valinda",
-      "propertyRowCount": 56,
-      "uniqueAinCount": 56,
+      "propertyRowCount": 69,
+      "uniqueAinCount": 69,
       "areas": []
     },
     {
@@ -11694,6 +11701,43 @@
         {
           "city": "Valinda",
           "count": 8,
+          "slug": "valinda"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-268-2026-08-04-horizon",
+      "title": "RUN-268 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-04",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-08-04T11:39:07.471Z",
+      "end": "8464-024-012",
+      "nextCursor": "8464-024-013",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8464-023-039",
+          "streak": 12,
+          "to": "8464-024-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-04T11:40:22.116Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 19,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Valinda",
+          "count": 13,
           "slug": "valinda"
         }
       ],
