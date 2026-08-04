@@ -1,0 +1,5430 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8464-021-004",
+  "lastAinChecked": "8464-022-003",
+  "nextCursor": "8464-022-004",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 32,
+  "invalidCount": 12,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8464-021-045",
+      "streak": 12,
+      "to": "8464-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-002-054",
+      "streak": 12,
+      "to": "8453-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-003-049",
+      "streak": 12,
+      "to": "8453-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-011-036",
+      "streak": 12,
+      "to": "8453-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-012-041",
+      "streak": 12,
+      "to": "8453-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-013-045",
+      "streak": 12,
+      "to": "8453-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-015-048",
+      "streak": 12,
+      "to": "8453-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-024-033",
+      "streak": 12,
+      "to": "8453-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-026-044",
+      "streak": 12,
+      "to": "8453-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-005-029",
+      "streak": 12,
+      "to": "8453-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-007-026",
+      "streak": 12,
+      "to": "8453-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-008-022",
+      "streak": 12,
+      "to": "8453-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-009-029",
+      "streak": 12,
+      "to": "8453-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-010-031",
+      "streak": 12,
+      "to": "8453-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-017-026",
+      "streak": 12,
+      "to": "8453-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-018-024",
+      "streak": 12,
+      "to": "8453-019-014",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-019-034",
+      "streak": 12,
+      "to": "8453-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-020-031",
+      "streak": 12,
+      "to": "8453-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-022-029",
+      "streak": 12,
+      "to": "8453-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-023-033",
+      "streak": 12,
+      "to": "8453-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-025-040",
+      "streak": 20,
+      "to": "8454-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8454-001-041",
+      "streak": 12,
+      "to": "8454-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-005-040",
+      "streak": 12,
+      "to": "8454-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-006-045",
+      "streak": 12,
+      "to": "8454-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-007-045",
+      "streak": 12,
+      "to": "8454-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-008-045",
+      "streak": 12,
+      "to": "8454-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-012-045",
+      "streak": 12,
+      "to": "8454-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-028-052",
+      "streak": 12,
+      "to": "8454-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-030-039",
+      "streak": 12,
+      "to": "8454-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-016-044",
+      "streak": 12,
+      "to": "8454-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-018-045",
+      "streak": 12,
+      "to": "8454-019-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-019-039",
+      "streak": 12,
+      "to": "8454-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-025-044",
+      "streak": 12,
+      "to": "8454-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-026-045",
+      "streak": 12,
+      "to": "8454-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-002-024",
+      "streak": 12,
+      "to": "8454-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-003-025",
+      "streak": 12,
+      "to": "8454-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-004-025",
+      "streak": 12,
+      "to": "8454-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-009-024",
+      "streak": 12,
+      "to": "8454-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-010-037",
+      "streak": 12,
+      "to": "8454-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-011-029",
+      "streak": 12,
+      "to": "8454-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-013-031",
+      "streak": 12,
+      "to": "8454-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-014-030",
+      "streak": 12,
+      "to": "8454-015-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-015-019",
+      "streak": 12,
+      "to": "8454-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-020-027",
+      "streak": 12,
+      "to": "8454-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-021-023",
+      "streak": 12,
+      "to": "8454-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-022-027",
+      "streak": 12,
+      "to": "8454-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-023-027",
+      "streak": 12,
+      "to": "8454-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-024-029",
+      "streak": 12,
+      "to": "8454-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-027-039",
+      "streak": 20,
+      "to": "8455-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8455-001-037",
+      "streak": 12,
+      "to": "8455-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-015-049",
+      "streak": 12,
+      "to": "8455-026-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-026-058",
+      "streak": 12,
+      "to": "8455-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-003-045",
+      "streak": 12,
+      "to": "8455-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-016-045",
+      "streak": 12,
+      "to": "8455-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-017-045",
+      "streak": 12,
+      "to": "8455-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-019-045",
+      "streak": 12,
+      "to": "8455-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-020-045",
+      "streak": 12,
+      "to": "8455-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-021-045",
+      "streak": 12,
+      "to": "8455-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-023-045",
+      "streak": 12,
+      "to": "8455-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-024-045",
+      "streak": 12,
+      "to": "8455-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-025-045",
+      "streak": 12,
+      "to": "8455-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-002-031",
+      "streak": 12,
+      "to": "8455-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-004-029",
+      "streak": 12,
+      "to": "8455-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-005-031",
+      "streak": 12,
+      "to": "8455-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-006-031",
+      "streak": 12,
+      "to": "8455-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-007-029",
+      "streak": 12,
+      "to": "8455-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-008-031",
+      "streak": 12,
+      "to": "8455-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-009-043",
+      "streak": 12,
+      "to": "8455-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-010-029",
+      "streak": 12,
+      "to": "8455-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-011-032",
+      "streak": 12,
+      "to": "8455-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-012-032",
+      "streak": 12,
+      "to": "8455-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-013-042",
+      "streak": 12,
+      "to": "8455-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-014-033",
+      "streak": 12,
+      "to": "8455-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-018-031",
+      "streak": 12,
+      "to": "8455-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-022-045",
+      "streak": 12,
+      "to": "8455-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-027-053",
+      "streak": 20,
+      "to": "8456-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8456-001-037",
+      "streak": 12,
+      "to": "8456-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-005-045",
+      "streak": 12,
+      "to": "8456-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-018-052",
+      "streak": 12,
+      "to": "8456-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-020-041",
+      "streak": 12,
+      "to": "8456-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-021-043",
+      "streak": 12,
+      "to": "8456-032-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-032-044",
+      "streak": 12,
+      "to": "8456-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-007-045",
+      "streak": 12,
+      "to": "8456-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-009-045",
+      "streak": 12,
+      "to": "8456-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-011-045",
+      "streak": 12,
+      "to": "8456-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-013-045",
+      "streak": 12,
+      "to": "8456-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-014-045",
+      "streak": 12,
+      "to": "8456-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-023-050",
+      "streak": 12,
+      "to": "8456-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-024-040",
+      "streak": 12,
+      "to": "8456-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-025-045",
+      "streak": 12,
+      "to": "8456-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-027-045",
+      "streak": 12,
+      "to": "8456-031-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-031-045",
+      "streak": 12,
+      "to": "8456-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-002-030",
+      "streak": 12,
+      "to": "8456-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-003-032",
+      "streak": 12,
+      "to": "8456-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-004-032",
+      "streak": 12,
+      "to": "8456-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-006-041",
+      "streak": 12,
+      "to": "8456-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-008-030",
+      "streak": 12,
+      "to": "8456-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-010-030",
+      "streak": 12,
+      "to": "8456-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-012-030",
+      "streak": 12,
+      "to": "8456-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-015-031",
+      "streak": 12,
+      "to": "8456-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-016-031",
+      "streak": 12,
+      "to": "8456-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-017-031",
+      "streak": 12,
+      "to": "8456-019-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-019-040",
+      "streak": 12,
+      "to": "8456-022-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-022-030",
+      "streak": 12,
+      "to": "8456-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-026-044",
+      "streak": 12,
+      "to": "8456-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-028-028",
+      "streak": 12,
+      "to": "8456-029-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-029-027",
+      "streak": 12,
+      "to": "8456-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-030-043",
+      "streak": 20,
+      "to": "8457-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8457-001-037",
+      "streak": 12,
+      "to": "8457-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-006-045",
+      "streak": 12,
+      "to": "8457-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-007-045",
+      "streak": 12,
+      "to": "8457-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-012-045",
+      "streak": 12,
+      "to": "8457-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-004-045",
+      "streak": 12,
+      "to": "8457-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-005-045",
+      "streak": 12,
+      "to": "8457-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-008-045",
+      "streak": 12,
+      "to": "8457-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-010-045",
+      "streak": 12,
+      "to": "8457-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-011-045",
+      "streak": 12,
+      "to": "8457-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-013-045",
+      "streak": 12,
+      "to": "8457-029-020",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8457-029-206",
+      "streak": 12,
+      "to": "8457-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-014-038",
+      "streak": 12,
+      "to": "8457-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-015-045",
+      "streak": 12,
+      "to": "8457-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-016-045",
+      "streak": 12,
+      "to": "8457-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-017-045",
+      "streak": 12,
+      "to": "8457-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-020-045",
+      "streak": 12,
+      "to": "8457-021-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-021-042",
+      "streak": 12,
+      "to": "8457-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-022-033",
+      "streak": 12,
+      "to": "8457-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-026-034",
+      "streak": 12,
+      "to": "8457-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-002-025",
+      "streak": 12,
+      "to": "8457-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-003-023",
+      "streak": 12,
+      "to": "8457-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-009-042",
+      "streak": 12,
+      "to": "8457-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-018-027",
+      "streak": 12,
+      "to": "8457-019-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-019-020",
+      "streak": 12,
+      "to": "8457-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-023-031",
+      "streak": 12,
+      "to": "8457-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-024-033",
+      "streak": 12,
+      "to": "8457-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-025-029",
+      "streak": 12,
+      "to": "8457-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-027-029",
+      "streak": 12,
+      "to": "8457-028-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-028-042",
+      "streak": 20,
+      "to": "8458-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8458-001-061",
+      "streak": 12,
+      "to": "8458-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8458-002-066",
+      "streak": 12,
+      "to": "8458-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-004-051",
+      "streak": 12,
+      "to": "8458-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-005-048",
+      "streak": 12,
+      "to": "8458-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-007-061",
+      "streak": 12,
+      "to": "8458-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-008-048",
+      "streak": 12,
+      "to": "8458-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-009-044",
+      "streak": 12,
+      "to": "8458-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-010-046",
+      "streak": 12,
+      "to": "8458-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-012-045",
+      "streak": 12,
+      "to": "8458-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8458-027-064",
+      "streak": 12,
+      "to": "8458-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-014-043",
+      "streak": 12,
+      "to": "8458-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-015-049",
+      "streak": 12,
+      "to": "8458-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-016-048",
+      "streak": 12,
+      "to": "8458-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-017-049",
+      "streak": 12,
+      "to": "8458-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-018-039",
+      "streak": 12,
+      "to": "8458-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-019-040",
+      "streak": 12,
+      "to": "8458-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-021-045",
+      "streak": 12,
+      "to": "8458-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-022-045",
+      "streak": 12,
+      "to": "8458-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-023-045",
+      "streak": 12,
+      "to": "8458-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-026-045",
+      "streak": 12,
+      "to": "8458-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-003-045",
+      "streak": 12,
+      "to": "8458-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-006-045",
+      "streak": 12,
+      "to": "8458-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-011-045",
+      "streak": 12,
+      "to": "8458-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-024-057",
+      "streak": 12,
+      "to": "8458-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-025-049",
+      "streak": 12,
+      "to": "8458-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8458-013-038",
+      "streak": 12,
+      "to": "8458-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8458-020-044",
+      "streak": 20,
+      "to": "8459-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8459-001-044",
+      "streak": 12,
+      "to": "8459-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8459-008-056",
+      "streak": 12,
+      "to": "8459-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8459-017-057",
+      "streak": 12,
+      "to": "8459-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8459-026-019",
+      "streak": 12,
+      "to": "8459-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-002-050",
+      "streak": 12,
+      "to": "8459-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-004-042",
+      "streak": 12,
+      "to": "8459-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-005-049",
+      "streak": 12,
+      "to": "8459-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-006-049",
+      "streak": 12,
+      "to": "8459-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-011-048",
+      "streak": 12,
+      "to": "8459-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-013-047",
+      "streak": 12,
+      "to": "8459-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-018-041",
+      "streak": 12,
+      "to": "8459-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-019-040",
+      "streak": 12,
+      "to": "8459-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-020-041",
+      "streak": 12,
+      "to": "8459-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-021-047",
+      "streak": 12,
+      "to": "8459-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-022-048",
+      "streak": 12,
+      "to": "8459-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-023-047",
+      "streak": 12,
+      "to": "8459-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-024-043",
+      "streak": 12,
+      "to": "8459-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-025-042",
+      "streak": 12,
+      "to": "8459-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-003-037",
+      "streak": 12,
+      "to": "8459-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-007-045",
+      "streak": 12,
+      "to": "8459-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-009-045",
+      "streak": 12,
+      "to": "8459-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-010-045",
+      "streak": 12,
+      "to": "8459-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-012-045",
+      "streak": 12,
+      "to": "8459-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-014-045",
+      "streak": 12,
+      "to": "8459-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-015-045",
+      "streak": 12,
+      "to": "8459-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8459-016-029",
+      "streak": 12,
+      "to": "8459-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8459-027-024",
+      "streak": 20,
+      "to": "8460-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8460-001-064",
+      "streak": 12,
+      "to": "8460-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-002-067",
+      "streak": 12,
+      "to": "8460-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-008-064",
+      "streak": 12,
+      "to": "8460-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-009-067",
+      "streak": 12,
+      "to": "8460-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-012-090",
+      "streak": 12,
+      "to": "8460-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-020-065",
+      "streak": 12,
+      "to": "8460-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-004-055",
+      "streak": 12,
+      "to": "8460-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-005-060",
+      "streak": 12,
+      "to": "8460-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-006-057",
+      "streak": 12,
+      "to": "8460-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-010-062",
+      "streak": 12,
+      "to": "8460-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-011-072",
+      "streak": 12,
+      "to": "8460-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-013-053",
+      "streak": 12,
+      "to": "8460-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-019-071",
+      "streak": 12,
+      "to": "8460-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-014-045",
+      "streak": 12,
+      "to": "8460-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-015-045",
+      "streak": 12,
+      "to": "8460-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-016-045",
+      "streak": 12,
+      "to": "8460-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-017-045",
+      "streak": 12,
+      "to": "8460-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-018-045",
+      "streak": 12,
+      "to": "8460-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8460-003-045",
+      "streak": 12,
+      "to": "8460-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8460-007-062",
+      "streak": 12,
+      "to": "8460-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8460-021-037",
+      "streak": 20,
+      "to": "8461-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8461-001-021",
+      "streak": 20,
+      "to": "8462-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8462-001-021",
+      "streak": 20,
+      "to": "8463-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8463-001-037",
+      "streak": 12,
+      "to": "8463-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-006-045",
+      "streak": 12,
+      "to": "8463-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-018-058",
+      "streak": 12,
+      "to": "8463-021-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-021-083",
+      "streak": 12,
+      "to": "8463-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-025-058",
+      "streak": 12,
+      "to": "8463-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-023-045",
+      "streak": 12,
+      "to": "8463-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-024-045",
+      "streak": 12,
+      "to": "8463-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-026-046",
+      "streak": 12,
+      "to": "8463-009-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-009-069",
+      "streak": 12,
+      "to": "8463-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-013-045",
+      "streak": 12,
+      "to": "8463-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-014-054",
+      "streak": 12,
+      "to": "8463-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-016-043",
+      "streak": 12,
+      "to": "8463-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-019-037",
+      "streak": 12,
+      "to": "8463-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-002-038",
+      "streak": 12,
+      "to": "8463-003-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-003-038",
+      "streak": 12,
+      "to": "8463-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-004-035",
+      "streak": 12,
+      "to": "8463-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-005-045",
+      "streak": 12,
+      "to": "8463-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-007-026",
+      "streak": 12,
+      "to": "8463-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-008-027",
+      "streak": 12,
+      "to": "8463-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-010-037",
+      "streak": 12,
+      "to": "8463-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-011-032",
+      "streak": 12,
+      "to": "8463-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-012-031",
+      "streak": 12,
+      "to": "8463-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-015-032",
+      "streak": 12,
+      "to": "8463-017-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-017-039",
+      "streak": 12,
+      "to": "8463-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-020-027",
+      "streak": 12,
+      "to": "8463-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-022-052",
+      "streak": 20,
+      "to": "8464-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8464-001-013",
+      "streak": 12,
+      "to": "8464-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-006-039",
+      "streak": 12,
+      "to": "8464-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-007-039",
+      "streak": 12,
+      "to": "8464-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-009-042",
+      "streak": 12,
+      "to": "8464-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-020-039",
+      "streak": 12,
+      "to": "8464-033-040",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8464-033-113",
+      "streak": 12,
+      "to": "8464-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-021-045",
+      "streak": 12,
+      "to": "8464-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8464,
+      "page": 23,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8464-023"
+    },
+    {
+      "book": 8464,
+      "page": 24,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8464-024"
+    },
+    {
+      "book": 8464,
+      "page": 25,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8464-025"
+    },
+    {
+      "book": 8464,
+      "page": 28,
+      "hits": 3,
+      "firstValidParcel": 1,
+      "key": "8464-028"
+    },
+    {
+      "book": 8464,
+      "page": 8,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-008"
+    },
+    {
+      "book": 8464,
+      "page": 10,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-010"
+    },
+    {
+      "book": 8464,
+      "page": 19,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-019"
+    },
+    {
+      "book": 8464,
+      "page": 26,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-026"
+    },
+    {
+      "book": 8464,
+      "page": 29,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-029"
+    },
+    {
+      "book": 8464,
+      "page": 30,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-030"
+    },
+    {
+      "book": 8464,
+      "page": 31,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-031"
+    },
+    {
+      "book": 8464,
+      "page": 32,
+      "hits": 2,
+      "firstValidParcel": 1,
+      "key": "8464-032"
+    },
+    {
+      "book": 8464,
+      "page": 2,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-002"
+    },
+    {
+      "book": 8464,
+      "page": 3,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-003"
+    },
+    {
+      "book": 8464,
+      "page": 4,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-004"
+    },
+    {
+      "book": 8464,
+      "page": 5,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-005"
+    },
+    {
+      "book": 8464,
+      "page": 11,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-011"
+    },
+    {
+      "book": 8464,
+      "page": 12,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-012"
+    },
+    {
+      "book": 8464,
+      "page": 13,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-013"
+    },
+    {
+      "book": 8464,
+      "page": 14,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-014"
+    },
+    {
+      "book": 8464,
+      "page": 15,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-015"
+    },
+    {
+      "book": 8464,
+      "page": 16,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-016"
+    },
+    {
+      "book": 8464,
+      "page": 17,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-017"
+    },
+    {
+      "book": 8464,
+      "page": 18,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-018"
+    },
+    {
+      "book": 8464,
+      "page": 27,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8464-027"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001",
+    "8453-002",
+    "8453-003",
+    "8453-005",
+    "8453-006",
+    "8453-007",
+    "8453-008",
+    "8453-009",
+    "8453-010",
+    "8453-011",
+    "8453-012",
+    "8453-013",
+    "8453-014",
+    "8453-015",
+    "8453-016",
+    "8453-017",
+    "8453-018",
+    "8453-019",
+    "8453-020",
+    "8453-021",
+    "8453-022",
+    "8453-023",
+    "8453-024",
+    "8453-025",
+    "8453-026",
+    "8454-001",
+    "8454-002",
+    "8454-003",
+    "8454-004",
+    "8454-005",
+    "8454-006",
+    "8454-007",
+    "8454-008",
+    "8454-009",
+    "8454-010",
+    "8454-011",
+    "8454-012",
+    "8454-013",
+    "8454-014",
+    "8454-015",
+    "8454-016",
+    "8454-018",
+    "8454-019",
+    "8454-020",
+    "8454-021",
+    "8454-022",
+    "8454-023",
+    "8454-024",
+    "8454-025",
+    "8454-026",
+    "8454-027",
+    "8454-028",
+    "8454-030",
+    "8455-001",
+    "8455-002",
+    "8455-003",
+    "8455-004",
+    "8455-005",
+    "8455-006",
+    "8455-007",
+    "8455-008",
+    "8455-009",
+    "8455-010",
+    "8455-011",
+    "8455-012",
+    "8455-013",
+    "8455-014",
+    "8455-015",
+    "8455-016",
+    "8455-017",
+    "8455-018",
+    "8455-019",
+    "8455-020",
+    "8455-021",
+    "8455-022",
+    "8455-023",
+    "8455-024",
+    "8455-025",
+    "8455-026",
+    "8455-027",
+    "8456-001",
+    "8456-002",
+    "8456-003",
+    "8456-004",
+    "8456-005",
+    "8456-006",
+    "8456-007",
+    "8456-008",
+    "8456-009",
+    "8456-010",
+    "8456-011",
+    "8456-012",
+    "8456-013",
+    "8456-014",
+    "8456-015",
+    "8456-016",
+    "8456-017",
+    "8456-018",
+    "8456-019",
+    "8456-020",
+    "8456-021",
+    "8456-022",
+    "8456-023",
+    "8456-024",
+    "8456-025",
+    "8456-026",
+    "8456-027",
+    "8456-028",
+    "8456-029",
+    "8456-030",
+    "8456-031",
+    "8456-032",
+    "8457-001",
+    "8457-002",
+    "8457-003",
+    "8457-004",
+    "8457-005",
+    "8457-006",
+    "8457-007",
+    "8457-008",
+    "8457-009",
+    "8457-010",
+    "8457-011",
+    "8457-012",
+    "8457-013",
+    "8457-014",
+    "8457-015",
+    "8457-016",
+    "8457-017",
+    "8457-018",
+    "8457-019",
+    "8457-020",
+    "8457-021",
+    "8457-022",
+    "8457-023",
+    "8457-024",
+    "8457-025",
+    "8457-026",
+    "8457-027",
+    "8457-028",
+    "8457-029",
+    "8458-001",
+    "8458-002",
+    "8458-003",
+    "8458-004",
+    "8458-005",
+    "8458-006",
+    "8458-007",
+    "8458-008",
+    "8458-009",
+    "8458-010",
+    "8458-011",
+    "8458-012",
+    "8458-013",
+    "8458-014",
+    "8458-015",
+    "8458-016",
+    "8458-017",
+    "8458-018",
+    "8458-019",
+    "8458-020",
+    "8458-021",
+    "8458-022",
+    "8458-023",
+    "8458-024",
+    "8458-025",
+    "8458-026",
+    "8458-027",
+    "8459-001",
+    "8459-002",
+    "8459-003",
+    "8459-004",
+    "8459-005",
+    "8459-006",
+    "8459-007",
+    "8459-008",
+    "8459-009",
+    "8459-010",
+    "8459-011",
+    "8459-012",
+    "8459-013",
+    "8459-014",
+    "8459-015",
+    "8459-016",
+    "8459-017",
+    "8459-018",
+    "8459-019",
+    "8459-020",
+    "8459-021",
+    "8459-022",
+    "8459-023",
+    "8459-024",
+    "8459-025",
+    "8459-026",
+    "8459-027",
+    "8460-001",
+    "8460-002",
+    "8460-003",
+    "8460-004",
+    "8460-005",
+    "8460-006",
+    "8460-007",
+    "8460-008",
+    "8460-009",
+    "8460-010",
+    "8460-011",
+    "8460-012",
+    "8460-013",
+    "8460-014",
+    "8460-015",
+    "8460-016",
+    "8460-017",
+    "8460-018",
+    "8460-019",
+    "8460-020",
+    "8460-021",
+    "8461-001",
+    "8462-001",
+    "8463-001",
+    "8463-002",
+    "8463-003",
+    "8463-004",
+    "8463-005",
+    "8463-006",
+    "8463-007",
+    "8463-008",
+    "8463-009",
+    "8463-010",
+    "8463-011",
+    "8463-012",
+    "8463-013",
+    "8463-014",
+    "8463-015",
+    "8463-016",
+    "8463-017",
+    "8463-018",
+    "8463-019",
+    "8463-020",
+    "8463-021",
+    "8463-022",
+    "8463-023",
+    "8463-024",
+    "8463-025",
+    "8463-026",
+    "8464-001",
+    "8464-006",
+    "8464-007",
+    "8464-009",
+    "8464-020",
+    "8464-021",
+    "8464-033"
+  ],
+  "valids": [
+    {
+      "ain": "8464-021-004",
+      "status": "VALID",
+      "address": "1314 MAYLAND AVE, VALINDA CA 91746-1032",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1261,
+      "lot": 6013,
+      "units": null,
+      "land": 12714,
+      "imp": 34772,
+      "assessed": 47486,
+      "latitude": 34.0598172613,
+      "longitude": -117.970200068,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/02/2010",
+          "doc": "0743843",
+          "price": "9",
+          "assessed": "36354",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "06/15/1993",
+          "doc": "1131845",
+          "price": "",
+          "assessed": "27418",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/22/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-005",
+      "status": "VALID",
+      "address": "1308 MAYLAND AVE, LA PUENTE CA 91746-1032",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1148,
+      "lot": 6012,
+      "units": null,
+      "land": 155296,
+      "imp": 93932,
+      "assessed": 249228,
+      "latitude": 34.0596907695,
+      "longitude": -117.970322038,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/29/2016",
+          "doc": "0895858",
+          "price": "9",
+          "assessed": "210089",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/19/2016",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "03/26/2015",
+          "doc": "0328091",
+          "price": "",
+          "assessed": "45225",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/08/2007",
+          "doc": "0035461",
+          "price": "",
+          "assessed": "40765",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/22/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-006",
+      "status": "VALID",
+      "address": "1302 MAYLAND AVE, LA PUENTE 91746-1032",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 5,
+      "baths": 3,
+      "bldg": 1635,
+      "lot": 6015,
+      "units": null,
+      "land": 15717,
+      "imp": 99655,
+      "assessed": 115372,
+      "latitude": 34.0595644029,
+      "longitude": -117.970443981,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/10/2024",
+          "doc": "0612002",
+          "price": "0",
+          "assessed": "113110",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/03/1987",
+          "doc": "1762889",
+          "price": "",
+          "assessed": "29321",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/20/1987",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/20/1973",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-007",
+      "status": "VALID",
+      "address": "1232 MAYLAND AVE, LA PUENTE CA 91746-1031",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1507,
+      "lot": 6009,
+      "units": null,
+      "land": 258052,
+      "imp": 147025,
+      "assessed": 405077,
+      "latitude": 34.059438086,
+      "longitude": -117.970565845,
+      "lastBuy": {
+        "rec": "02/16/2010",
+        "doc": "0204840",
+        "price": "205002",
+        "assessed": "280000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "03/10/2017",
+          "doc": "0277140",
+          "price": "9",
+          "assessed": "349045",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/16/2010",
+          "doc": "0204840",
+          "price": "205002",
+          "assessed": "280000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/12/2005",
+          "doc": "1124832",
+          "price": "401000",
+          "assessed": "401000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/29/1975",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-008",
+      "status": "VALID",
+      "address": "1226 MAYLAND AVE, VALINDA CA 91746-1031",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1712,
+      "lot": 6023,
+      "units": null,
+      "land": 216263,
+      "imp": 75537,
+      "assessed": 291800,
+      "latitude": 34.0593116367,
+      "longitude": -117.970687738,
+      "lastBuy": {
+        "rec": "10/30/2002",
+        "doc": "2581021",
+        "price": "195000",
+        "assessed": "195000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "08/11/2004",
+          "doc": "2064605",
+          "price": "0",
+          "assessed": "202612",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/30/2002",
+          "doc": "2581021",
+          "price": "195000",
+          "assessed": "195000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/07/1995",
+          "doc": "0350852",
+          "price": "144000",
+          "assessed": "143900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/26/1994",
+          "doc": "1018888",
+          "price": "",
+          "assessed": "137000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "01/04/1990",
+          "doc": "0013474",
+          "price": "168000",
+          "assessed": "168000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-009",
+      "status": "VALID",
+      "address": "1220 MAYLAND AVE, LA PUENTE CA 91746-1031",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1251,
+      "lot": 6014,
+      "units": null,
+      "land": 15717,
+      "imp": 48727,
+      "assessed": 64444,
+      "latitude": 34.0591852079,
+      "longitude": -117.970809734,
+      "lastBuy": {
+        "rec": "11/13/1974",
+        "doc": "",
+        "price": "3000",
+        "assessed": "",
+        "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/25/2013",
+          "doc": "1676199",
+          "price": "9",
+          "assessed": "51550",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/23/2007",
+          "doc": "1737092",
+          "price": "",
+          "assessed": "48117",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/13/1974",
+          "doc": "",
+          "price": "3000",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-010",
+      "status": "VALID",
+      "address": "1214 MAYLAND AVE, LA PUENTE CA 91746-1031",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "DELINQUENT",
+      "yearDefaulted": "2026",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1261,
+      "lot": 6015,
+      "units": null,
+      "land": 29539,
+      "imp": 103213,
+      "assessed": 132752,
+      "latitude": 34.0590588803,
+      "longitude": -117.970931542,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/18/1996",
+          "doc": "0617184",
+          "price": "9",
+          "assessed": "72994",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/24/1978",
+          "doc": "0429863",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-011",
+      "status": "VALID",
+      "address": "1208 MAYLAND AVE, VALINDA CA 91746-1031",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1276,
+      "lot": 6020,
+      "units": null,
+      "land": 313355,
+      "imp": 162479,
+      "assessed": 475834,
+      "latitude": 34.0589324822,
+      "longitude": -117.971053456,
+      "lastBuy": {
+        "rec": "08/28/2007",
+        "doc": "2007730",
+        "price": "225002",
+        "assessed": "465000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/15/2017",
+          "doc": "1459170",
+          "price": "9",
+          "assessed": "410000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/28/2007",
+          "doc": "2007730",
+          "price": "225002",
+          "assessed": "465000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/07/2003",
+          "doc": "1295920",
+          "price": "220000",
+          "assessed": "220000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/19/1989",
+          "doc": "1145835",
+          "price": "145000",
+          "assessed": "145000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/23/1987",
+          "doc": "0099690",
+          "price": "",
+          "assessed": "92000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-012",
+      "status": "VALID",
+      "address": "1202 MAYLAND AVE, LA PUENTE CA 91746-1031",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1411,
+      "lot": 6025,
+      "units": null,
+      "land": 15717,
+      "imp": 75029,
+      "assessed": 90746,
+      "latitude": 34.058806072,
+      "longitude": -117.971175436,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/23/2009",
+          "doc": "1953791",
+          "price": "9",
+          "assessed": "68936",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/29/2007",
+          "doc": "2435984",
+          "price": "",
+          "assessed": "67747",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/20/1965",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-013",
+      "status": "VALID",
+      "address": "1150 MAYLAND AVE, LA PUENTE CA 91746-1627",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1251,
+      "lot": 6020,
+      "units": null,
+      "land": 210507,
+      "imp": 278906,
+      "assessed": 489413,
+      "latitude": 34.0586795654,
+      "longitude": -117.971297272,
+      "lastBuy": {
+        "rec": "12/04/2012",
+        "doc": "1855442",
+        "price": "315003",
+        "assessed": "315000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "12/04/2012",
+          "doc": "1855442",
+          "price": "315003",
+          "assessed": "315000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/23/2012",
+          "doc": "1083575",
+          "price": "230000",
+          "assessed": "230000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/02/2011",
+          "doc": "1191838",
+          "price": "",
+          "assessed": "246000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/06/2011",
+          "doc": "0908040",
+          "price": "",
+          "assessed": "261000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "11/18/2004",
+          "doc": "2990804",
+          "price": "",
+          "assessed": "267245",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-014",
+      "status": "VALID",
+      "address": "1144 MAYLAND AVE, LA PUENTE CA 91746-1627",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1261,
+      "lot": 6023,
+      "units": null,
+      "land": 495230,
+      "imp": 123807,
+      "assessed": 619037,
+      "latitude": 34.0585532047,
+      "longitude": -117.971419158,
+      "lastBuy": {
+        "rec": "09/20/2023",
+        "doc": "0628145",
+        "price": "595005",
+        "assessed": "595000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/04/2024",
+          "doc": "0753551",
+          "price": "0",
+          "assessed": "606900",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/20/2023",
+          "doc": "0628145",
+          "price": "595005",
+          "assessed": "595000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/28/2023",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/27/2022",
+          "doc": "0168111",
+          "price": "",
+          "assessed": "660200",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/27/2016",
+          "doc": "1173654",
+          "price": "",
+          "assessed": "112475",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-015",
+      "status": "VALID",
+      "address": "1138 MAYLAND AVE, LA PUENTE CA 91746-1627",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1258,
+      "lot": 6022,
+      "units": null,
+      "land": 73130,
+      "imp": 69506,
+      "assessed": 142636,
+      "latitude": 34.0584268937,
+      "longitude": -117.971541137,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/29/2009",
+          "doc": "1637064",
+          "price": "9",
+          "assessed": "108348",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "08/16/2006",
+          "doc": "1826703",
+          "price": "",
+          "assessed": "104391",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "01/17/1980",
+          "doc": "0062479",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-016",
+      "status": "VALID",
+      "address": "1132 MAYLAND AVE, LA PUENTE CA 91746-1627",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1251,
+      "lot": 6028,
+      "units": null,
+      "land": 475637,
+      "imp": 131604,
+      "assessed": 607241,
+      "latitude": 34.0583004675,
+      "longitude": -117.971662922,
+      "lastBuy": {
+        "rec": "09/01/2020",
+        "doc": "1035292",
+        "price": "550005",
+        "assessed": "550000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/01/2020",
+          "doc": "1035292",
+          "price": "550005",
+          "assessed": "550000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/19/1988",
+          "doc": "2018205",
+          "price": "",
+          "assessed": "42896",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "01/07/1988",
+          "doc": "0020635",
+          "price": "",
+          "assessed": "42056",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "01/27/1976",
+          "doc": "",
+          "price": "33500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-017",
+      "status": "VALID",
+      "address": "1139 N SIESTA AVE, LA PUENTE CA 91746-1656",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1148,
+      "lot": 6047,
+      "units": null,
+      "land": 359221,
+      "imp": 135836,
+      "assessed": 495057,
+      "latitude": 34.058124623,
+      "longitude": -117.971399473,
+      "lastBuy": {
+        "rec": "03/31/2016",
+        "doc": "0353654",
+        "price": "410004",
+        "assessed": "410000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/12/2021",
+          "doc": "0568130",
+          "price": "9",
+          "assessed": "457359",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "03/31/2016",
+          "doc": "0353654",
+          "price": "410004",
+          "assessed": "410000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/13/2005",
+          "doc": "2195110",
+          "price": "",
+          "assessed": "96106",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "01/12/1979",
+          "doc": "0049968",
+          "price": "58000",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-018",
+      "status": "VALID",
+      "address": "1203 N SIESTA AVE, LA PUENTE CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1141,
+      "lot": 6033,
+      "units": null,
+      "land": 165020,
+      "imp": 98285,
+      "assessed": 263305,
+      "latitude": 34.0582510713,
+      "longitude": -117.971277655,
+      "lastBuy": {
+        "rec": "02/19/1992",
+        "doc": "0268640",
+        "price": "145001",
+        "assessed": "146000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "02/19/1992",
+          "doc": "0268640",
+          "price": "145001",
+          "assessed": "146000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/21/1978",
+          "doc": "0795337",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-019",
+      "status": "VALID",
+      "address": "1209 N SIESTA AVE, LA PUENTE CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 3,
+      "bldg": 1865,
+      "lot": 6037,
+      "units": null,
+      "land": 407760,
+      "imp": 189374,
+      "assessed": 597134,
+      "latitude": 34.0583774387,
+      "longitude": -117.971155876,
+      "lastBuy": {
+        "rec": "01/04/2005",
+        "doc": "0015078",
+        "price": "420004",
+        "assessed": "420000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/04/2005",
+          "doc": "0015078",
+          "price": "420004",
+          "assessed": "420000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/05/2002",
+          "doc": "2643137",
+          "price": "199001",
+          "assessed": "199000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/08/2000",
+          "doc": "0697114",
+          "price": "",
+          "assessed": "183923",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/15/1994",
+          "doc": "1322135",
+          "price": "165000",
+          "assessed": "165000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/27/1978",
+          "doc": "0108541",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-020",
+      "status": "VALID",
+      "address": "1215 N SIESTA AVE, LA PUENTE CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1148,
+      "lot": 6034,
+      "units": null,
+      "land": 304539,
+      "imp": 128333,
+      "assessed": 432872,
+      "latitude": 34.0585039812,
+      "longitude": -117.971034067,
+      "lastBuy": {
+        "rec": "12/27/1999",
+        "doc": "2369200",
+        "price": "135000",
+        "assessed": "135000",
+        "docType": "HUD as Grantor",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/20/2006",
+          "doc": "2832606",
+          "price": "0",
+          "assessed": "316769",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/06/2004",
+          "doc": "1711729",
+          "price": "",
+          "assessed": "304470",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "02/20/2004",
+          "doc": "0399012",
+          "price": "",
+          "assessed": "298500",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/22/2002",
+          "doc": "1973700",
+          "price": "",
+          "assessed": "143262",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/27/1999",
+          "doc": "2369200",
+          "price": "135000",
+          "assessed": "135000",
+          "docType": "HUD as Grantor",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-021",
+      "status": "VALID",
+      "address": "1221 N SIESTA AVE, LA PUENTE CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1261,
+      "lot": 6029,
+      "units": null,
+      "land": 186515,
+      "imp": 123082,
+      "assessed": 309597,
+      "latitude": 34.0586304858,
+      "longitude": -117.970912283,
+      "lastBuy": {
+        "rec": "09/22/1989",
+        "doc": "1528303",
+        "price": "165001",
+        "assessed": "165000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/22/1989",
+          "doc": "1528303",
+          "price": "165001",
+          "assessed": "165000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/11/1989",
+          "doc": "0563533",
+          "price": "140000",
+          "assessed": "139900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/24/1985",
+          "doc": "1256683",
+          "price": "",
+          "assessed": "88500",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/20/1957",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-022",
+      "status": "VALID",
+      "address": "1227 N SIESTA AVE, VALINDA CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1251,
+      "lot": 6025,
+      "units": null,
+      "land": 57500,
+      "imp": 81739,
+      "assessed": 139239,
+      "latitude": 34.0587570281,
+      "longitude": -117.970790483,
+      "lastBuy": {
+        "rec": "06/15/1979",
+        "doc": "0651094",
+        "price": "61500",
+        "assessed": "",
+        "docType": "Unknown or Unused Code",
+        "reason": "Unknown or Unused Code"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/15/1979",
+          "doc": "0651094",
+          "price": "61500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-023",
+      "status": "VALID",
+      "address": "1233 N SIESTA AVE, LA PUENTE CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1578,
+      "lot": 6020,
+      "units": null,
+      "land": 99293,
+      "imp": 161915,
+      "assessed": 261208,
+      "latitude": 34.058883529,
+      "longitude": -117.970668692,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/27/2023",
+          "doc": "0496272",
+          "price": "9",
+          "assessed": "251068",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "11/06/1991",
+          "doc": "1758268",
+          "price": "",
+          "assessed": "143821",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "08/13/1986",
+          "doc": "1042166",
+          "price": "",
+          "assessed": "94000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/06/1985",
+          "doc": "1035289",
+          "price": "",
+          "assessed": "32001",
+          "docType": "Affidavit of Death of Spouse",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "11/20/1957",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-024",
+      "status": "VALID",
+      "address": "1239 N SIESTA AVE, LA PUENTE CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1124,
+      "lot": 6008,
+      "units": null,
+      "land": 204512,
+      "imp": 121414,
+      "assessed": 325926,
+      "latitude": 34.059009913,
+      "longitude": -117.97054689,
+      "lastBuy": {
+        "rec": "03/23/1995",
+        "doc": "0426711",
+        "price": "139955",
+        "assessed": "140000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/27/2004",
+          "doc": "1909419",
+          "price": "0",
+          "assessed": "227047",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "03/23/1995",
+          "doc": "0426711",
+          "price": "139955",
+          "assessed": "140000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/20/1957",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-025",
+      "status": "VALID",
+      "address": "1245 N SIESTA AVE, VALINDA CA 91746-1146",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1690,
+      "lot": 6017,
+      "units": null,
+      "land": 46038,
+      "imp": 116631,
+      "assessed": 162669,
+      "latitude": 34.0591363707,
+      "longitude": -117.970425134,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/15/2025",
+          "doc": "0242427",
+          "price": "0",
+          "assessed": "162669",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/31/2014",
+          "doc": "1428501",
+          "price": "",
+          "assessed": "132705",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/03/1993",
+          "doc": "0824557",
+          "price": "",
+          "assessed": "93851",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/24/1983",
+          "doc": "0581410",
+          "price": "",
+          "assessed": "77000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "06/29/1973",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-026",
+      "status": "VALID",
+      "address": "1303 N SIESTA AVE, VALINDA CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1261,
+      "lot": 6003,
+      "units": null,
+      "land": 631900,
+      "imp": 157100,
+      "assessed": 789000,
+      "latitude": 34.0592629108,
+      "longitude": -117.970303365,
+      "lastBuy": {
+        "rec": "08/27/2025",
+        "doc": "0582520",
+        "price": "789000",
+        "assessed": "789000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/27/2025",
+          "doc": "0582520",
+          "price": "789000",
+          "assessed": "789000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/09/2024",
+          "doc": "0606321",
+          "price": "",
+          "assessed": "494951",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "12/01/2015",
+          "doc": "1494841",
+          "price": "",
+          "assessed": "401000",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "11/07/2006",
+          "doc": "2477276",
+          "price": "",
+          "assessed": "369438",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "09/27/2006",
+          "doc": "2147209",
+          "price": "",
+          "assessed": "398507",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-027",
+      "status": "VALID",
+      "address": "1309 N SIESTA AVE, LA PUENTE CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1251,
+      "lot": 5998,
+      "units": null,
+      "land": 79027,
+      "imp": 54150,
+      "assessed": 133177,
+      "latitude": 34.0593893528,
+      "longitude": -117.970181554,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/07/2009",
+          "doc": "1848193",
+          "price": "9",
+          "assessed": "101165",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "12/16/1980",
+          "doc": "1259893",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-028",
+      "status": "VALID",
+      "address": "1315 N SIESTA AVE, LA PUENTE CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1312,
+      "lot": 6028,
+      "units": null,
+      "land": 359779,
+      "imp": 194975,
+      "assessed": 554754,
+      "latitude": 34.0595154305,
+      "longitude": -117.970059159,
+      "lastBuy": {
+        "rec": "11/06/2017",
+        "doc": "1274541",
+        "price": "478004",
+        "assessed": "478000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "01/25/2024",
+          "doc": "0054379",
+          "price": "0",
+          "assessed": "543877",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "11/06/2017",
+          "doc": "1274541",
+          "price": "478004",
+          "assessed": "478000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/30/2016",
+          "doc": "1667967",
+          "price": "460000",
+          "assessed": "460000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "10/07/2015",
+          "doc": "1243710",
+          "price": "",
+          "assessed": "111272",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/30/2015",
+          "doc": "0072403",
+          "price": "",
+          "assessed": "109602",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-029",
+      "status": "VALID",
+      "address": "1321 N SIESTA AVE, LA PUENTE CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1141,
+      "lot": 6050,
+      "units": null,
+      "land": 177958,
+      "imp": 121261,
+      "assessed": 299219,
+      "latitude": 34.0596414634,
+      "longitude": -117.969936716,
+      "lastBuy": {
+        "rec": "01/22/1999",
+        "doc": "0100032",
+        "price": "140000",
+        "assessed": "140000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "10/02/2025",
+          "doc": "0681017",
+          "price": "0",
+          "assessed": "299219",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/19/2004",
+          "doc": "0939126",
+          "price": "",
+          "assessed": "206346",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/22/1999",
+          "doc": "0100032",
+          "price": "140000",
+          "assessed": "140000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/24/1998",
+          "doc": "1068835",
+          "price": "",
+          "assessed": "135000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "06/25/1987",
+          "doc": "1009472",
+          "price": "",
+          "assessed": "85747",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-030",
+      "status": "VALID",
+      "address": "1327 N SIESTA AVE, VALINDA CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1251,
+      "lot": 6208,
+      "units": null,
+      "land": 99993,
+      "imp": 110260,
+      "assessed": 210253,
+      "latitude": 34.0597686582,
+      "longitude": -117.969811561,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/24/2000",
+          "doc": "0613610",
+          "price": "0",
+          "assessed": "136816",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "03/18/1993",
+          "doc": "0513079",
+          "price": "",
+          "assessed": "118924",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "05/17/1991",
+          "doc": "0725532",
+          "price": "",
+          "assessed": "83094",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "07/11/1980",
+          "doc": "0661632",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Development Rights - Acquiring Parcels"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-031",
+      "status": "VALID",
+      "address": "1333 N SIESTA AVE, LA PUENTE CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1579,
+      "lot": 6380,
+      "units": null,
+      "land": 340744,
+      "imp": 178460,
+      "assessed": 519204,
+      "latitude": 34.0598998259,
+      "longitude": -117.969682332,
+      "lastBuy": {
+        "rec": "11/19/2015",
+        "doc": "1448326",
+        "price": "430004",
+        "assessed": "430000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/19/2015",
+          "doc": "1448326",
+          "price": "430004",
+          "assessed": "430000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/11/2007",
+          "doc": "1641260",
+          "price": "",
+          "assessed": "223809",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "12/31/2003",
+          "doc": "3915227",
+          "price": "",
+          "assessed": "206769",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "05/24/2002",
+          "doc": "1202231",
+          "price": "",
+          "assessed": "202980",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "01/16/2002",
+          "doc": "0120432",
+          "price": "199000",
+          "assessed": "199000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8464-021-032",
+      "status": "VALID",
+      "address": "1339 N SIESTA AVE, VALINDA CA 91746-1148",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1957",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1147,
+      "lot": 6222,
+      "units": null,
+      "land": 96423,
+      "imp": 117122,
+      "assessed": 213545,
+      "latitude": 34.0600322248,
+      "longitude": -117.969552827,
+      "lastBuy": {
+        "rec": "04/22/1988",
+        "doc": "0552533",
+        "price": "109501",
+        "assessed": "109400",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/24/2019",
+          "doc": "1439643",
+          "price": "9",
+          "assessed": "191437",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/22/1988",
+          "doc": "0552533",
+          "price": "109501",
+          "assessed": "109400",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/13/1986",
+          "doc": "0318186",
+          "price": "18500",
+          "assessed": "89000",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/22/1984",
+          "doc": "0610466",
+          "price": "",
+          "assessed": "82000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Development Rights - Acquiring Parcels"
+        },
+        {
+          "rec": "08/11/1983",
+          "doc": "",
+          "price": "",
+          "assessed": "81500",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-022-001",
+      "status": "VALID",
+      "address": "1341 ARDILLA AVE, LA PUENTE CA 91746-1127",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1956",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1593,
+      "lot": 7478,
+      "units": null,
+      "land": 247066,
+      "imp": 176422,
+      "assessed": 423488,
+      "latitude": 34.059545038,
+      "longitude": -117.968887625,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/28/2005",
+          "doc": "2338356",
+          "price": "0",
+          "assessed": "302002",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/06/2000",
+          "doc": "1389432",
+          "price": "",
+          "assessed": "168488",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "01/06/1994",
+          "doc": "0036406",
+          "price": "",
+          "assessed": "151000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/21/1989",
+          "doc": "1340478",
+          "price": "",
+          "assessed": "175000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/04/1989",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8464-022-002",
+      "status": "VALID",
+      "address": "1335 ARDILLA AVE, LA PUENTE CA 91746-1127",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1956",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1254,
+      "lot": 6831,
+      "units": null,
+      "land": 449027,
+      "imp": 149944,
+      "assessed": 598971,
+      "latitude": 34.0594057374,
+      "longitude": -117.969029855,
+      "lastBuy": {
+        "rec": "06/28/2018",
+        "doc": "0648562",
+        "price": "516505",
+        "assessed": "516100",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/28/2018",
+          "doc": "0648562",
+          "price": "516505",
+          "assessed": "516100",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/14/2017",
+          "doc": "0417222",
+          "price": "",
+          "assessed": "47351",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/03/2014",
+          "doc": "0571881",
+          "price": "",
+          "assessed": "44832",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/16/2009",
+          "doc": "1912164",
+          "price": "",
+          "assessed": "41746",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "05/27/1977",
+          "doc": "0560819",
+          "price": "",
+          "assessed": "",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8464-022-003",
+      "status": "VALID",
+      "address": "1329 ARDILLA AVE, LA PUENTE CA 91746-1127",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1956",
+      "beds": 4,
+      "baths": 2,
+      "bldg": 1269,
+      "lot": 6876,
+      "units": null,
+      "land": 232733,
+      "imp": 154606,
+      "assessed": 387339,
+      "latitude": 34.0592685262,
+      "longitude": -117.969170167,
+      "lastBuy": {
+        "rec": "03/29/2011",
+        "doc": "0460881",
+        "price": "255002",
+        "assessed": "255000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/14/2021",
+          "doc": "0781580",
+          "price": "9",
+          "assessed": "357846",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "10/30/2017",
+          "doc": "1241430",
+          "price": "",
+          "assessed": "287120",
+          "docType": "Correction to Reverse Reappraisal (709 Txn)",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "03/29/2011",
+          "doc": "0460881",
+          "price": "255002",
+          "assessed": "255000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/07/2010",
+          "doc": "0023603",
+          "price": "",
+          "assessed": "42437",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "06/08/1984",
+          "doc": "0685410",
+          "price": "",
+          "assessed": "26785",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8464-021-004",
+      "parcel": {
+        "AIN": "8464021004",
+        "Latitude": 34.0598172613,
+        "Longitude": -117.970200068,
+        "SitusStreet": "1314 MAYLAND AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1032",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6013,
+        "SqftMain": 1261,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 12714,
+        "CurrentRoll_ImpValue": 34772
+      }
+    },
+    {
+      "ain": "8464-021-005",
+      "parcel": {
+        "AIN": "8464021005",
+        "Latitude": 34.0596907695,
+        "Longitude": -117.970322038,
+        "SitusStreet": "1308 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1032",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6012,
+        "SqftMain": 1148,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 155296,
+        "CurrentRoll_ImpValue": 93932
+      }
+    },
+    {
+      "ain": "8464-021-006",
+      "parcel": {
+        "AIN": "8464021006",
+        "Latitude": 34.0595644029,
+        "Longitude": -117.970443981,
+        "SitusStreet": "1302 MAYLAND AVE",
+        "SitusCity": "LA PUENTE",
+        "SitusZipCode": "91746-1032",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6015,
+        "SqftMain": 1635,
+        "NumOfBeds": 5,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 15717,
+        "CurrentRoll_ImpValue": 99655
+      }
+    },
+    {
+      "ain": "8464-021-007",
+      "parcel": {
+        "AIN": "8464021007",
+        "Latitude": 34.059438086,
+        "Longitude": -117.970565845,
+        "SitusStreet": "1232 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1031",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6009,
+        "SqftMain": 1507,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 258052,
+        "CurrentRoll_ImpValue": 147025
+      }
+    },
+    {
+      "ain": "8464-021-008",
+      "parcel": {
+        "AIN": "8464021008",
+        "Latitude": 34.0593116367,
+        "Longitude": -117.970687738,
+        "SitusStreet": "1226 MAYLAND AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1031",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6023,
+        "SqftMain": 1712,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 216263,
+        "CurrentRoll_ImpValue": 75537
+      }
+    },
+    {
+      "ain": "8464-021-009",
+      "parcel": {
+        "AIN": "8464021009",
+        "Latitude": 34.0591852079,
+        "Longitude": -117.970809734,
+        "SitusStreet": "1220 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1031",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6014,
+        "SqftMain": 1251,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 15717,
+        "CurrentRoll_ImpValue": 48727
+      }
+    },
+    {
+      "ain": "8464-021-010",
+      "parcel": {
+        "AIN": "8464021010",
+        "Latitude": 34.0590588803,
+        "Longitude": -117.970931542,
+        "SitusStreet": "1214 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1031",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "DELINQUENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6015,
+        "SqftMain": 1261,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 29539,
+        "CurrentRoll_ImpValue": 103213
+      }
+    },
+    {
+      "ain": "8464-021-011",
+      "parcel": {
+        "AIN": "8464021011",
+        "Latitude": 34.0589324822,
+        "Longitude": -117.971053456,
+        "SitusStreet": "1208 MAYLAND AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1031",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6020,
+        "SqftMain": 1276,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 313355,
+        "CurrentRoll_ImpValue": 162479
+      }
+    },
+    {
+      "ain": "8464-021-012",
+      "parcel": {
+        "AIN": "8464021012",
+        "Latitude": 34.058806072,
+        "Longitude": -117.971175436,
+        "SitusStreet": "1202 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1031",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6025,
+        "SqftMain": 1411,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 15717,
+        "CurrentRoll_ImpValue": 75029
+      }
+    },
+    {
+      "ain": "8464-021-013",
+      "parcel": {
+        "AIN": "8464021013",
+        "Latitude": 34.0586795654,
+        "Longitude": -117.971297272,
+        "SitusStreet": "1150 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1627",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6020,
+        "SqftMain": 1251,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 210507,
+        "CurrentRoll_ImpValue": 278906
+      }
+    },
+    {
+      "ain": "8464-021-014",
+      "parcel": {
+        "AIN": "8464021014",
+        "Latitude": 34.0585532047,
+        "Longitude": -117.971419158,
+        "SitusStreet": "1144 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1627",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6023,
+        "SqftMain": 1261,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 495230,
+        "CurrentRoll_ImpValue": 123807
+      }
+    },
+    {
+      "ain": "8464-021-015",
+      "parcel": {
+        "AIN": "8464021015",
+        "Latitude": 34.0584268937,
+        "Longitude": -117.971541137,
+        "SitusStreet": "1138 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1627",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6022,
+        "SqftMain": 1258,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 73130,
+        "CurrentRoll_ImpValue": 69506
+      }
+    },
+    {
+      "ain": "8464-021-016",
+      "parcel": {
+        "AIN": "8464021016",
+        "Latitude": 34.0583004675,
+        "Longitude": -117.971662922,
+        "SitusStreet": "1132 MAYLAND AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1627",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6028,
+        "SqftMain": 1251,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 475637,
+        "CurrentRoll_ImpValue": 131604
+      }
+    },
+    {
+      "ain": "8464-021-017",
+      "parcel": {
+        "AIN": "8464021017",
+        "Latitude": 34.058124623,
+        "Longitude": -117.971399473,
+        "SitusStreet": "1139 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1656",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6047,
+        "SqftMain": 1148,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 359221,
+        "CurrentRoll_ImpValue": 135836
+      }
+    },
+    {
+      "ain": "8464-021-018",
+      "parcel": {
+        "AIN": "8464021018",
+        "Latitude": 34.0582510713,
+        "Longitude": -117.971277655,
+        "SitusStreet": "1203 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6033,
+        "SqftMain": 1141,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 165020,
+        "CurrentRoll_ImpValue": 98285
+      }
+    },
+    {
+      "ain": "8464-021-019",
+      "parcel": {
+        "AIN": "8464021019",
+        "Latitude": 34.0583774387,
+        "Longitude": -117.971155876,
+        "SitusStreet": "1209 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6037,
+        "SqftMain": 1865,
+        "NumOfBeds": 3,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 407760,
+        "CurrentRoll_ImpValue": 189374
+      }
+    },
+    {
+      "ain": "8464-021-020",
+      "parcel": {
+        "AIN": "8464021020",
+        "Latitude": 34.0585039812,
+        "Longitude": -117.971034067,
+        "SitusStreet": "1215 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6034,
+        "SqftMain": 1148,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 304539,
+        "CurrentRoll_ImpValue": 128333
+      }
+    },
+    {
+      "ain": "8464-021-021",
+      "parcel": {
+        "AIN": "8464021021",
+        "Latitude": 34.0586304858,
+        "Longitude": -117.970912283,
+        "SitusStreet": "1221 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6029,
+        "SqftMain": 1261,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 186515,
+        "CurrentRoll_ImpValue": 123082
+      }
+    },
+    {
+      "ain": "8464-021-022",
+      "parcel": {
+        "AIN": "8464021022",
+        "Latitude": 34.0587570281,
+        "Longitude": -117.970790483,
+        "SitusStreet": "1227 N SIESTA AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6025,
+        "SqftMain": 1251,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 57500,
+        "CurrentRoll_ImpValue": 81739
+      }
+    },
+    {
+      "ain": "8464-021-023",
+      "parcel": {
+        "AIN": "8464021023",
+        "Latitude": 34.058883529,
+        "Longitude": -117.970668692,
+        "SitusStreet": "1233 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6020,
+        "SqftMain": 1578,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 99293,
+        "CurrentRoll_ImpValue": 161915
+      }
+    },
+    {
+      "ain": "8464-021-024",
+      "parcel": {
+        "AIN": "8464021024",
+        "Latitude": 34.059009913,
+        "Longitude": -117.97054689,
+        "SitusStreet": "1239 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6008,
+        "SqftMain": 1124,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 204512,
+        "CurrentRoll_ImpValue": 121414
+      }
+    },
+    {
+      "ain": "8464-021-025",
+      "parcel": {
+        "AIN": "8464021025",
+        "Latitude": 34.0591363707,
+        "Longitude": -117.970425134,
+        "SitusStreet": "1245 N SIESTA AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1146",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6017,
+        "SqftMain": 1690,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 46038,
+        "CurrentRoll_ImpValue": 116631
+      }
+    },
+    {
+      "ain": "8464-021-026",
+      "parcel": {
+        "AIN": "8464021026",
+        "Latitude": 34.0592629108,
+        "Longitude": -117.970303365,
+        "SitusStreet": "1303 N SIESTA AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6003,
+        "SqftMain": 1261,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 631900,
+        "CurrentRoll_ImpValue": 157100
+      }
+    },
+    {
+      "ain": "8464-021-027",
+      "parcel": {
+        "AIN": "8464021027",
+        "Latitude": 34.0593893528,
+        "Longitude": -117.970181554,
+        "SitusStreet": "1309 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 5998,
+        "SqftMain": 1251,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 79027,
+        "CurrentRoll_ImpValue": 54150
+      }
+    },
+    {
+      "ain": "8464-021-028",
+      "parcel": {
+        "AIN": "8464021028",
+        "Latitude": 34.0595154305,
+        "Longitude": -117.970059159,
+        "SitusStreet": "1315 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6028,
+        "SqftMain": 1312,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 359779,
+        "CurrentRoll_ImpValue": 194975
+      }
+    },
+    {
+      "ain": "8464-021-029",
+      "parcel": {
+        "AIN": "8464021029",
+        "Latitude": 34.0596414634,
+        "Longitude": -117.969936716,
+        "SitusStreet": "1321 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6050,
+        "SqftMain": 1141,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 177958,
+        "CurrentRoll_ImpValue": 121261
+      }
+    },
+    {
+      "ain": "8464-021-030",
+      "parcel": {
+        "AIN": "8464021030",
+        "Latitude": 34.0597686582,
+        "Longitude": -117.969811561,
+        "SitusStreet": "1327 N SIESTA AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6208,
+        "SqftMain": 1251,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 99993,
+        "CurrentRoll_ImpValue": 110260
+      }
+    },
+    {
+      "ain": "8464-021-031",
+      "parcel": {
+        "AIN": "8464021031",
+        "Latitude": 34.0598998259,
+        "Longitude": -117.969682332,
+        "SitusStreet": "1333 N SIESTA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6380,
+        "SqftMain": 1579,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 340744,
+        "CurrentRoll_ImpValue": 178460
+      }
+    },
+    {
+      "ain": "8464-021-032",
+      "parcel": {
+        "AIN": "8464021032",
+        "Latitude": 34.0600322248,
+        "Longitude": -117.969552827,
+        "SitusStreet": "1339 N SIESTA AVE",
+        "SitusCity": "VALINDA CA",
+        "SitusZipCode": "91746-1148",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1957",
+        "SqftLot": 6222,
+        "SqftMain": 1147,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 96423,
+        "CurrentRoll_ImpValue": 117122
+      }
+    },
+    {
+      "ain": "8464-022-001",
+      "parcel": {
+        "AIN": "8464022001",
+        "Latitude": 34.059545038,
+        "Longitude": -117.968887625,
+        "SitusStreet": "1341 ARDILLA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1127",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1956",
+        "SqftLot": 7478,
+        "SqftMain": 1593,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 247066,
+        "CurrentRoll_ImpValue": 176422
+      }
+    },
+    {
+      "ain": "8464-022-002",
+      "parcel": {
+        "AIN": "8464022002",
+        "Latitude": 34.0594057374,
+        "Longitude": -117.969029855,
+        "SitusStreet": "1335 ARDILLA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1127",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1956",
+        "SqftLot": 6831,
+        "SqftMain": 1254,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 449027,
+        "CurrentRoll_ImpValue": 149944
+      }
+    },
+    {
+      "ain": "8464-022-003",
+      "parcel": {
+        "AIN": "8464022003",
+        "Latitude": 34.0592685262,
+        "Longitude": -117.969170167,
+        "SitusStreet": "1329 ARDILLA AVE",
+        "SitusCity": "LA PUENTE CA",
+        "SitusZipCode": "91746-1127",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1956",
+        "SqftLot": 6876,
+        "SqftMain": 1269,
+        "NumOfBeds": 4,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 232733,
+        "CurrentRoll_ImpValue": 154606
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8464-021-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-017",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-018",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-019",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-020",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-021",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-022",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-023",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-024",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-025",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-026",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-027",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-028",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-029",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-030",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-031",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-032",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-021-033",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8464-021-034",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8464-021-035",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8464-021-036",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8464-021-037",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8464-021-038",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8464-021-039",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8464-021-040",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8464-021-041",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8464-021-042",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8464-021-043",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8464-021-044",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8464-022-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-022-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8464-022-003",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-08-04T06:26:22.581Z",
+  "endedAt": "2026-08-04T06:27:19.032Z"
+}
