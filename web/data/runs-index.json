@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-04T00:13:59.735Z",
-  "runCount": 296,
-  "propertyRowCount": 8223,
-  "uniqueAinCount": 8121,
-  "propertyWithCoordsCount": 7296,
-  "nextCursor": "8464-033-072",
-  "donePageCount": 347,
+  "builtAt": "2026-08-04T03:50:02.870Z",
+  "runCount": 297,
+  "propertyRowCount": 8255,
+  "uniqueAinCount": 8153,
+  "propertyWithCoordsCount": 7327,
+  "nextCursor": "8464-021-004",
+  "donePageCount": 348,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2041,6 +2041,13 @@
       "to": "8464-033-040",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8464-033-113",
+      "streak": 12,
+      "to": "8464-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -2073,8 +2080,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 866,
-      "uniqueAinCount": 827,
+      "propertyRowCount": 867,
+      "uniqueAinCount": 828,
       "areas": []
     },
     {
@@ -2087,8 +2094,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 99,
-      "uniqueAinCount": 99,
+      "propertyRowCount": 130,
+      "uniqueAinCount": 130,
       "areas": []
     },
     {
@@ -11563,6 +11570,43 @@
           "city": "La Puente",
           "count": 32,
           "slug": "la-puente"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-265-2026-08-04-horizon",
+      "title": "RUN-265 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-04",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-08-04T03:47:46.653Z",
+      "end": "8464-021-003",
+      "nextCursor": "8464-021-004",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8464-033-113",
+          "streak": 12,
+          "to": "8464-021-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-04T03:49:59.827Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 31,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "La Puente"
