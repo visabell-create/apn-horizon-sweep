@@ -354,6 +354,8 @@
         "8464-010",
         "8464-011",
         "8464-012",
+        "8464-013",
+        "8464-014",
         "8464-019",
         "8464-020",
         "8464-021",
@@ -370,20 +372,6 @@
         "8464-033"
     ],
     "horizonQueue": [
-        {
-            "book": 8464,
-            "page": 14,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8464-014"
-        },
-        {
-            "book": 8464,
-            "page": 15,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8464-015"
-        },
         {
             "book": 8464,
             "page": 16,
@@ -413,7 +401,7 @@
             "key": "8464-027"
         }
     ],
-    "nextCursor": "8464-013-021",
+    "nextCursor": "8464-015-004",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -2598,6 +2586,20 @@
             "to": "8464-013-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8464-013-033",
+            "streak": 12,
+            "to": "8464-014-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
+        },
+        {
+            "at": "8464-014-029",
+            "streak": 12,
+            "to": "8464-015-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
         }
     ],
     "completedRuns": [
@@ -2882,14 +2884,15 @@
         "RUN-279",
         "RUN-280",
         "RUN-281",
-        "RUN-282"
+        "RUN-282",
+        "RUN-283"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-282-2026-08-05-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-283-2026-08-05-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-05T18:21:19.547Z",
+    "lastAlwaysOnAt": "2026-08-05T20:07:54.022Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -3161,5 +3164,6 @@
     "validCountRUN279": 19,
     "validCountRUN280": 28,
     "validCountRUN281": 19,
-    "validCountRUN282": 28
+    "validCountRUN282": 28,
+    "validCountRUN283": 18
 }
