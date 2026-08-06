@@ -368,6 +368,7 @@
         "8464-024",
         "8464-025",
         "8464-026",
+        "8464-027",
         "8464-028",
         "8464-029",
         "8464-030",
@@ -375,8 +376,114 @@
         "8464-032",
         "8464-033"
     ],
-    "horizonQueue": [],
-    "nextCursor": "8464-027-020",
+    "horizonQueue": [
+        {
+            "book": 8465,
+            "page": 14,
+            "hits": 4,
+            "firstValidParcel": 20,
+            "key": "8465-014"
+        },
+        {
+            "book": 8465,
+            "page": 5,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8465-005"
+        },
+        {
+            "book": 8465,
+            "page": 2,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8465-002"
+        },
+        {
+            "book": 8465,
+            "page": 6,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8465-006"
+        },
+        {
+            "book": 8465,
+            "page": 7,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8465-007"
+        },
+        {
+            "book": 8465,
+            "page": 8,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8465-008"
+        },
+        {
+            "book": 8465,
+            "page": 9,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8465-009"
+        },
+        {
+            "book": 8465,
+            "page": 3,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8465-003"
+        },
+        {
+            "book": 8465,
+            "page": 4,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8465-004"
+        },
+        {
+            "book": 8465,
+            "page": 10,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8465-010"
+        },
+        {
+            "book": 8465,
+            "page": 11,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8465-011"
+        },
+        {
+            "book": 8465,
+            "page": 12,
+            "hits": 1,
+            "firstValidParcel": 2,
+            "key": "8465-012"
+        },
+        {
+            "book": 8465,
+            "page": 13,
+            "hits": 1,
+            "firstValidParcel": 4,
+            "key": "8465-013"
+        },
+        {
+            "book": 8465,
+            "page": 16,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8465-016"
+        },
+        {
+            "book": 8465,
+            "page": 17,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8465-017"
+        }
+    ],
+    "nextCursor": "8465-001-025",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -2603,6 +2710,12 @@
             "to": "8464-027-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8464-027-040",
+            "streak": 20,
+            "to": "8465-001-001",
+            "reason": "MAPBOOK_ROLLOVER"
         }
     ],
     "completedRuns": [
@@ -2891,14 +3004,15 @@
         "RUN-283",
         "RUN-284",
         "RUN-285",
-        "RUN-286"
+        "RUN-286",
+        "RUN-287"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-286-2026-08-06-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-287-2026-08-06-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-06T00:02:32.779Z",
+    "lastAlwaysOnAt": "2026-08-06T03:52:11.136Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -3174,5 +3288,6 @@
     "validCountRUN283": 18,
     "validCountRUN284": 29,
     "validCountRUN285": 19,
-    "validCountRUN286": 29
+    "validCountRUN286": 29,
+    "validCountRUN287": 8
 }
