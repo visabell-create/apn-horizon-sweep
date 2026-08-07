@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-07T06:46:26.072Z",
-  "runCount": 327,
-  "propertyRowCount": 8986,
-  "uniqueAinCount": 8884,
-  "propertyWithCoordsCount": 8056,
-  "nextCursor": "8465-008-033",
-  "donePageCount": 383,
+  "builtAt": "2026-08-07T08:13:21.504Z",
+  "runCount": 328,
+  "propertyRowCount": 9008,
+  "uniqueAinCount": 8906,
+  "propertyWithCoordsCount": 8078,
+  "nextCursor": "8465-009-033",
+  "donePageCount": 384,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2292,6 +2292,13 @@
       "to": "8465-008-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8465-008-045",
+      "streak": 12,
+      "to": "8465-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -2338,15 +2345,15 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 687,
-      "uniqueAinCount": 687,
+      "propertyRowCount": 701,
+      "uniqueAinCount": 701,
       "areas": []
     },
     {
       "city": "Valinda",
       "slug": "valinda",
-      "propertyRowCount": 210,
-      "uniqueAinCount": 210,
+      "propertyRowCount": 218,
+      "uniqueAinCount": 218,
       "areas": []
     },
     {
@@ -12989,6 +12996,43 @@
       ],
       "started": null,
       "ended": "2026-08-07T06:46:23.647Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 14,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Valinda",
+          "count": 8,
+          "slug": "valinda"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-296-2026-08-07-horizon",
+      "title": "RUN-296 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-07",
+      "validCount": 22,
+      "checks": 45,
+      "start": "2026-08-07T08:12:40.978Z",
+      "end": "8465-009-032",
+      "nextCursor": "8465-009-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8465-008-045",
+          "streak": 12,
+          "to": "8465-009-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-07T08:13:19.053Z",
       "isAggregate": false,
       "cities": [
         {
