@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-07T21:12:57.576Z",
-  "runCount": 340,
-  "propertyRowCount": 9269,
-  "uniqueAinCount": 9167,
-  "propertyWithCoordsCount": 8333,
-  "nextCursor": "8465-026-024",
-  "donePageCount": 400,
+  "builtAt": "2026-08-07T22:09:15.077Z",
+  "runCount": 341,
+  "propertyRowCount": 9284,
+  "uniqueAinCount": 9182,
+  "propertyWithCoordsCount": 8348,
+  "nextCursor": "8466-001-024",
+  "donePageCount": 401,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2411,14 +2411,20 @@
       "to": "8465-026-020",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8465-026-045",
+      "streak": 20,
+      "to": "8466-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 4050,
-      "uniqueAinCount": 4050,
+      "propertyRowCount": 4064,
+      "uniqueAinCount": 4064,
       "areas": []
     },
     {
@@ -2443,8 +2449,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 930,
-      "uniqueAinCount": 930,
+      "propertyRowCount": 931,
+      "uniqueAinCount": 931,
       "areas": []
     },
     {
@@ -13631,6 +13637,42 @@
         }
       ],
       "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-309-2026-08-07-horizon",
+      "title": "RUN-309 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-07",
+      "validCount": 15,
+      "checks": 45,
+      "start": "2026-08-07T22:05:45.829Z",
+      "end": "8466-001-023",
+      "nextCursor": "8466-001-024",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8465-026-045",
+          "streak": 20,
+          "to": "8466-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-07T22:09:13.151Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 14,
+          "slug": "west-covina"
+        },
+        {
+          "city": "La Puente",
+          "count": 1,
+          "slug": "la-puente"
+        }
+      ],
+      "primaryCity": "West Covina"
     },
     {
       "id": "RUN-A01-8448-043",
