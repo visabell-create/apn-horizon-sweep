@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-08T21:02:07.994Z",
-  "runCount": 367,
-  "propertyRowCount": 9947,
-  "uniqueAinCount": 9845,
-  "propertyWithCoordsCount": 8996,
-  "nextCursor": "8466-028-006",
-  "donePageCount": 434,
+  "builtAt": "2026-08-08T21:56:46.582Z",
+  "runCount": 368,
+  "propertyRowCount": 9970,
+  "uniqueAinCount": 9868,
+  "propertyWithCoordsCount": 9019,
+  "nextCursor": "8466-029-024",
+  "donePageCount": 435,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2648,6 +2648,13 @@
       "to": "8466-028-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8466-028-027",
+      "streak": 12,
+      "to": "8466-029-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -2673,8 +2680,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1194,
-      "uniqueAinCount": 1194,
+      "propertyRowCount": 1217,
+      "uniqueAinCount": 1217,
       "areas": []
     },
     {
@@ -14891,6 +14898,38 @@
           "city": "Valinda",
           "count": 1,
           "slug": "valinda"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-336-2026-08-08-horizon",
+      "title": "RUN-336 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-08",
+      "validCount": 23,
+      "checks": 45,
+      "start": "2026-08-08T21:55:24.329Z",
+      "end": "8466-029-023",
+      "nextCursor": "8466-029-024",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8466-028-027",
+          "streak": 12,
+          "to": "8466-029-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-08T21:56:44.203Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 23,
+          "slug": "la-puente"
         }
       ],
       "primaryCity": "La Puente"
