@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-08T18:52:06.513Z",
-  "runCount": 363,
-  "propertyRowCount": 9849,
-  "uniqueAinCount": 9747,
-  "propertyWithCoordsCount": 8898,
-  "nextCursor": "8466-019-004",
-  "donePageCount": 428,
+  "builtAt": "2026-08-08T19:28:52.940Z",
+  "runCount": 364,
+  "propertyRowCount": 9880,
+  "uniqueAinCount": 9778,
+  "propertyWithCoordsCount": 8929,
+  "nextCursor": "8466-020-020",
+  "donePageCount": 429,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -2606,6 +2606,13 @@
       "to": "8466-019-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8466-019-029",
+      "streak": 12,
+      "to": "8466-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -2631,8 +2638,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1103,
-      "uniqueAinCount": 1103,
+      "propertyRowCount": 1130,
+      "uniqueAinCount": 1130,
       "areas": []
     },
     {
@@ -2659,8 +2666,8 @@
     {
       "city": "Valinda",
       "slug": "valinda",
-      "propertyRowCount": 265,
-      "uniqueAinCount": 265,
+      "propertyRowCount": 269,
+      "uniqueAinCount": 269,
       "areas": []
     },
     {
@@ -14681,6 +14688,43 @@
         {
           "city": "La Puente",
           "count": 15,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Valinda",
+          "count": 4,
+          "slug": "valinda"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-332-2026-08-08-horizon",
+      "title": "RUN-332 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-08",
+      "validCount": 31,
+      "checks": 45,
+      "start": "2026-08-08T19:28:20.272Z",
+      "end": "8466-020-019",
+      "nextCursor": "8466-020-020",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8466-019-029",
+          "streak": 12,
+          "to": "8466-020-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-08T19:28:50.012Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 27,
           "slug": "la-puente"
         },
         {
