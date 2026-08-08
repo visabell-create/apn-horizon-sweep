@@ -1,0 +1,4942 @@
+{
+  "algorithm": "perpetual-horizon-v1",
+  "mode": "ci-always-on",
+  "start": "8466-007-024",
+  "lastAinChecked": "8466-009-002",
+  "nextCursor": "8466-009-003",
+  "stoppedReason": "SESSION_CAP_KEEP_GOING",
+  "validCount": 19,
+  "invalidCount": 24,
+  "checks": 45,
+  "jumps": [
+    {
+      "at": "8466-007-036",
+      "streak": 12,
+      "to": "8466-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-008-030",
+      "streak": 12,
+      "to": "8466-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "allJumps": [
+    {
+      "at": "8448-021-073",
+      "streak": 12,
+      "to": "8448-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-023-116",
+      "streak": 12,
+      "to": "8448-031-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8448-031-093",
+      "streak": 12,
+      "to": "8448-006-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-006-071",
+      "streak": 12,
+      "to": "8448-027-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-027-048",
+      "streak": 12,
+      "to": "8448-033-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-033-075",
+      "streak": 12,
+      "to": "8448-037-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-037-050",
+      "streak": 12,
+      "to": "8448-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-012-049",
+      "streak": 12,
+      "to": "8448-013-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-013-059",
+      "streak": 12,
+      "to": "8448-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-014-059",
+      "streak": 12,
+      "to": "8448-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-015-044",
+      "streak": 12,
+      "to": "8448-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-016-040",
+      "streak": 12,
+      "to": "8448-017-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8448-017-054",
+      "streak": 12,
+      "to": "8448-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-024-034",
+      "streak": 12,
+      "to": "8448-028-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-028-049",
+      "streak": 12,
+      "to": "8448-029-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-029-103",
+      "streak": 12,
+      "to": "8448-030-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-030-076",
+      "streak": 12,
+      "to": "8448-032-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-032-224",
+      "streak": 12,
+      "to": "8448-035-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-035-093",
+      "streak": 12,
+      "to": "8448-036-050",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-036-070",
+      "streak": 12,
+      "to": "8448-040-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-040-041",
+      "streak": 12,
+      "to": "8448-044-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-044-042",
+      "streak": 12,
+      "to": "8448-009-005",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-009-018",
+      "streak": 12,
+      "to": "8448-034-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8448-034-067",
+      "streak": 20,
+      "to": "8449-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8449-001-039",
+      "streak": 20,
+      "to": "8450-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8450-001-021",
+      "streak": 20,
+      "to": "8451-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8451-001-016",
+      "streak": 12,
+      "to": "8451-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8451-004-146",
+      "streak": 12,
+      "to": "8451-016-026",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8451-016-126",
+      "streak": 12,
+      "to": "8451-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-002-064",
+      "streak": 12,
+      "to": "8451-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-003-068",
+      "streak": 12,
+      "to": "8451-007-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-007-083",
+      "streak": 12,
+      "to": "8451-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-009-056",
+      "streak": 12,
+      "to": "8451-010-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8451-010-063",
+      "streak": 12,
+      "to": "8451-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-011-050",
+      "streak": 12,
+      "to": "8451-012-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8451-012-069",
+      "streak": 12,
+      "to": "8451-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-013-037",
+      "streak": 12,
+      "to": "8451-014-080",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-014-128",
+      "streak": 12,
+      "to": "8451-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8451-018-048",
+      "streak": 12,
+      "to": "8451-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-005-064",
+      "streak": 12,
+      "to": "8451-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-006-035",
+      "streak": 12,
+      "to": "8451-008-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-008-048",
+      "streak": 12,
+      "to": "8451-015-019",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8451-015-040",
+      "streak": 20,
+      "to": "8452-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8452-001-031",
+      "streak": 20,
+      "to": "8453-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8453-001-067",
+      "streak": 12,
+      "to": "8453-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-002-054",
+      "streak": 12,
+      "to": "8453-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-003-049",
+      "streak": 12,
+      "to": "8453-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8453-006-053",
+      "streak": 12,
+      "to": "8453-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-011-036",
+      "streak": 12,
+      "to": "8453-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-012-041",
+      "streak": 12,
+      "to": "8453-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-013-045",
+      "streak": 12,
+      "to": "8453-015-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-015-048",
+      "streak": 12,
+      "to": "8453-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-024-033",
+      "streak": 12,
+      "to": "8453-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8453-026-044",
+      "streak": 12,
+      "to": "8453-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-005-029",
+      "streak": 12,
+      "to": "8453-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-007-026",
+      "streak": 12,
+      "to": "8453-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-008-022",
+      "streak": 12,
+      "to": "8453-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-009-029",
+      "streak": 12,
+      "to": "8453-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-010-031",
+      "streak": 12,
+      "to": "8453-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-014-027",
+      "streak": 12,
+      "to": "8453-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-016-038",
+      "streak": 12,
+      "to": "8453-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-017-026",
+      "streak": 12,
+      "to": "8453-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-018-024",
+      "streak": 12,
+      "to": "8453-019-014",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-019-034",
+      "streak": 12,
+      "to": "8453-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-020-031",
+      "streak": 12,
+      "to": "8453-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-021-030",
+      "streak": 12,
+      "to": "8453-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-022-029",
+      "streak": 12,
+      "to": "8453-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-023-033",
+      "streak": 12,
+      "to": "8453-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8453-025-040",
+      "streak": 20,
+      "to": "8454-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8454-001-041",
+      "streak": 12,
+      "to": "8454-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-005-040",
+      "streak": 12,
+      "to": "8454-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-006-045",
+      "streak": 12,
+      "to": "8454-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-007-045",
+      "streak": 12,
+      "to": "8454-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-008-045",
+      "streak": 12,
+      "to": "8454-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-012-045",
+      "streak": 12,
+      "to": "8454-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-028-052",
+      "streak": 12,
+      "to": "8454-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8454-030-039",
+      "streak": 12,
+      "to": "8454-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-016-044",
+      "streak": 12,
+      "to": "8454-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-018-045",
+      "streak": 12,
+      "to": "8454-019-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-019-039",
+      "streak": 12,
+      "to": "8454-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-025-044",
+      "streak": 12,
+      "to": "8454-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8454-026-045",
+      "streak": 12,
+      "to": "8454-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-002-024",
+      "streak": 12,
+      "to": "8454-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-003-025",
+      "streak": 12,
+      "to": "8454-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-004-025",
+      "streak": 12,
+      "to": "8454-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-009-024",
+      "streak": 12,
+      "to": "8454-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-010-037",
+      "streak": 12,
+      "to": "8454-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-011-029",
+      "streak": 12,
+      "to": "8454-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-013-031",
+      "streak": 12,
+      "to": "8454-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-014-030",
+      "streak": 12,
+      "to": "8454-015-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-015-019",
+      "streak": 12,
+      "to": "8454-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-020-027",
+      "streak": 12,
+      "to": "8454-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-021-023",
+      "streak": 12,
+      "to": "8454-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-022-027",
+      "streak": 12,
+      "to": "8454-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-023-027",
+      "streak": 12,
+      "to": "8454-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-024-029",
+      "streak": 12,
+      "to": "8454-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8454-027-039",
+      "streak": 20,
+      "to": "8455-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8455-001-037",
+      "streak": 12,
+      "to": "8455-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-015-049",
+      "streak": 12,
+      "to": "8455-026-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8455-026-058",
+      "streak": 12,
+      "to": "8455-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-003-045",
+      "streak": 12,
+      "to": "8455-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-016-045",
+      "streak": 12,
+      "to": "8455-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-017-045",
+      "streak": 12,
+      "to": "8455-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-019-045",
+      "streak": 12,
+      "to": "8455-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-020-045",
+      "streak": 12,
+      "to": "8455-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-021-045",
+      "streak": 12,
+      "to": "8455-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-023-045",
+      "streak": 12,
+      "to": "8455-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-024-045",
+      "streak": 12,
+      "to": "8455-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8455-025-045",
+      "streak": 12,
+      "to": "8455-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-002-031",
+      "streak": 12,
+      "to": "8455-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-004-029",
+      "streak": 12,
+      "to": "8455-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-005-031",
+      "streak": 12,
+      "to": "8455-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-006-031",
+      "streak": 12,
+      "to": "8455-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-007-029",
+      "streak": 12,
+      "to": "8455-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-008-031",
+      "streak": 12,
+      "to": "8455-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-009-043",
+      "streak": 12,
+      "to": "8455-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-010-029",
+      "streak": 12,
+      "to": "8455-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-011-032",
+      "streak": 12,
+      "to": "8455-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-012-032",
+      "streak": 12,
+      "to": "8455-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-013-042",
+      "streak": 12,
+      "to": "8455-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-014-033",
+      "streak": 12,
+      "to": "8455-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-018-031",
+      "streak": 12,
+      "to": "8455-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-022-045",
+      "streak": 12,
+      "to": "8455-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8455-027-053",
+      "streak": 20,
+      "to": "8456-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8456-001-037",
+      "streak": 12,
+      "to": "8456-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-005-045",
+      "streak": 12,
+      "to": "8456-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-018-052",
+      "streak": 12,
+      "to": "8456-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-020-041",
+      "streak": 12,
+      "to": "8456-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-021-043",
+      "streak": 12,
+      "to": "8456-032-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8456-032-044",
+      "streak": 12,
+      "to": "8456-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-007-045",
+      "streak": 12,
+      "to": "8456-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-009-045",
+      "streak": 12,
+      "to": "8456-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-011-045",
+      "streak": 12,
+      "to": "8456-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-013-045",
+      "streak": 12,
+      "to": "8456-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-014-045",
+      "streak": 12,
+      "to": "8456-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-023-050",
+      "streak": 12,
+      "to": "8456-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-024-040",
+      "streak": 12,
+      "to": "8456-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-025-045",
+      "streak": 12,
+      "to": "8456-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-027-045",
+      "streak": 12,
+      "to": "8456-031-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8456-031-045",
+      "streak": 12,
+      "to": "8456-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-002-030",
+      "streak": 12,
+      "to": "8456-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-003-032",
+      "streak": 12,
+      "to": "8456-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-004-032",
+      "streak": 12,
+      "to": "8456-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-006-041",
+      "streak": 12,
+      "to": "8456-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-008-030",
+      "streak": 12,
+      "to": "8456-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-010-030",
+      "streak": 12,
+      "to": "8456-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-012-030",
+      "streak": 12,
+      "to": "8456-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-015-031",
+      "streak": 12,
+      "to": "8456-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-016-031",
+      "streak": 12,
+      "to": "8456-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-017-031",
+      "streak": 12,
+      "to": "8456-019-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-019-040",
+      "streak": 12,
+      "to": "8456-022-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-022-030",
+      "streak": 12,
+      "to": "8456-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-026-044",
+      "streak": 12,
+      "to": "8456-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-028-028",
+      "streak": 12,
+      "to": "8456-029-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-029-027",
+      "streak": 12,
+      "to": "8456-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8456-030-043",
+      "streak": 20,
+      "to": "8457-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8457-001-037",
+      "streak": 12,
+      "to": "8457-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-006-045",
+      "streak": 12,
+      "to": "8457-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-007-045",
+      "streak": 12,
+      "to": "8457-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8457-012-045",
+      "streak": 12,
+      "to": "8457-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-004-045",
+      "streak": 12,
+      "to": "8457-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-005-045",
+      "streak": 12,
+      "to": "8457-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-008-045",
+      "streak": 12,
+      "to": "8457-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-010-045",
+      "streak": 12,
+      "to": "8457-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-011-045",
+      "streak": 12,
+      "to": "8457-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-013-045",
+      "streak": 12,
+      "to": "8457-029-020",
+      "reason": "SOFT_JUMP",
+      "hits": 6
+    },
+    {
+      "at": "8457-029-206",
+      "streak": 12,
+      "to": "8457-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-014-038",
+      "streak": 12,
+      "to": "8457-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-015-045",
+      "streak": 12,
+      "to": "8457-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-016-045",
+      "streak": 12,
+      "to": "8457-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-017-045",
+      "streak": 12,
+      "to": "8457-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-020-045",
+      "streak": 12,
+      "to": "8457-021-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-021-042",
+      "streak": 12,
+      "to": "8457-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-022-033",
+      "streak": 12,
+      "to": "8457-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8457-026-034",
+      "streak": 12,
+      "to": "8457-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-002-025",
+      "streak": 12,
+      "to": "8457-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-003-023",
+      "streak": 12,
+      "to": "8457-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-009-042",
+      "streak": 12,
+      "to": "8457-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-018-027",
+      "streak": 12,
+      "to": "8457-019-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-019-020",
+      "streak": 12,
+      "to": "8457-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-023-031",
+      "streak": 12,
+      "to": "8457-024-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-024-033",
+      "streak": 12,
+      "to": "8457-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-025-029",
+      "streak": 12,
+      "to": "8457-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-027-029",
+      "streak": 12,
+      "to": "8457-028-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8457-028-042",
+      "streak": 20,
+      "to": "8458-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8458-001-061",
+      "streak": 12,
+      "to": "8458-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8458-002-066",
+      "streak": 12,
+      "to": "8458-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-004-051",
+      "streak": 12,
+      "to": "8458-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-005-048",
+      "streak": 12,
+      "to": "8458-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-007-061",
+      "streak": 12,
+      "to": "8458-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-008-048",
+      "streak": 12,
+      "to": "8458-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-009-044",
+      "streak": 12,
+      "to": "8458-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-010-046",
+      "streak": 12,
+      "to": "8458-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-012-045",
+      "streak": 12,
+      "to": "8458-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8458-027-064",
+      "streak": 12,
+      "to": "8458-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-014-043",
+      "streak": 12,
+      "to": "8458-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-015-049",
+      "streak": 12,
+      "to": "8458-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-016-048",
+      "streak": 12,
+      "to": "8458-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-017-049",
+      "streak": 12,
+      "to": "8458-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-018-039",
+      "streak": 12,
+      "to": "8458-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-019-040",
+      "streak": 12,
+      "to": "8458-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-021-045",
+      "streak": 12,
+      "to": "8458-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-022-045",
+      "streak": 12,
+      "to": "8458-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-023-045",
+      "streak": 12,
+      "to": "8458-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8458-026-045",
+      "streak": 12,
+      "to": "8458-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-003-045",
+      "streak": 12,
+      "to": "8458-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-006-045",
+      "streak": 12,
+      "to": "8458-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-011-045",
+      "streak": 12,
+      "to": "8458-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-024-057",
+      "streak": 12,
+      "to": "8458-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8458-025-049",
+      "streak": 12,
+      "to": "8458-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8458-013-038",
+      "streak": 12,
+      "to": "8458-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8458-020-044",
+      "streak": 20,
+      "to": "8459-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8459-001-044",
+      "streak": 12,
+      "to": "8459-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8459-008-056",
+      "streak": 12,
+      "to": "8459-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8459-017-057",
+      "streak": 12,
+      "to": "8459-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8459-026-019",
+      "streak": 12,
+      "to": "8459-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-002-050",
+      "streak": 12,
+      "to": "8459-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-004-042",
+      "streak": 12,
+      "to": "8459-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-005-049",
+      "streak": 12,
+      "to": "8459-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-006-049",
+      "streak": 12,
+      "to": "8459-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-011-048",
+      "streak": 12,
+      "to": "8459-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-013-047",
+      "streak": 12,
+      "to": "8459-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-018-041",
+      "streak": 12,
+      "to": "8459-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-019-040",
+      "streak": 12,
+      "to": "8459-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-020-041",
+      "streak": 12,
+      "to": "8459-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-021-047",
+      "streak": 12,
+      "to": "8459-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-022-048",
+      "streak": 12,
+      "to": "8459-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-023-047",
+      "streak": 12,
+      "to": "8459-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-024-043",
+      "streak": 12,
+      "to": "8459-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8459-025-042",
+      "streak": 12,
+      "to": "8459-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-003-037",
+      "streak": 12,
+      "to": "8459-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-007-045",
+      "streak": 12,
+      "to": "8459-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-009-045",
+      "streak": 12,
+      "to": "8459-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-010-045",
+      "streak": 12,
+      "to": "8459-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-012-045",
+      "streak": 12,
+      "to": "8459-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-014-045",
+      "streak": 12,
+      "to": "8459-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8459-015-045",
+      "streak": 12,
+      "to": "8459-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8459-016-029",
+      "streak": 12,
+      "to": "8459-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8459-027-024",
+      "streak": 20,
+      "to": "8460-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8460-001-064",
+      "streak": 12,
+      "to": "8460-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-002-067",
+      "streak": 12,
+      "to": "8460-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-008-064",
+      "streak": 12,
+      "to": "8460-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-009-067",
+      "streak": 12,
+      "to": "8460-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-012-090",
+      "streak": 12,
+      "to": "8460-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8460-020-065",
+      "streak": 12,
+      "to": "8460-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-004-055",
+      "streak": 12,
+      "to": "8460-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-005-060",
+      "streak": 12,
+      "to": "8460-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-006-057",
+      "streak": 12,
+      "to": "8460-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-010-062",
+      "streak": 12,
+      "to": "8460-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-011-072",
+      "streak": 12,
+      "to": "8460-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-013-053",
+      "streak": 12,
+      "to": "8460-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8460-019-071",
+      "streak": 12,
+      "to": "8460-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-014-045",
+      "streak": 12,
+      "to": "8460-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-015-045",
+      "streak": 12,
+      "to": "8460-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-016-045",
+      "streak": 12,
+      "to": "8460-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-017-045",
+      "streak": 12,
+      "to": "8460-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8460-018-045",
+      "streak": 12,
+      "to": "8460-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8460-003-045",
+      "streak": 12,
+      "to": "8460-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8460-007-062",
+      "streak": 12,
+      "to": "8460-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8460-021-037",
+      "streak": 20,
+      "to": "8461-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8461-001-021",
+      "streak": 20,
+      "to": "8462-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8462-001-021",
+      "streak": 20,
+      "to": "8463-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8463-001-037",
+      "streak": 12,
+      "to": "8463-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-006-045",
+      "streak": 12,
+      "to": "8463-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-018-058",
+      "streak": 12,
+      "to": "8463-021-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-021-083",
+      "streak": 12,
+      "to": "8463-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8463-025-058",
+      "streak": 12,
+      "to": "8463-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-023-045",
+      "streak": 12,
+      "to": "8463-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-024-045",
+      "streak": 12,
+      "to": "8463-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8463-026-046",
+      "streak": 12,
+      "to": "8463-009-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-009-069",
+      "streak": 12,
+      "to": "8463-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-013-045",
+      "streak": 12,
+      "to": "8463-014-026",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-014-054",
+      "streak": 12,
+      "to": "8463-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-016-043",
+      "streak": 12,
+      "to": "8463-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8463-019-037",
+      "streak": 12,
+      "to": "8463-002-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-002-038",
+      "streak": 12,
+      "to": "8463-003-003",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-003-038",
+      "streak": 12,
+      "to": "8463-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-004-035",
+      "streak": 12,
+      "to": "8463-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-005-045",
+      "streak": 12,
+      "to": "8463-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-007-026",
+      "streak": 12,
+      "to": "8463-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-008-027",
+      "streak": 12,
+      "to": "8463-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-010-037",
+      "streak": 12,
+      "to": "8463-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-011-032",
+      "streak": 12,
+      "to": "8463-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-012-031",
+      "streak": 12,
+      "to": "8463-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-015-032",
+      "streak": 12,
+      "to": "8463-017-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-017-039",
+      "streak": 12,
+      "to": "8463-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-020-027",
+      "streak": 12,
+      "to": "8463-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8463-022-052",
+      "streak": 20,
+      "to": "8464-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8464-001-013",
+      "streak": 12,
+      "to": "8464-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-006-039",
+      "streak": 12,
+      "to": "8464-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-007-039",
+      "streak": 12,
+      "to": "8464-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-009-042",
+      "streak": 12,
+      "to": "8464-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-020-039",
+      "streak": 12,
+      "to": "8464-033-040",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8464-033-113",
+      "streak": 12,
+      "to": "8464-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-021-045",
+      "streak": 12,
+      "to": "8464-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-022-042",
+      "streak": 12,
+      "to": "8464-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-023-039",
+      "streak": 12,
+      "to": "8464-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-024-039",
+      "streak": 12,
+      "to": "8464-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-025-040",
+      "streak": 12,
+      "to": "8464-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8464-028-039",
+      "streak": 12,
+      "to": "8464-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-008-042",
+      "streak": 12,
+      "to": "8464-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-010-045",
+      "streak": 12,
+      "to": "8464-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-019-045",
+      "streak": 12,
+      "to": "8464-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-026-045",
+      "streak": 12,
+      "to": "8464-029-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-029-045",
+      "streak": 12,
+      "to": "8464-030-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-030-045",
+      "streak": 12,
+      "to": "8464-031-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-031-045",
+      "streak": 12,
+      "to": "8464-032-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8464-032-014",
+      "streak": 12,
+      "to": "8464-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-002-031",
+      "streak": 12,
+      "to": "8464-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-003-029",
+      "streak": 12,
+      "to": "8464-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-004-029",
+      "streak": 12,
+      "to": "8464-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-005-032",
+      "streak": 12,
+      "to": "8464-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-011-029",
+      "streak": 12,
+      "to": "8464-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-012-028",
+      "streak": 12,
+      "to": "8464-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-013-033",
+      "streak": 12,
+      "to": "8464-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-014-029",
+      "streak": 12,
+      "to": "8464-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-015-029",
+      "streak": 12,
+      "to": "8464-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-016-032",
+      "streak": 12,
+      "to": "8464-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-017-029",
+      "streak": 12,
+      "to": "8464-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-018-029",
+      "streak": 12,
+      "to": "8464-027-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8464-027-040",
+      "streak": 20,
+      "to": "8465-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8465-001-037",
+      "streak": 12,
+      "to": "8465-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
+    },
+    {
+      "at": "8465-014-072",
+      "streak": 12,
+      "to": "8465-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8465-005-040",
+      "streak": 12,
+      "to": "8465-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8465-023-042",
+      "streak": 12,
+      "to": "8465-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8465-028-045",
+      "streak": 12,
+      "to": "8465-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-002-045",
+      "streak": 12,
+      "to": "8465-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-006-045",
+      "streak": 12,
+      "to": "8465-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-007-045",
+      "streak": 12,
+      "to": "8465-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-008-045",
+      "streak": 12,
+      "to": "8465-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-009-045",
+      "streak": 12,
+      "to": "8465-018-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-018-045",
+      "streak": 12,
+      "to": "8465-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-019-045",
+      "streak": 12,
+      "to": "8465-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-020-045",
+      "streak": 12,
+      "to": "8465-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-021-045",
+      "streak": 12,
+      "to": "8465-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-022-045",
+      "streak": 12,
+      "to": "8465-025-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8465-025-045",
+      "streak": 12,
+      "to": "8465-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-003-032",
+      "streak": 12,
+      "to": "8465-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-004-029",
+      "streak": 12,
+      "to": "8465-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-010-029",
+      "streak": 12,
+      "to": "8465-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-011-027",
+      "streak": 12,
+      "to": "8465-012-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-012-026",
+      "streak": 12,
+      "to": "8465-013-004",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-013-017",
+      "streak": 12,
+      "to": "8465-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-016-031",
+      "streak": 12,
+      "to": "8465-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-017-038",
+      "streak": 12,
+      "to": "8465-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-024-028",
+      "streak": 12,
+      "to": "8465-026-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8465-026-045",
+      "streak": 20,
+      "to": "8466-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8466-001-036",
+      "streak": 12,
+      "to": "8466-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-012-045",
+      "streak": 12,
+      "to": "8466-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-014-045",
+      "streak": 12,
+      "to": "8466-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-015-045",
+      "streak": 12,
+      "to": "8466-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-023-045",
+      "streak": 12,
+      "to": "8466-038-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
+    },
+    {
+      "at": "8466-038-026",
+      "streak": 12,
+      "to": "8466-039-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-039-050",
+      "streak": 12,
+      "to": "8466-040-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-040-046",
+      "streak": 12,
+      "to": "8466-041-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
+    },
+    {
+      "at": "8466-041-058",
+      "streak": 12,
+      "to": "8466-011-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-011-049",
+      "streak": 12,
+      "to": "8466-013-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-013-034",
+      "streak": 12,
+      "to": "8466-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-016-037",
+      "streak": 12,
+      "to": "8466-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-017-038",
+      "streak": 12,
+      "to": "8466-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-021-041",
+      "streak": 12,
+      "to": "8466-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-022-045",
+      "streak": 12,
+      "to": "8466-036-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-036-045",
+      "streak": 12,
+      "to": "8466-037-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
+    },
+    {
+      "at": "8466-037-047",
+      "streak": 12,
+      "to": "8466-002-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-002-027",
+      "streak": 12,
+      "to": "8466-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-003-027",
+      "streak": 12,
+      "to": "8466-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-004-034",
+      "streak": 12,
+      "to": "8466-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-005-027",
+      "streak": 12,
+      "to": "8466-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-006-027",
+      "streak": 12,
+      "to": "8466-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-007-036",
+      "streak": 12,
+      "to": "8466-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8466-008-030",
+      "streak": 12,
+      "to": "8466-009-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    }
+  ],
+  "horizonQueue": [
+    {
+      "book": 8466,
+      "page": 10,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-010"
+    },
+    {
+      "book": 8466,
+      "page": 18,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-018"
+    },
+    {
+      "book": 8466,
+      "page": 19,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-019"
+    },
+    {
+      "book": 8466,
+      "page": 20,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-020"
+    },
+    {
+      "book": 8466,
+      "page": 24,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-024"
+    },
+    {
+      "book": 8466,
+      "page": 25,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-025"
+    },
+    {
+      "book": 8466,
+      "page": 26,
+      "hits": 1,
+      "firstValidParcel": 2,
+      "key": "8466-026"
+    },
+    {
+      "book": 8466,
+      "page": 27,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-027"
+    },
+    {
+      "book": 8466,
+      "page": 28,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-028"
+    },
+    {
+      "book": 8466,
+      "page": 29,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-029"
+    },
+    {
+      "book": 8466,
+      "page": 30,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-030"
+    },
+    {
+      "book": 8466,
+      "page": 31,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-031"
+    },
+    {
+      "book": 8466,
+      "page": 32,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-032"
+    },
+    {
+      "book": 8466,
+      "page": 33,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-033"
+    },
+    {
+      "book": 8466,
+      "page": 34,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-034"
+    },
+    {
+      "book": 8466,
+      "page": 35,
+      "hits": 1,
+      "firstValidParcel": 1,
+      "key": "8466-035"
+    }
+  ],
+  "donePages": [
+    "8448-003",
+    "8448-004",
+    "8448-005",
+    "8448-006",
+    "8448-007",
+    "8448-008",
+    "8448-009",
+    "8448-010",
+    "8448-011",
+    "8448-012",
+    "8448-013",
+    "8448-014",
+    "8448-015",
+    "8448-016",
+    "8448-017",
+    "8448-018",
+    "8448-019",
+    "8448-020",
+    "8448-021",
+    "8448-022",
+    "8448-023",
+    "8448-024",
+    "8448-025",
+    "8448-026",
+    "8448-027",
+    "8448-028",
+    "8448-029",
+    "8448-030",
+    "8448-031",
+    "8448-032",
+    "8448-033",
+    "8448-034",
+    "8448-035",
+    "8448-036",
+    "8448-037",
+    "8448-038",
+    "8448-039",
+    "8448-040",
+    "8448-041",
+    "8448-042",
+    "8448-043",
+    "8448-044",
+    "8448-045",
+    "8448-046",
+    "8448-047",
+    "8448-048",
+    "8448-049",
+    "8448-050",
+    "8448-051",
+    "8448-052",
+    "8448-053",
+    "8448-054",
+    "8448-055",
+    "8448-056",
+    "8448-057",
+    "8448-058",
+    "8448-059",
+    "8448-060",
+    "8448-061",
+    "8448-062",
+    "8448-063",
+    "8448-064",
+    "8448-065",
+    "8448-066",
+    "8448-067",
+    "8448-068",
+    "8448-069",
+    "8448-070",
+    "8448-071",
+    "8448-072",
+    "8448-073",
+    "8448-074",
+    "8448-075",
+    "8448-076",
+    "8448-077",
+    "8448-078",
+    "8448-079",
+    "8448-080",
+    "8449-001",
+    "8450-001",
+    "8451-001",
+    "8451-002",
+    "8451-003",
+    "8451-004",
+    "8451-005",
+    "8451-006",
+    "8451-007",
+    "8451-008",
+    "8451-009",
+    "8451-010",
+    "8451-011",
+    "8451-012",
+    "8451-013",
+    "8451-014",
+    "8451-015",
+    "8451-016",
+    "8451-018",
+    "8452-001",
+    "8453-001",
+    "8453-002",
+    "8453-003",
+    "8453-005",
+    "8453-006",
+    "8453-007",
+    "8453-008",
+    "8453-009",
+    "8453-010",
+    "8453-011",
+    "8453-012",
+    "8453-013",
+    "8453-014",
+    "8453-015",
+    "8453-016",
+    "8453-017",
+    "8453-018",
+    "8453-019",
+    "8453-020",
+    "8453-021",
+    "8453-022",
+    "8453-023",
+    "8453-024",
+    "8453-025",
+    "8453-026",
+    "8454-001",
+    "8454-002",
+    "8454-003",
+    "8454-004",
+    "8454-005",
+    "8454-006",
+    "8454-007",
+    "8454-008",
+    "8454-009",
+    "8454-010",
+    "8454-011",
+    "8454-012",
+    "8454-013",
+    "8454-014",
+    "8454-015",
+    "8454-016",
+    "8454-018",
+    "8454-019",
+    "8454-020",
+    "8454-021",
+    "8454-022",
+    "8454-023",
+    "8454-024",
+    "8454-025",
+    "8454-026",
+    "8454-027",
+    "8454-028",
+    "8454-030",
+    "8455-001",
+    "8455-002",
+    "8455-003",
+    "8455-004",
+    "8455-005",
+    "8455-006",
+    "8455-007",
+    "8455-008",
+    "8455-009",
+    "8455-010",
+    "8455-011",
+    "8455-012",
+    "8455-013",
+    "8455-014",
+    "8455-015",
+    "8455-016",
+    "8455-017",
+    "8455-018",
+    "8455-019",
+    "8455-020",
+    "8455-021",
+    "8455-022",
+    "8455-023",
+    "8455-024",
+    "8455-025",
+    "8455-026",
+    "8455-027",
+    "8456-001",
+    "8456-002",
+    "8456-003",
+    "8456-004",
+    "8456-005",
+    "8456-006",
+    "8456-007",
+    "8456-008",
+    "8456-009",
+    "8456-010",
+    "8456-011",
+    "8456-012",
+    "8456-013",
+    "8456-014",
+    "8456-015",
+    "8456-016",
+    "8456-017",
+    "8456-018",
+    "8456-019",
+    "8456-020",
+    "8456-021",
+    "8456-022",
+    "8456-023",
+    "8456-024",
+    "8456-025",
+    "8456-026",
+    "8456-027",
+    "8456-028",
+    "8456-029",
+    "8456-030",
+    "8456-031",
+    "8456-032",
+    "8457-001",
+    "8457-002",
+    "8457-003",
+    "8457-004",
+    "8457-005",
+    "8457-006",
+    "8457-007",
+    "8457-008",
+    "8457-009",
+    "8457-010",
+    "8457-011",
+    "8457-012",
+    "8457-013",
+    "8457-014",
+    "8457-015",
+    "8457-016",
+    "8457-017",
+    "8457-018",
+    "8457-019",
+    "8457-020",
+    "8457-021",
+    "8457-022",
+    "8457-023",
+    "8457-024",
+    "8457-025",
+    "8457-026",
+    "8457-027",
+    "8457-028",
+    "8457-029",
+    "8458-001",
+    "8458-002",
+    "8458-003",
+    "8458-004",
+    "8458-005",
+    "8458-006",
+    "8458-007",
+    "8458-008",
+    "8458-009",
+    "8458-010",
+    "8458-011",
+    "8458-012",
+    "8458-013",
+    "8458-014",
+    "8458-015",
+    "8458-016",
+    "8458-017",
+    "8458-018",
+    "8458-019",
+    "8458-020",
+    "8458-021",
+    "8458-022",
+    "8458-023",
+    "8458-024",
+    "8458-025",
+    "8458-026",
+    "8458-027",
+    "8459-001",
+    "8459-002",
+    "8459-003",
+    "8459-004",
+    "8459-005",
+    "8459-006",
+    "8459-007",
+    "8459-008",
+    "8459-009",
+    "8459-010",
+    "8459-011",
+    "8459-012",
+    "8459-013",
+    "8459-014",
+    "8459-015",
+    "8459-016",
+    "8459-017",
+    "8459-018",
+    "8459-019",
+    "8459-020",
+    "8459-021",
+    "8459-022",
+    "8459-023",
+    "8459-024",
+    "8459-025",
+    "8459-026",
+    "8459-027",
+    "8460-001",
+    "8460-002",
+    "8460-003",
+    "8460-004",
+    "8460-005",
+    "8460-006",
+    "8460-007",
+    "8460-008",
+    "8460-009",
+    "8460-010",
+    "8460-011",
+    "8460-012",
+    "8460-013",
+    "8460-014",
+    "8460-015",
+    "8460-016",
+    "8460-017",
+    "8460-018",
+    "8460-019",
+    "8460-020",
+    "8460-021",
+    "8461-001",
+    "8462-001",
+    "8463-001",
+    "8463-002",
+    "8463-003",
+    "8463-004",
+    "8463-005",
+    "8463-006",
+    "8463-007",
+    "8463-008",
+    "8463-009",
+    "8463-010",
+    "8463-011",
+    "8463-012",
+    "8463-013",
+    "8463-014",
+    "8463-015",
+    "8463-016",
+    "8463-017",
+    "8463-018",
+    "8463-019",
+    "8463-020",
+    "8463-021",
+    "8463-022",
+    "8463-023",
+    "8463-024",
+    "8463-025",
+    "8463-026",
+    "8464-001",
+    "8464-002",
+    "8464-003",
+    "8464-004",
+    "8464-005",
+    "8464-006",
+    "8464-007",
+    "8464-008",
+    "8464-009",
+    "8464-010",
+    "8464-011",
+    "8464-012",
+    "8464-013",
+    "8464-014",
+    "8464-015",
+    "8464-016",
+    "8464-017",
+    "8464-018",
+    "8464-019",
+    "8464-020",
+    "8464-021",
+    "8464-022",
+    "8464-023",
+    "8464-024",
+    "8464-025",
+    "8464-026",
+    "8464-027",
+    "8464-028",
+    "8464-029",
+    "8464-030",
+    "8464-031",
+    "8464-032",
+    "8464-033",
+    "8465-001",
+    "8465-002",
+    "8465-003",
+    "8465-004",
+    "8465-005",
+    "8465-006",
+    "8465-007",
+    "8465-008",
+    "8465-009",
+    "8465-010",
+    "8465-011",
+    "8465-012",
+    "8465-013",
+    "8465-014",
+    "8465-016",
+    "8465-017",
+    "8465-018",
+    "8465-019",
+    "8465-020",
+    "8465-021",
+    "8465-022",
+    "8465-023",
+    "8465-024",
+    "8465-025",
+    "8465-026",
+    "8465-028",
+    "8466-001",
+    "8466-002",
+    "8466-003",
+    "8466-004",
+    "8466-005",
+    "8466-006",
+    "8466-007",
+    "8466-008",
+    "8466-011",
+    "8466-012",
+    "8466-013",
+    "8466-014",
+    "8466-015",
+    "8466-016",
+    "8466-017",
+    "8466-021",
+    "8466-022",
+    "8466-023",
+    "8466-036",
+    "8466-037",
+    "8466-038",
+    "8466-039",
+    "8466-040",
+    "8466-041"
+  ],
+  "valids": [
+    {
+      "ain": "8466-008-001",
+      "status": "VALID",
+      "address": "1706 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 2,
+      "baths": 2,
+      "bldg": 1220,
+      "lot": 12641,
+      "units": null,
+      "land": 380019,
+      "imp": 113634,
+      "assessed": 493653,
+      "latitude": 34.0552023131,
+      "longitude": -117.956335359,
+      "lastBuy": {
+        "rec": "12/18/2014",
+        "doc": "1375052",
+        "price": "260000",
+        "assessed": "402700",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/25/2025",
+          "doc": "0502594",
+          "price": "0",
+          "assessed": "493653",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "07/30/2015",
+          "doc": "0925269",
+          "price": "",
+          "assessed": "408840",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/18/2014",
+          "doc": "1375052",
+          "price": "260000",
+          "assessed": "402700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/13/1986",
+          "doc": "0740669",
+          "price": "75000",
+          "assessed": "75000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/25/1961",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-002",
+      "status": "VALID",
+      "address": "1712 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 1165,
+      "lot": 12446,
+      "units": null,
+      "land": 139745,
+      "imp": 120500,
+      "assessed": 260245,
+      "latitude": 34.0550437722,
+      "longitude": -117.956464671,
+      "lastBuy": {
+        "rec": "03/08/1999",
+        "doc": "0372822",
+        "price": "160000",
+        "assessed": "160000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/25/2025",
+          "doc": "0502599",
+          "price": "0",
+          "assessed": "260245",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "04/03/2008",
+          "doc": "0573887",
+          "price": "",
+          "assessed": "198150",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "03/08/1999",
+          "doc": "0372822",
+          "price": "160000",
+          "assessed": "160000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/04/1984",
+          "doc": "1062964",
+          "price": "",
+          "assessed": "73000",
+          "docType": "Land Contract Instrument",
+          "reason": "Unknown or Unused Code"
+        },
+        {
+          "rec": "02/26/1975",
+          "doc": "",
+          "price": "22500",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-003",
+      "status": "VALID",
+      "address": "1718 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 964,
+      "lot": 12365,
+      "units": null,
+      "land": 26218,
+      "imp": 36353,
+      "assessed": 62571,
+      "latitude": 34.0549104966,
+      "longitude": -117.956605363,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/27/2003",
+          "doc": "1849653",
+          "price": "0",
+          "assessed": "33589",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "07/17/2000",
+          "doc": "1087936",
+          "price": "",
+          "assessed": "31695",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/25/1971",
+          "doc": "0001433",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-004",
+      "status": "VALID",
+      "address": "1724 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 964,
+      "lot": 12569,
+      "units": null,
+      "land": 26218,
+      "imp": 48090,
+      "assessed": 74308,
+      "latitude": 34.0547772644,
+      "longitude": -117.956747854,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/14/2022",
+          "doc": "0721982",
+          "price": "9",
+          "assessed": "70024",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "02/24/2010",
+          "doc": "0247406",
+          "price": "",
+          "assessed": "56875",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "07/14/2004",
+          "doc": "1800115",
+          "price": "",
+          "assessed": "52281",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/21/2004",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/12/1993",
+          "doc": "0684072",
+          "price": "",
+          "assessed": "42886",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-005",
+      "status": "VALID",
+      "address": "1730 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1540,
+      "lot": 12473,
+      "units": null,
+      "land": 133026,
+      "imp": 105205,
+      "assessed": 238231,
+      "latitude": 34.0546424208,
+      "longitude": -117.95688946,
+      "lastBuy": {
+        "rec": "09/21/1998",
+        "doc": "1698903",
+        "price": "149000",
+        "assessed": "149000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/01/2015",
+          "doc": "1076662",
+          "price": "9",
+          "assessed": "197306",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/21/2008",
+          "doc": "1869157",
+          "price": "",
+          "assessed": "181384",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "10/30/2007",
+          "doc": "2446733",
+          "price": "",
+          "assessed": "177829",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "09/21/1998",
+          "doc": "1698903",
+          "price": "149000",
+          "assessed": "149000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/09/1998",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-006",
+      "status": "VALID",
+      "address": "1734 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 2497,
+      "lot": 12359,
+      "units": null,
+      "land": 295458,
+      "imp": 147726,
+      "assessed": 443184,
+      "latitude": 34.0545103804,
+      "longitude": -117.95703247,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/28/2023",
+          "doc": "0821859",
+          "price": "9",
+          "assessed": "425977",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "12/28/2021",
+          "doc": "1915075",
+          "price": "",
+          "assessed": "409437",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "03/28/2018",
+          "doc": "0295953",
+          "price": "",
+          "assessed": "389506",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "11/17/2017",
+          "doc": "1329070",
+          "price": "",
+          "assessed": "523276",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "12/18/2007",
+          "doc": "2778920",
+          "price": "",
+          "assessed": "330790",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-007",
+      "status": "VALID",
+      "address": "1738 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 5,
+      "baths": 3,
+      "bldg": 2603,
+      "lot": 12653,
+      "units": null,
+      "land": 493033,
+      "imp": 368382,
+      "assessed": 861415,
+      "latitude": 34.054376693,
+      "longitude": -117.95717594,
+      "lastBuy": {
+        "rec": "08/15/2007",
+        "doc": "1911115",
+        "price": "460004",
+        "assessed": "460000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/15/2007",
+          "doc": "1911115",
+          "price": "460004",
+          "assessed": "460000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/25/2007",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "12/18/2006",
+          "doc": "2807861",
+          "price": "",
+          "assessed": "473900",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "01/20/2005",
+          "doc": "7777777",
+          "price": "9",
+          "assessed": "339200",
+          "docType": "Judicial Decree or Affidavit",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/01/2004",
+          "doc": "0486353",
+          "price": "",
+          "assessed": "289200",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-008",
+      "status": "VALID",
+      "address": "1742 S TONOPAH AVE, WEST COVINA CA 91790-4420",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 4,
+      "baths": 3,
+      "bldg": 1519,
+      "lot": 12276,
+      "units": null,
+      "land": 143280,
+      "imp": 196985,
+      "assessed": 340265,
+      "latitude": 34.0542425685,
+      "longitude": -117.957317771,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "06/08/2009",
+          "doc": "0848022",
+          "price": "9",
+          "assessed": "258449",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "12/29/2006",
+          "doc": "2895502",
+          "price": "",
+          "assessed": "249005",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "09/30/2003",
+          "doc": "2892493",
+          "price": "",
+          "assessed": "193989",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "06/27/2002",
+          "doc": "1459844",
+          "price": "",
+          "assessed": "190435",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "04/01/1999",
+          "doc": "0558504",
+          "price": "",
+          "assessed": "148522",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-009",
+      "status": "VALID",
+      "address": "1741 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1332,
+      "lot": 12301,
+      "units": null,
+      "land": 88576,
+      "imp": 138847,
+      "assessed": 227423,
+      "latitude": 34.0538927951,
+      "longitude": -117.956844517,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "05/02/2003",
+          "doc": "1252614",
+          "price": "0",
+          "assessed": "113288",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "04/10/1998",
+          "doc": "0593382",
+          "price": "",
+          "assessed": "102748",
+          "docType": "File Correction",
+          "reason": "Perfection of Title (SEC. 62B)"
+        },
+        {
+          "rec": "02/10/1997",
+          "doc": "0218901",
+          "price": "",
+          "assessed": "100880",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/15/1980",
+          "doc": "1024868",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-010",
+      "status": "VALID",
+      "address": "1737 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1554,
+      "lot": 12623,
+      "units": null,
+      "land": 142189,
+      "imp": 173120,
+      "assessed": 315309,
+      "latitude": 34.0540261613,
+      "longitude": -117.956701745,
+      "lastBuy": {
+        "rec": "08/03/1994",
+        "doc": "1440725",
+        "price": "140001",
+        "assessed": "140000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "08/03/1994",
+          "doc": "1440725",
+          "price": "140001",
+          "assessed": "140000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/08/1994",
+          "doc": "0694880",
+          "price": "84273",
+          "assessed": "139900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/07/1994",
+          "doc": "0261582",
+          "price": "",
+          "assessed": "142000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "09/24/1986",
+          "doc": "1271446",
+          "price": "",
+          "assessed": "93000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/17/1982",
+          "doc": "1268344",
+          "price": "",
+          "assessed": "66700",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-011",
+      "status": "VALID",
+      "address": "1733 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 925,
+      "lot": 12346,
+      "units": null,
+      "land": 137445,
+      "imp": 86424,
+      "assessed": 223869,
+      "latitude": 34.0541601147,
+      "longitude": -117.956559298,
+      "lastBuy": {
+        "rec": "04/06/1994",
+        "doc": "0677047",
+        "price": "135000",
+        "assessed": "135000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "08/01/1997",
+          "doc": "1173738",
+          "price": "9",
+          "assessed": "135594",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "04/06/1994",
+          "doc": "0677047",
+          "price": "135000",
+          "assessed": "135000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/31/1989",
+          "doc": "0496506",
+          "price": "120000",
+          "assessed": "119900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "09/03/1981",
+          "doc": "0886100",
+          "price": "",
+          "assessed": "",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Development Rights - Acquiring Parcels"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-012",
+      "status": "VALID",
+      "address": "1729 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1204,
+      "lot": 12570,
+      "units": null,
+      "land": 57985,
+      "imp": 128433,
+      "assessed": 186418,
+      "latitude": 34.0542933792,
+      "longitude": -117.956416438,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "10/13/2022",
+          "doc": "0987277",
+          "price": "9",
+          "assessed": "175670",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "08/30/2022",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "12/01/2015",
+          "doc": "1498734",
+          "price": "",
+          "assessed": "154397",
+          "docType": "File Correction",
+          "reason": "Interspousal Transfer (SEC. 63)"
+        },
+        {
+          "rec": "10/15/1993",
+          "doc": "2013629",
+          "price": "",
+          "assessed": "107552",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "12/07/1990",
+          "doc": "2026857",
+          "price": "",
+          "assessed": "101351",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-013",
+      "status": "VALID",
+      "address": "1723 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 3,
+      "bldg": 1864,
+      "lot": 12522,
+      "units": null,
+      "land": 243305,
+      "imp": 279506,
+      "assessed": 522811,
+      "latitude": 34.0544279812,
+      "longitude": -117.956273231,
+      "lastBuy": {
+        "rec": "11/09/2009",
+        "doc": "1682243",
+        "price": "315003",
+        "assessed": "315000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "11/09/2009",
+          "doc": "1682243",
+          "price": "315003",
+          "assessed": "315000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/27/2004",
+          "doc": "1362215",
+          "price": "",
+          "assessed": "350000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "06/24/2003",
+          "doc": "1797385",
+          "price": "",
+          "assessed": "204415",
+          "docType": "File Correction",
+          "reason": "Joint Tenancy Transfer (SEC. 62F or 65C)"
+        },
+        {
+          "rec": "07/27/1993",
+          "doc": "1435651",
+          "price": "",
+          "assessed": "171000",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "04/25/1989",
+          "doc": "0643913",
+          "price": "180000",
+          "assessed": "180000",
+          "docType": "Less Liens - Reappraisal Transfers Less Liens DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-014",
+      "status": "VALID",
+      "address": "1717 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "DELINQUENT",
+      "yearDefaulted": "2026",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1611,
+      "lot": 12440,
+      "units": null,
+      "land": 26218,
+      "imp": 91416,
+      "assessed": 117634,
+      "latitude": 34.0545613637,
+      "longitude": -117.956130199,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "07/30/2009",
+          "doc": "1167200",
+          "price": "9",
+          "assessed": "89356",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "10/30/2008",
+          "doc": "1923465",
+          "price": "",
+          "assessed": "89569",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "02/17/1972",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-015",
+      "status": "VALID",
+      "address": "1711 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1954",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1582,
+      "lot": 12309,
+      "units": null,
+      "land": 326568,
+      "imp": 150720,
+      "assessed": 477288,
+      "latitude": 34.0546942179,
+      "longitude": -117.955989412,
+      "lastBuy": {
+        "rec": "10/26/2012",
+        "doc": "1627217",
+        "price": "380003",
+        "assessed": "380000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/20/2023",
+          "doc": "0895776",
+          "price": "9",
+          "assessed": "458756",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "10/26/2012",
+          "doc": "1627217",
+          "price": "380003",
+          "assessed": "380000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "08/10/1962",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-016",
+      "status": "VALID",
+      "address": "1705 S CABANA AVE, WEST COVINA CA 91790-4502",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "DELINQUENT",
+      "yearDefaulted": "2026",
+      "yearBuilt": "1948",
+      "beds": 3,
+      "baths": 1,
+      "bldg": 1204,
+      "lot": 12663,
+      "units": null,
+      "land": 614087,
+      "imp": 186367,
+      "assessed": 800454,
+      "latitude": 34.0548187905,
+      "longitude": -117.955815246,
+      "lastBuy": {
+        "rec": "04/13/2021",
+        "doc": "0582497",
+        "price": "725007",
+        "assessed": "725000",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "04/13/2021",
+          "doc": "0582497",
+          "price": "725007",
+          "assessed": "725000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "05/19/2005",
+          "doc": "1175764",
+          "price": "415504",
+          "assessed": "415000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "07/29/2002",
+          "doc": "1770288",
+          "price": "245000",
+          "assessed": "245000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "12/27/2001",
+          "doc": "2481895",
+          "price": "",
+          "assessed": "36139",
+          "docType": "File Correction",
+          "reason": "Non-reappraisable Trust Transfer (SEC. 62D)"
+        },
+        {
+          "rec": "09/17/1998",
+          "doc": "1675419",
+          "price": "",
+          "assessed": "34056",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        }
+      ]
+    },
+    {
+      "ain": "8466-008-017",
+      "status": "VALID",
+      "address": ",",
+      "useType": "Vacant Land",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": null,
+      "beds": null,
+      "baths": null,
+      "bldg": null,
+      "lot": 2977,
+      "units": null,
+      "land": 572,
+      "imp": 0,
+      "assessed": 572,
+      "latitude": 34.055011244,
+      "longitude": -117.95607464,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "09/13/2010",
+          "doc": "0029447",
+          "price": "9",
+          "assessed": "572",
+          "docType": "Legal Entity Control 64 (C) or (D)",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "02/45/1967",
+          "doc": "",
+          "price": "",
+          "assessed": "",
+          "docType": "Unknown or Unused Code",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-009-001",
+      "status": "VALID",
+      "address": "1706 S CABANA AVE, WEST COVINA CA 91790-4501",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1951",
+      "beds": 3,
+      "baths": 2,
+      "bldg": 1514,
+      "lot": 13853,
+      "units": null,
+      "land": 255361,
+      "imp": 91089,
+      "assessed": 346450,
+      "latitude": 34.0543681213,
+      "longitude": -117.955201798,
+      "lastBuy": null,
+      "hasForeclosureHist": false,
+      "ownership": [
+        {
+          "rec": "12/16/2022",
+          "doc": "1176194",
+          "price": "9",
+          "assessed": "324657",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "11/12/2015",
+          "doc": "1379557",
+          "price": "",
+          "assessed": "171446",
+          "docType": "File Correction",
+          "reason": "Transfers Not Changing % Interests (SEC. 62A)"
+        },
+        {
+          "rec": "05/10/2006",
+          "doc": "1036145",
+          "price": "",
+          "assessed": "151493",
+          "docType": "Excluded Transfer - No DTT",
+          "reason": "Parent-Child Transfer (Prop. 58)"
+        },
+        {
+          "rec": "10/01/1979",
+          "doc": "1094201",
+          "price": "",
+          "assessed": "",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Unknown or Unused Code"
+        }
+      ]
+    },
+    {
+      "ain": "8466-009-002",
+      "status": "VALID",
+      "address": "1712 S CABANA AVE, WEST COVINA CA 91790-4501",
+      "useType": "Single Family Residence",
+      "parcelStatus": "ACTIVE",
+      "taxStatus": "CURRENT",
+      "yearDefaulted": "",
+      "yearBuilt": "1950",
+      "beds": 2,
+      "baths": 1,
+      "bldg": 904,
+      "lot": 12494,
+      "units": null,
+      "land": 349974,
+      "imp": 87520,
+      "assessed": 437494,
+      "latitude": 34.0542295447,
+      "longitude": -117.955354111,
+      "lastBuy": {
+        "rec": "12/18/2013",
+        "doc": "1776810",
+        "price": "350003",
+        "assessed": "349900",
+        "docType": "Sale for Consideration - Full DTT",
+        "reason": "Good Transfer - Typical Change in Ownership"
+      },
+      "hasForeclosureHist": true,
+      "ownership": [
+        {
+          "rec": "12/18/2013",
+          "doc": "1776810",
+          "price": "350003",
+          "assessed": "349900",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "11/20/2013",
+          "doc": "1651678",
+          "price": "",
+          "assessed": "302500",
+          "docType": "Reappraisal Transfer - No DTT",
+          "reason": "Partial Interest Transfer - Complete Own-216"
+        },
+        {
+          "rec": "09/30/2011",
+          "doc": "1329654",
+          "price": "250002",
+          "assessed": "250000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        },
+        {
+          "rec": "03/18/2011",
+          "doc": "0411538",
+          "price": "",
+          "assessed": "257000",
+          "docType": "Foreclosure",
+          "reason": "Trustee Sale - May Not Be Market"
+        },
+        {
+          "rec": "07/11/2007",
+          "doc": "1639897",
+          "price": "425000",
+          "assessed": "425000",
+          "docType": "Sale for Consideration - Full DTT",
+          "reason": "Good Transfer - Typical Change in Ownership"
+        }
+      ]
+    }
+  ],
+  "parcelSnapshots": [
+    {
+      "ain": "8466-008-001",
+      "parcel": {
+        "AIN": "8466008001",
+        "Latitude": 34.0552023131,
+        "Longitude": -117.956335359,
+        "SitusStreet": "1706 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12641,
+        "SqftMain": 1220,
+        "NumOfBeds": 2,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 380019,
+        "CurrentRoll_ImpValue": 113634
+      }
+    },
+    {
+      "ain": "8466-008-002",
+      "parcel": {
+        "AIN": "8466008002",
+        "Latitude": 34.0550437722,
+        "Longitude": -117.956464671,
+        "SitusStreet": "1712 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12446,
+        "SqftMain": 1165,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 139745,
+        "CurrentRoll_ImpValue": 120500
+      }
+    },
+    {
+      "ain": "8466-008-003",
+      "parcel": {
+        "AIN": "8466008003",
+        "Latitude": 34.0549104966,
+        "Longitude": -117.956605363,
+        "SitusStreet": "1718 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12365,
+        "SqftMain": 964,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 26218,
+        "CurrentRoll_ImpValue": 36353
+      }
+    },
+    {
+      "ain": "8466-008-004",
+      "parcel": {
+        "AIN": "8466008004",
+        "Latitude": 34.0547772644,
+        "Longitude": -117.956747854,
+        "SitusStreet": "1724 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12569,
+        "SqftMain": 964,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 26218,
+        "CurrentRoll_ImpValue": 48090
+      }
+    },
+    {
+      "ain": "8466-008-005",
+      "parcel": {
+        "AIN": "8466008005",
+        "Latitude": 34.0546424208,
+        "Longitude": -117.95688946,
+        "SitusStreet": "1730 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12473,
+        "SqftMain": 1540,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 133026,
+        "CurrentRoll_ImpValue": 105205
+      }
+    },
+    {
+      "ain": "8466-008-006",
+      "parcel": {
+        "AIN": "8466008006",
+        "Latitude": 34.0545103804,
+        "Longitude": -117.95703247,
+        "SitusStreet": "1734 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12359,
+        "SqftMain": 2497,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 295458,
+        "CurrentRoll_ImpValue": 147726
+      }
+    },
+    {
+      "ain": "8466-008-007",
+      "parcel": {
+        "AIN": "8466008007",
+        "Latitude": 34.054376693,
+        "Longitude": -117.95717594,
+        "SitusStreet": "1738 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12653,
+        "SqftMain": 2603,
+        "NumOfBeds": 5,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 493033,
+        "CurrentRoll_ImpValue": 368382
+      }
+    },
+    {
+      "ain": "8466-008-008",
+      "parcel": {
+        "AIN": "8466008008",
+        "Latitude": 34.0542425685,
+        "Longitude": -117.957317771,
+        "SitusStreet": "1742 S TONOPAH AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4420",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12276,
+        "SqftMain": 1519,
+        "NumOfBeds": 4,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 143280,
+        "CurrentRoll_ImpValue": 196985
+      }
+    },
+    {
+      "ain": "8466-008-009",
+      "parcel": {
+        "AIN": "8466008009",
+        "Latitude": 34.0538927951,
+        "Longitude": -117.956844517,
+        "SitusStreet": "1741 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12301,
+        "SqftMain": 1332,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 88576,
+        "CurrentRoll_ImpValue": 138847
+      }
+    },
+    {
+      "ain": "8466-008-010",
+      "parcel": {
+        "AIN": "8466008010",
+        "Latitude": 34.0540261613,
+        "Longitude": -117.956701745,
+        "SitusStreet": "1737 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12623,
+        "SqftMain": 1554,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 142189,
+        "CurrentRoll_ImpValue": 173120
+      }
+    },
+    {
+      "ain": "8466-008-011",
+      "parcel": {
+        "AIN": "8466008011",
+        "Latitude": 34.0541601147,
+        "Longitude": -117.956559298,
+        "SitusStreet": "1733 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12346,
+        "SqftMain": 925,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 137445,
+        "CurrentRoll_ImpValue": 86424
+      }
+    },
+    {
+      "ain": "8466-008-012",
+      "parcel": {
+        "AIN": "8466008012",
+        "Latitude": 34.0542933792,
+        "Longitude": -117.956416438,
+        "SitusStreet": "1729 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12570,
+        "SqftMain": 1204,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 57985,
+        "CurrentRoll_ImpValue": 128433
+      }
+    },
+    {
+      "ain": "8466-008-013",
+      "parcel": {
+        "AIN": "8466008013",
+        "Latitude": 34.0544279812,
+        "Longitude": -117.956273231,
+        "SitusStreet": "1723 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 12522,
+        "SqftMain": 1864,
+        "NumOfBeds": 3,
+        "NumOfBaths": 3,
+        "CurrentRoll_LandValue": 243305,
+        "CurrentRoll_ImpValue": 279506
+      }
+    },
+    {
+      "ain": "8466-008-014",
+      "parcel": {
+        "AIN": "8466008014",
+        "Latitude": 34.0545613637,
+        "Longitude": -117.956130199,
+        "SitusStreet": "1717 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "DELINQUENT",
+        "YearBuilt": "1954",
+        "SqftLot": 12440,
+        "SqftMain": 1611,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 26218,
+        "CurrentRoll_ImpValue": 91416
+      }
+    },
+    {
+      "ain": "8466-008-015",
+      "parcel": {
+        "AIN": "8466008015",
+        "Latitude": 34.0546942179,
+        "Longitude": -117.955989412,
+        "SitusStreet": "1711 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1954",
+        "SqftLot": 12309,
+        "SqftMain": 1582,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 326568,
+        "CurrentRoll_ImpValue": 150720
+      }
+    },
+    {
+      "ain": "8466-008-016",
+      "parcel": {
+        "AIN": "8466008016",
+        "Latitude": 34.0548187905,
+        "Longitude": -117.955815246,
+        "SitusStreet": "1705 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4502",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "DELINQUENT",
+        "YearBuilt": "1948",
+        "SqftLot": 12663,
+        "SqftMain": 1204,
+        "NumOfBeds": 3,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 614087,
+        "CurrentRoll_ImpValue": 186367
+      }
+    },
+    {
+      "ain": "8466-008-017",
+      "parcel": {
+        "AIN": "8466008017",
+        "Latitude": 34.055011244,
+        "Longitude": -117.95607464,
+        "SitusStreet": "",
+        "SitusCity": " ",
+        "SitusZipCode": " ",
+        "UseType": "Vacant Land",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": null,
+        "SqftLot": 2977,
+        "SqftMain": null,
+        "NumOfBeds": null,
+        "NumOfBaths": null,
+        "CurrentRoll_LandValue": 572,
+        "CurrentRoll_ImpValue": 0
+      }
+    },
+    {
+      "ain": "8466-009-001",
+      "parcel": {
+        "AIN": "8466009001",
+        "Latitude": 34.0543681213,
+        "Longitude": -117.955201798,
+        "SitusStreet": "1706 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4501",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1951",
+        "SqftLot": 13853,
+        "SqftMain": 1514,
+        "NumOfBeds": 3,
+        "NumOfBaths": 2,
+        "CurrentRoll_LandValue": 255361,
+        "CurrentRoll_ImpValue": 91089
+      }
+    },
+    {
+      "ain": "8466-009-002",
+      "parcel": {
+        "AIN": "8466009002",
+        "Latitude": 34.0542295447,
+        "Longitude": -117.955354111,
+        "SitusStreet": "1712 S CABANA AVE",
+        "SitusCity": "WEST COVINA CA",
+        "SitusZipCode": "91790-4501",
+        "UseType": "Single Family Residence",
+        "ParcelStatus": "ACTIVE",
+        "TaxStatus": "CURRENT",
+        "YearBuilt": "1950",
+        "SqftLot": 12494,
+        "SqftMain": 904,
+        "NumOfBeds": 2,
+        "NumOfBaths": 1,
+        "CurrentRoll_LandValue": 349974,
+        "CurrentRoll_ImpValue": 87520
+      }
+    }
+  ],
+  "resultsTrace": [
+    {
+      "ain": "8466-007-024",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8466-007-025",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8466-007-026",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8466-007-027",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8466-007-028",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8466-007-029",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8466-007-030",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8466-007-031",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8466-007-032",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8466-007-033",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8466-007-034",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8466-007-035",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8466-008-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-002",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-003",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-004",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-005",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-006",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-007",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-008",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-009",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-010",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-011",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-012",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-013",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-014",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-015",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-016",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-017",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-008-018",
+      "status": "INVALID",
+      "streak": 1
+    },
+    {
+      "ain": "8466-008-019",
+      "status": "INVALID",
+      "streak": 2
+    },
+    {
+      "ain": "8466-008-020",
+      "status": "INVALID",
+      "streak": 3
+    },
+    {
+      "ain": "8466-008-021",
+      "status": "INVALID",
+      "streak": 4
+    },
+    {
+      "ain": "8466-008-022",
+      "status": "INVALID",
+      "streak": 5
+    },
+    {
+      "ain": "8466-008-023",
+      "status": "INVALID",
+      "streak": 6
+    },
+    {
+      "ain": "8466-008-024",
+      "status": "INVALID",
+      "streak": 7
+    },
+    {
+      "ain": "8466-008-025",
+      "status": "INVALID",
+      "streak": 8
+    },
+    {
+      "ain": "8466-008-026",
+      "status": "INVALID",
+      "streak": 9
+    },
+    {
+      "ain": "8466-008-027",
+      "status": "INVALID",
+      "streak": 10
+    },
+    {
+      "ain": "8466-008-028",
+      "status": "INVALID",
+      "streak": 11
+    },
+    {
+      "ain": "8466-008-029",
+      "status": "INVALID",
+      "streak": 12
+    },
+    {
+      "ain": "8466-009-001",
+      "status": "VALID"
+    },
+    {
+      "ain": "8466-009-002",
+      "status": "VALID"
+    }
+  ],
+  "startedAt": "2026-08-08T17:28:51.677Z",
+  "endedAt": "2026-08-08T17:29:07.190Z"
+}
