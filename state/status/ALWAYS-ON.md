@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-409
+# ALWAYS-ON cycle — RUN-410
 
-- **When:** 2026-08-12T14:58:34.632Z
-- **nextCursor:** 8469-009-020
+- **When:** 2026-08-12T16:03:50.441Z
+- **nextCursor:** 8469-010-026
 - **valids:** 32
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-409-2026-08-12-horizon`
+- **runDir:** `RUN-410-2026-08-12-horizon`
 - **mode:** ci
