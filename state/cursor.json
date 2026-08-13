@@ -522,10 +522,131 @@
         "8469-018",
         "8469-019",
         "8469-020",
-        "8469-021"
+        "8469-021",
+        "8470-001"
     ],
-    "horizonQueue": [],
-    "nextCursor": "8470-001-008",
+    "horizonQueue": [
+        {
+            "book": 8470,
+            "page": 2,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-002"
+        },
+        {
+            "book": 8470,
+            "page": 5,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8470-005"
+        },
+        {
+            "book": 8470,
+            "page": 6,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-006"
+        },
+        {
+            "book": 8470,
+            "page": 8,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-008"
+        },
+        {
+            "book": 8470,
+            "page": 9,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-009"
+        },
+        {
+            "book": 8470,
+            "page": 10,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-010"
+        },
+        {
+            "book": 8470,
+            "page": 11,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-011"
+        },
+        {
+            "book": 8470,
+            "page": 15,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8470-015"
+        },
+        {
+            "book": 8470,
+            "page": 4,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-004"
+        },
+        {
+            "book": 8470,
+            "page": 7,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-007"
+        },
+        {
+            "book": 8470,
+            "page": 12,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-012"
+        },
+        {
+            "book": 8470,
+            "page": 13,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-013"
+        },
+        {
+            "book": 8470,
+            "page": 14,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-014"
+        },
+        {
+            "book": 8470,
+            "page": 16,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-016"
+        },
+        {
+            "book": 8470,
+            "page": 17,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-017"
+        },
+        {
+            "book": 8470,
+            "page": 18,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-018"
+        },
+        {
+            "book": 8470,
+            "page": 19,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8470-019"
+        }
+    ],
+    "nextCursor": "8470-003-033",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -3789,6 +3910,13 @@
             "streak": 20,
             "to": "8470-001-001",
             "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+            "at": "8470-001-020",
+            "streak": 12,
+            "to": "8470-003-001",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -4214,14 +4342,15 @@
         "RUN-420",
         "RUN-421",
         "RUN-422",
-        "RUN-423"
+        "RUN-423",
+        "RUN-424"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-423-2026-08-13-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-424-2026-08-13-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-13T10:07:21.135Z",
+    "lastAlwaysOnAt": "2026-08-13T11:21:59.798Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -4634,5 +4763,6 @@
     "validCountRUN420": 28,
     "validCountRUN421": 17,
     "validCountRUN422": 19,
-    "validCountRUN423": 6
+    "validCountRUN423": 6,
+    "validCountRUN424": 26
 }
