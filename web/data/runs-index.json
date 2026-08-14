@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-14T16:51:13.002Z",
-  "runCount": 479,
-  "propertyRowCount": 12928,
-  "uniqueAinCount": 12826,
-  "propertyWithCoordsCount": 11861,
-  "nextCursor": "8470-024-034",
-  "donePageCount": 552,
+  "builtAt": "2026-08-14T17:52:16.331Z",
+  "runCount": 480,
+  "propertyRowCount": 12950,
+  "uniqueAinCount": 12848,
+  "propertyWithCoordsCount": 11881,
+  "nextCursor": "8470-028-027",
+  "donePageCount": 553,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3470,14 +3470,21 @@
       "to": "8470-024-015",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8470-024-052",
+      "streak": 12,
+      "to": "8470-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 7020,
-      "uniqueAinCount": 7020,
+      "propertyRowCount": 7036,
+      "uniqueAinCount": 7036,
       "areas": []
     },
     {
@@ -3495,15 +3502,15 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1319,
-      "uniqueAinCount": 1319,
+      "propertyRowCount": 1323,
+      "uniqueAinCount": 1323,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 1129,
-      "uniqueAinCount": 1090,
+      "propertyRowCount": 1131,
+      "uniqueAinCount": 1092,
       "areas": []
     },
     {
@@ -19568,6 +19575,48 @@
           "city": "La Puente",
           "count": 9,
           "slug": "la-puente"
+        }
+      ],
+      "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-448-2026-08-14-horizon",
+      "title": "RUN-448 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-14",
+      "validCount": 22,
+      "checks": 45,
+      "start": "2026-08-14T17:51:30.810Z",
+      "end": "8470-028-026",
+      "nextCursor": "8470-028-027",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8470-024-052",
+          "streak": 12,
+          "to": "8470-028-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-14T17:52:12.133Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 16,
+          "slug": "west-covina"
+        },
+        {
+          "city": "La Puente",
+          "count": 4,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "West Covina"
