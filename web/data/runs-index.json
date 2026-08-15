@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T12:36:08.415Z",
-  "runCount": 507,
-  "propertyRowCount": 13559,
-  "uniqueAinCount": 13457,
-  "propertyWithCoordsCount": 12465,
-  "nextCursor": "8471-019-041",
-  "donePageCount": 588,
+  "builtAt": "2026-08-15T13:30:04.835Z",
+  "runCount": 508,
+  "propertyRowCount": 13577,
+  "uniqueAinCount": 13475,
+  "propertyWithCoordsCount": 12482,
+  "nextCursor": "8471-022-013",
+  "donePageCount": 590,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3721,6 +3721,20 @@
       "to": "8471-019-026",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8471-019-053",
+      "streak": 12,
+      "to": "8471-021-026",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8471-021-045",
+      "streak": 12,
+      "to": "8471-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -3734,8 +3748,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1603,
-      "uniqueAinCount": 1603,
+      "propertyRowCount": 1620,
+      "uniqueAinCount": 1620,
       "areas": []
     },
     {
@@ -3753,8 +3767,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 1146,
-      "uniqueAinCount": 1107,
+      "propertyRowCount": 1147,
+      "uniqueAinCount": 1108,
       "areas": []
     },
     {
@@ -20879,6 +20893,50 @@
         {
           "city": "Unlabeled situs",
           "count": 2,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-476-2026-08-15-horizon",
+      "title": "RUN-476 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 18,
+      "checks": 45,
+      "start": "2026-08-15T13:28:29.381Z",
+      "end": "8471-022-012",
+      "nextCursor": "8471-022-013",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8471-019-053",
+          "streak": 12,
+          "to": "8471-021-026",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8471-021-045",
+          "streak": 12,
+          "to": "8471-022-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T13:30:00.844Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 17,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
           "slug": "unlabeled-situs"
         }
       ],
