@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T15:19:27.657Z",
-  "runCount": 512,
-  "propertyRowCount": 13651,
-  "uniqueAinCount": 13549,
-  "propertyWithCoordsCount": 12556,
-  "nextCursor": "8472-017-033",
-  "donePageCount": 594,
+  "builtAt": "2026-08-15T15:46:04.870Z",
+  "runCount": 513,
+  "propertyRowCount": 13681,
+  "uniqueAinCount": 13579,
+  "propertyWithCoordsCount": 12585,
+  "nextCursor": "8472-028-033",
+  "donePageCount": 595,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3762,6 +3762,13 @@
       "to": "8472-017-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8472-017-045",
+      "streak": 12,
+      "to": "8472-028-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -3775,8 +3782,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1663,
-      "uniqueAinCount": 1663,
+      "propertyRowCount": 1693,
+      "uniqueAinCount": 1693,
       "areas": []
     },
     {
@@ -21106,6 +21113,38 @@
         {
           "city": "La Puente",
           "count": 26,
+          "slug": "la-puente"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-481-2026-08-15-horizon",
+      "title": "RUN-481 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 30,
+      "checks": 45,
+      "start": "2026-08-15T15:45:22.013Z",
+      "end": "8472-028-032",
+      "nextCursor": "8472-028-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8472-017-045",
+          "streak": 12,
+          "to": "8472-028-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T15:46:00.726Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 30,
           "slug": "la-puente"
         }
       ],
