@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T04:30:02.717Z",
-  "runCount": 493,
-  "propertyRowCount": 13214,
-  "uniqueAinCount": 13112,
-  "propertyWithCoordsCount": 12131,
-  "nextCursor": "8471-020-033",
-  "donePageCount": 570,
+  "builtAt": "2026-08-15T04:59:29.973Z",
+  "runCount": 494,
+  "propertyRowCount": 13246,
+  "uniqueAinCount": 13144,
+  "propertyWithCoordsCount": 12157,
+  "nextCursor": "8471-024-030",
+  "donePageCount": 571,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3595,14 +3595,21 @@
       "to": "8471-020-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8471-020-048",
+      "streak": 12,
+      "to": "8471-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 7226,
-      "uniqueAinCount": 7226,
+      "propertyRowCount": 7253,
+      "uniqueAinCount": 7253,
       "areas": []
     },
     {
@@ -3620,15 +3627,15 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1385,
-      "uniqueAinCount": 1385,
+      "propertyRowCount": 1388,
+      "uniqueAinCount": 1388,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 1142,
-      "uniqueAinCount": 1103,
+      "propertyRowCount": 1144,
+      "uniqueAinCount": 1105,
       "areas": []
     },
     {
@@ -20211,6 +20218,48 @@
         }
       ],
       "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-462-2026-08-15-horizon",
+      "title": "RUN-462 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-08-15T04:58:24.196Z",
+      "end": "8471-024-029",
+      "nextCursor": "8471-024-030",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8471-020-048",
+          "streak": 12,
+          "to": "8471-024-001",
+          "reason": "SOFT_JUMP",
+          "hits": 5
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T04:59:26.018Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 27,
+          "slug": "west-covina"
+        },
+        {
+          "city": "La Puente",
+          "count": 3,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "West Covina"
     },
     {
       "id": "RUN-A01-8448-043",
