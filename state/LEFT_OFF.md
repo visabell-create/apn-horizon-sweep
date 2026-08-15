@@ -1,11 +1,11 @@
 # LEFT OFF — agent coordination log
 
-**Updated:** 2026-08-15T22:20:03.469Z (always-on cycle RUN-494)
+**Updated:** 2026-08-15T22:48:03.543Z (always-on cycle RUN-495)
 
 ## Global cursor (serial chain)
 
-**Authoritative next shared cursor:** `8472-004-020`
+**Authoritative next shared cursor:** `8472-006-002`
 
-- Last cycle: **RUN-494** — valids **28**, checks **45**, stop `SESSION_CAP_KEEP_GOING`
+- Last cycle: **RUN-495** — valids **19**, checks **45**, stop `SESSION_CAP_KEEP_GOING`
 - Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)
 - See `state/cursor.json` for donePages + horizonQueue
