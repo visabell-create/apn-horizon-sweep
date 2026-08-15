@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T14:22:46.924Z",
-  "runCount": 510,
-  "propertyRowCount": 13610,
-  "uniqueAinCount": 13508,
-  "propertyWithCoordsCount": 12515,
-  "nextCursor": "8471-027-033",
-  "donePageCount": 592,
+  "builtAt": "2026-08-15T14:51:51.663Z",
+  "runCount": 511,
+  "propertyRowCount": 13625,
+  "uniqueAinCount": 13523,
+  "propertyWithCoordsCount": 12530,
+  "nextCursor": "8472-001-025",
+  "donePageCount": 593,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3749,6 +3749,12 @@
       "to": "8471-027-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8471-027-053",
+      "streak": 20,
+      "to": "8472-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
     }
   ],
   "cities": [
@@ -3762,8 +3768,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1623,
-      "uniqueAinCount": 1623,
+      "propertyRowCount": 1637,
+      "uniqueAinCount": 1637,
       "areas": []
     },
     {
@@ -3781,8 +3787,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 1148,
-      "uniqueAinCount": 1109,
+      "propertyRowCount": 1149,
+      "uniqueAinCount": 1110,
       "areas": []
     },
     {
@@ -21029,6 +21035,42 @@
         }
       ],
       "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-479-2026-08-15-horizon",
+      "title": "RUN-479 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 15,
+      "checks": 45,
+      "start": "2026-08-15T14:48:07.628Z",
+      "end": "8472-001-024",
+      "nextCursor": "8472-001-025",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8471-027-053",
+          "streak": 20,
+          "to": "8472-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T14:51:48.129Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 14,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "La Puente"
     },
     {
       "id": "RUN-A01-8448-043",
