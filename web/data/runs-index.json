@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T01:09:04.684Z",
-  "runCount": 490,
-  "propertyRowCount": 13153,
-  "uniqueAinCount": 13051,
-  "propertyWithCoordsCount": 12077,
-  "nextCursor": "8471-002-033",
-  "donePageCount": 567,
+  "builtAt": "2026-08-15T02:33:02.845Z",
+  "runCount": 491,
+  "propertyRowCount": 13174,
+  "uniqueAinCount": 13072,
+  "propertyWithCoordsCount": 12098,
+  "nextCursor": "8471-003-033",
+  "donePageCount": 568,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3574,14 +3574,21 @@
       "to": "8471-002-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8471-002-045",
+      "streak": 12,
+      "to": "8471-003-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 7217,
-      "uniqueAinCount": 7217,
+      "propertyRowCount": 7226,
+      "uniqueAinCount": 7226,
       "areas": []
     },
     {
@@ -3599,8 +3606,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1339,
-      "uniqueAinCount": 1339,
+      "propertyRowCount": 1351,
+      "uniqueAinCount": 1351,
       "areas": []
     },
     {
@@ -20081,6 +20088,43 @@
           "city": "Unlabeled situs",
           "count": 1,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-459-2026-08-15-horizon",
+      "title": "RUN-459 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 21,
+      "checks": 45,
+      "start": "2026-08-15T02:32:15.470Z",
+      "end": "8471-003-032",
+      "nextCursor": "8471-003-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8471-002-045",
+          "streak": 12,
+          "to": "8471-003-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T02:32:59.223Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 12,
+          "slug": "la-puente"
+        },
+        {
+          "city": "West Covina",
+          "count": 9,
+          "slug": "west-covina"
         }
       ],
       "primaryCity": "La Puente"
