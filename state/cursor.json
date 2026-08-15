@@ -565,16 +565,10 @@
         "8470-041",
         "8470-042",
         "8470-043",
-        "8470-044"
+        "8470-044",
+        "8471-001"
     ],
     "horizonQueue": [
-        {
-            "book": 8471,
-            "page": 2,
-            "hits": 3,
-            "firstValidParcel": 1,
-            "key": "8471-002"
-        },
         {
             "book": 8471,
             "page": 3,
@@ -679,9 +673,16 @@
             "hits": 1,
             "firstValidParcel": 1,
             "key": "8471-016"
+        },
+        {
+            "book": 8471,
+            "page": 18,
+            "hits": 1,
+            "firstValidParcel": 4,
+            "key": "8471-018"
         }
     ],
-    "nextCursor": "8471-001-025",
+    "nextCursor": "8471-002-033",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -4245,6 +4246,13 @@
             "streak": 20,
             "to": "8471-001-001",
             "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+            "at": "8471-001-037",
+            "streak": 12,
+            "to": "8471-002-001",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -4704,14 +4712,15 @@
         "RUN-454",
         "RUN-455",
         "RUN-456",
-        "RUN-457"
+        "RUN-457",
+        "RUN-458"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-457-2026-08-14-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-458-2026-08-15-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-14T23:50:47.343Z",
+    "lastAlwaysOnAt": "2026-08-15T01:09:02.053Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -5158,5 +5167,6 @@
     "validCountRUN454": 20,
     "validCountRUN455": 16,
     "validCountRUN456": 27,
-    "validCountRUN457": 11
+    "validCountRUN457": 11,
+    "validCountRUN458": 26
 }
