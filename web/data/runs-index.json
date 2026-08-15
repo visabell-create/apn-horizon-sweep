@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T06:37:06.714Z",
-  "runCount": 496,
-  "propertyRowCount": 13310,
-  "uniqueAinCount": 13208,
-  "propertyWithCoordsCount": 12217,
-  "nextCursor": "8471-007-009",
-  "donePageCount": 573,
+  "builtAt": "2026-08-15T07:29:47.161Z",
+  "runCount": 497,
+  "propertyRowCount": 13341,
+  "uniqueAinCount": 13239,
+  "propertyWithCoordsCount": 12248,
+  "nextCursor": "8471-008-016",
+  "donePageCount": 574,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3616,6 +3616,13 @@
       "to": "8471-007-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8471-007-038",
+      "streak": 12,
+      "to": "8471-008-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -3624,6 +3631,13 @@
       "slug": "west-covina",
       "propertyRowCount": 7309,
       "uniqueAinCount": 7309,
+      "areas": []
+    },
+    {
+      "city": "La Puente",
+      "slug": "la-puente",
+      "propertyRowCount": 1426,
+      "uniqueAinCount": 1426,
       "areas": []
     },
     {
@@ -3637,13 +3651,6 @@
           "count": 59
         }
       ]
-    },
-    {
-      "city": "La Puente",
-      "slug": "la-puente",
-      "propertyRowCount": 1395,
-      "uniqueAinCount": 1395,
-      "areas": []
     },
     {
       "city": "Unlabeled situs",
@@ -20348,6 +20355,38 @@
         }
       ],
       "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-465-2026-08-15-horizon",
+      "title": "RUN-465 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 31,
+      "checks": 45,
+      "start": "2026-08-15T07:29:23.848Z",
+      "end": "8471-008-015",
+      "nextCursor": "8471-008-016",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8471-007-038",
+          "streak": 12,
+          "to": "8471-008-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T07:29:43.726Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 31,
+          "slug": "la-puente"
+        }
+      ],
+      "primaryCity": "La Puente"
     },
     {
       "id": "RUN-A01-8448-043",
