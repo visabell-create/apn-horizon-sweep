@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-15T21:47:14.076Z",
-  "runCount": 525,
-  "propertyRowCount": 13940,
-  "uniqueAinCount": 13838,
-  "propertyWithCoordsCount": 12826,
-  "nextCursor": "8472-003-004",
-  "donePageCount": 607,
+  "builtAt": "2026-08-15T22:20:06.307Z",
+  "runCount": 526,
+  "propertyRowCount": 13968,
+  "uniqueAinCount": 13866,
+  "propertyWithCoordsCount": 12854,
+  "nextCursor": "8472-004-020",
+  "donePageCount": 608,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -3853,6 +3853,13 @@
       "to": "8472-003-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8472-003-029",
+      "streak": 12,
+      "to": "8472-004-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -3866,8 +3873,8 @@
     {
       "city": "La Puente",
       "slug": "la-puente",
-      "propertyRowCount": 1929,
-      "uniqueAinCount": 1929,
+      "propertyRowCount": 1955,
+      "uniqueAinCount": 1955,
       "areas": []
     },
     {
@@ -3906,8 +3913,8 @@
     {
       "city": "Valinda",
       "slug": "valinda",
-      "propertyRowCount": 307,
-      "uniqueAinCount": 307,
+      "propertyRowCount": 309,
+      "uniqueAinCount": 309,
       "areas": []
     },
     {
@@ -21672,6 +21679,43 @@
         {
           "city": "Valinda",
           "count": 4,
+          "slug": "valinda"
+        }
+      ],
+      "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-494-2026-08-15-horizon",
+      "title": "RUN-494 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-15",
+      "validCount": 28,
+      "checks": 45,
+      "start": "2026-08-15T22:19:29.523Z",
+      "end": "8472-004-019",
+      "nextCursor": "8472-004-020",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8472-003-029",
+          "streak": 12,
+          "to": "8472-004-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-15T22:20:03.463Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "La Puente",
+          "count": 26,
+          "slug": "la-puente"
+        },
+        {
+          "city": "Valinda",
+          "count": 2,
           "slug": "valinda"
         }
       ],
