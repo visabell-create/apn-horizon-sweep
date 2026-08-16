@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-510
+# ALWAYS-ON cycle — RUN-511
 
-- **When:** 2026-08-16T10:23:57.251Z
-- **nextCursor:** 8472-041-015
-- **valids:** 17
-- **checks:** 45
-- **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-510-2026-08-16-horizon`
+- **When:** 2026-08-16T10:55:20.428Z
+- **nextCursor:** 8474-001-001
+- **valids:** 0
+- **checks:** 42
+- **stop:** TIME_BUDGET
+- **runDir:** `RUN-511-2026-08-16-horizon`
 - **mode:** ci
