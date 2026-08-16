@@ -641,10 +641,111 @@
         "8474-008",
         "8474-009",
         "8474-010",
-        "8474-011"
+        "8474-011",
+        "8474-012",
+        "8475-001"
     ],
-    "horizonQueue": [],
-    "nextCursor": "8474-012-022",
+    "horizonQueue": [
+        {
+            "book": 8475,
+            "page": 8,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8475-008"
+        },
+        {
+            "book": 8475,
+            "page": 2,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8475-002"
+        },
+        {
+            "book": 8475,
+            "page": 6,
+            "hits": 2,
+            "firstValidParcel": 40,
+            "key": "8475-006"
+        },
+        {
+            "book": 8475,
+            "page": 7,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8475-007"
+        },
+        {
+            "book": 8475,
+            "page": 11,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8475-011"
+        },
+        {
+            "book": 8475,
+            "page": 12,
+            "hits": 2,
+            "firstValidParcel": 40,
+            "key": "8475-012"
+        },
+        {
+            "book": 8475,
+            "page": 13,
+            "hits": 2,
+            "firstValidParcel": 40,
+            "key": "8475-013"
+        },
+        {
+            "book": 8475,
+            "page": 14,
+            "hits": 2,
+            "firstValidParcel": 80,
+            "key": "8475-014"
+        },
+        {
+            "book": 8475,
+            "page": 16,
+            "hits": 2,
+            "firstValidParcel": 40,
+            "key": "8475-016"
+        },
+        {
+            "book": 8475,
+            "page": 3,
+            "hits": 1,
+            "firstValidParcel": 20,
+            "key": "8475-003"
+        },
+        {
+            "book": 8475,
+            "page": 4,
+            "hits": 1,
+            "firstValidParcel": 80,
+            "key": "8475-004"
+        },
+        {
+            "book": 8475,
+            "page": 9,
+            "hits": 1,
+            "firstValidParcel": 10,
+            "key": "8475-009"
+        },
+        {
+            "book": 8475,
+            "page": 10,
+            "hits": 1,
+            "firstValidParcel": 20,
+            "key": "8475-010"
+        },
+        {
+            "book": 8475,
+            "page": 15,
+            "hits": 1,
+            "firstValidParcel": 40,
+            "key": "8475-015"
+        }
+    ],
+    "nextCursor": "8475-005-037",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -4737,6 +4838,19 @@
             "to": "8474-012-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8474-012-042",
+            "streak": 20,
+            "to": "8475-001-001",
+            "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+            "at": "8475-001-013",
+            "streak": 12,
+            "to": "8475-005-026",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -5258,14 +5372,15 @@
         "RUN-516",
         "RUN-517",
         "RUN-518",
-        "RUN-519"
+        "RUN-519",
+        "RUN-520"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-519-2026-08-16-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-520-2026-08-16-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-16T15:22:34.773Z",
+    "lastAlwaysOnAt": "2026-08-16T15:49:55.649Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -5774,5 +5889,6 @@
     "validCountRUN516": 31,
     "validCountRUN517": 24,
     "validCountRUN518": 12,
-    "validCountRUN519": 23
+    "validCountRUN519": 23,
+    "validCountRUN520": 11
 }
