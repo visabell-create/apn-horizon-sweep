@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-16T23:18:40.911Z",
-  "runCount": 567,
-  "propertyRowCount": 14924,
-  "uniqueAinCount": 14822,
-  "propertyWithCoordsCount": 13649,
-  "nextCursor": "8476-021-061",
-  "donePageCount": 661,
+  "builtAt": "2026-08-16T23:45:48.758Z",
+  "runCount": 568,
+  "propertyRowCount": 14947,
+  "uniqueAinCount": 14845,
+  "propertyWithCoordsCount": 13670,
+  "nextCursor": "8476-023-048",
+  "donePageCount": 662,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -4227,14 +4227,21 @@
       "to": "8476-021-001",
       "reason": "SOFT_JUMP",
       "hits": 5
+    },
+    {
+      "at": "8476-021-077",
+      "streak": 12,
+      "to": "8476-023-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 7825,
-      "uniqueAinCount": 7825,
+      "propertyRowCount": 7846,
+      "uniqueAinCount": 7846,
       "areas": []
     },
     {
@@ -4259,8 +4266,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 1273,
-      "uniqueAinCount": 1234,
+      "propertyRowCount": 1275,
+      "uniqueAinCount": 1236,
       "areas": []
     },
     {
@@ -23583,6 +23590,43 @@
           "city": "W Covina",
           "count": 1,
           "slug": "w-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-536-2026-08-16-horizon",
+      "title": "RUN-536 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-16",
+      "validCount": 23,
+      "checks": 45,
+      "start": "2026-08-16T23:43:49.467Z",
+      "end": "8476-023-047",
+      "nextCursor": "8476-023-048",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8476-021-077",
+          "streak": 12,
+          "to": "8476-023-020",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-16T23:45:44.145Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 21,
+          "slug": "west-covina"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "West Covina"
