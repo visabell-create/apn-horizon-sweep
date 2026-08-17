@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-08-17T06:52:31.026Z",
+  "builtAt": "2026-08-17T07:52:55.124Z",
   "cursor": {
     "donePages": [
       "8448-003",
@@ -668,18 +668,12 @@
       "8476-009",
       "8476-011",
       "8476-012",
+      "8476-017",
       "8476-021",
       "8476-022",
       "8476-023"
     ],
     "horizonQueue": [
-      {
-        "book": 8476,
-        "page": 18,
-        "hits": 2,
-        "firstValidParcel": 1,
-        "key": "8476-018"
-      },
       {
         "book": 8476,
         "page": 19,
@@ -772,7 +766,7 @@
         "key": "8476-024"
       }
     ],
-    "nextCursor": "8476-017-011",
+    "nextCursor": "8476-018-021",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -5052,6 +5046,13 @@
         "to": "8476-017-001",
         "reason": "SOFT_JUMP",
         "hits": 2
+      },
+      {
+        "at": "8476-017-035",
+        "streak": 12,
+        "to": "8476-018-001",
+        "reason": "SOFT_JUMP",
+        "hits": 2
       }
     ],
     "completedRuns": [
@@ -5596,14 +5597,15 @@
       "RUN-539",
       "RUN-540",
       "RUN-541",
-      "RUN-542"
+      "RUN-542",
+      "RUN-543"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-542-2026-08-17-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-543-2026-08-17-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-17T06:52:25.194Z",
+    "lastAlwaysOnAt": "2026-08-17T07:52:51.204Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -6135,9 +6137,10 @@
     "validCountRUN539": 20,
     "validCountRUN540": 20,
     "validCountRUN541": 19,
-    "validCountRUN542": 28
+    "validCountRUN542": 28,
+    "validCountRUN543": 32
   },
-  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-08-17T06:52:25.201Z (always-on cycle RUN-542)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8476-017-011`\n\n- Last cycle: **RUN-542** — valids **28**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
+  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-08-17T07:52:51.211Z (always-on cycle RUN-543)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8476-018-021`\n\n- Last cycle: **RUN-543** — valids **32**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
   "statusNotes": [
     {
       "id": "CURSOR-RECONCILE.md",
