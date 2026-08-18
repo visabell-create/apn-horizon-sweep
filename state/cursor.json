@@ -738,12 +738,113 @@
         "8478-022",
         "8478-024",
         "8478-025",
+        "8478-026",
         "8478-027",
         "8478-028",
-        "8478-029"
+        "8478-029",
+        "8479-001"
     ],
-    "horizonQueue": [],
-    "nextCursor": "8478-026-026",
+    "horizonQueue": [
+        {
+            "book": 8479,
+            "page": 9,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8479-009"
+        },
+        {
+            "book": 8479,
+            "page": 10,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8479-010"
+        },
+        {
+            "book": 8479,
+            "page": 13,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8479-013"
+        },
+        {
+            "book": 8479,
+            "page": 12,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8479-012"
+        },
+        {
+            "book": 8479,
+            "page": 2,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8479-002"
+        },
+        {
+            "book": 8479,
+            "page": 3,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8479-003"
+        },
+        {
+            "book": 8479,
+            "page": 4,
+            "hits": 1,
+            "firstValidParcel": 2,
+            "key": "8479-004"
+        },
+        {
+            "book": 8479,
+            "page": 5,
+            "hits": 1,
+            "firstValidParcel": 2,
+            "key": "8479-005"
+        },
+        {
+            "book": 8479,
+            "page": 6,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8479-006"
+        },
+        {
+            "book": 8479,
+            "page": 7,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8479-007"
+        },
+        {
+            "book": 8479,
+            "page": 8,
+            "hits": 1,
+            "firstValidParcel": 2,
+            "key": "8479-008"
+        },
+        {
+            "book": 8479,
+            "page": 14,
+            "hits": 1,
+            "firstValidParcel": 2,
+            "key": "8479-014"
+        },
+        {
+            "book": 8479,
+            "page": 15,
+            "hits": 1,
+            "firstValidParcel": 12,
+            "key": "8479-015"
+        },
+        {
+            "book": 8479,
+            "page": 16,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8479-016"
+        }
+    ],
+    "nextCursor": "8479-017-003",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -5525,6 +5626,19 @@
             "to": "8478-026-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8478-026-046",
+            "streak": 20,
+            "to": "8479-001-001",
+            "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+            "at": "8479-001-022",
+            "streak": 12,
+            "to": "8479-017-001",
+            "reason": "SOFT_JUMP",
+            "hits": 4
         }
     ],
     "completedRuns": [
@@ -6123,14 +6237,15 @@
         "RUN-593",
         "RUN-594",
         "RUN-595",
-        "RUN-596"
+        "RUN-596",
+        "RUN-597"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-596-2026-08-18-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-597-2026-08-18-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-18T21:51:58.390Z",
+    "lastAlwaysOnAt": "2026-08-18T22:24:56.091Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -6716,5 +6831,6 @@
     "validCountRUN593": 19,
     "validCountRUN594": 24,
     "validCountRUN595": 19,
-    "validCountRUN596": 20
+    "validCountRUN596": 20,
+    "validCountRUN597": 7
 }
