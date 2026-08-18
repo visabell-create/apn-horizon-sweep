@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-08-18T22:50:43.249Z",
+  "builtAt": "2026-08-18T23:22:06.739Z",
   "cursor": {
     "donePages": [
       "8448-003",
@@ -744,16 +744,10 @@
       "8478-027",
       "8478-028",
       "8478-029",
-      "8479-001"
+      "8479-001",
+      "8479-017"
     ],
     "horizonQueue": [
-      {
-        "book": 8479,
-        "page": 9,
-        "hits": 3,
-        "firstValidParcel": 1,
-        "key": "8479-009"
-      },
       {
         "book": 8479,
         "page": 10,
@@ -774,6 +768,20 @@
         "hits": 2,
         "firstValidParcel": 20,
         "key": "8479-012"
+      },
+      {
+        "book": 8479,
+        "page": 26,
+        "hits": 2,
+        "firstValidParcel": 1,
+        "key": "8479-026"
+      },
+      {
+        "book": 8479,
+        "page": 27,
+        "hits": 2,
+        "firstValidParcel": 1,
+        "key": "8479-027"
       },
       {
         "book": 8479,
@@ -844,9 +852,51 @@
         "hits": 1,
         "firstValidParcel": 1,
         "key": "8479-016"
+      },
+      {
+        "book": 8479,
+        "page": 21,
+        "hits": 1,
+        "firstValidParcel": 2,
+        "key": "8479-021"
+      },
+      {
+        "book": 8479,
+        "page": 22,
+        "hits": 1,
+        "firstValidParcel": 1,
+        "key": "8479-022"
+      },
+      {
+        "book": 8479,
+        "page": 23,
+        "hits": 1,
+        "firstValidParcel": 1,
+        "key": "8479-023"
+      },
+      {
+        "book": 8479,
+        "page": 24,
+        "hits": 1,
+        "firstValidParcel": 1,
+        "key": "8479-024"
+      },
+      {
+        "book": 8479,
+        "page": 25,
+        "hits": 1,
+        "firstValidParcel": 1,
+        "key": "8479-025"
+      },
+      {
+        "book": 8479,
+        "page": 28,
+        "hits": 1,
+        "firstValidParcel": 2,
+        "key": "8479-028"
       }
     ],
-    "nextCursor": "8479-017-048",
+    "nextCursor": "8479-009-033",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -5641,6 +5691,13 @@
         "to": "8479-017-001",
         "reason": "SOFT_JUMP",
         "hits": 4
+      },
+      {
+        "at": "8479-017-060",
+        "streak": 12,
+        "to": "8479-009-001",
+        "reason": "SOFT_JUMP",
+        "hits": 3
       }
     ],
     "completedRuns": [
@@ -6241,14 +6298,15 @@
       "RUN-595",
       "RUN-596",
       "RUN-597",
-      "RUN-598"
+      "RUN-598",
+      "RUN-599"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-598-2026-08-18-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-599-2026-08-18-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-18T22:50:37.890Z",
+    "lastAlwaysOnAt": "2026-08-18T23:22:02.354Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -6836,9 +6894,10 @@
     "validCountRUN595": 19,
     "validCountRUN596": 20,
     "validCountRUN597": 7,
-    "validCountRUN598": 35
+    "validCountRUN598": 35,
+    "validCountRUN599": 28
   },
-  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-08-18T22:50:37.897Z (always-on cycle RUN-598)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8479-017-048`\n\n- Last cycle: **RUN-598** — valids **35**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
+  "leftOffMarkdown": "# LEFT OFF — agent coordination log\n\n**Updated:** 2026-08-18T23:22:02.363Z (always-on cycle RUN-599)\n\n## Global cursor (serial chain)\n\n**Authoritative next shared cursor:** `8479-009-033`\n\n- Last cycle: **RUN-599** — valids **28**, checks **45**, stop `SESSION_CAP_KEEP_GOING`\n- Algorithm: perpetual-horizon-v1 (Node HTTPS always-on)\n- See `state/cursor.json` for donePages + horizonQueue\n",
   "statusNotes": [
     {
       "id": "CURSOR-RECONCILE.md",
