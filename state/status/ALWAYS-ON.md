@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-600
+# ALWAYS-ON cycle — RUN-601
 
-- **When:** 2026-08-18T23:47:25.793Z
-- **nextCursor:** 8479-010-032
-- **valids:** 24
+- **When:** 2026-08-19T01:10:58.058Z
+- **nextCursor:** 8479-013-033
+- **valids:** 26
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-600-2026-08-18-horizon`
+- **runDir:** `RUN-601-2026-08-19-horizon`
 - **mode:** ci
