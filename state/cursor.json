@@ -789,6 +789,7 @@
         "8482-003",
         "8482-004",
         "8482-006",
+        "8482-007",
         "8482-021",
         "8482-022",
         "8482-023",
@@ -805,13 +806,6 @@
         "8482-039"
     ],
     "horizonQueue": [
-        {
-            "book": 8482,
-            "page": 8,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8482-008"
-        },
         {
             "book": 8482,
             "page": 9,
@@ -932,7 +926,7 @@
             "key": "8482-031"
         }
     ],
-    "nextCursor": "8482-007-002",
+    "nextCursor": "8482-008-024",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -6144,6 +6138,13 @@
             "to": "8482-007-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8482-007-023",
+            "streak": 12,
+            "to": "8482-008-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
         }
     ],
     "completedRuns": [
@@ -6800,14 +6801,15 @@
         "RUN-651",
         "RUN-652",
         "RUN-653",
-        "RUN-654"
+        "RUN-654",
+        "RUN-655"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-654-2026-08-20-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-655-2026-08-20-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-20T18:47:19.760Z",
+    "lastAlwaysOnAt": "2026-08-20T19:30:21.137Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -7451,5 +7453,6 @@
     "validCountRUN651": 26,
     "validCountRUN652": 16,
     "validCountRUN653": 22,
-    "validCountRUN654": 19
+    "validCountRUN654": 19,
+    "validCountRUN655": 25
 }
