@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-21T17:58:41.832Z",
-  "runCount": 714,
-  "propertyRowCount": 18382,
-  "uniqueAinCount": 18280,
-  "propertyWithCoordsCount": 16757,
-  "nextCursor": "8484-022-002",
-  "donePageCount": 845,
+  "builtAt": "2026-08-21T18:43:02.830Z",
+  "runCount": 715,
+  "propertyRowCount": 18401,
+  "uniqueAinCount": 18299,
+  "propertyWithCoordsCount": 16776,
+  "nextCursor": "8484-024-007",
+  "donePageCount": 847,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -5507,14 +5507,28 @@
       "to": "8484-022-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8484-022-019",
+      "streak": 12,
+      "to": "8484-023-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8484-023-021",
+      "streak": 12,
+      "to": "8484-024-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 10944,
-      "uniqueAinCount": 10944,
+      "propertyRowCount": 10963,
+      "uniqueAinCount": 10963,
       "areas": []
     },
     {
@@ -30157,6 +30171,45 @@
       ],
       "started": null,
       "ended": "2026-08-21T17:58:36.878Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 19,
+          "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-683-2026-08-21-horizon",
+      "title": "RUN-683 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-21",
+      "validCount": 19,
+      "checks": 45,
+      "start": "2026-08-21T18:41:14.947Z",
+      "end": "8484-024-006",
+      "nextCursor": "8484-024-007",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8484-022-019",
+          "streak": 12,
+          "to": "8484-023-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8484-023-021",
+          "streak": 12,
+          "to": "8484-024-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-21T18:42:57.644Z",
       "isAggregate": false,
       "cities": [
         {
