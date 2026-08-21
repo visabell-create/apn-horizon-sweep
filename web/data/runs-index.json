@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-21T21:49:57.543Z",
-  "runCount": 721,
-  "propertyRowCount": 18522,
-  "uniqueAinCount": 18420,
-  "propertyWithCoordsCount": 16897,
-  "nextCursor": "8485-030-003",
-  "donePageCount": 856,
+  "builtAt": "2026-08-21T22:25:00.336Z",
+  "runCount": 722,
+  "propertyRowCount": 18554,
+  "uniqueAinCount": 18452,
+  "propertyWithCoordsCount": 16929,
+  "nextCursor": "8485-016-027",
+  "donePageCount": 857,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -5583,14 +5583,21 @@
       "to": "8485-030-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8485-030-040",
+      "streak": 12,
+      "to": "8485-016-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 11082,
-      "uniqueAinCount": 11082,
+      "propertyRowCount": 11114,
+      "uniqueAinCount": 11114,
       "areas": []
     },
     {
@@ -30499,6 +30506,38 @@
         {
           "city": "West Covina",
           "count": 17,
+          "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-690-2026-08-21-horizon",
+      "title": "RUN-690 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-21",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-08-21T22:22:35.017Z",
+      "end": "8485-016-026",
+      "nextCursor": "8485-016-027",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8485-030-040",
+          "streak": 12,
+          "to": "8485-016-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-21T22:24:55.319Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 32,
           "slug": "west-covina"
         }
       ],
