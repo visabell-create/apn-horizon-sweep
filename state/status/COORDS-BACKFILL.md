@@ -1,14 +1,14 @@
 # COORDS BACKFILL
 
-**Updated:** 2026-08-22T18:59:49.974Z
+**Updated:** 2026-08-22T19:30:48.260Z
 **Mode:** batch-120
 
 ## Coverage (unique archive AINs)
 
 | Metric | Count |
 |---|---:|
-| Unique AINs | 19256 |
-| With coords | 17654 |
+| Unique AINs | 19288 |
+| With coords | 17686 |
 | Permanent miss (no lat/lon on parcel) | 1602 |
 | Transient / retry later | 0 |
 | Not yet fetched | 0 |
