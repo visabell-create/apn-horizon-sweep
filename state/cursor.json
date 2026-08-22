@@ -871,24 +871,12 @@
         "8485-015",
         "8485-016",
         "8485-017",
+        "8485-018",
+        "8485-019",
         "8485-030",
         "8485-031"
     ],
     "horizonQueue": [
-        {
-            "book": 8485,
-            "page": 19,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8485-019"
-        },
-        {
-            "book": 8485,
-            "page": 20,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8485-020"
-        },
         {
             "book": 8485,
             "page": 21,
@@ -946,7 +934,7 @@
             "key": "8485-029"
         }
     ],
-    "nextCursor": "8485-018-012",
+    "nextCursor": "8485-020-002",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -6645,6 +6633,20 @@
             "to": "8485-018-001",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8485-018-030",
+            "streak": 12,
+            "to": "8485-019-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
+        },
+        {
+            "at": "8485-019-025",
+            "streak": 12,
+            "to": "8485-020-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
         }
     ],
     "completedRuns": [
@@ -7348,14 +7350,15 @@
         "RUN-698",
         "RUN-699",
         "RUN-700",
-        "RUN-701"
+        "RUN-701",
+        "RUN-702"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-701-2026-08-22-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-702-2026-08-22-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-22T07:31:21.438Z",
+    "lastAlwaysOnAt": "2026-08-22T07:58:19.751Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -8046,5 +8049,6 @@
     "validCountRUN698": 27,
     "validCountRUN699": 17,
     "validCountRUN700": 16,
-    "validCountRUN701": 19
+    "validCountRUN701": 19,
+    "validCountRUN702": 19
 }
