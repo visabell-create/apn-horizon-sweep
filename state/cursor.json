@@ -914,10 +914,117 @@
         "8486-028",
         "8486-029",
         "8486-030",
-        "8486-031"
+        "8486-031",
+        "8487-001"
     ],
-    "horizonQueue": [],
-    "nextCursor": "8487-001-021",
+    "horizonQueue": [
+        {
+            "book": 8487,
+            "page": 6,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8487-006"
+        },
+        {
+            "book": 8487,
+            "page": 7,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8487-007"
+        },
+        {
+            "book": 8487,
+            "page": 2,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8487-002"
+        },
+        {
+            "book": 8487,
+            "page": 3,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8487-003"
+        },
+        {
+            "book": 8487,
+            "page": 4,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8487-004"
+        },
+        {
+            "book": 8487,
+            "page": 8,
+            "hits": 2,
+            "firstValidParcel": 80,
+            "key": "8487-008"
+        },
+        {
+            "book": 8487,
+            "page": 13,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8487-013"
+        },
+        {
+            "book": 8487,
+            "page": 15,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8487-015"
+        },
+        {
+            "book": 8487,
+            "page": 17,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8487-017"
+        },
+        {
+            "book": 8487,
+            "page": 9,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8487-009"
+        },
+        {
+            "book": 8487,
+            "page": 10,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8487-010"
+        },
+        {
+            "book": 8487,
+            "page": 11,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8487-011"
+        },
+        {
+            "book": 8487,
+            "page": 12,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8487-012"
+        },
+        {
+            "book": 8487,
+            "page": 14,
+            "hits": 1,
+            "firstValidParcel": 3,
+            "key": "8487-014"
+        },
+        {
+            "book": 8487,
+            "page": 16,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8487-016"
+        }
+    ],
+    "nextCursor": "8487-005-033",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -6908,6 +7015,13 @@
             "streak": 20,
             "to": "8487-001-001",
             "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+            "at": "8487-001-033",
+            "streak": 12,
+            "to": "8487-005-001",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -7645,14 +7759,15 @@
         "RUN-732",
         "RUN-733",
         "RUN-734",
-        "RUN-735"
+        "RUN-735",
+        "RUN-736"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-735-2026-08-23-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-736-2026-08-23-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-23T05:29:32.601Z",
+    "lastAlwaysOnAt": "2026-08-23T05:56:17.759Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -8377,5 +8492,6 @@
     "validCountRUN732": 19,
     "validCountRUN733": 29,
     "validCountRUN734": 19,
-    "validCountRUN735": 21
+    "validCountRUN735": 21,
+    "validCountRUN736": 29
 }
