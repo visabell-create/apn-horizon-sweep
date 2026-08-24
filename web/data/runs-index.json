@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-24T13:51:18.398Z",
-  "runCount": 813,
-  "propertyRowCount": 20813,
-  "uniqueAinCount": 20711,
-  "propertyWithCoordsCount": 19157,
-  "nextCursor": "8489-013-007",
-  "donePageCount": 973,
+  "builtAt": "2026-08-24T14:40:32.067Z",
+  "runCount": 814,
+  "propertyRowCount": 20838,
+  "uniqueAinCount": 20736,
+  "propertyWithCoordsCount": 19182,
+  "nextCursor": "8489-026-017",
+  "donePageCount": 974,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -6398,14 +6398,21 @@
       "to": "8489-013-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8489-013-035",
+      "streak": 12,
+      "to": "8489-026-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 13250,
-      "uniqueAinCount": 13250,
+      "propertyRowCount": 13275,
+      "uniqueAinCount": 13275,
       "areas": []
     },
     {
@@ -34545,6 +34552,38 @@
         }
       ],
       "primaryCity": "La Puente"
+    },
+    {
+      "id": "RUN-782-2026-08-24-horizon",
+      "title": "RUN-782 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-24",
+      "validCount": 25,
+      "checks": 45,
+      "start": "2026-08-24T14:39:58.274Z",
+      "end": "8489-026-016",
+      "nextCursor": "8489-026-017",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8489-013-035",
+          "streak": 12,
+          "to": "8489-026-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-24T14:40:25.969Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 25,
+          "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
     },
     {
       "id": "RUN-A01-8448-043",
