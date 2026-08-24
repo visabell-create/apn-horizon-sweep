@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-773
+# ALWAYS-ON cycle — RUN-774
 
-- **When:** 2026-08-24T06:57:19.622Z
-- **nextCursor:** 8488-019-037
-- **valids:** 14
-- **checks:** 33
-- **stop:** ASSESSOR_BLOCKED_MID_CYCLE
-- **runDir:** `RUN-773-2026-08-24-horizon`
+- **When:** 2026-08-24T08:00:59.378Z
+- **nextCursor:** 8488-021-006
+- **valids:** 19
+- **checks:** 45
+- **stop:** SESSION_CAP_KEEP_GOING
+- **runDir:** `RUN-774-2026-08-24-horizon`
 - **mode:** ci
