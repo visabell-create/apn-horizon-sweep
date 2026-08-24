@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-24T11:26:59.730Z",
-  "runCount": 810,
-  "propertyRowCount": 20752,
-  "uniqueAinCount": 20650,
-  "propertyWithCoordsCount": 19101,
-  "nextCursor": "8489-019-078",
-  "donePageCount": 969,
+  "builtAt": "2026-08-24T11:56:03.506Z",
+  "runCount": 811,
+  "propertyRowCount": 20777,
+  "uniqueAinCount": 20675,
+  "propertyWithCoordsCount": 19126,
+  "nextCursor": "8489-005-030",
+  "donePageCount": 970,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -6370,14 +6370,21 @@
       "to": "8489-019-001",
       "reason": "SOFT_JUMP",
       "hits": 6
+    },
+    {
+      "at": "8489-019-093",
+      "streak": 12,
+      "to": "8489-005-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 13213,
-      "uniqueAinCount": 13213,
+      "propertyRowCount": 13235,
+      "uniqueAinCount": 13235,
       "areas": []
     },
     {
@@ -6423,8 +6430,8 @@
     {
       "city": "Valinda",
       "slug": "valinda",
-      "propertyRowCount": 350,
-      "uniqueAinCount": 350,
+      "propertyRowCount": 353,
+      "uniqueAinCount": 353,
       "areas": []
     },
     {
@@ -34389,6 +34396,43 @@
         }
       ],
       "primaryCity": "Valinda"
+    },
+    {
+      "id": "RUN-779-2026-08-24-horizon",
+      "title": "RUN-779 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-24",
+      "validCount": 25,
+      "checks": 45,
+      "start": "2026-08-24T11:55:08.071Z",
+      "end": "8489-005-029",
+      "nextCursor": "8489-005-030",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8489-019-093",
+          "streak": 12,
+          "to": "8489-005-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-24T11:55:57.930Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 22,
+          "slug": "west-covina"
+        },
+        {
+          "city": "Valinda",
+          "count": 3,
+          "slug": "valinda"
+        }
+      ],
+      "primaryCity": "West Covina"
     },
     {
       "id": "RUN-A01-8448-043",
