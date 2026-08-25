@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-801
+# ALWAYS-ON cycle — RUN-802
 
-- **When:** 2026-08-25T06:01:19.033Z
-- **nextCursor:** 8490-012-016
-- **valids:** 22
+- **When:** 2026-08-25T07:02:22.006Z
+- **nextCursor:** 8490-012-061
+- **valids:** 27
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-801-2026-08-25-horizon`
+- **runDir:** `RUN-802-2026-08-25-horizon`
 - **mode:** ci
