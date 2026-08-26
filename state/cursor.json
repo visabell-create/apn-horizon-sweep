@@ -1022,7 +1022,9 @@
         "8490-023",
         "8490-024",
         "8490-025",
+        "8490-026",
         "8490-027",
+        "8490-028",
         "8490-029",
         "8490-030",
         "8490-031",
@@ -1031,27 +1033,13 @@
     "horizonQueue": [
         {
             "book": 8490,
-            "page": 28,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8490-028"
-        },
-        {
-            "book": 8490,
-            "page": 32,
-            "hits": 1,
-            "firstValidParcel": 1,
-            "key": "8490-032"
-        },
-        {
-            "book": 8490,
             "page": 33,
             "hits": 1,
             "firstValidParcel": 1,
             "key": "8490-033"
         }
     ],
-    "nextCursor": "8490-026-023",
+    "nextCursor": "8490-032-002",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -7823,6 +7811,20 @@
             "to": "8490-026-020",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8490-026-035",
+            "streak": 12,
+            "to": "8490-028-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
+        },
+        {
+            "at": "8490-028-031",
+            "streak": 12,
+            "to": "8490-032-001",
+            "reason": "SOFT_JUMP",
+            "hits": 1
         }
     ],
     "completedRuns": [
@@ -8653,14 +8655,15 @@
         "RUN-825",
         "RUN-826",
         "RUN-827",
-        "RUN-828"
+        "RUN-828",
+        "RUN-829"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-828-2026-08-26-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-829-2026-08-26-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-08-26T04:39:06.583Z",
+    "lastAlwaysOnAt": "2026-08-26T05:35:18.893Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -9478,5 +9481,6 @@
     "validCountRUN825": 20,
     "validCountRUN826": 19,
     "validCountRUN827": 20,
-    "validCountRUN828": 16
+    "validCountRUN828": 16,
+    "validCountRUN829": 17
 }
