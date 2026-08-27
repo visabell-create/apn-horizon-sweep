@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-08-26T21:49:12.549Z",
-  "runCount": 874,
-  "propertyRowCount": 22187,
-  "uniqueAinCount": 22085,
-  "propertyWithCoordsCount": 20491,
-  "nextCursor": "8492-018-015",
-  "donePageCount": 1048,
+  "builtAt": "2026-08-27T03:03:04.729Z",
+  "runCount": 875,
+  "propertyRowCount": 22195,
+  "uniqueAinCount": 22093,
+  "propertyWithCoordsCount": 20499,
+  "nextCursor": "8493-001-004",
+  "donePageCount": 1050,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -6920,14 +6920,27 @@
       "to": "8492-018-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8492-018-027",
+      "streak": 12,
+      "to": "8492-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8492-019-029",
+      "streak": 20,
+      "to": "8493-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
     }
   ],
   "cities": [
     {
       "city": "West Covina",
       "slug": "west-covina",
-      "propertyRowCount": 14520,
-      "uniqueAinCount": 14520,
+      "propertyRowCount": 14528,
+      "uniqueAinCount": 14528,
       "areas": []
     },
     {
@@ -37190,6 +37203,44 @@
         {
           "city": "West Covina",
           "count": 17,
+          "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "West Covina"
+    },
+    {
+      "id": "RUN-843-2026-08-27-horizon",
+      "title": "RUN-843 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-08-27",
+      "validCount": 8,
+      "checks": 45,
+      "start": "2026-08-27T02:56:14.972Z",
+      "end": "8493-001-003",
+      "nextCursor": "8493-001-004",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8492-018-027",
+          "streak": 12,
+          "to": "8492-019-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8492-019-029",
+          "streak": 20,
+          "to": "8493-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-08-27T03:02:58.823Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "West Covina",
+          "count": 8,
           "slug": "west-covina"
         }
       ],
