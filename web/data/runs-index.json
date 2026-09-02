@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-09-02T04:54:44.844Z",
-  "runCount": 903,
-  "propertyRowCount": 23183,
-  "uniqueAinCount": 23081,
-  "propertyWithCoordsCount": 21385,
-  "nextCursor": "8493-044-016",
-  "donePageCount": 1066,
+  "builtAt": "2026-09-02T09:18:57.801Z",
+  "runCount": 904,
+  "propertyRowCount": 23215,
+  "uniqueAinCount": 23113,
+  "propertyWithCoordsCount": 21390,
+  "nextCursor": "8493-045-015",
+  "donePageCount": 1067,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -7045,6 +7045,13 @@
       "to": "8493-044-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8493-044-046",
+      "streak": 12,
+      "to": "8493-045-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -7065,8 +7072,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 1812,
-      "uniqueAinCount": 1773,
+      "propertyRowCount": 1844,
+      "uniqueAinCount": 1805,
       "areas": []
     },
     {
@@ -38254,6 +38261,38 @@
           "city": "West Covina",
           "count": 11,
           "slug": "west-covina"
+        }
+      ],
+      "primaryCity": "Unlabeled situs"
+    },
+    {
+      "id": "RUN-872-2026-09-02-horizon",
+      "title": "RUN-872 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-02",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-09-02T09:18:28.415Z",
+      "end": "8493-045-014",
+      "nextCursor": "8493-045-015",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8493-044-046",
+          "streak": 12,
+          "to": "8493-045-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-09-02T09:18:45.837Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Unlabeled situs",
+          "count": 32,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "Unlabeled situs"
