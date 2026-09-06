@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-09-06T19:30:44.059Z",
-  "runCount": 936,
+  "builtAt": "2026-09-06T21:40:39.358Z",
+  "runCount": 937,
   "propertyRowCount": 23962,
   "uniqueAinCount": 23860,
   "propertyWithCoordsCount": 22061,
-  "nextCursor": "8495-001-004",
-  "donePageCount": 1111,
+  "nextCursor": "8497-001-001",
+  "donePageCount": 1113,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -7357,6 +7357,18 @@
       "at": "8494-001-021",
       "streak": 20,
       "to": "8495-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8495-001-024",
+      "streak": 20,
+      "to": "8496-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8496-001-021",
+      "streak": 20,
+      "to": "8497-001-001",
       "reason": "MAPBOOK_ROLLOVER"
     }
   ],
@@ -39799,6 +39811,37 @@
       ],
       "started": null,
       "ended": "2026-09-06T19:30:37.460Z",
+      "isAggregate": false,
+      "cities": [],
+      "primaryCity": "Unlabeled situs"
+    },
+    {
+      "id": "RUN-905-2026-09-06-horizon",
+      "title": "RUN-905 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-06",
+      "validCount": 0,
+      "checks": 42,
+      "start": "2026-09-06T21:33:32.607Z",
+      "end": "8497-001-000",
+      "nextCursor": "8497-001-001",
+      "stop": "TIME_BUDGET",
+      "jumps": [
+        {
+          "at": "8495-001-024",
+          "streak": 20,
+          "to": "8496-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+          "at": "8496-001-021",
+          "streak": 20,
+          "to": "8497-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        }
+      ],
+      "started": null,
+      "ended": "2026-09-06T21:40:32.657Z",
       "isAggregate": false,
       "cities": [],
       "primaryCity": "Unlabeled situs"
