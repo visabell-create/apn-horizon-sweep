@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-907
+# ALWAYS-ON cycle — RUN-908
 
-- **When:** 2026-09-07T01:23:18.890Z
-- **nextCursor:** 8501-001-001
-- **valids:** 0
-- **checks:** 42
-- **stop:** TIME_BUDGET
-- **runDir:** `RUN-907-2026-09-07-horizon`
+- **When:** 2026-09-07T06:27:32.741Z
+- **nextCursor:** 8501-001-046
+- **valids:** 28
+- **checks:** 45
+- **stop:** SESSION_CAP_KEEP_GOING
+- **runDir:** `RUN-908-2026-09-07-horizon`
 - **mode:** ci
