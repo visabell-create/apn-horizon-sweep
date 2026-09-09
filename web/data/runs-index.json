@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-09-09T06:23:48.600Z",
-  "runCount": 952,
-  "propertyRowCount": 24223,
-  "uniqueAinCount": 24121,
-  "propertyWithCoordsCount": 22242,
-  "nextCursor": "8503-005-065",
-  "donePageCount": 1135,
+  "builtAt": "2026-09-09T11:43:27.127Z",
+  "runCount": 953,
+  "propertyRowCount": 24250,
+  "uniqueAinCount": 24148,
+  "propertyWithCoordsCount": 22259,
+  "nextCursor": "8503-004-046",
+  "donePageCount": 1136,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -7518,6 +7518,13 @@
       "to": "8503-005-020",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8503-005-083",
+      "streak": 12,
+      "to": "8503-004-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -7538,8 +7545,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2039,
-      "uniqueAinCount": 2000,
+      "propertyRowCount": 2056,
+      "uniqueAinCount": 2017,
       "areas": []
     },
     {
@@ -7578,8 +7585,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 152,
-      "uniqueAinCount": 152,
+      "propertyRowCount": 160,
+      "uniqueAinCount": 160,
       "areas": []
     },
     {
@@ -7599,6 +7606,13 @@
     {
       "city": "Baldwin Pk",
       "slug": "baldwin-pk",
+      "propertyRowCount": 2,
+      "uniqueAinCount": 2,
+      "areas": []
+    },
+    {
+      "city": "Arcadia",
+      "slug": "arcadia",
       "propertyRowCount": 2,
       "uniqueAinCount": 2,
       "areas": []
@@ -40560,6 +40574,48 @@
           "city": "Monrovia",
           "count": 15,
           "slug": "monrovia"
+        }
+      ],
+      "primaryCity": "Unlabeled situs"
+    },
+    {
+      "id": "RUN-921-2026-09-09-horizon",
+      "title": "RUN-921 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-09",
+      "validCount": 27,
+      "checks": 45,
+      "start": "2026-09-09T11:42:57.763Z",
+      "end": "8503-004-045",
+      "nextCursor": "8503-004-046",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8503-005-083",
+          "streak": 12,
+          "to": "8503-004-020",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-09-09T11:43:18.294Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Unlabeled situs",
+          "count": 17,
+          "slug": "unlabeled-situs"
+        },
+        {
+          "city": "Monrovia",
+          "count": 8,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Arcadia",
+          "count": 2,
+          "slug": "arcadia"
         }
       ],
       "primaryCity": "Unlabeled situs"
