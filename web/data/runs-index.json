@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-09-09T21:51:47.118Z",
-  "runCount": 956,
-  "propertyRowCount": 24316,
-  "uniqueAinCount": 24214,
-  "propertyWithCoordsCount": 22316,
-  "nextCursor": "8503-011-011",
-  "donePageCount": 1139,
+  "builtAt": "2026-09-09T23:51:07.445Z",
+  "runCount": 957,
+  "propertyRowCount": 24345,
+  "uniqueAinCount": 24243,
+  "propertyWithCoordsCount": 22345,
+  "nextCursor": "8503-012-011",
+  "donePageCount": 1140,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -7546,6 +7546,13 @@
       "to": "8503-011-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8503-011-045",
+      "streak": 12,
+      "to": "8503-012-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -7566,8 +7573,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2065,
-      "uniqueAinCount": 2026,
+      "propertyRowCount": 2066,
+      "uniqueAinCount": 2027,
       "areas": []
     },
     {
@@ -7606,8 +7613,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 217,
-      "uniqueAinCount": 217,
+      "propertyRowCount": 245,
+      "uniqueAinCount": 245,
       "areas": []
     },
     {
@@ -40742,6 +40749,43 @@
         {
           "city": "Monrovia",
           "count": 26,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-925-2026-09-09-horizon",
+      "title": "RUN-925 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-09",
+      "validCount": 29,
+      "checks": 45,
+      "start": "2026-09-09T23:50:29.300Z",
+      "end": "8503-012-010",
+      "nextCursor": "8503-012-011",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8503-011-045",
+          "streak": 12,
+          "to": "8503-012-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-09-09T23:51:01.759Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 28,
           "slug": "monrovia"
         },
         {
