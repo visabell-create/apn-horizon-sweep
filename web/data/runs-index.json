@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-09-11T05:01:20.415Z",
-  "runCount": 965,
-  "propertyRowCount": 24513,
-  "uniqueAinCount": 24411,
-  "propertyWithCoordsCount": 22481,
-  "nextCursor": "8503-015-011",
-  "donePageCount": 1152,
+  "builtAt": "2026-09-11T09:34:17.801Z",
+  "runCount": 966,
+  "propertyRowCount": 24531,
+  "uniqueAinCount": 24429,
+  "propertyWithCoordsCount": 22499,
+  "nextCursor": "8503-019-014",
+  "donePageCount": 1154,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -7637,6 +7637,20 @@
       "to": "8503-015-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8503-015-023",
+      "streak": 12,
+      "to": "8503-018-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8503-018-038",
+      "streak": 12,
+      "to": "8503-019-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -7657,8 +7671,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2115,
-      "uniqueAinCount": 2076,
+      "propertyRowCount": 2116,
+      "uniqueAinCount": 2077,
       "areas": []
     },
     {
@@ -7688,17 +7702,17 @@
       "areas": []
     },
     {
+      "city": "Monrovia",
+      "slug": "monrovia",
+      "propertyRowCount": 381,
+      "uniqueAinCount": 381,
+      "areas": []
+    },
+    {
       "city": "Valinda",
       "slug": "valinda",
       "propertyRowCount": 380,
       "uniqueAinCount": 380,
-      "areas": []
-    },
-    {
-      "city": "Monrovia",
-      "slug": "monrovia",
-      "propertyRowCount": 364,
-      "uniqueAinCount": 364,
       "areas": []
     },
     {
@@ -41194,6 +41208,50 @@
         {
           "city": "Unlabeled situs",
           "count": 4,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-934-2026-09-11-horizon",
+      "title": "RUN-934 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-11",
+      "validCount": 18,
+      "checks": 45,
+      "start": "2026-09-11T09:31:41.225Z",
+      "end": "8503-019-013",
+      "nextCursor": "8503-019-014",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8503-015-023",
+          "streak": 12,
+          "to": "8503-018-020",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8503-018-038",
+          "streak": 12,
+          "to": "8503-019-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-09-11T09:34:10.820Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 17,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
           "slug": "unlabeled-situs"
         }
       ],
