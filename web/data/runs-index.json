@@ -1,10 +1,10 @@
 {
-  "builtAt": "2026-09-15T23:03:50.075Z",
-  "runCount": 996,
-  "propertyRowCount": 25244,
-  "uniqueAinCount": 25142,
-  "propertyWithCoordsCount": 23173,
-  "nextCursor": "8505-016-019",
+  "builtAt": "2026-09-16T01:32:51.623Z",
+  "runCount": 997,
+  "propertyRowCount": 25277,
+  "uniqueAinCount": 25175,
+  "propertyWithCoordsCount": 23200,
+  "nextCursor": "8505-016-064",
   "donePageCount": 1190,
   "jumps": [
     {
@@ -7921,8 +7921,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2151,
-      "uniqueAinCount": 2112,
+      "propertyRowCount": 2154,
+      "uniqueAinCount": 2115,
       "areas": []
     },
     {
@@ -7938,17 +7938,17 @@
       ]
     },
     {
+      "city": "Monrovia",
+      "slug": "monrovia",
+      "propertyRowCount": 1089,
+      "uniqueAinCount": 1089,
+      "areas": []
+    },
+    {
       "city": "San Dimas",
       "slug": "san-dimas",
       "propertyRowCount": 1060,
       "uniqueAinCount": 1033,
-      "areas": []
-    },
-    {
-      "city": "Monrovia",
-      "slug": "monrovia",
-      "propertyRowCount": 1059,
-      "uniqueAinCount": 1059,
       "areas": []
     },
     {
@@ -42592,6 +42592,35 @@
           "city": "Monrovia",
           "count": 32,
           "slug": "monrovia"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-965-2026-09-16-horizon",
+      "title": "RUN-965 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-16",
+      "validCount": 33,
+      "checks": 45,
+      "start": "2026-09-16T01:31:59.551Z",
+      "end": "8505-016-063",
+      "nextCursor": "8505-016-064",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [],
+      "started": null,
+      "ended": "2026-09-16T01:32:42.979Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 30,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 3,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "Monrovia"
