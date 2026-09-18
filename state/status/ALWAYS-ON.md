@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-976
+# ALWAYS-ON cycle — RUN-977
 
-- **When:** 2026-09-17T23:02:52.111Z
-- **nextCursor:** 8505-012-017
-- **valids:** 28
+- **When:** 2026-09-18T01:23:30.569Z
+- **nextCursor:** 8505-014-005
+- **valids:** 22
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-976-2026-09-17-horizon`
+- **runDir:** `RUN-977-2026-09-18-horizon`
 - **mode:** ci
