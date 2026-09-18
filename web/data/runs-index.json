@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-09-18T06:20:09.196Z",
-  "runCount": 1010,
-  "propertyRowCount": 25648,
-  "uniqueAinCount": 25546,
-  "propertyWithCoordsCount": 23545,
-  "nextCursor": "8505-015-004",
-  "donePageCount": 1202,
+  "builtAt": "2026-09-18T11:38:01.175Z",
+  "runCount": 1011,
+  "propertyRowCount": 25678,
+  "uniqueAinCount": 25576,
+  "propertyWithCoordsCount": 23575,
+  "nextCursor": "8505-022-007",
+  "donePageCount": 1203,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -7985,6 +7985,13 @@
       "to": "8505-015-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8505-015-042",
+      "streak": 12,
+      "to": "8505-022-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -8005,15 +8012,15 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2176,
-      "uniqueAinCount": 2137,
+      "propertyRowCount": 2177,
+      "uniqueAinCount": 2138,
       "areas": []
     },
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 1438,
-      "uniqueAinCount": 1438,
+      "propertyRowCount": 1467,
+      "uniqueAinCount": 1467,
       "areas": []
     },
     {
@@ -43152,6 +43159,43 @@
       ],
       "started": null,
       "ended": "2026-09-18T06:20:02.978Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 29,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-979-2026-09-18-horizon",
+      "title": "RUN-979 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-09-18",
+      "validCount": 30,
+      "checks": 45,
+      "start": "2026-09-18T11:37:27.661Z",
+      "end": "8505-022-006",
+      "nextCursor": "8505-022-007",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8505-015-042",
+          "streak": 12,
+          "to": "8505-022-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-09-18T11:37:53.947Z",
       "isAggregate": false,
       "cities": [
         {
