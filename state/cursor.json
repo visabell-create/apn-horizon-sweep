@@ -1222,16 +1222,10 @@
         "8505-033",
         "8505-034",
         "8506-001",
-        "8506-002"
+        "8506-002",
+        "8506-006"
     ],
     "horizonQueue": [
-        {
-            "book": 8506,
-            "page": 12,
-            "hits": 3,
-            "firstValidParcel": 1,
-            "key": "8506-012"
-        },
         {
             "book": 8506,
             "page": 13,
@@ -1322,9 +1316,37 @@
             "hits": 2,
             "firstValidParcel": 1,
             "key": "8506-016"
+        },
+        {
+            "book": 8506,
+            "page": 20,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8506-020"
+        },
+        {
+            "book": 8506,
+            "page": 22,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8506-022"
+        },
+        {
+            "book": 8506,
+            "page": 19,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8506-019"
+        },
+        {
+            "book": 8506,
+            "page": 21,
+            "hits": 1,
+            "firstValidParcel": 26,
+            "key": "8506-021"
         }
     ],
-    "nextCursor": "8506-006-015",
+    "nextCursor": "8506-012-006",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -9452,6 +9474,13 @@
             "to": "8506-006-001",
             "reason": "SOFT_JUMP",
             "hits": 3
+        },
+        {
+            "at": "8506-006-054",
+            "streak": 12,
+            "to": "8506-012-001",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -10451,14 +10480,15 @@
         "RUN-994",
         "RUN-995",
         "RUN-996",
-        "RUN-997"
+        "RUN-997",
+        "RUN-998"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-997-2026-09-20-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-998-2026-09-21-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-09-20T22:37:22.395Z",
+    "lastAlwaysOnAt": "2026-09-21T00:51:37.489Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -11445,5 +11475,6 @@
     "validCountRUN994": 19,
     "validCountRUN995": 9,
     "validCountRUN996": 30,
-    "validCountRUN997": 27
+    "validCountRUN997": 27,
+    "validCountRUN998": 19
 }
