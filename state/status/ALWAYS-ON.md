@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-1011
+# ALWAYS-ON cycle — RUN-1012
 
-- **When:** 2026-09-23T12:55:32.548Z
-- **nextCursor:** 8506-003-033
-- **valids:** 26
+- **When:** 2026-09-23T17:44:00.569Z
+- **nextCursor:** 8506-004-033
+- **valids:** 22
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-1011-2026-09-23-horizon`
+- **runDir:** `RUN-1012-2026-09-23-horizon`
 - **mode:** ci
