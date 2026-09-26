@@ -1252,18 +1252,125 @@
         "8506-030",
         "8506-031",
         "8506-032",
-        "8506-033"
+        "8506-033",
+        "8506-034",
+        "8506-035"
     ],
     "horizonQueue": [
         {
-            "book": 8506,
-            "page": 35,
-            "hits": 1,
-            "firstValidParcel": 40,
-            "key": "8506-035"
+            "book": 8507,
+            "page": 5,
+            "hits": 6,
+            "firstValidParcel": 20,
+            "key": "8507-005"
+        },
+        {
+            "book": 8507,
+            "page": 10,
+            "hits": 6,
+            "firstValidParcel": 1,
+            "key": "8507-010"
+        },
+        {
+            "book": 8507,
+            "page": 4,
+            "hits": 5,
+            "firstValidParcel": 20,
+            "key": "8507-004"
+        },
+        {
+            "book": 8507,
+            "page": 13,
+            "hits": 5,
+            "firstValidParcel": 20,
+            "key": "8507-013"
+        },
+        {
+            "book": 8507,
+            "page": 17,
+            "hits": 5,
+            "firstValidParcel": 1,
+            "key": "8507-017"
+        },
+        {
+            "book": 8507,
+            "page": 9,
+            "hits": 4,
+            "firstValidParcel": 20,
+            "key": "8507-009"
+        },
+        {
+            "book": 8507,
+            "page": 12,
+            "hits": 4,
+            "firstValidParcel": 26,
+            "key": "8507-012"
+        },
+        {
+            "book": 8507,
+            "page": 14,
+            "hits": 4,
+            "firstValidParcel": 20,
+            "key": "8507-014"
+        },
+        {
+            "book": 8507,
+            "page": 15,
+            "hits": 4,
+            "firstValidParcel": 20,
+            "key": "8507-015"
+        },
+        {
+            "book": 8507,
+            "page": 2,
+            "hits": 3,
+            "firstValidParcel": 20,
+            "key": "8507-002"
+        },
+        {
+            "book": 8507,
+            "page": 7,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8507-007"
+        },
+        {
+            "book": 8507,
+            "page": 8,
+            "hits": 3,
+            "firstValidParcel": 20,
+            "key": "8507-008"
+        },
+        {
+            "book": 8507,
+            "page": 11,
+            "hits": 3,
+            "firstValidParcel": 26,
+            "key": "8507-011"
+        },
+        {
+            "book": 8507,
+            "page": 16,
+            "hits": 3,
+            "firstValidParcel": 26,
+            "key": "8507-016"
+        },
+        {
+            "book": 8507,
+            "page": 3,
+            "hits": 2,
+            "firstValidParcel": 50,
+            "key": "8507-003"
+        },
+        {
+            "book": 8507,
+            "page": 6,
+            "hits": 2,
+            "firstValidParcel": 26,
+            "key": "8507-006"
         }
     ],
-    "nextCursor": "8506-034-026",
+    "nextCursor": "8507-001-009",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -9601,6 +9708,19 @@
             "to": "8506-034-013",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8506-034-038",
+            "streak": 12,
+            "to": "8506-035-040",
+            "reason": "SOFT_JUMP",
+            "hits": 1
+        },
+        {
+            "at": "8506-035-063",
+            "streak": 20,
+            "to": "8507-001-001",
+            "reason": "MAPBOOK_ROLLOVER"
         }
     ],
     "completedRuns": [
@@ -10629,14 +10749,15 @@
         "RUN-1023",
         "RUN-1024",
         "RUN-1025",
-        "RUN-1026"
+        "RUN-1026",
+        "RUN-1027"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-1026-2026-09-26-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-1027-2026-09-26-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-09-26T01:16:31.966Z",
+    "lastAlwaysOnAt": "2026-09-26T06:31:41.015Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -11652,5 +11773,6 @@
     "validCountRUN1023": 19,
     "validCountRUN1024": 25,
     "validCountRUN1025": 12,
-    "validCountRUN1026": 9
+    "validCountRUN1026": 9,
+    "validCountRUN1027": 3
 }
