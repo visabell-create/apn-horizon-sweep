@@ -1,20 +1,20 @@
 # COORDS BACKFILL
 
-**Updated:** 2026-10-02T04:12:39.843Z
+**Updated:** 2026-10-02T10:39:39.056Z
 **Mode:** batch-120
 
 ## Coverage (unique archive AINs)
 
 | Metric | Count |
 |---|---:|
-| Unique AINs | 27698 |
-| With coords | 25374 |
-| Permanent miss (no lat/lon on parcel) | 2324 |
+| Unique AINs | 27736 |
+| With coords | 25411 |
+| Permanent miss (no lat/lon on parcel) | 2325 |
 | Transient / retry later | 0 |
 | Not yet fetched | 0 |
 
 ## Last pass
 
-fetched_ok=0 no_coords=0 fail=0 blocked=0 remaining_pending=0
+fetched_ok=0 no_coords=1 fail=0 blocked=0 remaining_pending=0
 
 Stop: `state/COORDS_BACKFILL_STOP` or `.scripts\backfill-coords.ps1 -Stop`
