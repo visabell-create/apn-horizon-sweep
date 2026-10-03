@@ -1,10 +1,10 @@
 {
-  "builtAt": "2026-10-03T05:40:53.882Z",
-  "runCount": 1093,
-  "propertyRowCount": 27909,
-  "uniqueAinCount": 27807,
-  "propertyWithCoordsCount": 25548,
-  "nextCursor": "8508-001-004",
+  "builtAt": "2026-10-03T11:09:47.548Z",
+  "runCount": 1094,
+  "propertyRowCount": 27945,
+  "uniqueAinCount": 27843,
+  "propertyWithCoordsCount": 25583,
+  "nextCursor": "8508-001-049",
   "donePageCount": 1279,
   "jumps": [
     {
@@ -8534,8 +8534,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 3497,
-      "uniqueAinCount": 3497,
+      "propertyRowCount": 3530,
+      "uniqueAinCount": 3530,
       "areas": []
     },
     {
@@ -8548,8 +8548,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2378,
-      "uniqueAinCount": 2339,
+      "propertyRowCount": 2380,
+      "uniqueAinCount": 2341,
       "areas": []
     },
     {
@@ -8600,15 +8600,15 @@
       "areas": []
     },
     {
-      "city": "Baldwin Pk",
-      "slug": "baldwin-pk",
-      "propertyRowCount": 2,
-      "uniqueAinCount": 2,
+      "city": "Arcadia",
+      "slug": "arcadia",
+      "propertyRowCount": 3,
+      "uniqueAinCount": 3,
       "areas": []
     },
     {
-      "city": "Arcadia",
-      "slug": "arcadia",
+      "city": "Baldwin Pk",
+      "slug": "baldwin-pk",
       "propertyRowCount": 2,
       "uniqueAinCount": 2,
       "areas": []
@@ -46568,6 +46568,40 @@
           "city": "Unlabeled situs",
           "count": 1,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1062-2026-10-03-horizon",
+      "title": "RUN-1062 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-03",
+      "validCount": 36,
+      "checks": 45,
+      "start": "2026-10-03T11:09:03.833Z",
+      "end": "8508-001-048",
+      "nextCursor": "8508-001-049",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [],
+      "started": null,
+      "ended": "2026-10-03T11:09:39.118Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 33,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
+        },
+        {
+          "city": "Arcadia",
+          "count": 1,
+          "slug": "arcadia"
         }
       ],
       "primaryCity": "Monrovia"
