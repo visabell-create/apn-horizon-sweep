@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-05T09:28:48.175Z",
-  "runCount": 1105,
-  "propertyRowCount": 28340,
-  "uniqueAinCount": 28238,
-  "propertyWithCoordsCount": 25950,
-  "nextCursor": "8508-005-071",
-  "donePageCount": 1284,
+  "builtAt": "2026-10-05T18:47:19.264Z",
+  "runCount": 1106,
+  "propertyRowCount": 28365,
+  "uniqueAinCount": 28263,
+  "propertyWithCoordsCount": 25971,
+  "nextCursor": "8508-006-052",
+  "donePageCount": 1285,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -8556,6 +8556,13 @@
       "to": "8508-005-020",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8508-005-083",
+      "streak": 12,
+      "to": "8508-006-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
@@ -8569,8 +8576,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 3907,
-      "uniqueAinCount": 3907,
+      "propertyRowCount": 3926,
+      "uniqueAinCount": 3926,
       "areas": []
     },
     {
@@ -8583,8 +8590,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2398,
-      "uniqueAinCount": 2359,
+      "propertyRowCount": 2404,
+      "uniqueAinCount": 2365,
       "areas": []
     },
     {
@@ -46970,6 +46977,43 @@
         {
           "city": "Unlabeled situs",
           "count": 2,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1074-2026-10-05-horizon",
+      "title": "RUN-1074 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-05",
+      "validCount": 25,
+      "checks": 45,
+      "start": "2026-10-05T18:46:17.920Z",
+      "end": "8508-006-051",
+      "nextCursor": "8508-006-052",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8508-005-083",
+          "streak": 12,
+          "to": "8508-006-020",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-05T18:47:09.763Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 19,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 6,
           "slug": "unlabeled-situs"
         }
       ],
