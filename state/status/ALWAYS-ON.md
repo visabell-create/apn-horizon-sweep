@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-1079
+# ALWAYS-ON cycle — RUN-1080
 
-- **When:** 2026-10-06T23:35:18.305Z
-- **nextCursor:** 8508-015-093
-- **valids:** 45
+- **When:** 2026-10-07T04:28:58.523Z
+- **nextCursor:** 8508-008-084
+- **valids:** 32
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-1079-2026-10-06-horizon`
+- **runDir:** `RUN-1080-2026-10-07-horizon`
 - **mode:** ci
