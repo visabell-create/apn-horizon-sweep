@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-10T22:15:09.360Z",
-  "runCount": 1128,
-  "propertyRowCount": 28989,
-  "uniqueAinCount": 28887,
-  "propertyWithCoordsCount": 26421,
-  "nextCursor": "8509-005-033",
-  "donePageCount": 1305,
+  "builtAt": "2026-10-11T01:09:18.440Z",
+  "runCount": 1129,
+  "propertyRowCount": 29016,
+  "uniqueAinCount": 28914,
+  "propertyWithCoordsCount": 26447,
+  "nextCursor": "8509-007-021",
+  "donePageCount": 1306,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -8702,6 +8702,13 @@
       "to": "8509-005-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8509-005-057",
+      "streak": 12,
+      "to": "8509-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -8722,8 +8729,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2556,
-      "uniqueAinCount": 2517,
+      "propertyRowCount": 2558,
+      "uniqueAinCount": 2519,
       "areas": []
     },
     {
@@ -8767,17 +8774,17 @@
       "areas": []
     },
     {
+      "city": "Arcadia",
+      "slug": "arcadia",
+      "propertyRowCount": 45,
+      "uniqueAinCount": 45,
+      "areas": []
+    },
+    {
       "city": "W Covina",
       "slug": "w-covina",
       "propertyRowCount": 39,
       "uniqueAinCount": 39,
-      "areas": []
-    },
-    {
-      "city": "Arcadia",
-      "slug": "arcadia",
-      "propertyRowCount": 20,
-      "uniqueAinCount": 20,
       "areas": []
     },
     {
@@ -47932,6 +47939,43 @@
         {
           "city": "Arcadia",
           "count": 17,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Arcadia"
+    },
+    {
+      "id": "RUN-1097-2026-10-11-horizon",
+      "title": "RUN-1097 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-11",
+      "validCount": 27,
+      "checks": 45,
+      "start": "2026-10-11T01:08:41.023Z",
+      "end": "8509-007-020",
+      "nextCursor": "8509-007-021",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8509-005-057",
+          "streak": 12,
+          "to": "8509-007-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-11T01:09:11.723Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 25,
           "slug": "arcadia"
         },
         {
