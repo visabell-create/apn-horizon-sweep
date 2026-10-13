@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-13T16:52:09.123Z",
-  "runCount": 1139,
-  "propertyRowCount": 29268,
-  "uniqueAinCount": 29166,
-  "propertyWithCoordsCount": 26687,
-  "nextCursor": "8509-036-021",
-  "donePageCount": 1317,
+  "builtAt": "2026-10-13T21:46:59.736Z",
+  "runCount": 1140,
+  "propertyRowCount": 29287,
+  "uniqueAinCount": 29185,
+  "propertyWithCoordsCount": 26706,
+  "nextCursor": "8509-006-033",
+  "donePageCount": 1318,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -8786,6 +8786,13 @@
       "to": "8509-036-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8509-036-033",
+      "streak": 12,
+      "to": "8509-006-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -8853,8 +8860,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 125,
-      "uniqueAinCount": 125,
+      "propertyRowCount": 144,
+      "uniqueAinCount": 144,
       "areas": []
     },
     {
@@ -48408,6 +48415,38 @@
         }
       ],
       "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1108-2026-10-13-horizon",
+      "title": "RUN-1108 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-13",
+      "validCount": 19,
+      "checks": 45,
+      "start": "2026-10-13T21:44:21.002Z",
+      "end": "8509-006-032",
+      "nextCursor": "8509-006-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8509-036-033",
+          "streak": 12,
+          "to": "8509-006-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-13T21:46:54.552Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 19,
+          "slug": "arcadia"
+        }
+      ],
+      "primaryCity": "Arcadia"
     },
     {
       "id": "RUN-A01-8448-043",
