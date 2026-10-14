@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-14T11:15:45.739Z",
-  "runCount": 1143,
-  "propertyRowCount": 29332,
-  "uniqueAinCount": 29230,
-  "propertyWithCoordsCount": 26744,
-  "nextCursor": "8509-014-002",
-  "donePageCount": 1323,
+  "builtAt": "2026-10-14T15:55:26.225Z",
+  "runCount": 1144,
+  "propertyRowCount": 29364,
+  "uniqueAinCount": 29262,
+  "propertyWithCoordsCount": 26776,
+  "nextCursor": "8509-015-017",
+  "donePageCount": 1324,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -8828,6 +8828,13 @@
       "to": "8509-014-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8509-014-030",
+      "streak": 12,
+      "to": "8509-015-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -8841,15 +8848,15 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 4591,
-      "uniqueAinCount": 4591,
+      "propertyRowCount": 4615,
+      "uniqueAinCount": 4615,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2565,
-      "uniqueAinCount": 2526,
+      "propertyRowCount": 2567,
+      "uniqueAinCount": 2528,
       "areas": []
     },
     {
@@ -8895,8 +8902,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 144,
-      "uniqueAinCount": 144,
+      "propertyRowCount": 150,
+      "uniqueAinCount": 150,
       "areas": []
     },
     {
@@ -48599,6 +48606,48 @@
           "city": "Monrovia",
           "count": 15,
           "slug": "monrovia"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1112-2026-10-14-horizon",
+      "title": "RUN-1112 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-14",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-10-14T15:54:56.407Z",
+      "end": "8509-015-016",
+      "nextCursor": "8509-015-017",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8509-014-030",
+          "streak": 12,
+          "to": "8509-015-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-14T15:55:17.847Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 24,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Arcadia",
+          "count": 6,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "Monrovia"
