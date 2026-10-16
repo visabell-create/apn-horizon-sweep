@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-16T13:26:43.136Z",
-  "runCount": 1155,
-  "propertyRowCount": 29568,
-  "uniqueAinCount": 29466,
-  "propertyWithCoordsCount": 26966,
-  "nextCursor": "8510-006-020",
-  "donePageCount": 1339,
+  "builtAt": "2026-10-16T17:37:34.432Z",
+  "runCount": 1156,
+  "propertyRowCount": 29596,
+  "uniqueAinCount": 29494,
+  "propertyWithCoordsCount": 26994,
+  "nextCursor": "8510-005-032",
+  "donePageCount": 1340,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -8939,6 +8939,13 @@
       "to": "8510-006-001",
       "reason": "SOFT_JUMP",
       "hits": 3
+    },
+    {
+      "at": "8510-006-052",
+      "streak": 12,
+      "to": "8510-005-020",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -8952,8 +8959,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 4749,
-      "uniqueAinCount": 4749,
+      "propertyRowCount": 4775,
+      "uniqueAinCount": 4775,
       "areas": []
     },
     {
@@ -9006,8 +9013,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 211,
-      "uniqueAinCount": 211,
+      "propertyRowCount": 213,
+      "uniqueAinCount": 213,
       "areas": []
     },
     {
@@ -49176,6 +49183,43 @@
           "city": "Unlabeled situs",
           "count": 1,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1124-2026-10-16-horizon",
+      "title": "RUN-1124 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-16",
+      "validCount": 28,
+      "checks": 45,
+      "start": "2026-10-16T17:36:50.430Z",
+      "end": "8510-005-031",
+      "nextCursor": "8510-005-032",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8510-006-052",
+          "streak": 12,
+          "to": "8510-005-020",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-16T17:37:25.873Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 26,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Arcadia",
+          "count": 2,
+          "slug": "arcadia"
         }
       ],
       "primaryCity": "Monrovia"
