@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-16T23:16:56.920Z",
-  "runCount": 1158,
-  "propertyRowCount": 29651,
-  "uniqueAinCount": 29549,
-  "propertyWithCoordsCount": 27047,
-  "nextCursor": "8510-018-033",
-  "donePageCount": 1342,
+  "builtAt": "2026-10-17T01:27:29.247Z",
+  "runCount": 1159,
+  "propertyRowCount": 29670,
+  "uniqueAinCount": 29568,
+  "propertyWithCoordsCount": 27066,
+  "nextCursor": "8510-029-052",
+  "donePageCount": 1343,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -8960,6 +8960,13 @@
       "to": "8510-018-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8510-018-045",
+      "streak": 12,
+      "to": "8510-029-020",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -8973,8 +8980,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 4829,
-      "uniqueAinCount": 4829,
+      "propertyRowCount": 4843,
+      "uniqueAinCount": 4843,
       "areas": []
     },
     {
@@ -9027,8 +9034,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 213,
-      "uniqueAinCount": 213,
+      "propertyRowCount": 218,
+      "uniqueAinCount": 218,
       "areas": []
     },
     {
@@ -49303,6 +49310,43 @@
           "city": "Monrovia",
           "count": 29,
           "slug": "monrovia"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1127-2026-10-17-horizon",
+      "title": "RUN-1127 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-17",
+      "validCount": 19,
+      "checks": 45,
+      "start": "2026-10-17T01:25:24.868Z",
+      "end": "8510-029-051",
+      "nextCursor": "8510-029-052",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8510-018-045",
+          "streak": 12,
+          "to": "8510-029-020",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-17T01:27:23.438Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 14,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Arcadia",
+          "count": 5,
+          "slug": "arcadia"
         }
       ],
       "primaryCity": "Monrovia"
