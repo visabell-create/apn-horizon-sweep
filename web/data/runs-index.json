@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-19T14:54:25.622Z",
-  "runCount": 1176,
-  "propertyRowCount": 30022,
-  "uniqueAinCount": 29920,
-  "propertyWithCoordsCount": 27416,
-  "nextCursor": "8510-031-002",
-  "donePageCount": 1366,
+  "builtAt": "2026-10-19T20:24:32.712Z",
+  "runCount": 1177,
+  "propertyRowCount": 30045,
+  "uniqueAinCount": 29943,
+  "propertyWithCoordsCount": 27439,
+  "nextCursor": "8510-032-020",
+  "donePageCount": 1367,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9128,6 +9128,13 @@
       "to": "8510-031-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8510-031-028",
+      "streak": 12,
+      "to": "8510-032-002",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -9148,8 +9155,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2579,
-      "uniqueAinCount": 2540,
+      "propertyRowCount": 2580,
+      "uniqueAinCount": 2541,
       "areas": []
     },
     {
@@ -9195,8 +9202,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 255,
-      "uniqueAinCount": 255,
+      "propertyRowCount": 277,
+      "uniqueAinCount": 277,
       "areas": []
     },
     {
@@ -50112,6 +50119,43 @@
         }
       ],
       "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1145-2026-10-19-horizon",
+      "title": "RUN-1145 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-19",
+      "validCount": 23,
+      "checks": 45,
+      "start": "2026-10-19T20:22:56.877Z",
+      "end": "8510-032-019",
+      "nextCursor": "8510-032-020",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8510-031-028",
+          "streak": 12,
+          "to": "8510-032-002",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-19T20:24:24.128Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 22,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Arcadia"
     },
     {
       "id": "RUN-A01-8448-043",
