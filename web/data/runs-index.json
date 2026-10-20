@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-19T23:56:34.464Z",
-  "runCount": 1178,
-  "propertyRowCount": 30059,
-  "uniqueAinCount": 29957,
-  "propertyWithCoordsCount": 27453,
-  "nextCursor": "8510-034-030",
-  "donePageCount": 1369,
+  "builtAt": "2026-10-20T03:36:25.577Z",
+  "runCount": 1179,
+  "propertyRowCount": 30070,
+  "uniqueAinCount": 29968,
+  "propertyWithCoordsCount": 27461,
+  "nextCursor": "8511-017-012",
+  "donePageCount": 1371,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9149,6 +9149,19 @@
       "to": "8510-034-020",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8510-034-050",
+      "streak": 20,
+      "to": "8511-001-001",
+      "reason": "MAPBOOK_ROLLOVER"
+    },
+    {
+      "at": "8511-001-013",
+      "streak": 12,
+      "to": "8511-017-001",
+      "reason": "SOFT_JUMP",
+      "hits": 7
     }
   ],
   "cities": [
@@ -9169,8 +9182,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2580,
-      "uniqueAinCount": 2541,
+      "propertyRowCount": 2586,
+      "uniqueAinCount": 2547,
       "areas": []
     },
     {
@@ -9202,8 +9215,8 @@
     {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
-      "propertyRowCount": 702,
-      "uniqueAinCount": 702,
+      "propertyRowCount": 703,
+      "uniqueAinCount": 703,
       "areas": []
     },
     {
@@ -9216,8 +9229,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 282,
-      "uniqueAinCount": 282,
+      "propertyRowCount": 285,
+      "uniqueAinCount": 285,
       "areas": []
     },
     {
@@ -9244,6 +9257,13 @@
     {
       "city": "West Covia",
       "slug": "west-covia",
+      "propertyRowCount": 1,
+      "uniqueAinCount": 1,
+      "areas": []
+    },
+    {
+      "city": "Irwindale",
+      "slug": "irwindale",
       "propertyRowCount": 1,
       "uniqueAinCount": 1,
       "areas": []
@@ -50214,6 +50234,59 @@
         }
       ],
       "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1147-2026-10-20-horizon",
+      "title": "RUN-1147 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-20",
+      "validCount": 11,
+      "checks": 45,
+      "start": "2026-10-20T03:31:26.659Z",
+      "end": "8511-017-011",
+      "nextCursor": "8511-017-012",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8510-034-050",
+          "streak": 20,
+          "to": "8511-001-001",
+          "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+          "at": "8511-001-013",
+          "streak": 12,
+          "to": "8511-017-001",
+          "reason": "SOFT_JUMP",
+          "hits": 7
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-20T03:36:15.687Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Unlabeled situs",
+          "count": 6,
+          "slug": "unlabeled-situs"
+        },
+        {
+          "city": "Arcadia",
+          "count": 3,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Baldwin Park",
+          "count": 1,
+          "slug": "baldwin-park"
+        },
+        {
+          "city": "Irwindale",
+          "count": 1,
+          "slug": "irwindale"
+        }
+      ],
+      "primaryCity": "Unlabeled situs"
     },
     {
       "id": "RUN-A01-8448-043",
