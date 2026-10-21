@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-21T00:46:53.949Z",
-  "runCount": 1184,
-  "propertyRowCount": 30278,
-  "uniqueAinCount": 30176,
-  "propertyWithCoordsCount": 27660,
-  "nextCursor": "8511-018-078",
-  "donePageCount": 1372,
+  "builtAt": "2026-10-21T05:45:50.443Z",
+  "runCount": 1185,
+  "propertyRowCount": 30310,
+  "uniqueAinCount": 30208,
+  "propertyWithCoordsCount": 27692,
+  "nextCursor": "8511-028-021",
+  "donePageCount": 1373,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9169,6 +9169,13 @@
       "to": "8511-018-001",
       "reason": "SOFT_JUMP",
       "hits": 7
+    },
+    {
+      "at": "8511-018-121",
+      "streak": 12,
+      "to": "8511-028-020",
+      "reason": "SOFT_JUMP",
+      "hits": 6
     }
   ],
   "cities": [
@@ -9189,8 +9196,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2598,
-      "uniqueAinCount": 2559,
+      "propertyRowCount": 2601,
+      "uniqueAinCount": 2562,
       "areas": []
     },
     {
@@ -9229,8 +9236,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 481,
-      "uniqueAinCount": 481,
+      "propertyRowCount": 509,
+      "uniqueAinCount": 509,
       "areas": []
     },
     {
@@ -9271,6 +9278,13 @@
     {
       "city": "Irwindale",
       "slug": "irwindale",
+      "propertyRowCount": 1,
+      "uniqueAinCount": 1,
+      "areas": []
+    },
+    {
+      "city": "Ca",
+      "slug": "ca",
       "propertyRowCount": 1,
       "uniqueAinCount": 1,
       "areas": []
@@ -50434,6 +50448,48 @@
           "city": "Arcadia",
           "count": 45,
           "slug": "arcadia"
+        }
+      ],
+      "primaryCity": "Arcadia"
+    },
+    {
+      "id": "RUN-1153-2026-10-21-horizon",
+      "title": "RUN-1153 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-21",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-10-21T05:44:37.318Z",
+      "end": "8511-028-020",
+      "nextCursor": "8511-028-021",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-018-121",
+          "streak": 12,
+          "to": "8511-028-020",
+          "reason": "SOFT_JUMP",
+          "hits": 6
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-21T05:45:43.649Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 28,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 3,
+          "slug": "unlabeled-situs"
+        },
+        {
+          "city": "Ca",
+          "count": 1,
+          "slug": "ca"
         }
       ],
       "primaryCity": "Arcadia"
