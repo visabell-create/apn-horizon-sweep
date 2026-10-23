@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-23T15:52:03.623Z",
-  "runCount": 1198,
-  "propertyRowCount": 30771,
-  "uniqueAinCount": 30669,
+  "builtAt": "2026-10-23T19:50:40.115Z",
+  "runCount": 1199,
+  "propertyRowCount": 30792,
+  "uniqueAinCount": 30690,
   "propertyWithCoordsCount": 28046,
-  "nextCursor": "8511-020-033",
-  "donePageCount": 1379,
+  "nextCursor": "8511-021-033",
+  "donePageCount": 1380,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9218,6 +9218,13 @@
       "to": "8511-020-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8511-020-045",
+      "streak": 12,
+      "to": "8511-021-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -9238,8 +9245,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2865,
-      "uniqueAinCount": 2826,
+      "propertyRowCount": 2886,
+      "uniqueAinCount": 2847,
       "areas": []
     },
     {
@@ -50911,6 +50918,38 @@
         {
           "city": "Unlabeled situs",
           "count": 23,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Unlabeled situs"
+    },
+    {
+      "id": "RUN-1167-2026-10-23-horizon",
+      "title": "RUN-1167 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-23",
+      "validCount": 21,
+      "checks": 45,
+      "start": "2026-10-23T19:48:07.216Z",
+      "end": "8511-021-032",
+      "nextCursor": "8511-021-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-020-045",
+          "streak": 12,
+          "to": "8511-021-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-23T19:50:26.082Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Unlabeled situs",
+          "count": 21,
           "slug": "unlabeled-situs"
         }
       ],
