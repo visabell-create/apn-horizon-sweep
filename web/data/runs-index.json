@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-23T19:50:40.115Z",
-  "runCount": 1199,
-  "propertyRowCount": 30792,
-  "uniqueAinCount": 30690,
-  "propertyWithCoordsCount": 28046,
-  "nextCursor": "8511-021-033",
-  "donePageCount": 1380,
+  "builtAt": "2026-10-23T22:56:19.784Z",
+  "runCount": 1200,
+  "propertyRowCount": 30804,
+  "uniqueAinCount": 30702,
+  "propertyWithCoordsCount": 28058,
+  "nextCursor": "8511-003-037",
+  "donePageCount": 1382,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9225,6 +9225,20 @@
       "to": "8511-021-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8511-021-045",
+      "streak": 12,
+      "to": "8511-002-040",
+      "reason": "SOFT_JUMP",
+      "hits": 1
+    },
+    {
+      "at": "8511-002-054",
+      "streak": 12,
+      "to": "8511-003-020",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -9245,8 +9259,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2886,
-      "uniqueAinCount": 2847,
+      "propertyRowCount": 2887,
+      "uniqueAinCount": 2848,
       "areas": []
     },
     {
@@ -9285,8 +9299,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 653,
-      "uniqueAinCount": 653,
+      "propertyRowCount": 664,
+      "uniqueAinCount": 664,
       "areas": []
     },
     {
@@ -50954,6 +50968,50 @@
         }
       ],
       "primaryCity": "Unlabeled situs"
+    },
+    {
+      "id": "RUN-1168-2026-10-23-horizon",
+      "title": "RUN-1168 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-23",
+      "validCount": 12,
+      "checks": 45,
+      "start": "2026-10-23T22:55:06.071Z",
+      "end": "8511-003-036",
+      "nextCursor": "8511-003-037",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-021-045",
+          "streak": 12,
+          "to": "8511-002-040",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        },
+        {
+          "at": "8511-002-054",
+          "streak": 12,
+          "to": "8511-003-020",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-23T22:56:12.370Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 11,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Arcadia"
     },
     {
       "id": "RUN-A01-8448-043",
