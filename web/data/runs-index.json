@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-23T11:04:52.818Z",
-  "runCount": 1197,
-  "propertyRowCount": 30748,
-  "uniqueAinCount": 30646,
+  "builtAt": "2026-10-23T15:52:03.623Z",
+  "runCount": 1198,
+  "propertyRowCount": 30771,
+  "uniqueAinCount": 30669,
   "propertyWithCoordsCount": 28046,
-  "nextCursor": "8511-011-033",
-  "donePageCount": 1378,
+  "nextCursor": "8511-020-033",
+  "donePageCount": 1379,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9211,6 +9211,13 @@
       "to": "8511-011-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8511-011-045",
+      "streak": 12,
+      "to": "8511-020-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -9231,8 +9238,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2842,
-      "uniqueAinCount": 2803,
+      "propertyRowCount": 2865,
+      "uniqueAinCount": 2826,
       "areas": []
     },
     {
@@ -50876,6 +50883,38 @@
         }
       ],
       "primaryCity": "Arcadia"
+    },
+    {
+      "id": "RUN-1166-2026-10-23-horizon",
+      "title": "RUN-1166 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-23",
+      "validCount": 23,
+      "checks": 45,
+      "start": "2026-10-23T15:50:23.691Z",
+      "end": "8511-020-032",
+      "nextCursor": "8511-020-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-011-045",
+          "streak": 12,
+          "to": "8511-020-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-23T15:51:47.885Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Unlabeled situs",
+          "count": 23,
+          "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Unlabeled situs"
     },
     {
       "id": "RUN-A01-8448-043",
