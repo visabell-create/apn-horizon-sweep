@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-23T05:46:37.304Z",
-  "runCount": 1196,
-  "propertyRowCount": 30728,
-  "uniqueAinCount": 30626,
-  "propertyWithCoordsCount": 28026,
-  "nextCursor": "8511-009-033",
-  "donePageCount": 1377,
+  "builtAt": "2026-10-23T11:04:52.818Z",
+  "runCount": 1197,
+  "propertyRowCount": 30748,
+  "uniqueAinCount": 30646,
+  "propertyWithCoordsCount": 28046,
+  "nextCursor": "8511-011-033",
+  "donePageCount": 1378,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9204,6 +9204,13 @@
       "to": "8511-009-001",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8511-009-045",
+      "streak": 12,
+      "to": "8511-011-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -9264,8 +9271,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 633,
-      "uniqueAinCount": 633,
+      "propertyRowCount": 653,
+      "uniqueAinCount": 653,
       "areas": []
     },
     {
@@ -50828,6 +50835,38 @@
       ],
       "started": null,
       "ended": "2026-10-23T05:46:29.458Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 20,
+          "slug": "arcadia"
+        }
+      ],
+      "primaryCity": "Arcadia"
+    },
+    {
+      "id": "RUN-1165-2026-10-23-horizon",
+      "title": "RUN-1165 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-23",
+      "validCount": 20,
+      "checks": 45,
+      "start": "2026-10-23T11:03:50.272Z",
+      "end": "8511-011-032",
+      "nextCursor": "8511-011-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-009-045",
+          "streak": 12,
+          "to": "8511-011-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-23T11:04:45.407Z",
       "isAggregate": false,
       "cities": [
         {
