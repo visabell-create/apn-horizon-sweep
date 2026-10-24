@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-24T06:14:32.699Z",
-  "runCount": 1202,
-  "propertyRowCount": 30841,
-  "uniqueAinCount": 30739,
-  "propertyWithCoordsCount": 28092,
-  "nextCursor": "8511-008-001",
-  "donePageCount": 1386,
+  "builtAt": "2026-10-24T11:26:04.427Z",
+  "runCount": 1203,
+  "propertyRowCount": 30862,
+  "uniqueAinCount": 30760,
+  "propertyWithCoordsCount": 28113,
+  "nextCursor": "8511-010-023",
+  "donePageCount": 1387,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9267,6 +9267,13 @@
       "to": "8511-008-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8511-008-023",
+      "streak": 12,
+      "to": "8511-010-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -9318,17 +9325,17 @@
       "areas": []
     },
     {
+      "city": "Arcadia",
+      "slug": "arcadia",
+      "propertyRowCount": 720,
+      "uniqueAinCount": 720,
+      "areas": []
+    },
+    {
       "city": "Baldwin Park",
       "slug": "baldwin-park",
       "propertyRowCount": 703,
       "uniqueAinCount": 703,
-      "areas": []
-    },
-    {
-      "city": "Arcadia",
-      "slug": "arcadia",
-      "propertyRowCount": 699,
-      "uniqueAinCount": 699,
       "areas": []
     },
     {
@@ -51125,6 +51132,38 @@
           "city": "Unlabeled situs",
           "count": 1,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Arcadia"
+    },
+    {
+      "id": "RUN-1171-2026-10-24-horizon",
+      "title": "RUN-1171 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-24",
+      "validCount": 21,
+      "checks": 45,
+      "start": "2026-10-24T11:25:16.339Z",
+      "end": "8511-010-022",
+      "nextCursor": "8511-010-023",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-008-023",
+          "streak": 12,
+          "to": "8511-010-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-24T11:25:59.299Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 21,
+          "slug": "arcadia"
         }
       ],
       "primaryCity": "Arcadia"
