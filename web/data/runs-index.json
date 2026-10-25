@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-25T05:44:30.265Z",
-  "runCount": 1209,
-  "propertyRowCount": 31002,
-  "uniqueAinCount": 30900,
-  "propertyWithCoordsCount": 28234,
-  "nextCursor": "8511-027-020",
-  "donePageCount": 1396,
+  "builtAt": "2026-10-25T10:51:12.440Z",
+  "runCount": 1210,
+  "propertyRowCount": 31018,
+  "uniqueAinCount": 30916,
+  "propertyWithCoordsCount": 28250,
+  "nextCursor": "8511-029-033",
+  "donePageCount": 1397,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9337,6 +9337,13 @@
       "to": "8511-027-001",
       "reason": "SOFT_JUMP",
       "hits": 1
+    },
+    {
+      "at": "8511-027-032",
+      "streak": 12,
+      "to": "8511-029-001",
+      "reason": "SOFT_JUMP",
+      "hits": 1
     }
   ],
   "cities": [
@@ -9357,8 +9364,8 @@
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 2902,
-      "uniqueAinCount": 2863,
+      "propertyRowCount": 2903,
+      "uniqueAinCount": 2864,
       "areas": []
     },
     {
@@ -9390,8 +9397,8 @@
     {
       "city": "Arcadia",
       "slug": "arcadia",
-      "propertyRowCount": 832,
-      "uniqueAinCount": 832,
+      "propertyRowCount": 847,
+      "uniqueAinCount": 847,
       "areas": []
     },
     {
@@ -51465,6 +51472,43 @@
           "city": "Arcadia",
           "count": 31,
           "slug": "arcadia"
+        }
+      ],
+      "primaryCity": "Arcadia"
+    },
+    {
+      "id": "RUN-1178-2026-10-25-horizon",
+      "title": "RUN-1178 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-25",
+      "validCount": 16,
+      "checks": 45,
+      "start": "2026-10-25T10:47:26.893Z",
+      "end": "8511-029-032",
+      "nextCursor": "8511-029-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8511-027-032",
+          "streak": 12,
+          "to": "8511-029-001",
+          "reason": "SOFT_JUMP",
+          "hits": 1
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-25T10:51:03.258Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Arcadia",
+          "count": 15,
+          "slug": "arcadia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 1,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "Arcadia"
