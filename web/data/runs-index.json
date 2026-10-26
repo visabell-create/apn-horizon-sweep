@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-25T23:29:40.460Z",
-  "runCount": 1214,
-  "propertyRowCount": 31130,
-  "uniqueAinCount": 31028,
-  "propertyWithCoordsCount": 28338,
-  "nextCursor": "8513-013-123",
-  "donePageCount": 1400,
+  "builtAt": "2026-10-26T01:32:59.535Z",
+  "runCount": 1215,
+  "propertyRowCount": 31162,
+  "uniqueAinCount": 31060,
+  "propertyWithCoordsCount": 28370,
+  "nextCursor": "8513-007-033",
+  "donePageCount": 1401,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9363,6 +9363,13 @@
       "to": "8513-013-001",
       "reason": "SOFT_JUMP",
       "hits": 7
+    },
+    {
+      "at": "8513-013-135",
+      "streak": 12,
+      "to": "8513-007-001",
+      "reason": "SOFT_JUMP",
+      "hits": 5
     }
   ],
   "cities": [
@@ -9376,8 +9383,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 5327,
-      "uniqueAinCount": 5327,
+      "propertyRowCount": 5358,
+      "uniqueAinCount": 5358,
       "areas": []
     },
     {
@@ -9472,6 +9479,13 @@
     {
       "city": "Ca",
       "slug": "ca",
+      "propertyRowCount": 1,
+      "uniqueAinCount": 1,
+      "areas": []
+    },
+    {
+      "city": "Duarte",
+      "slug": "duarte",
       "propertyRowCount": 1,
       "uniqueAinCount": 1,
       "areas": []
@@ -51654,6 +51668,43 @@
           "city": "Unlabeled situs",
           "count": 7,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1183-2026-10-26-horizon",
+      "title": "RUN-1183 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-26",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-10-26T01:31:28.130Z",
+      "end": "8513-007-032",
+      "nextCursor": "8513-007-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8513-013-135",
+          "streak": 12,
+          "to": "8513-007-001",
+          "reason": "SOFT_JUMP",
+          "hits": 5
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-26T01:32:50.755Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 31,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Duarte",
+          "count": 1,
+          "slug": "duarte"
         }
       ],
       "primaryCity": "Monrovia"
