@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-27T10:16:45.171Z",
-  "runCount": 1221,
-  "propertyRowCount": 31365,
-  "uniqueAinCount": 31263,
-  "propertyWithCoordsCount": 28569,
-  "nextCursor": "8513-010-083",
-  "donePageCount": 1405,
+  "builtAt": "2026-10-27T15:59:06.896Z",
+  "runCount": 1222,
+  "propertyRowCount": 31397,
+  "uniqueAinCount": 31295,
+  "propertyWithCoordsCount": 28601,
+  "nextCursor": "8513-014-052",
+  "donePageCount": 1406,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9398,6 +9398,13 @@
       "to": "8513-010-020",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8513-010-095",
+      "streak": 12,
+      "to": "8513-014-020",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
@@ -9411,8 +9418,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 5557,
-      "uniqueAinCount": 5557,
+      "propertyRowCount": 5588,
+      "uniqueAinCount": 5588,
       "areas": []
     },
     {
@@ -9498,6 +9505,13 @@
       "areas": []
     },
     {
+      "city": "Duarte",
+      "slug": "duarte",
+      "propertyRowCount": 2,
+      "uniqueAinCount": 2,
+      "areas": []
+    },
+    {
       "city": "West Covia",
       "slug": "west-covia",
       "propertyRowCount": 1,
@@ -9507,13 +9521,6 @@
     {
       "city": "Ca",
       "slug": "ca",
-      "propertyRowCount": 1,
-      "uniqueAinCount": 1,
-      "areas": []
-    },
-    {
-      "city": "Duarte",
-      "slug": "duarte",
       "propertyRowCount": 1,
       "uniqueAinCount": 1,
       "areas": []
@@ -51914,6 +51921,43 @@
           "city": "Unlabeled situs",
           "count": 4,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1190-2026-10-27-horizon",
+      "title": "RUN-1190 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-27",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-10-27T15:58:01.815Z",
+      "end": "8513-014-051",
+      "nextCursor": "8513-014-052",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8513-010-095",
+          "streak": 12,
+          "to": "8513-014-020",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-27T15:58:57.974Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 31,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Duarte",
+          "count": 1,
+          "slug": "duarte"
         }
       ],
       "primaryCity": "Monrovia"
