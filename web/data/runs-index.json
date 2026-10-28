@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-28T17:11:13.514Z",
-  "runCount": 1227,
-  "propertyRowCount": 31529,
-  "uniqueAinCount": 31427,
-  "propertyWithCoordsCount": 28711,
-  "nextCursor": "8513-015-072",
-  "donePageCount": 1411,
+  "builtAt": "2026-10-28T21:52:34.188Z",
+  "runCount": 1228,
+  "propertyRowCount": 31559,
+  "uniqueAinCount": 31457,
+  "propertyWithCoordsCount": 28741,
+  "nextCursor": "8513-016-033",
+  "donePageCount": 1412,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9440,6 +9440,13 @@
       "to": "8513-015-040",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8513-015-084",
+      "streak": 12,
+      "to": "8513-016-001",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -9453,8 +9460,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 5686,
-      "uniqueAinCount": 5686,
+      "propertyRowCount": 5701,
+      "uniqueAinCount": 5701,
       "areas": []
     },
     {
@@ -9521,8 +9528,8 @@
     {
       "city": "Duarte",
       "slug": "duarte",
-      "propertyRowCount": 23,
-      "uniqueAinCount": 23,
+      "propertyRowCount": 38,
+      "uniqueAinCount": 38,
       "areas": []
     },
     {
@@ -52166,6 +52173,43 @@
         }
       ],
       "primaryCity": "Duarte"
+    },
+    {
+      "id": "RUN-1196-2026-10-28-horizon",
+      "title": "RUN-1196 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-28",
+      "validCount": 30,
+      "checks": 45,
+      "start": "2026-10-28T21:50:22.907Z",
+      "end": "8513-016-032",
+      "nextCursor": "8513-016-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8513-015-084",
+          "streak": 12,
+          "to": "8513-016-001",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-28T21:52:24.947Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 15,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Duarte",
+          "count": 15,
+          "slug": "duarte"
+        }
+      ],
+      "primaryCity": "Monrovia"
     },
     {
       "id": "RUN-A01-8448-043",
