@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-10-28T11:01:06.666Z",
-  "runCount": 1226,
-  "propertyRowCount": 31508,
-  "uniqueAinCount": 31406,
-  "propertyWithCoordsCount": 28690,
-  "nextCursor": "8513-012-072",
-  "donePageCount": 1410,
+  "builtAt": "2026-10-28T17:11:13.514Z",
+  "runCount": 1227,
+  "propertyRowCount": 31529,
+  "uniqueAinCount": 31427,
+  "propertyWithCoordsCount": 28711,
+  "nextCursor": "8513-015-072",
+  "donePageCount": 1411,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -9433,6 +9433,13 @@
       "to": "8513-012-040",
       "reason": "SOFT_JUMP",
       "hits": 2
+    },
+    {
+      "at": "8513-012-084",
+      "streak": 12,
+      "to": "8513-015-040",
+      "reason": "SOFT_JUMP",
+      "hits": 2
     }
   ],
   "cities": [
@@ -9512,6 +9519,13 @@
       "areas": []
     },
     {
+      "city": "Duarte",
+      "slug": "duarte",
+      "propertyRowCount": 23,
+      "uniqueAinCount": 23,
+      "areas": []
+    },
+    {
       "city": "West Covin",
       "slug": "west-covin",
       "propertyRowCount": 3,
@@ -9528,13 +9542,6 @@
     {
       "city": "Baldwin Pk",
       "slug": "baldwin-pk",
-      "propertyRowCount": 2,
-      "uniqueAinCount": 2,
-      "areas": []
-    },
-    {
-      "city": "Duarte",
-      "slug": "duarte",
       "propertyRowCount": 2,
       "uniqueAinCount": 2,
       "areas": []
@@ -52127,6 +52134,38 @@
         }
       ],
       "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1195-2026-10-28-horizon",
+      "title": "RUN-1195 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-10-28",
+      "validCount": 21,
+      "checks": 45,
+      "start": "2026-10-28T17:07:03.498Z",
+      "end": "8513-015-071",
+      "nextCursor": "8513-015-072",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8513-012-084",
+          "streak": 12,
+          "to": "8513-015-040",
+          "reason": "SOFT_JUMP",
+          "hits": 2
+        }
+      ],
+      "started": null,
+      "ended": "2026-10-28T17:11:06.853Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Duarte",
+          "count": 21,
+          "slug": "duarte"
+        }
+      ],
+      "primaryCity": "Duarte"
     },
     {
       "id": "RUN-A01-8448-043",
