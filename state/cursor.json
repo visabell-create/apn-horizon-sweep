@@ -1419,6 +1419,7 @@
         "8515-001",
         "8515-002",
         "8515-003",
+        "8515-004",
         "8515-005",
         "8515-006",
         "8515-007",
@@ -1432,10 +1433,110 @@
         "8515-015",
         "8515-016",
         "8515-017",
-        "8515-018"
+        "8515-018",
+        "8516-001"
     ],
-    "horizonQueue": [],
-    "nextCursor": "8515-004-053",
+    "horizonQueue": [
+        {
+            "book": 8516,
+            "page": 11,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8516-011"
+        },
+        {
+            "book": 8516,
+            "page": 14,
+            "hits": 3,
+            "firstValidParcel": 1,
+            "key": "8516-014"
+        },
+        {
+            "book": 8516,
+            "page": 15,
+            "hits": 3,
+            "firstValidParcel": 20,
+            "key": "8516-015"
+        },
+        {
+            "book": 8516,
+            "page": 4,
+            "hits": 2,
+            "firstValidParcel": 20,
+            "key": "8516-004"
+        },
+        {
+            "book": 8516,
+            "page": 5,
+            "hits": 2,
+            "firstValidParcel": 26,
+            "key": "8516-005"
+        },
+        {
+            "book": 8516,
+            "page": 9,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8516-009"
+        },
+        {
+            "book": 8516,
+            "page": 10,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8516-010"
+        },
+        {
+            "book": 8516,
+            "page": 16,
+            "hits": 2,
+            "firstValidParcel": 1,
+            "key": "8516-016"
+        },
+        {
+            "book": 8516,
+            "page": 3,
+            "hits": 1,
+            "firstValidParcel": 50,
+            "key": "8516-003"
+        },
+        {
+            "book": 8516,
+            "page": 6,
+            "hits": 1,
+            "firstValidParcel": 26,
+            "key": "8516-006"
+        },
+        {
+            "book": 8516,
+            "page": 7,
+            "hits": 1,
+            "firstValidParcel": 20,
+            "key": "8516-007"
+        },
+        {
+            "book": 8516,
+            "page": 8,
+            "hits": 1,
+            "firstValidParcel": 20,
+            "key": "8516-008"
+        },
+        {
+            "book": 8516,
+            "page": 12,
+            "hits": 1,
+            "firstValidParcel": 1,
+            "key": "8516-012"
+        },
+        {
+            "book": 8516,
+            "page": 17,
+            "hits": 1,
+            "firstValidParcel": 26,
+            "key": "8516-017"
+        }
+    ],
+    "nextCursor": "8516-002-012",
     "algorithm": "perpetual-horizon-v1",
     "loopIntervalSec": 90,
     "jumps": [
@@ -11024,6 +11125,19 @@
             "to": "8515-004-040",
             "reason": "SOFT_JUMP",
             "hits": 1
+        },
+        {
+            "at": "8515-004-073",
+            "streak": 20,
+            "to": "8516-001-001",
+            "reason": "MAPBOOK_ROLLOVER"
+        },
+        {
+            "at": "8516-001-013",
+            "streak": 12,
+            "to": "8516-002-001",
+            "reason": "SOFT_JUMP",
+            "hits": 3
         }
     ],
     "completedRuns": [
@@ -12252,14 +12366,15 @@
         "RUN-1223",
         "RUN-1224",
         "RUN-1225",
-        "RUN-1226"
+        "RUN-1226",
+        "RUN-1227"
     ],
     "validCountRun009": 159,
-    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-1226-2026-11-05-horizon",
+    "lastRunDir": "/home/runner/work/apn-horizon-sweep/apn-horizon-sweep/runs/RUN-1227-2026-11-05-horizon",
     "indefinite": true,
     "validCountRun010": 64,
     "validCountRUN011": 17,
-    "lastAlwaysOnAt": "2026-11-05T01:40:34.778Z",
+    "lastAlwaysOnAt": "2026-11-05T09:00:46.275Z",
     "lastAlwaysOnStop": "SESSION_CAP_KEEP_GOING",
     "validCountRUN012": 99,
     "validCountRUN013": 60,
@@ -13475,5 +13590,6 @@
     "validCountRUN1223": 45,
     "validCountRUN1224": 45,
     "validCountRUN1225": 45,
-    "validCountRUN1226": 6
+    "validCountRUN1226": 6,
+    "validCountRUN1227": 10
 }
