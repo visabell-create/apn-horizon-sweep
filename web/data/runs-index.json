@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-11-21T02:00:02.100Z",
-  "runCount": 1316,
-  "propertyRowCount": 33868,
-  "uniqueAinCount": 33766,
-  "propertyWithCoordsCount": 30600,
-  "nextCursor": "8518-020-064",
-  "donePageCount": 1496,
+  "builtAt": "2026-11-21T09:32:29.250Z",
+  "runCount": 1317,
+  "propertyRowCount": 33895,
+  "uniqueAinCount": 33793,
+  "propertyWithCoordsCount": 30626,
+  "nextCursor": "8518-035-033",
+  "donePageCount": 1497,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -10030,6 +10030,13 @@
       "to": "8518-020-001",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8518-020-076",
+      "streak": 12,
+      "to": "8518-035-001",
+      "reason": "SOFT_JUMP",
+      "hits": 4
     }
   ],
   "cities": [
@@ -10043,8 +10050,8 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 7668,
-      "uniqueAinCount": 7668,
+      "propertyRowCount": 7695,
+      "uniqueAinCount": 7695,
       "areas": []
     },
     {
@@ -55805,6 +55812,38 @@
           "city": "Unlabeled situs",
           "count": 1,
           "slug": "unlabeled-situs"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1285-2026-11-21-horizon",
+      "title": "RUN-1285 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-11-21",
+      "validCount": 27,
+      "checks": 45,
+      "start": "2026-11-21T09:31:48.347Z",
+      "end": "8518-035-032",
+      "nextCursor": "8518-035-033",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8518-020-076",
+          "streak": 12,
+          "to": "8518-035-001",
+          "reason": "SOFT_JUMP",
+          "hits": 4
+        }
+      ],
+      "started": null,
+      "ended": "2026-11-21T09:32:18.588Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 27,
+          "slug": "monrovia"
         }
       ],
       "primaryCity": "Monrovia"
