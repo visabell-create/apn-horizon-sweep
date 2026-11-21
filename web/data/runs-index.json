@@ -1,11 +1,11 @@
 {
-  "builtAt": "2026-11-21T09:32:29.250Z",
-  "runCount": 1317,
-  "propertyRowCount": 33895,
-  "uniqueAinCount": 33793,
-  "propertyWithCoordsCount": 30626,
-  "nextCursor": "8518-035-033",
-  "donePageCount": 1497,
+  "builtAt": "2026-11-21T17:08:50.028Z",
+  "runCount": 1318,
+  "propertyRowCount": 33927,
+  "uniqueAinCount": 33825,
+  "propertyWithCoordsCount": 30654,
+  "nextCursor": "8518-014-021",
+  "donePageCount": 1498,
   "jumps": [
     {
       "at": "8448-021-073",
@@ -10037,6 +10037,13 @@
       "to": "8518-035-001",
       "reason": "SOFT_JUMP",
       "hits": 4
+    },
+    {
+      "at": "8518-035-057",
+      "streak": 12,
+      "to": "8518-014-001",
+      "reason": "SOFT_JUMP",
+      "hits": 3
     }
   ],
   "cities": [
@@ -10050,15 +10057,15 @@
     {
       "city": "Monrovia",
       "slug": "monrovia",
-      "propertyRowCount": 7695,
-      "uniqueAinCount": 7695,
+      "propertyRowCount": 7725,
+      "uniqueAinCount": 7725,
       "areas": []
     },
     {
       "city": "Unlabeled situs",
       "slug": "unlabeled-situs",
-      "propertyRowCount": 3278,
-      "uniqueAinCount": 3239,
+      "propertyRowCount": 3280,
+      "uniqueAinCount": 3241,
       "areas": []
     },
     {
@@ -55844,6 +55851,43 @@
           "city": "Monrovia",
           "count": 27,
           "slug": "monrovia"
+        }
+      ],
+      "primaryCity": "Monrovia"
+    },
+    {
+      "id": "RUN-1286-2026-11-21-horizon",
+      "title": "RUN-1286 — perpetual horizon v1 (always-on)",
+      "stream": "serial",
+      "date": "2026-11-21",
+      "validCount": 32,
+      "checks": 45,
+      "start": "2026-11-21T17:07:28.376Z",
+      "end": "8518-014-020",
+      "nextCursor": "8518-014-021",
+      "stop": "SESSION_CAP_KEEP_GOING",
+      "jumps": [
+        {
+          "at": "8518-035-057",
+          "streak": 12,
+          "to": "8518-014-001",
+          "reason": "SOFT_JUMP",
+          "hits": 3
+        }
+      ],
+      "started": null,
+      "ended": "2026-11-21T17:08:40.614Z",
+      "isAggregate": false,
+      "cities": [
+        {
+          "city": "Monrovia",
+          "count": 30,
+          "slug": "monrovia"
+        },
+        {
+          "city": "Unlabeled situs",
+          "count": 2,
+          "slug": "unlabeled-situs"
         }
       ],
       "primaryCity": "Monrovia"
