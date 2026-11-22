@@ -1,9 +1,9 @@
-# ALWAYS-ON cycle — RUN-1290
+# ALWAYS-ON cycle — RUN-1291
 
-- **When:** 2026-11-22T18:00:01.680Z
-- **nextCursor:** 8518-036-028
-- **valids:** 30
+- **When:** 2026-11-22T23:29:48.416Z
+- **nextCursor:** 8518-040-025
+- **valids:** 32
 - **checks:** 45
 - **stop:** SESSION_CAP_KEEP_GOING
-- **runDir:** `RUN-1290-2026-11-22-horizon`
+- **runDir:** `RUN-1291-2026-11-22-horizon`
 - **mode:** ci
